@@ -1,0 +1,22 @@
+{
+  "id": "skilltree:cook_crafting_notable_1",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:new_skill_1",
+    "skilltree:new_skill_4"
+  ],
+  "oneWayConnections": [
+    "skilltree:new_skill_2"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Renacimiento",
+  "titleColor": "",
+  "positionX": 1.8614632e-14,
+  "positionY": -37.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

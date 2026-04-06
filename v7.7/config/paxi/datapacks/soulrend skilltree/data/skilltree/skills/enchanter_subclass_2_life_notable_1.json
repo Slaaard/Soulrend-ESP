@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:enchanter_subclass_2_life_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 2.0,
+      "experience_source": "ore"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Estudiando Minerales",
+  "titleColor": "",
+  "positionX": 325.933,
+  "positionY": -307.069,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

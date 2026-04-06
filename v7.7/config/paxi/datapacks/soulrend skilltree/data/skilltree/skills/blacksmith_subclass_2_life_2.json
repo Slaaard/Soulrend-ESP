@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:blacksmith_subclass_2_life_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "84dd46ca-eaa4-4ebf-ac4a-aa8e81e1ce41",
+      "name": "Habilidad",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2_life_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Velocidad de Minería",
+  "titleColor": "",
+  "positionX": -383.85773,
+  "positionY": -72.72495,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

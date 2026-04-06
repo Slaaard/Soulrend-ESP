@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:hunter_offensive_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "26cbec28-0930-4118-aef0-84442c14123e",
+      "name": "Habilidad",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_offensive_6",
+    "skilltree:hunter_speed_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Resistencia Mágica",
+  "titleColor": "",
+  "positionX": 208.14384,
+  "positionY": 182.54231,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

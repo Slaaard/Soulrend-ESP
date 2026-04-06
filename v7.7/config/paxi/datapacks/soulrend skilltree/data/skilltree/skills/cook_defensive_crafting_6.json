@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:cook_defensive_crafting_6",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 2.0,
+      "experience_source": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_defensive_crafting_7"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Vida Lenta",
+  "titleColor": "",
+  "positionX": -92.97753,
+  "positionY": -279.05035,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

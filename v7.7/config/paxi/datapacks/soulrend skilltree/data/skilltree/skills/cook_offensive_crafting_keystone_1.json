@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:cook_offensive_crafting_keystone_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "e7469789-c797-45e7-b8f1-3d57fea6d49a",
+      "name": "Habilidad",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "tag_id": "forge:curios/jewelry",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "0ef24b9c-36d5-477e-bab9-17ecbe2b6fde",
+      "name": "Habilidad",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:fishing"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Momento Pacífico",
+  "titleColor": "",
+  "positionX": 92.987,
+  "positionY": -339.041,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

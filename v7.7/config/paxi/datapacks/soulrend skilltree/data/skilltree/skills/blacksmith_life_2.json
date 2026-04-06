@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:blacksmith_life_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "c7b5df9d-8f59-455f-8b30-58c4f2285335",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.025,
+      "operation": 1,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:enchants_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_life_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -198.62946,
+  "positionY": -147.02505,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

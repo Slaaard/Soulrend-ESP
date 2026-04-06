@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:hunter_crafting_notable_1",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_2"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Renacimiento",
+  "titleColor": "",
+  "positionX": 32.041756,
+  "positionY": 18.502047,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

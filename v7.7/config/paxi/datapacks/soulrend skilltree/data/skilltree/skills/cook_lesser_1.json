@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:cook_lesser_1",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.015,
+      "multiplier": 2.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.015,
+      "multiplier": 2.0,
+      "loot_type": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_lesser_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Botín",
+  "titleColor": "",
+  "positionX": -27.997,
+  "positionY": -323.532,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

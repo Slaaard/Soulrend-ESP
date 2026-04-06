@@ -1,0 +1,20 @@
+{
+  "id": "skilltree:new_skill_7",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:blacksmith_crafting_notable_1",
+    "skilltree:alchemist_crafting_notable_1"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Otro Comienzo",
+  "titleColor": "",
+  "positionX": 397.658,
+  "positionY": -229.28212,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

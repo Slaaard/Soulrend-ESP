@@ -1,0 +1,6 @@
+{
+	"firstJoinMessage": "Cambia al modo de combate presionando [R] (por defecto)\nAbre tu pantalla de nivel de habilidades presionando [O] (por defecto)",
+    "firstJoinMessageTextFormattingColourIndex": 2,
+	"serverBroadcastMessage": "",
+    "serverBroadcastMessageTextFormattingColourIndex": 3
+}

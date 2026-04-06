@@ -1,0 +1,61 @@
+{
+  "id": "skilltree:miner_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:effect_amount"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:effect_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_1"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_class.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Destructor",
+  "titleColor": "",
+  "positionX": -354.671,
+  "positionY": 204.757,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

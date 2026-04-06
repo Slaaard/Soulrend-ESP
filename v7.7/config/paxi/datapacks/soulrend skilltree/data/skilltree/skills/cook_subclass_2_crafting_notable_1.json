@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:cook_subclass_2_crafting_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "36e7433d-8b0c-4b90-9f29-2ccf3fcde38f",
+      "name": "Habilidad",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_offensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Sobrecarga de Energía",
+  "titleColor": "",
+  "positionX": -186.936,
+  "positionY": -435.8,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_1",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:hunter_crafting_notable_1"
+  ],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Otro Comienzo",
+  "titleColor": "",
+  "positionX": -401.368,
+  "positionY": 230.553,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

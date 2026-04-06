@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:hunter_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "fffd4218-bc20-4216-9724-1ddb891f545b",
+      "name": "Habilidad",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:effect_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "a0837a07-1201-4bde-9e88-c4927efd3f6f",
+      "name": "Habilidad",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_4"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Exceso de Maná",
+  "titleColor": "",
+  "positionX": 357.496,
+  "positionY": 204.878,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

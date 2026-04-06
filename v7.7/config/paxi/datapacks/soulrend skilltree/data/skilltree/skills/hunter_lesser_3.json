@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:hunter_lesser_3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "5a6b87fe-7cc8-4857-b2bb-b013a0d97b05",
+      "name": "Habilidad",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "type": "skilltree:effect_amount"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Maná Siempre",
+  "titleColor": "",
+  "positionX": 316.69507,
+  "positionY": 150.53,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

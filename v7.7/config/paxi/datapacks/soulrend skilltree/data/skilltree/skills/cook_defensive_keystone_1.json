@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:cook_defensive_keystone_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "470d579d-dd3e-4555-82da-0c11bb2c499c",
+      "name": "Bonificación de Habilidad",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Resbaladizo",
+  "titleColor": "",
+  "positionX": -53.997,
+  "positionY": -383.532,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

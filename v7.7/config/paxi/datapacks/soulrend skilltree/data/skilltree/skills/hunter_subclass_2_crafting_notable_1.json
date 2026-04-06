@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:hunter_subclass_2_crafting_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "b6217fde-791b-465b-8396-d982a673800e",
+      "name": "Habilidad",
+      "amount": 0.25,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Botas Acuáticas",
+  "titleColor": "",
+  "positionX": 470.872,
+  "positionY": 56.015,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:hunter_life_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "5c1a8d1b-399b-4ede-b53d-79e258e1014c",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "attribute": "attributeslib:dodge_chance",
+        "divisor": 0.01,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 212.63101,
+  "positionY": 122.77724,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

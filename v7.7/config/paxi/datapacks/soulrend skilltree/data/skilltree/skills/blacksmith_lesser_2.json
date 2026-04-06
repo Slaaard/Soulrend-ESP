@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:blacksmith_lesser_2",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 0.15,
+        "operation": 1,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_lesser_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "obscure_api:textures/icons/durability.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Artesanía",
+  "titleColor": "",
+  "positionX": -266.177,
+  "positionY": -186.029,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

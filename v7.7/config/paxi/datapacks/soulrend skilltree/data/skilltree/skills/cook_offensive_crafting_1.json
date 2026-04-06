@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:cook_offensive_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "665ef89e-c0ed-41d9-8280-53b70c57b82b",
+      "name": "Habilidad",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "forge:curios/jewelry",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_offensive_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Joyas Bendecidas",
+  "titleColor": "",
+  "positionX": 25.979803,
+  "positionY": -136.99834,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

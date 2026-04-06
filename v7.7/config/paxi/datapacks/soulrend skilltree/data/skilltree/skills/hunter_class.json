@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:hunter_class",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "4a99e258-f21d-44dc-b0bd-1a7d436dc89a",
+      "name": "Habilidad",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "a760fe0b-c43a-4167-886b-fce53893ab49",
+      "name": "Habilidad",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_defensive_1",
+    "skilltree:hunter_offensive_1",
+    "skilltree:hunter_defensive_crafting_1",
+    "skilltree:hunter_offensive_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mago",
+  "titleColor": "",
+  "positionX": 131.631,
+  "positionY": 76.008,
+  "buttonSize": 24,
+  "isStartingPoint": true
+}

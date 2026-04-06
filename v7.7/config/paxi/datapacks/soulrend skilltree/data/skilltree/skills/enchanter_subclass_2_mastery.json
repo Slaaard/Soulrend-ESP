@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:enchanter_subclass_2_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "cb2ba203-64d1-4b81-9e08-be2906e04fcf",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.6,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:bronze_hand_drill",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_life_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Mentes Paralelas",
+  "titleColor": "",
+  "positionX": 319.955,
+  "positionY": -349.783,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+60% Velocidad de Minería al usar un Taladro de Mano de Bronce"
+    }
+  ]
+}

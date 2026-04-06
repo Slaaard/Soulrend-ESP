@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:hunter_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.005,
+      "multiplier": 2.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.005,
+      "multiplier": 2.0,
+      "loot_type": "fishing"
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.025,
+      "experience_source": "mobs"
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "ore"
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:hunter_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejorador de Clase",
+  "titleColor": "",
+  "positionX": 104.7852,
+  "positionY": 60.5067,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:hunter_subclass_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "b3ed3e4d-0771-4f96-beb1-a97bd709cceb",
+      "name": "Habilidad",
+      "amount": 25.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "c26fcfb2-4718-41a1-bfe1-5b9ba28bafda",
+      "name": "Habilidad",
+      "amount": 0.5,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_subclass_2_crafting_1",
+    "skilltree:hunter_subclass_2_life_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Explorador",
+  "titleColor": "",
+  "positionX": 345.343,
+  "positionY": 32.01,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

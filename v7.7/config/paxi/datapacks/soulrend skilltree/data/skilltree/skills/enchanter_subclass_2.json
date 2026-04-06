@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:enchanter_subclass_2",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 50.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_crafting_1",
+    "skilltree:enchanter_subclass_2_life_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Ingeniero",
+  "titleColor": "",
+  "positionX": 200.402,
+  "positionY": -283.073,
+  "buttonSize": 24,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50 Durabilidad para el equipo fabricado"
+    }
+  ]
+}

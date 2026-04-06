@@ -1,0 +1,40 @@
+{
+  "disableLoginLimits": {
+    "desc:": "¿Deben desactivarse los límites de tamaño de los paquetes de inicio de sesión? Error:(IOException(\"Payload may not be larger than 1048576 bytes\")) por defecto:true",
+    "disableLoginLimits": true
+  },
+  "disablePacketLimits": {
+    "desc:": "¿Deben desactivarse los límites de tamaño de los paquetes de juego? Error:(Badly compressed packet) por defecto:true",
+    "disablePacketLimits": true
+  },
+  "disableChatVerificationDisconnect": {
+    "desc:": "(Lado del cliente) Desactiva la desconexión de jugadores por problemas de verificación de mensajes de chat, (activa debugPrintMessages para ver el mensaje que causa problemas). por defecto:true",
+    "disableChatVerificationDisconnect": true
+  },
+  "debugPrintMessages": {
+    "desc:": "Activa el registro de depuración adicional para errores de red. por defecto:false",
+    "debugPrintMessages": false
+  },
+  "logintimeout": {
+    "desc:": "Establece el tiempo máximo de espera de inicio de sesión en segundos. por defecto = 120",
+    "logintimeout": 120
+  },
+  "disconnectTimeout": {
+    "desc:": "Establece el tiempo de espera de desconexión en el juego para los jugadores. por defecto = 60 seg",
+    "disconnectTimeout": 60
+  },
+  "packetHistoryMinutes": {
+    "desc:": "Establece la cantidad de minutos durante los cuales se guardan los datos del historial de paquetes de red. por defecto = 5 minutos",
+    "packetHistoryMinutes": 5
+  },
+  "malformedtraffic": {
+    "desc:": "Detección y bloqueo de tráfico malformado y/o malicioso",
+    "enabled": true,
+    "proxies:": "Añade la IP de tu proxy a la lista blanca de abajo si estás usando uno (ej. velocity) para evitar bloquear la IP del proxy. Formato: [\"127.0.0.1\", \"128.0.01\"] sin la \\ ",
+    "proxywhitelist": []
+  },
+  "showFullResourceLocationException": {
+    "desc:": "Activa para ver la salida completa del registro de todas las excepciones de ubicación de recursos. por defecto = false",
+    "showFullResourceLocationException": false
+  }
+}
