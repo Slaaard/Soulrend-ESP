@@ -1,0 +1,4019 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dungeonsandcomabt"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "dungeons_and_combat:molten_blazing_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "66A899266F904EA7"
+	images: [
+		{
+			alpha: 160
+			height: 3.0d
+			image: "dungeons_and_combat:item/steel_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "dungeons_and_combat:item/silver_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "dungeons_and_combat:item/titanium_long_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_9.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_9.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_9.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/sandstorm_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 0.75d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 0.75d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			height: 0.75d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "iceandfire:item/summon_crystal_ice"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "dungeons_and_combat:item/molten_dark_steel_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "dungeons_and_combat:item/ebony_long_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			alpha: 180
+			height: 3.0d
+			image: "dungeons_and_combat:item/crimson_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			height: 1.8d
+			image: "simplyswords:item/lichblade_aura_demon"
+			rotation: 0.0d
+			width: 1.8d
+			x: 1.0d
+			y: 13.4d
+		}
+		{
+			height: 1.8d
+			image: "simplyswords:item/lichblade_aura_demon"
+			rotation: 0.0d
+			width: 1.8d
+			x: 2.0d
+			y: 13.4d
+		}
+		{
+			height: 1.8d
+			image: "simplyswords:item/lichblade_aura_demon"
+			rotation: 0.0d
+			width: 1.8d
+			x: 3.0d
+			y: 13.4d
+		}
+		{
+			height: 1.8d
+			image: "simplyswords:item/lichblade_aura_demon"
+			rotation: 0.0d
+			width: 1.8d
+			x: 4.0d
+			y: 13.4d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "wom:textures/particle/overblood_cut1.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 9.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10FD7640B58CBAC7"
+			rewards: [{
+				id: "61749E405D309668"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Una aleación robusta utilizada para craftear armas y armaduras confiables."			tasks: [{
+				id: "187773E3371CCED3"
+				item: "magistuarmory:steel_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "25E59131C8D515ED"
+			rewards: [{
+				id: "5D99CD5B5E4CBD12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "71A9D38AC1701172"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "274BB9B03571701B"
+			rewards: [{
+				id: "3254933717518DCE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "09A9DD9D908E00C6"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "4E2C2B0BA4797AE0"
+			rewards: [{
+				id: "7AAF0E71577E1A30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "63CF4F854EF704F4"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "4BE739E5B994EF09"
+			rewards: [{
+				id: "6546C4BB5D0B4FAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "33A1866E19F8B6B3"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "2C9C8DFFD3A814BE"
+			rewards: [{
+				id: "327BEA96EABB1229"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "141592446DEE75A8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "3B50486432E124EB"
+			rewards: [{
+				id: "2BF6C732C4D7732B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6C81DE1728AD38A3"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "50F446D375FE190E"
+			rewards: [{
+				id: "10789EA3AFFF94DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Un metal refinado, conocido por su pureza y afinidad mágica."			tasks: [{
+				id: "58973880C9882B11"
+				item: "dungeons_and_combat:silver_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "578C35198FC0DC9D"
+			rewards: [{
+				id: "2A0A093E06D3AC0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "45BD8F1C380B67FF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "1FC0B5C08A3F7AA4"
+			rewards: [{
+				id: "7521054448C804A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2F5642244153F936"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "18AA3278F3D7877A"
+			rewards: [{
+				id: "2D6B7E23B65EFE80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "24B004C67A25A021"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "0539AF8BC6F04BD7"
+			rewards: [{
+				id: "6591548F6EBF6BC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5E7419363A2DDA78"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "564481B4F7F0B68C"
+			rewards: [{
+				id: "0E286698A8D6B2A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "58288E7C231DEFCA"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "57CB3D88D15230A3"
+			rewards: [{
+				id: "2B5E04D8A6C4E245"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5D52FA824990A1E0"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "2909514B8E85AF48"
+			rewards: [{
+				id: "7CEA293A17ED4D9A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un metal sumamente duradero empleado para equipo avanzado."			tasks: [{
+				id: "4B118959FADD0F0A"
+				item: "dungeons_and_combat:titanium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "1E91B6D384A67EA2"
+			rewards: [{
+				id: "5DC36C5BF20878FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "65BAF6038387BE6C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10FD7640B58CBAC7"]
+			id: "2DE4475E9C0C1701"
+			rewards: [{
+				id: "0D567C1FCB962FAF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "36280457EE2006CE"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:steel_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "18789C2D9CD4B95A"
+			rewards: [
+				{
+					id: "49F32512835558CE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CC6C4983D2D0946"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C153358F404B7AE"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "77A8AADC7A265AFF"
+			rewards: [
+				{
+					id: "6138D5ADF03E77A5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EFB118923D67DB9"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "39DC8F406C215187"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "1D1CD3D7E21151D0"
+			rewards: [
+				{
+					id: "5D5E6FF9147111D9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24AE4E67AEB8CB50"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "091668E5434A14B7"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "2714381837DA0BA1"
+			rewards: [
+				{
+					id: "6DD07B180B165213"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "374FEA2FB461B11C"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C7C34DAC31E55E9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "08D713D97CEB22FE"
+			rewards: [
+				{
+					id: "39543F2534E9FEF7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C9BF9EEEFDDD6E6"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EB1E96C1E0EEB16"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_sickle"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "290713FB145B00D7"
+			rewards: [
+				{
+					id: "4562516432E65BF4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26856884D581E310"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2601D0B3CC17B688"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "262DBCF1D861D524"
+			rewards: [
+				{
+					id: "69C3760BFC091E5B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "387347A05EEAAFE1"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25CED265162A2FE8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2909514B8E85AF48"]
+			id: "37EED9355650E654"
+			rewards: [
+				{
+					id: "0FE755A3B1AD47ED"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B3788E7F55F16CE"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B2EAA0298CD0789"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:titanium_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50F446D375FE190E"]
+			id: "1F2894196F608C1B"
+			rewards: [{
+				id: "36E98C1F11753710"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "083D0966EDFCCBD9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:silver_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "657145C845CCB92C"
+			rewards: [{
+				id: "6FB3ECBB34EEE3FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una barra endurecida forjada desde antigua piedra del desierto."			tasks: [{
+				id: "7E0C76F3ED3C2B95"
+				item: "dungeons_and_combat:sandstone_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "1E0D8E049EE911FD"
+			rewards: [{
+				id: "3BEB3F6B266AE0DA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6FA7C882A8460793"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "19F7205FC8422FCD"
+			rewards: [{
+				id: "5E2B6E16BF2BE424"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "64960DF0FDF2F429"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "6E55AA01C1D9EC56"
+			rewards: [{
+				id: "6A8C340FE7B964B4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "220DA3FFEE015BEB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "2CC0F7B9ECB78BA8"
+			rewards: [{
+				id: "316DBB83749CF643"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "57E59C313482DD8D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "519364F65B085AEE"
+			rewards: [{
+				id: "0304421C175EBD7A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "55FDA101C83B61F5"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "2BF67E434E76B601"
+			rewards: [{
+				id: "4A5C00940C97E174"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5537C2526B69A8AD"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_twin_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			hide_dependent_lines: true
+			id: "46E9640D8A450BF3"
+			rewards: [{
+				id: "309EB11A133BC853"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "18D03AFD6E6E774E"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstone_axe_war"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657145C845CCB92C"]
+			id: "156752F7781B3F4A"
+			rewards: [{
+				id: "48ED682955334F05"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "542548DB6068EA8B"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:sandstorm_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "0C84E6AA9960F3FA"
+			rewards: [{
+				id: "38FDAB5E57687215"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Dorado imbuido de poder divino."			tasks: [{
+				id: "5C1A1277B5B0B59B"
+				item: "dungeons_and_combat:blessed_gold_ingot"
+				type: "item"
+			}]
+			title: "&eLingote de oro Bendecido"			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2BF67E434E76B601"
+				"0C84E6AA9960F3FA"
+			]
+			id: "43F5FBAB19285DCD"
+			rewards: [{
+				id: "6F83E4806F37D8FD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "22252A24A7B2432D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_twin_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"46E9640D8A450BF3"
+			]
+			id: "4DF2360BAEE143EB"
+			rewards: [
+				{
+					id: "518C39DA7CF6B092"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DB2806E01E6E8C4"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65565B25920B6868"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_axe_war"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"519364F65B085AEE"
+			]
+			id: "402BA517BAC0D3A8"
+			rewards: [
+				{
+					id: "025F4B910AC65B4C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "288B644F709A09C7"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "140CCCC7F2648664"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&eEscudo de Oro Bendecido"			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"2CC0F7B9ECB78BA8"
+			]
+			id: "017DE2C8589D13E0"
+			rewards: [
+				{
+					id: "57DF6C28D24A16EC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12FC3756E6F4C80B"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1ECF578BC2A0FBFD"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"6E55AA01C1D9EC56"
+			]
+			id: "1234890DB36460BA"
+			rewards: [
+				{
+					id: "24C5C34BAC447FFF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74DBBAE512D7BFB8"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1DEFD5BF88CAB620"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"19F7205FC8422FCD"
+			]
+			id: "25676BD9CC022EC3"
+			rewards: [
+				{
+					id: "365FA7873C141198"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2590CCBD8449DF4A"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B7DF580DFA3439D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0C84E6AA9960F3FA"
+				"1E0D8E049EE911FD"
+			]
+			id: "3DC7E936D36844CA"
+			rewards: [
+				{
+					id: "6CB5DA8CEEB07183"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43E3437BF7F364D2"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "132B98DE54DE6B27"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_gold_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "02136F58E703FFF4"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "52B983408FA9682E"
+				title: "El Nether"				type: "dimension"
+			}]
+			title: "&l&4El Nether"			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "162A8905055FCC84"
+			rewards: [{
+				id: "5E61E0000214C9F3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7DD9E397CB389FC3"
+				item: "dungeons_and_combat:cryolite_shard"
+				type: "item"
+			}]
+			title: "Fragmento de Criolita"			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "20EF2144D6A41C7E"
+			rewards: [
+				{
+					id: "3E15D9B523CD5ECC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24A8536FC049A8DA"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "193407948CB6D08A"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de Criolita"			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "75679389FEA8F5C5"
+			rewards: [
+				{
+					id: "69F179F4DA21D06E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03358CBF4BB0AD4D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7947A05753D13775"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Peto de Criolita"			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "67CBF99DA6ABC86D"
+			rewards: [
+				{
+					id: "59190DE9BC8A7F45"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D8289369EA3C557"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3DD53DA094E3B66C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Criolita"			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "16055BD4DCC4F6D6"
+			rewards: [
+				{
+					id: "05B0A107F9D3937C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "469936E0791BA759"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4326AE0E7928AFE9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&bBotas de Criolita"			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "60559336FBD130AC"
+			rewards: [
+				{
+					id: "65AE1C0F827ED050"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3073B524AB62F73C"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "631200700DD0E475"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Espadón de Criolita"			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "1200220E038FC720"
+			rewards: [
+				{
+					id: "2EA8C705EC0FCD49"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A8A38BA132AF786"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CB2CFB348E979D3"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_lance"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lanza de Criolita"			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["162A8905055FCC84"]
+			id: "72D47FB78CABB98C"
+			rewards: [
+				{
+					id: "28E2E2EFBE67E27D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE115B8E6055548"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21AE4413F0EFD57F"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cryolite_sickle"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hoja de Criolita"			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"20EF2144D6A41C7E"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "013C181EAE8D667E"
+			rewards: [
+				{
+					id: "37033B5EA11CF479"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C1150F3C1EA6603"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65F43DB4C199BB9A"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de Criolita Fundida"			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"75679389FEA8F5C5"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "19BEBC1B67DB1BE5"
+			rewards: [
+				{
+					id: "7015864D28153CE3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17C16819BBB294D4"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4038F8FB82AA1F95"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Peto de Criolita Fundida"			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"67CBF99DA6ABC86D"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7300563787EEF7C2"
+			rewards: [
+				{
+					id: "62A47892F2DC2A74"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CCE4C46D9E5AA6D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "342AEC4DDF8D1DA2"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Criolita Fundida"			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"16055BD4DCC4F6D6"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4F9C515386048A3B"
+			rewards: [
+				{
+					id: "60A30775E8F6D6E9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FF701D35DB89A74"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C74BB720BA12D69"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&cBotas de Criolita Fundida"			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"60559336FBD130AC"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "34D420B55FCF54D0"
+			rewards: [
+				{
+					id: "701329E961AEB2F0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65E8B4E11AB4431C"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1AADFD4BDC938014"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&cEspadón de Criolita Fundida"			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"72D47FB78CABB98C"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "07896CF869612825"
+			rewards: [
+				{
+					id: "36577778180865A7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CC7686C9AB9C6DD"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2456F31A9D9BA7DC"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_sickle"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hoja de Criolita Fundida"			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AEBDC75150C33E2"
+				"1200220E038FC720"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "25A94A702D658700"
+			rewards: [
+				{
+					id: "4DD8C5875BC52311"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E99D5412517BE16"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CE3EAA650088F42"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_cryolite_lance"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&cLanza de Criolita Fundida"			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02136F58E703FFF4"]
+			id: "7AEBDC75150C33E2"
+			subtitle: "Una barra forjada desde un calor intenso y un poder fundido, irradiando la energía de un fuego abrasador."			tasks: [{
+				id: "0F049D8755D97085"
+				item: "dungeons_and_combat:blazing_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "7C50FF03222DABE0"
+			rewards: [{
+				id: "3D645027C3DA28DB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "17EF7880D123B0DA"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco Abrasador"			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "6F69396A24DAEBD9"
+			rewards: [{
+				id: "361682C79CE9A9E5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "43AA2669ABB005FD"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Peto Abrasador"			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "3B4DC61F3E36C48F"
+			rewards: [{
+				id: "6B44A022E45B6095"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "026C9846FFF6F246"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas Abrasadoras"			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "58E7DC4882FD3BE7"
+			rewards: [{
+				id: "6F18EE0F971B2402"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3531DA57CB5E3838"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Botas Abrasadoras"			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C50FF03222DABE0"]
+			id: "3A957ED0B671093A"
+			rewards: [{
+				id: "7E87E904DC76B320"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "22657B3C037817D2"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco Abrasador Ácido"			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C50FF03222DABE0"]
+			id: "107DA97A5891C365"
+			rewards: [{
+				id: "0A79E978BCF0E2D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3279F04962C1556C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Maldita Casco Abrasador"			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F69396A24DAEBD9"]
+			id: "38781ECCED2C8118"
+			rewards: [{
+				id: "48CC11F254A82DA6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "686500C79F1C2295"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Peto Abrasador Maldita"			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F69396A24DAEBD9"]
+			id: "1AC1789075A645AD"
+			rewards: [{
+				id: "70DBA215968BD7D4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6626F0C2082432DB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Peto Abrasador Ácido"			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B4DC61F3E36C48F"]
+			id: "1D5E44072CDCEEAC"
+			rewards: [{
+				id: "199AF0F3D04400C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0202CEBB730B28EC"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Grebas Abrasadoras Ácidas"			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B4DC61F3E36C48F"]
+			id: "537A25ED614DEE1A"
+			rewards: [{
+				id: "462E6B37BE6B259A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "14ABC3D63383745C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas Abrasadoras Malditas"			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["58E7DC4882FD3BE7"]
+			id: "3B9C3DCF5625227A"
+			rewards: [{
+				id: "787A2218EE6E822A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3ABC28CB6C3C5349"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Botas Abrasadoras Ácidas"			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58E7DC4882FD3BE7"]
+			id: "2A6A1C8ECC874A2F"
+			rewards: [{
+				id: "2B63D4E40BD48E92"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "65AB3739FC64F124"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Botas Abrasadoras Malditas"			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "284A1E375A9737C0"
+			rewards: [{
+				id: "704848AFABED2E19"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "43AC490F03768AB1"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "52E71409B9252EBE"
+			rewards: [{
+				id: "2DE51C3344E1AE6F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "638BE60F0D85CC41"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "22EEF9C1FB9C0B82"
+			rewards: [{
+				id: "725A4860D74B8597"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4438B77C7EB788C1"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_lance"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7AEBDC75150C33E2"]
+			id: "79DF26D238444DAC"
+			rewards: [{
+				id: "077B6E5B8C8F6877"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "48AA4CA559DEEFE8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blazing_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Escudo Abrasador"			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["284A1E375A9737C0"]
+			id: "4E2B9148E62F7F80"
+			rewards: [{
+				id: "1ABA6835DB255FC0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0FA66877EF6E3161"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["284A1E375A9737C0"]
+			id: "2F6144A580C12168"
+			rewards: [{
+				id: "407598183A5C48B0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "28DC9EC7952478B8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52E71409B9252EBE"]
+			id: "36095AB69635FD79"
+			rewards: [{
+				id: "0D08F7662E8FBC6E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "43CE06624277F293"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52E71409B9252EBE"]
+			id: "2759945C5087DB5B"
+			rewards: [{
+				id: "0CFEEB4B18C11FA9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "071978DEF0C03EED"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79DF26D238444DAC"]
+			id: "522BD3A1B7BC6C96"
+			rewards: [{
+				id: "6FA822422387229B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "78F111F4D1A24A95"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_blazing_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Escudo Abrasador Maldita"			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["79DF26D238444DAC"]
+			id: "779E3607A34C1695"
+			rewards: [{
+				id: "1D4BBA5DC873E1AD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "687D78EA3238955C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_blazing_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Escudo Abrasador Ácido"			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02136F58E703FFF4"]
+			id: "05253573EA4DE9B8"
+			subtitle: "Un metal oscuro forjado desde la sombra y la fuerza."			tasks: [{
+				id: "697F93C8D1A085EA"
+				item: "dungeons_and_combat:ebony_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["02136F58E703FFF4"]
+			id: "329D7AC50541ACF3"
+			rewards: [{
+				id: "1457155A1F67A31A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una aleación abrasadora que irradia intenso calor y poder."			tasks: [{
+				id: "23EA456E7B17D127"
+				item: "dungeons_and_combat:molten_dark_steel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "779B6413C2946678"
+			rewards: [
+				{
+					id: "0252DE99151DD70B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "486CB0C9CCCA3BAC"
+					table_id: 8047673370725298800L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "766A15774B0E78A6"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "02FB086A0B9CDAC2"
+			rewards: [
+				{
+					id: "71C10474A33034E5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B7F0799141B6BBB"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C9D7D9287CB960D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "25233B411695705D"
+			rewards: [
+				{
+					id: "67A532034B3CCB7F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D3BC80BA60F65D3"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05098853B1A2FB2E"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "7A13CBC16ECD047C"
+			rewards: [
+				{
+					id: "50D4A3A362111470"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "258DC9E2FB3A3C5C"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36EB0EBC8681B0FC"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "3FE10448C52B03C7"
+			rewards: [
+				{
+					id: "0ADC40E97864296B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FECC01D145AAF4D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "77BDB970609786F8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "7B4E15AAB4F46157"
+			rewards: [
+				{
+					id: "3E5D0752452AE513"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F6F345F8541DEE8"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D9E3B07C2D80CAC"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "4670915389B97C59"
+			rewards: [
+				{
+					id: "72BDA3B930F59A42"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "472318BBE62DADCA"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E82D1805D630834"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["329D7AC50541ACF3"]
+			id: "59E3621720AE5CA3"
+			rewards: [
+				{
+					id: "1C506D2E65D38780"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "422178EC4BCEC85F"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6715600BB7D8AA93"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_dark_steel_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "4995F95379345293"
+			rewards: [
+				{
+					id: "79DF763824404707"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "059E409084417191"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BFA58404FF916D7"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&8Escudo de Ébano"			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "5807FFFFE589C849"
+			rewards: [
+				{
+					id: "7E6B893C39DC7DC2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1080B4884D9EEF84"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3251411A4285E862"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_long_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "5C2A5FA5F24CFB50"
+			rewards: [
+				{
+					id: "41DC2AF3649B4C96"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FA71450073071D4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BEA89CB33610F0D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "2F02C555406C8163"
+			rewards: [
+				{
+					id: "52B031DDB70B5ECB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AD598A413FAA0EF"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "524F15A624D92E37"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "055F0492CB08CCFF"
+			rewards: [
+				{
+					id: "6701B6337046EA24"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E2F735F2CFB0A83"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09925977CC024930"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "587FE961FA56AC17"
+			rewards: [
+				{
+					id: "755B116820C22275"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37BA40DD9720FD78"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3DABC6E075478140"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "23A318B2B9A35153"
+			rewards: [
+				{
+					id: "1627AB5933C3F4C3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7883AA81B372FEC8"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D38968A3C69E373"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "1025B6257B1BE0E9"
+			rewards: [
+				{
+					id: "06096CE6F57C5FD7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57D736696BA57815"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D0D2D5D27F8EBA9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ebony_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["05253573EA4DE9B8"]
+			id: "1871504DEBE3BBBF"
+			rewards: [{
+				id: "61AEDEB9F05FC02A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Un metal rojo, bañado en sangre, que palpita con energía peligrosa."			tasks: [{
+				id: "5DD03CD618EB4D4E"
+				item: "dungeons_and_combat:crimson_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "102FCDCD96CF1D4E"
+			rewards: [
+				{
+					id: "220A4E742ED437BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E893031CE51CA9"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6CAF211BF4FE9AD1"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Botas Carmesí"			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "2D3407DDC0EEF42B"
+			rewards: [
+				{
+					id: "7B7E805B726EBB02"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51F7D1BB020F58AF"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7BB54980820BE7B9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Grebas Carmesí"			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "21CB28ECC2E3CA3B"
+			rewards: [
+				{
+					id: "68A47267B0C14CFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57EF468A766DA07D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "633D7003F492E5F5"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Peto Carmesí"			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "50AB9A0413BFF038"
+			rewards: [
+				{
+					id: "1D8C59EAC2CE8E9A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0471B617D08C2C60"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "316DB8B909041C79"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Casco Carmesí"			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "2515C1E750CC5335"
+			rewards: [
+				{
+					id: "2919A980AF56BCF4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5394CD0C09DB134F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73887125B50B0047"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Hozea Carmesí"			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "52230A3F425EAB6D"
+			rewards: [
+				{
+					id: "2E98904242E8CACC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5A72D95464103A"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "380F34A5C151F48E"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_sickle"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Carmesí Hojas"			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "282DD3AD102A9889"
+			rewards: [
+				{
+					id: "6CAB1BD1B0F33DC1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4116B0F036AED2A9"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E0092FD8C6BA530"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Escudo Carmesí"			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1871504DEBE3BBBF"]
+			id: "0B04C5C16422F92A"
+			rewards: [
+				{
+					id: "3932D00FF98A33B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E3BA48558CACF7D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7573563E167D7F9F"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:crimson_long_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Espada Larga Carmesí"			x: -7.0d
+			y: 10.5d
+		}
+	]
+	title: "&6 Mazmorras y Combate"}

@@ -1,0 +1,690 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_overworld"
+	group: "7C77405D74600A5D"
+	icon: "minecraft:grass_block"
+	id: "1748CC0D08CD2541"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/seagrass2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/seagrass2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/seagrass2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "soulrend:textures/quests/overworld_theme.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "071F026DBB520448"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5CDF4AED4B63028D"
+				title: "El Overworld"				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			id: "7B84352317A6C59A"
+			rewards: [{
+				id: "12844BB0D592BC63"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "aquaculture:piranha"
+				id: "731A7215364E3A44"
+				structure: "integrated_villages:pirate_village"
+				title: "Aldea Pirata"				type: "structure"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			icon: "minecraft:bricks"
+			id: "069DFFBB373B4082"
+			rewards: [{
+				id: "11E07A95505396B0"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_sandstone"
+				id: "7904836ADBF530E5"
+				structure: "integrated_villages:mediterranean_village"
+				title: "Aldea Mediterránea"				type: "structure"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			icon: "minecraft:sandstone"
+			id: "66243F93EDF02CC9"
+			rewards: [{
+				id: "4D7677267D3FCE5C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:cactus"
+				id: "39F9B0B7D880C38D"
+				structure: "integrated_villages:oasis_village"
+				title: "Aldea Oasis"				type: "structure"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F7A087CC11FB122"]
+			icon: "create:wrench"
+			id: "7ECB996C508ED4E1"
+			rewards: [{
+				id: "694EB9B18209BAB7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D07D9663F0A0912"
+				title: "Aldeas Integradas"				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			icon: "farmersdelight:spruce_cabinet"
+			id: "3A5A7BC7E2A2F018"
+			rewards: [{
+				id: "328883D08A5BB353"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "225C802A66DF3B09"
+				structure: "integrated_villages:cabin_village"
+				title: "Aldea de Cabañas"				type: "structure"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			id: "57068D75E23B0FAE"
+			rewards: [{
+				id: "6F31BB012A6BEB88"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "2B9F997E0C737A4B"
+				structure: "integrated_villages:marketstead_village"
+				title: "Aldea Mercado"				type: "structure"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			id: "358609148654718A"
+			rewards: [{
+				count: 4
+				id: "237CCE9D02F69897"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "6CD7F29B23D3423D"
+				structure: "integrated_villages:quark/minka_village"
+				title: "Aldea Minka"				type: "structure"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			icon: "minecraft:moss_block"
+			id: "70C043DA635297FD"
+			rewards: [{
+				id: "08C9F167FD871B21"
+				item: "immersive_weathering:golden_moss_clump"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:moss_block"
+				id: "20440CCA2852FC66"
+				structure: "integrated_villages:mossy_mounds"
+				title: "Colinas Musgosas"				type: "structure"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			icon: "minecraft:brown_mushroom_block"
+			id: "40CF8CBBCA5CCEE7"
+			rewards: [{
+				id: "7480FAB30EB955E0"
+				item: "delightful:cactus_steak"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:yellow_terracotta"
+				id: "490A00C7D4697C5B"
+				structure: "integrated_villages:kutcha_village"
+				title: "Aldea Kutcha"				type: "structure"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			dependency_requirement: "one_completed"
+			icon: "create:propeller"
+			id: "6E4A7A86A15A2A72"
+			rewards: [{
+				id: "1E857C0A70F9E2ED"
+				item: "dungeons_and_combat:silver_carrot"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:propeller"
+				id: "0CF66C09EF805D3E"
+				structure: "integrated_villages:airship_village"
+				title: "Aldea Aeronaviera"				type: "structure"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7ECB996C508ED4E1"]
+			dependency_requirement: "one_started"
+			icon: "minecraft:campfire"
+			id: "52C4CFE37A9475AD"
+			rewards: [{
+				id: "1167BC939ECD3126"
+				item: "dungeons_and_combat:egyptian_beer"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:campfire"
+				id: "32CEF1BE55C95B5D"
+				structure: "integrated_villages:tavern_village"
+				title: "Taberna Aldea"				type: "structure"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "23DC2F3E75E06C14"
+			rewards: [{
+				id: "75FC817BB2C031B2"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:birch_log"
+				id: "2479328E8EE6C73D"
+				structure: "towns_and_towers:village_birch_forest"
+				title: "Aldea de Abedul"				type: "structure"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			icon: {
+				Count: 1
+				id: "immersive_weathering:flower_crown"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "66BDFF397BC2F353"
+			rewards: [{
+				id: "498F58D2FD887D65"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F167287D3ABDC70"
+				structure: "towns_and_towers:village_flower_forest"
+				type: "structure"
+			}]
+			title: "Aldea del Bosque floral"			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "04CF8532DBCA5EAD"
+			rewards: [{
+				id: "394E2AE84A51901C"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "4C68508D1383530C"
+				structure: "towns_and_towers:village_forest"
+				title: "Bosque Aldea"				type: "structure"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F7A087CC11FB122"]
+			icon: "supplementaries:candle_holder"
+			id: "7564E401B8339A5C"
+			tasks: [{
+				id: "7B459C4755E578BE"
+				title: "Mazmorras y Tabernas"				type: "checkmark"
+			}]
+			title: "Pueblos y Torres: Parte 1"			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			icon: "quark:blaze_lantern"
+			id: "627F671124B5D67C"
+			rewards: [{
+				id: "72B4F62959B55168"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "quark:blaze_lantern"
+				id: "27E6F26083474AD4"
+				structure: "towns_and_towers:village_beach"
+				title: "Aldea del Faro"				type: "structure"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "4BB5A6E0D2F200C8"
+			rewards: [{
+				id: "77A04C506744F494"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_sandstone"
+				id: "5B707C964D4AA88A"
+				structure: "towns_and_towers:village_badlands"
+				title: "Aldea de Tierras baldías"				type: "structure"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "7556B1A861A62002"
+			rewards: [{
+				id: "26BC10C562667B85"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:vine"
+				id: "6EFB53D95BCE9693"
+				structure: "towns_and_towers:village_jungle"
+				title: "Aldea de la Jungla"				type: "structure"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			icon: "minecraft:spruce_sapling"
+			id: "0F164C89FEE2D8AB"
+			rewards: [{
+				id: "2F6CA377DF8514E7"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:green_wool"
+				id: "0713A48E04B1274F"
+				structure: "towns_and_towers:village_grove"
+				title: "Abetal Aldea"				type: "structure"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "5450A1F216C2F50D"
+			rewards: [{
+				id: "05D2C693460C8F49"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "farmersdelight:red_mushroom_colony"
+				id: "5B3F8C5CD36D5BE9"
+				structure: "towns_and_towers:village_mushroom_fields"
+				title: "Aldea de Hongos"				type: "structure"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			icon: "minecraft:seagrass"
+			id: "2EA6BFC6CD26C48C"
+			rewards: [{
+				id: "7F218711E7A263D3"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:seagrass"
+				id: "7CEA82D0A04A9EB3"
+				structure: "towns_and_towers:village_ocean"
+				title: "Aldea Oceánica"				type: "structure"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			id: "3228D0EF1A3C9CA9"
+			rewards: [{
+				id: "5FCC02653FBCFBF4"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:oxeye_daisy"
+				id: "654A700B12167B6E"
+				structure: "towns_and_towers:village_meadow"
+				title: "Aldea del Prado"				type: "structure"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			id: "0B5F132F33B7161B"
+			rewards: [{
+				id: "36979E145973FF65"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:dark_oak_hanging_sign"
+				id: "4214CAFC1E5FED25"
+				structure: "towns_and_towers:village_old_growth_taiga"
+				title: "Aldea Taiga Desactualizada"				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			id: "6C413832AC7A23C4"
+			rewards: [{
+				id: "16AF2CF079C029F7"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:yellow_terracotta"
+				id: "62557D74188FDC93"
+				structure: "towns_and_towers:village_savanna_plateau"
+				title: "Aldea en meseta de sabana"				type: "structure"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "quark:ancient_fruit"
+			id: "6AF22243CA5BC25E"
+			rewards: [{
+				id: "007DDF5D40320654"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "quark:ancient_fruit"
+				id: "6B7340B6F65BE532"
+				structure: "towns_and_towers:village_sparse_jungle"
+				title: "Aldea Tropical"				type: "structure"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "minecraft:frogspawn"
+			id: "6F0647318E50BE54"
+			rewards: [{
+				id: "34FC47205AE73845"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:frogspawn"
+				id: "6359E0D778830435"
+				structure: "towns_and_towers:village_swamp"
+				title: "Aldea del Pantano"				type: "structure"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "immersive_weathering:cracked_bricks"
+			id: "0554154CF4FF6680"
+			rewards: [{
+				id: "16138DB5D60BFE09"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "immersive_weathering:cracked_bricks"
+				id: "1DA8849CC7962094"
+				structure: "towns_and_towers:exclusives/village_rustic"
+				title: "Aldea Rústica"				type: "structure"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			id: "640BE25AF0B936E7"
+			rewards: [{
+				id: "0366FF989FC14758"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:calcite"
+				id: "1A306EFB82D95453"
+				structure: "towns_and_towers:exclusives/village_swedish"
+				title: "Aldea Sueca"				type: "structure"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "minecraft:cornflower"
+			id: "34164DB60D1E6CE0"
+			rewards: [{
+				id: "251E012790F763F8"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:cornflower"
+				id: "1954EE3A084D386F"
+				structure: "towns_and_towers:village_wooded_badlands"
+				title: "Aldea de la Pradera"				type: "structure"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "quark:orange_blossom_sapling"
+			id: "29E01A1DB6D8EF5D"
+			rewards: [{
+				id: "76F829F65EF17D46"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "quark:orange_blossom_hedge"
+				id: "76ECB35EE8A086B7"
+				structure: "towns_and_towers:village_sunflower_plains"
+				title: "Aldea Otoñal"				type: "structure"
+			}]
+			title: "Aldea Otoñal"			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			icon: "immersive_weathering:snowy_stone"
+			id: "68B0EFE9BFC4E06E"
+			rewards: [{
+				id: "49E3980DDB9A3116"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "immersive_weathering:snowy_stone"
+				id: "1BF113D8E0A8C10F"
+				structure: "towns_and_towers:village_snowy_taiga"
+				title: "Aldea en la Taiga nevada"				type: "structure"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["361D3E951FE31748"]
+			id: "024D981AD2E17711"
+			rewards: [{
+				id: "4FF2DB323263624E"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:snowball"
+				id: "43C6AB4DAF746F31"
+				structure: "towns_and_towers:village_snowy_slopes"
+				title: "Aldea de Ladera nevada"				type: "structure"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7564E401B8339A5C"]
+			icon: "supplementaries:candle_holder_light_gray"
+			id: "361D3E951FE31748"
+			tasks: [{
+				id: "733DD20B6C469B7B"
+				title: "Pueblos y Torres: Parte 2"				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["071F026DBB520448"]
+			description: [
+				"&6&lSoulrend&r añade una plétora de refugios desde la acción y la hostilidad del &2&lOverworld&r con aldeas y poblados para que descubras y explores."				""
+				""
+				"Utilicen este capítulo para guiarse a través de ellos y registrar cuáles han descubierto. Ustedes poseen la capacidad de hacerlo."			]
+			hide_until_deps_visible: false
+			icon: "lootr:lootr_chest"
+			id: "0F7A087CC11FB122"
+			rewards: [
+				{
+					id: "4AAF8027485A1F4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "010130ADD619EF13"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "5689DA335FBADCD6"
+				title: "Comienza la Cacería"				type: "checkmark"
+			}]
+			title: "&lRefugios del Aventurero"			x: 0.0d
+			y: -5.8500000000000005d
+		}
+	]
+	title: "&7El Overworld"}

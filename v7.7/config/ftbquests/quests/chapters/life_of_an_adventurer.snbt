@@ -1,0 +1,1154 @@
+{
+	autofocus_id: "5E475921B87584D1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "life_of_an_adventurer"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "34B3030126C55C48"
+	images: [
+		{
+			dependency: "136A6DF611B35C7C"
+			height: 3.0d
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependency: "1F70A4EA66FBAFA0"
+			height: 5.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5357142857142776d
+			y: -0.6785714285714306d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.3d
+			image: "minecraft:item/iron_chestplate"
+			rotation: 0.0d
+			width: 1.3d
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			height: 1.3d
+			image: "minecraft:item/diamond_chestplate"
+			rotation: 0.0d
+			width: 1.3d
+			x: -12.42857142857143d
+			y: -3.2142857142857153d
+		}
+		{
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.107142857142854d
+			y: -2.1785714285714306d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.714285714285715d
+			y: 0.4285714285714306d
+		}
+		{
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.5d
+			image: "magistuarmory:item/medieval_bag"
+			rotation: 0.0d
+			width: 2.5d
+			x: -11.5d
+			y: -0.6785714285714306d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/bogged_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/mining_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/mining_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependency: "0AC2F1E9F680273D"
+			height: 2.0d
+			image: "minecraft:item/piglin_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependency: "0AC2F1E9F680273D"
+			height: 2.0d
+			image: "minecraft:item/piglin_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependency: "0AC2F1E9F680273D"
+			height: 2.0d
+			image: "minecraft:item/piglin_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependency: "0AC2F1E9F680273D"
+			height: 2.0d
+			image: "minecraft:item/piglin_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: 1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Te has encontrado en &lLos Reinos&r. ¡Lleno de muchos tesoros y aventuras!"				""
+				"Primero, lo primero, asegúrense de que ustedes poseen un inicio al que VOLVER después de un largo día de aventura. O conviértanse en el caminante sobre el mar de nubes que viaja sin un lugar permanente para ubicar."			]
+			id: "6318AE6726DD1E10"
+			rewards: [
+				{
+					id: "0CAA904365039855"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "218547790DB7F260"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267F45D57B16C2C7"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34D207942100FCAF"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "La Vida de un Nómada"			tasks: [{
+				id: "500C34A359868A41"
+				title: "Despertado, pero Perdido."				type: "checkmark"
+			}]
+			title: "Ubicar un Inicio al que Llamar."			x: -15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6318AE6726DD1E10"]
+			description: ["El hierro y el cobre simplemente no te llevan muy lejos. &8Acero&f es una excelente manera de mejorar tu equipo antes de adentrarte en el mundo. &8El acero&f no es encontrado en la naturaleza, en cambio, lo fabricas tú mismo cocinando &7Lingotes de hierro&f en un alto horno."]			id: "04489D00E076C5D6"
+			rewards: [
+				{
+					count: 8
+					id: "6805BFE42CD5BB6C"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "16868A8AD438D9F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Alto horno requerido"			tasks: [{
+				id: "5188588CA3DC8CED"
+				item: "magistuarmory:steel_ingot"
+				type: "item"
+			}]
+			title: "Acero"			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04489D00E076C5D6"]
+			description: ["&8Armadura de Acero&f es uno de los primeros Establecer que ustedes obtendrán con Regalo de estadísticas. Mientras que cada pieza de Armadura sea &8Acero&f, ustedes obtendrán un Regalo de Armadura!"]			id: "4912446E8015C173"
+			rewards: [
+				{
+					id: "5362741F4BB6BACD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5699D34835708F3C"
+					table_id: 814616266622083574L
+					type: "choice"
+				}
+			]
+			subtitle: "Hombre de acero"			tasks: [
+				{
+					id: "7CDF85862BCB5EB6"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDAA7AA3B376E5C"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E05D53F465C60FA"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D44C0ED94713A43"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "¿Buscas protegerte?"			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68C80B988B6A6781"]
+			description: ["Por supuesto que terminarás necesitando un &bPico de diamante&f. ¿Cómo vas a minar obsidiana para tu &5Portal del Nether&f, de otra manera? ¡Tendrás que ganarte el derecho de entrar al &5Nether&f!"]			id: "412BDD5E5771DBE8"
+			rewards: [
+				{
+					count: 2
+					id: "3D91C560C5F5848B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4D94AD2CE765EBF5"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Una herramienta confiable."			tasks: [{
+				id: "7DBD8A114F7B1E74"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pico de diamante"			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B42C35B04BB0E1B"]
+			description: [
+				"La obsidiana llorosa es nuestro primer Paso para Ayuda a llevarnos al &5Nether&f."				"Podrás encontrarlo en algunas &5estructuras&f o alrededor de Portales del Nether destruidos."			]
+			id: "33AA7B790954A92E"
+			rewards: [
+				{
+					id: "5402E5FD527F9D89"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "03420C6498430FB9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "¿Quién está cortando cebollas?"			tasks: [{
+				count: 2L
+				id: "26C881427436995C"
+				item: { Count: 6, id: "minecraft:crying_obsidian" }
+				type: "item"
+			}]
+			title: "Obsidiana llorosa"			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04489D00E076C5D6"]
+			description: [
+				"Vas a necesitar más espacio de almacenamiento durante una expedición minera o al explorar estructuras."				"No te preocupes, pues podemos construir y actualizar una mochila para ayudarnos a cargar TODAS esas cosas innecesarias."			]
+			id: "68C80B988B6A6781"
+			rewards: [
+				{
+					id: "5F8CD20A79BB6D1E"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4AB6064F8D20DC7B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "¡Más bolsillos para mis piedras!"			tasks: [{
+				id: "419D509B73848176"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Mochilas"			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33AA7B790954A92E"]
+			description: ["Estas botellas no sirven para cualquier cosa por sí solas, ¡así que tenemos que cargar con ellas y hacerlas útiles!"]			id: "6EB25F01FF62F8C9"
+			rewards: [{
+				id: "49EDB7A9BD8F0017"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "No los dejes caer..."			tasks: [{
+				count: 6L
+				id: "5F81DA6FA8A7A707"
+				item: "nether_remastered:obsidian_infused_bottle"
+				type: "item"
+			}]
+			x: -6.249999999999986d
+			y: -0.4999999999999929d
+		}
+		{
+			dependencies: ["6EB25F01FF62F8C9"]
+			description: ["Mantén una &5Botella Infundida con Obsidiana&r en tu &nMano Libre&r mientras derrotas a Zombis, Esqueletos y Arañas&r para recolectar &l&dEsencia del Nether embotellada&r."]			id: "0AC2F1E9F680273D"
+			rewards: [{
+				id: "592AD666B2DBF595"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Encallando"			tasks: [{
+				count: 6L
+				id: "2E68075AC5E44D12"
+				item: { Count: 6, id: "nether_remastered:bottled_nether_essence" }
+				type: "item"
+			}]
+			title: "Esencia del Nether embotellada"			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["412BDD5E5771DBE8"]
+			description: ["Esta brújula será de gran ayuda para encontrar estructuras. Perfecta para la aventura y perfecta para ayudarnos a descubrir secretos ocultos."]			id: "4CFA26AA84DF9416"
+			rewards: [
+				{
+					id: "208193C1CBE10AF4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "33175C7FD54FC11C"
+					item: "minecraft:spruce_hanging_sign"
+					type: "item"
+				}
+			]
+			subtitle: "¡Nunca más te pierdas!"			tasks: [{
+				id: "6D8FC826A89073B3"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.1785714285714306d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0AC2F1E9F680273D"]
+			description: ["Puede obtenerse al derrotar al &bFrostmaw&r (ver capítulo de la misión &l&6Caído Leyendas&r), o mediante una obtención rara &2de Brujas&r, elimina y saquea para encontrar uno."]			id: "102D2C1C4D3B874D"
+			rewards: [
+				{
+					id: "5A00D738BA7A18C2"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "621B527B35CAEFC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54008C91379F6726"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Arriba-Derecha"			tasks: [{
+				id: "50D51E170EA0AC33"
+				item: "nether_remastered:seal_piece_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0AC2F1E9F680273D"]
+			description: ["Puede obtenerse tras completar el Desafío de Tongbi (ver el capítulo de la misión &l&6Leyendas Caídas&r) o encontrado en &l&eminas abandonadas&r dispersas por todo el reino."]			id: "1A17E1F6D2AD1CEF"
+			rewards: [
+				{
+					id: "047BEFB232FAD952"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "14A9D8CEA8AD14C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17B66310F5ADDF21"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Arriba-Izquierda"			tasks: [{
+				id: "75CF7235C6ED5F02"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0AC2F1E9F680273D"]
+			description: ["Puede obtenerse al derrotar al &7Ferrous Wroughtnaut&r (consulta el capítulo de la misión &l&6Caído Leyendas&r) o custodiado por los aldeanos, puede raramente caer de &dEvocadores&r."]			id: "0D2BEA6AD46F50A8"
+			rewards: [
+				{
+					id: "351733A29FB9D50D"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1219006DBC471E23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10F730AB2B86F1EB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Abajo-Izquierda"			tasks: [{
+				id: "389B13C26B231F1A"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["0AC2F1E9F680273D"]
+			description: ["Puede obtenerse derrotando a &eUmvuthi, el Ave Solar&r (ver el capítulo de la misión &l&6Leyendas Caídas&r) o encontrado dentro de &lPuestos de saqueadores&r, custodiados por los Illagers."]			id: "2BB4E3A17ACA7508"
+			rewards: [
+				{
+					id: "65A38E5F0E8E8F56"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3F31828FBF359ACD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ACA5257C3082F9F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Abajo-Derecha"			tasks: [{
+				id: "223A7E43EEE7CC50"
+				item: "nether_remastered:seal_piece_4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"102D2C1C4D3B874D"
+				"2BB4E3A17ACA7508"
+				"0D2BEA6AD46F50A8"
+				"1A17E1F6D2AD1CEF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&l&5Los Cristales del Nether&r pueden obtenerse al derrotar al &3&lWarden&r (30% de probabilidad)."]			hide_until_deps_complete: false
+			id: "7801EF0FA6D149EC"
+			rewards: [
+				{
+					id: "76B08B144C0232A9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E87AA65E3272788"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "La Pieza Final"			tasks: [{
+				id: "69D203D2E608A25F"
+				item: "nether_remastered:seal_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7801EF0FA6D149EC"]
+			description: ["&1El Warden&f es el Guardián de la &1Oscuridad profunda&f. Un lugar espeluznante y terrible, lleno de TODAS clases de nuevos bloques y mobs."]			hide_until_deps_complete: true
+			id: "136A6DF611B35C7C"
+			rewards: [
+				{
+					id: "4906455161E7B1E9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "24F6498818AE05D3"
+					item: {
+						Count: 1
+						id: "wizard_samurai:ring_sculk_samurai"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Puede sentir tu presencia."			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "016B40D8B323A46C"
+				title: "Derrota &7&lal Warden"				type: "kill"
+				value: 1L
+			}]
+			title: "&l&7El Warden"			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["136A6DF611B35C7C"]
+			description: ["Antes de iluminar el Portal, primero debes eliminar TODAS las &3Venas de sculk &rdesde el marco interior. Después de que el marco esté despejado, puedes hacer ¡Haz clic! con el &bCorazón de las Profundidades &rque obtuviste anteriormente al eliminar al Warden."]			hide_until_deps_complete: true
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "1D4CE28A9E56A6C4"
+			rewards: [
+				{
+					id: "5C581D4ACEA94820"
+					item: "deeperdarker:ancient_vase"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C501A617116A581"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "¿Es ese mi corazón latiendo?"			tasks: [{
+				id: "18B91A53401D73F4"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "&8&lEl Otro Lado"			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7801EF0FA6D149EC"]
+			description: ["Ustedes son ahora dignos de entrar al Nether&r aventurero, usen la foca y desbloqueen el transporte a &l&4El Nether&r."]			hide_until_deps_complete: true
+			id: "1F70A4EA66FBAFA0"
+			rewards: [
+				{
+					id: "29CAC8798BB2E545"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "325C951650F6E262"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Ustedes son dignos."			tasks: [{
+				id: "77D7818EEB18288D"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			title: "&l&5La Foca del Inframundo"			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["412BDD5E5771DBE8"]
+			description: ["Una sustitución encantadora para la netherita si no puedes encontrarla o aún no puedes aventurarte al Nether."]			id: "17ADF90675EC0BBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CA9577E4081F0A8"
+				table_id: 7543698869780679326L
+				type: "choice"
+			}]
+			subtitle: "Pico de Dagon"			tasks: [{
+				id: "68079B3FA40A4F71"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["412BDD5E5771DBE8"]
+			description: ["Nada elegante, pero hasta que puedas mantenerte en pie sobre tus propios pies y recolectar armaduras más impresionantes como Escama de dragón o Warden, el Diamante te ayudará bastante. Considera añadir Encantamientos u otros efectos desde los árboles de misiones para sobrevivir mejor."]			icon: {
+				Count: 1
+				id: "dungeons_and_combat:silver_shield"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5B42C35B04BB0E1B"
+			rewards: [
+				{
+					id: "7A975CE7A6CCBAA6"
+					item: "minecraft:skeleton_horse_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "406864D105FF9B78"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "47A0D1BD5EB4A3E6"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+			]
+			subtitle: "¡Mejoras, gente, mejoras!"			tasks: [
+				{
+					id: "0BAF5AFB1F8E19C0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "097636F0631090CD"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E1D3D5D5769C6D8"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7430164C4873DF62"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Equípate con armadura."			x: -8.749999999999993d
+			y: -0.4999999999999929d
+		}
+	]
+	title: "&l&a La Vida De Un Aventurero"}

@@ -1,0 +1,609 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "59FD824E9CBEF444"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "4C09F367E84D9B49"
+	images: [
+		{
+			dependency: "32AF4EECE617D5F4"
+			height: 2.0d
+			image: "aquamirae:textures/particle/ghost_shine_7.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependency: "32AF4EECE617D5F4"
+			height: 2.0d
+			image: "aquamirae:textures/particle/shine_5.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.3d
+			image: "aquamirae:block/elodea"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.3d
+			image: "aquamirae:block/elodea"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:block/elodea"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:block/elodea"
+			rotation: 0.0d
+			width: 0.7d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			height: 20.0d
+			image: "mowziesmobs:textures/particle/ring2.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "32AF4EECE617D5F4"
+			height: 2.0d
+			image: "aquamirae:item/echo"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependency: "32AF4EECE617D5F4"
+			height: 1.7d
+			image: "aquamirae:item/maze_rose"
+			rotation: 0.0d
+			width: 1.7d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 2.8d
+			image: "aquamirae:item/rune_of_the_storm"
+			rotation: 0.0d
+			width: 2.8d
+			x: 0.0d
+			y: 0.6d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32AF4EECE617D5F4"
+			rewards: [{
+				id: "24A7610A4A1DDA1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Ah, sí, Capitana Cornelia, una gran capitana que navegó hasta caer en la profundidad de los océanos congelados. Uno debe ser lo suficientemente audaz para encontrar su barco y agarrar sus tesoros, si puede hallarlo."			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: "minecraft:blue_ice"
+				id: "5396CDFCDBD590B6"
+				title: "El Laberinto de hielo"				type: "biome"
+			}]
+			title: "La Búsqueda del Tesoro de la Capitana Cornelia &b"			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			id: "08459CFC59AA5889"
+			rewards: [
+				{
+					id: "35D103DC804CBF32"
+					item: {
+						Count: 1
+						id: "aquamirae:sweet_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64430F3C2E693885"
+					item: "aquamirae:sea_casserole"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "33EB14A769E1FF06"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+				{
+					id: "2E507A3F358D36D6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Estas armas parecían haber sido usadas por la tripulación del Capitán Cornelia, pero eventualmente fueron perdidas en las profundidades congeladas, pero ahora están en tus manos para probar su poder."			tasks: [
+				{
+					id: "4CD39D65B132A987"
+					item: {
+						Count: 1
+						id: "aquamirae:poisoned_chakra"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AFFADA14CE1BE1"
+					item: {
+						Count: 1
+						id: "aquamirae:maze_rose"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58FF1CC869C3CF09"
+					item: {
+						Count: 1
+						id: "aquamirae:poisoned_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B97C366E1BCF9A6"
+					item: {
+						Count: 1
+						id: "aquamirae:remnants_saber"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armamento de Corsario"			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			id: "35526A0E52E0DDCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "210972A2FE3DC581"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06D4FFC7F18B8DD1"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "Nada de gran valor puede ser encontrado en estas desgastadas bolsas, pero quizás puedas ser afortunado."			tasks: [
+				{
+					id: "6BCE6D876182990D"
+					item: "aquamirae:pirate_pouch"
+					type: "item"
+				}
+				{
+					id: "0A45D04D1FEACE6F"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			icon: "aquamirae:abyssal_amethyst"
+			id: "7C5F01ED56C57AC3"
+			rewards: [
+				{
+					count: 5
+					id: "0A1460E738177B32"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+				{
+					id: "377D6003C8012450"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "El Laberinto de hielo no es solo de congelamiento y enorme, sino que también contiene las profundidades aterradoras del Océano. ¿Serás capaz de vencerlos abajo y regresar con el botín?"			tasks: [
+				{
+					entity: "aquamirae:maze_mother"
+					id: "141E7F0C0D385E31"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aquamirae:anglerfish"
+					id: "0CB04856E2232B2D"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Terrores del Laberinto de hielo"			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5F01ED56C57AC3"]
+			hide_until_deps_complete: true
+			id: "1E4A86BE0E571404"
+			rewards: [
+				{
+					id: "50F7EA197D7976DC"
+					item: {
+						Count: 1
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67AA4C16F1EBAB85"
+					item: {
+						Count: 1
+						id: "aquamirae:dagger_of_greed"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7953556D10F38F37"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109C1B70D57F5FF2"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3957EA8820F6841A"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7CC1BC9F0F7FB3"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08D56B91318B1A94"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C5F01ED56C57AC3"]
+			hide_until_deps_complete: true
+			id: "7F88CD4C50D31959"
+			rewards: [{
+				id: "5179F084936975CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Si contemplas el abismo, el abismo te mira a la espalda. Pero si ustedes poseen el coraje de enfrentar cualquier peligro de frente, quizás ellos los recompensarán."			tasks: [{
+				id: "66FCE82F6B2F41AA"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Armamento Abisal"			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			id: "0B78598B9616DCF3"
+			rewards: [{
+				id: "3A2A6B261181AB12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Una armadura que hace que uno actúe de forma similar a un pez globo, pero parece ser un muy buen establecer para aquellos que aman ser imprudentes y luchar bajo el agua."			tasks: [
+				{
+					id: "2649433FF84CAC27"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EEFF7D620F5B921"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A405D104307FCFC"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35A77CF9EEEADD97"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de un Terror Marino"			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			id: "0D89409EDB81CFFE"
+			rewards: [
+				{
+					id: "14478E4287EFD6B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5A492ED132BB6DC9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1173B690C6CF8055"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Esta armadura fue usada por la infame Capitana Cornelia para sobrevivir al congelamiento de las profundidades del Océano. ¿Te esforzarás por recolectar todo el Establecer y descender Abajo a las profundidades?"			tasks: [
+				{
+					id: "623E3FEE07D5F9FA"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78C7CF511CA7249B"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C26DEA6ADC9DC4B"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C4CE97BBE469F88"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "La Armadura de la Capitana Cornelia"			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32AF4EECE617D5F4"]
+			hide_until_deps_complete: true
+			icon: "aquamirae:shell_horn"
+			id: "101DC04677992FAE"
+			rewards: [
+				{
+					id: "0303803140B2765B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "67F12350E13B1F2A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Ahora que encontraste un objeto especial, es natural sentir curiosidad sobre cómo funciona. Ten cuidado con los muertos."			tasks: [
+				{
+					id: "4E9B1463546BCBB6"
+					item: "aquamirae:shell_horn"
+					type: "item"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "59A652D824BEF68A"
+					title: "Envía a ella al descanso."					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Llamada al Capitán VOLVER desde entre los muertos."			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["101DC04677992FAE"]
+			hide_until_deps_complete: true
+			id: "70FE9170F88F5DEA"
+			rewards: [
+				{
+					id: "5F245867BE8908A4"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					id: "41DBFF020B7A01DE"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					id: "4590306D75852805"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Ustedes poseen finalmente el escondite del capitán, pero ahora deben encontrar su tesoro oculto escondido en su interior."			tasks: [
+				{
+					id: "74E95545E5888676"
+					item: "aquamirae:rune_of_the_storm"
+					type: "item"
+				}
+				{
+					id: "41D2858D00B19D8E"
+					item: "aquamirae:golden_moth_in_a_jar"
+					type: "item"
+				}
+				{
+					id: "063F151587532FEF"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+			]
+			title: "El Escondite de la Capitana Cornelia"			x: 3.0d
+			y: -5.0d
+		}
+	]
+	title: "&l&bAquamirae"}

@@ -1,0 +1,4154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_schools"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:hither_thither_wand"
+		tag: {
+			ISB_Spells: {
+				data: [{
+					id: "irons_spellbooks:portal"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "13E58327CE506E63"
+	images: [
+		{
+			height: 2.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.8d
+			y: -7.3d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/thunderbrand_layer_2"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.33000000000000007d
+			y: -6.0d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: -90.0d
+			width: 1.25d
+			x: 2.2d
+			y: -7.3d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/compat/spell_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.7d
+		}
+		{
+			height: 1.55d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.55d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_purple"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.0d
+			y: -6.6d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes_e_demon"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.8d
+			y: -5.8d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes_e_demon"
+			rotation: -90.0d
+			width: 1.25d
+			x: 8.2d
+			y: -5.8d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/sconce_fire_green"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.2d
+			y: -5.2d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/sconce_fire_green"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.8d
+			y: -5.2d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.5299999999999998d
+			y: -5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/dragon_skull_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/dragon_skull_ice"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:item/dragon_skull_lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			height: 1.7d
+			image: "gtbcs_geomancy_plus:item/geo_orb_swirl"
+			rotation: 0.0d
+			width: 1.7d
+			x: 4.0d
+			y: -7.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -11.5d
+			y: -1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7370A599A59F3188"
+			subtitle: "Ahora que has aprendido acerca de las clases disponibles, es hora de craftear tu primera pieza de equipo mágico."			tasks: [{
+				id: "05DC41D4123518F8"
+				title: "El Primer Equipo del Hechicero"				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "1557247F11AD4927"
+			rewards: [{
+				count: 8
+				id: "0B0E4D28D2BEA45A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "Un fragmento concentrado de Energía Mágica pura, utilizado como componente esencial en numerosas creaciones Arcanas."			tasks: [{
+				id: "2FBBFACAA9D4548C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "6DAEF40FBA9C7AB0"
+			rewards: [{
+				count: 8
+				id: "6ABFAF91BAA94CED"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			subtitle: "Una tela tejida con hilos de pura magia, comúnmente utilizada en el crafteo de prendas y equipo mágico."			tasks: [{
+				id: "0B9CBE7CF40D545D"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "3AE593F416964ED8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3656B959323889E9"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Vestimentas sencillas usadas por lanzadores de hechizos viajeros. Aunque modestas, ofrecen bienestar y un toque de afinidad mágica para magos errantes."			tasks: [{
+				id: "720AE8A6A8D58C92"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "027E19C073AA60B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6334E0DF1B188AE0"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Vestimentas sencillas usadas por lanzadores de hechizos viajeros. Aunque modestas, ofrecen bienestar y un toque de afinidad mágica para magos errantes."			tasks: [{
+				id: "197C5F8B7C55FDB1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "1EB7A984A3C466F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EBEE7D78CB62B47"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Vestimentas sencillas usadas por lanzadores de hechizos viajeros. Aunque modestas, ofrecen bienestar y un toque de afinidad mágica para magos errantes."			tasks: [{
+				id: "38E8F670BE0ACBE1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "68997525134AFA37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4330B859584BDECE"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Vestimentas sencillas usadas por lanzadores de hechizos viajeros. Aunque modestas, ofrecen bienestar y un toque de afinidad mágica para magos errantes."			tasks: [{
+				id: "7CE425B71C15A861"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DAEF40FBA9C7AB0"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3DC3230C16A0FD4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D9ADEB20300B5F"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un atuendo ajado que se asemeja a un espantapájaros, imbuido de una Magia inquietante que aterra y perturba a los enemigos cercanos."			tasks: [{
+				id: "2D2F5246CC9D30CE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DAEF40FBA9C7AB0"]
+			id: "6CA2DFFA63AEC0D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B6E5942DB0E72D8"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un atuendo ajado que se asemeja a un espantapájaros, imbuido de una Magia inquietante que aterra y perturba a los enemigos cercanos."			tasks: [{
+				id: "6A1D1C086566B04C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DAEF40FBA9C7AB0"]
+			id: "74F1FF77723A7073"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31A56CE6B24CC913"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un atuendo ajado que se asemeja a un espantapájaros, imbuido de una Magia inquietante que aterra y perturba a los enemigos cercanos."			tasks: [{
+				id: "685821CD03536D9A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DAEF40FBA9C7AB0"]
+			id: "5673BDDA2CAD3B32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "186F56166F05F409"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un atuendo ajado que se asemeja a un espantapájaros, imbuido de una Magia inquietante que aterra y perturba a los enemigos cercanos."			tasks: [{
+				id: "135FDED88CDC8811"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DAEF40FBA9C7AB0"]
+			id: "376BA7C6196EAFC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5636C947075AFE76"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "Un rune vacío aguardando Energía Mágica. Sirve como la base para crear runas más Poderosas."			tasks: [{
+				id: "3313A7640A887E0F"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "5D2C2F2B33C617C2"
+			rewards: [
+				{
+					id: "68A40667EB013031"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3E0FCFC15C6AFB57"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Un rune abrasador que encarna el Poder crudo de Llama y destrucción."			tasks: [{
+				id: "14DE944C761F2D78"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "&cRuna de Fuego"			x: -0.47d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D2C2F2B33C617C2"]
+			id: "2A0FDE9E0660E3ED"
+			rewards: [{
+				id: "156D70A032C06C52"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por piromantes que dedican su magia al poder destructivo de fuego."			tasks: [{
+				id: "78F059550AF6D201"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.47d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5D2C2F2B33C617C2"]
+			id: "26DFCF7638B63835"
+			rewards: [{
+				id: "59A5B8FC4CD760D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por piromantes que dedican su magia al poder destructivo de fuego."			tasks: [{
+				id: "52E0FBDCC2B8BE06"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.47d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5D2C2F2B33C617C2"]
+			id: "6C5724BDEB676997"
+			rewards: [{
+				id: "1CC68FE5B5C5C363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por piromantes que dedican su magia al poder destructivo de fuego."			tasks: [{
+				id: "05A110FED8A0CFC2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.47d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5D2C2F2B33C617C2"]
+			id: "18B0943B7A3FD739"
+			rewards: [{
+				id: "2FA9644C6FFDBAB0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por piromantes que dedican su magia al poder destructivo de fuego."			tasks: [{
+				id: "404E8897C0301C3C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.47d
+			y: -6.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "641D300B38F53698"
+			rewards: [
+				{
+					id: "4FE0DD40291FD7B9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "75FB777E5BB2B53D"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Crujiente con energía eléctrica, esta runa representa la gracia terrible y un poder devastador."			tasks: [{
+				id: "22CB37F897DF1AB7"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "&9Runa de Electricidad"			x: 1.03d
+			y: -6.5d
+		}
+		{
+			dependencies: ["641D300B38F53698"]
+			id: "271E9C9C1B4EB7C1"
+			rewards: [{
+				id: "3FD8E0F9D521D3C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por electrománticos que canalizan el Poder crudo de la Iluminación y la Tormenta."			tasks: [{
+				id: "36B4C139C8BF1A07"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.03d
+			y: -10.5d
+		}
+		{
+			dependencies: ["641D300B38F53698"]
+			id: "79F9397E8E3B25B5"
+			rewards: [{
+				id: "1E979EB48604E30F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por electrománticos que canalizan el Poder crudo de la Iluminación y la Tormenta."			tasks: [{
+				id: "67D0FA588F613694"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.03d
+			y: -9.5d
+		}
+		{
+			dependencies: ["641D300B38F53698"]
+			id: "7116B1D46BC126BB"
+			rewards: [{
+				id: "230F1282355996A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por electrománticos que canalizan el Poder crudo de la Iluminación y la Tormenta."			tasks: [{
+				id: "3FBBFF2D4CE46A7D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.03d
+			y: -8.5d
+		}
+		{
+			dependencies: ["641D300B38F53698"]
+			id: "4F7B734D07DECBD7"
+			rewards: [{
+				id: "7431F89603689016"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por electrománticos que canalizan el Poder crudo de la Iluminación y la Tormenta."			tasks: [{
+				id: "5603C47E9867F1DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.03d
+			y: -7.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "2D79E29D2166D9F9"
+			rewards: [
+				{
+					id: "0E88674E6B7C6F75"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "298B63544DDE9A52"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Un rune imbuida con energía sagrada. Usada frecuentemente por clérigos y paladines para canalizar Magia divina."			tasks: [{
+				id: "0EFEE631E5BC352A"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "&6Runa Sagrada"			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "21E24F23A7102DB2"
+			rewards: [
+				{
+					id: "345F6F3425694199"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "663D76D721A42A25"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa conectada a lo salvaje, extrayendo poder de plantas, bestias y el mundo viviente."			tasks: [{
+				id: "38BDDF0DF571B78E"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "&aRuna de la Naturaleza"			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "66171275B0E56907"
+			rewards: [
+				{
+					id: "7D708D0EC574B765"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "56D78643AD2918CA"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+			]
+			subtitle: "Un rune irradiando congelamiento, capaz de ralentizar y provocar la fragmentación de los enemigos."			tasks: [{
+				id: "33CF936468570009"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "&bRuna de Hielo"			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "55C38E51453C92B6"
+			rewards: [
+				{
+					id: "3D5AD74C6DA1226D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "145400F670E9C1C6"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Un runa misteriosa vinculada al End y al extraño Poder de la teletransportación y la energía del Vacío."			tasks: [{
+				id: "5C87D8DD425A39FF"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "&dRuna de Ender"			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "4D53B62DB56BCB25"
+			rewards: [
+				{
+					id: "70899E147BB20979"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "28B5029ED2106990"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+			]
+			subtitle: "Un rune oscuro alimentado por Contenedor vital, a menudo usado en Magia prohibida y sacrificial."			tasks: [{
+				id: "1FCD1018B70271EC"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "&4Runa de Sangre"			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "367A69EC299D5896"
+			rewards: [
+				{
+					id: "7244F25EF3288626"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "36F1E9BF26257EFE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Un rune usado para desatar una fuerza mágica pura, preferido por poderosos magos de batalla."			tasks: [{
+				id: "7531A48D6FA1F089"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			title: "&8Runa de Invocación"			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66171275B0E56907"]
+			id: "0B2C61759ACE012C"
+			rewards: [{
+				id: "6126507B3DEC5970"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por criomantes que empuña el poder gélido de la escarcha y el hielo."			tasks: [{
+				id: "1BD66BF413FF36E8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66171275B0E56907"]
+			id: "5956D1CD672D4AAD"
+			rewards: [{
+				id: "467BF9C6FF746DFE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por criomantes que empuña el poder gélido de la escarcha y el hielo."			tasks: [{
+				id: "5C6DA06B30562FDA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["66171275B0E56907"]
+			id: "57D0D98AE4C01A8A"
+			rewards: [{
+				id: "51C007FF0E6F4CC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por criomantes que empuña el poder gélido de la escarcha y el hielo."			tasks: [{
+				id: "4FD81728A6CB3F47"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["66171275B0E56907"]
+			id: "21285C2EAF5B7EBE"
+			rewards: [{
+				id: "2BB394343BBD9260"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por criomantes que empuña el poder gélido de la escarcha y el hielo."			tasks: [{
+				id: "64AA927302598236"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55C38E51453C92B6"]
+			id: "73426754FB948D87"
+			rewards: [{
+				id: "535CC55C277A5BAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por caminantes de sombras que obtienen Poder Desde el Vacío, golpeando Desde la Muy Oscuridad y senderos invisibles."			tasks: [{
+				id: "150DEEE6495CB9A5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55C38E51453C92B6"]
+			id: "74C47B102AC1E7C3"
+			rewards: [{
+				id: "68109A812112562B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por caminantes de sombras que obtienen Poder Desde el Vacío, golpeando Desde la Muy Oscuridad y senderos invisibles."			tasks: [{
+				id: "6C8D595A6FEA23D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55C38E51453C92B6"]
+			id: "0DF28FD11F14E8CD"
+			rewards: [{
+				id: "0309E3518B7ADFF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por caminantes de sombras que obtienen Poder Desde el Vacío, golpeando Desde la Muy Oscuridad y senderos invisibles."			tasks: [{
+				id: "42D572F6AC7DC5A9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["55C38E51453C92B6"]
+			id: "0072ABCF7397F511"
+			rewards: [{
+				id: "2FD2C02141B3C8B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por caminantes de sombras que obtienen Poder Desde el Vacío, golpeando Desde la Muy Oscuridad y senderos invisibles."			tasks: [{
+				id: "68E7768EBD5C7C22"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4D53B62DB56BCB25"]
+			id: "65CFFD12E2D560EC"
+			rewards: [{
+				id: "6BFF76D2CE07CF69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por adeptos que empuña el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "0F40A2ED3A8D0F7C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D53B62DB56BCB25"]
+			id: "62A7152F9E23CBC2"
+			rewards: [{
+				id: "38850EA9EF28E549"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por adeptos que empuña el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "653E14A8A5D40C10"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4D53B62DB56BCB25"]
+			id: "6789551780F20746"
+			rewards: [{
+				id: "0437DF0FEBA6065B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por adeptos que empuña el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "17FFACAC59AFACA8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4D53B62DB56BCB25"]
+			id: "48F1147201CB8130"
+			rewards: [{
+				id: "07312127AF2261DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por adeptos que empuña el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "5E2FCCF3130EAC9F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2D79E29D2166D9F9"]
+			id: "03347437E3A8D0FF"
+			subtitle: "Túnicas sagradas usadas por sacerdotes que canalizan magia divina para proteger y sanar a sus aliados."			tasks: [{
+				id: "1A5AB3E2F971C8EF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D79E29D2166D9F9"]
+			id: "7D10A59E34BD7022"
+			subtitle: "Túnicas sagradas usadas por sacerdotes que canalizan magia divina para proteger y sanar a sus aliados."			tasks: [{
+				id: "55A20511EF630793"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D79E29D2166D9F9"]
+			id: "666A4608E77582E8"
+			subtitle: "Túnicas sagradas usadas por sacerdotes que canalizan magia divina para proteger y sanar a sus aliados."			tasks: [{
+				id: "0F67412BC397099B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D79E29D2166D9F9"]
+			id: "4EAE01E1A213EA0A"
+			subtitle: "Túnicas sagradas usadas por sacerdotes que canalizan magia divina para proteger y sanar a sus aliados."			tasks: [{
+				id: "08E3541C7B3FF1F6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["367A69EC299D5896"]
+			id: "48EC535E7D88DBEE"
+			rewards: [{
+				id: "570439A88AF54C6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas vestidas por evocadores de Arco que dominan un Poder Arcano inmenso y son Maestros de las fuerzas puras de Magia."			tasks: [{
+				id: "7B3EFBE412ACE61A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["367A69EC299D5896"]
+			id: "781129A0C43942FB"
+			rewards: [{
+				id: "3FA5D404015C419B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas vestidas por evocadores de Arco que dominan un Poder Arcano inmenso y son Maestros de las fuerzas puras de Magia."			tasks: [{
+				id: "6701637C86A35756"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["367A69EC299D5896"]
+			id: "004E58B6FC5A9B56"
+			rewards: [{
+				id: "14DA9D58346DED62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas vestidas por evocadores de Arco que dominan un Poder Arcano inmenso y son Maestros de las fuerzas puras de Magia."			tasks: [{
+				id: "3E71417E1CC02303"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["367A69EC299D5896"]
+			id: "4F9D0E9BFA2A04F6"
+			rewards: [{
+				id: "2F61123F670BC817"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas vestidas por evocadores de Arco que dominan un Poder Arcano inmenso y son Maestros de las fuerzas puras de Magia."			tasks: [{
+				id: "19A6CFAB559AC8A3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["21E24F23A7102DB2"]
+			id: "6224CF8DA4CD5FB3"
+			rewards: [{
+				id: "1216FC80532F4A57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por portadores de la plaga que empuña el poder corruptor de Decaimiento y Magia tóxica."			tasks: [{
+				id: "694F668888F923AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21E24F23A7102DB2"]
+			id: "50C682C3A33D61A1"
+			rewards: [{
+				id: "47FB76F8DAC6D58E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por portadores de la plaga que empuña el poder corruptor de Decaimiento y Magia tóxica."			tasks: [{
+				id: "4DAF1E3814EBC2E8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21E24F23A7102DB2"]
+			id: "0DE911D8CA36C461"
+			rewards: [{
+				id: "5AB140AD2153135E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por portadores de la plaga que empuña el poder corruptor de Decaimiento y Magia tóxica."			tasks: [{
+				id: "05DC97096CD9A4E4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21E24F23A7102DB2"]
+			id: "038D6F95366FE126"
+			rewards: [{
+				id: "0B2C0E0DE29F0F9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por portadores de la plaga que empuña el poder corruptor de Decaimiento y Magia tóxica."			tasks: [{
+				id: "4D55F5689B2DFEEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			hide_dependent_lines: true
+			id: "0D692FF825DD0961"
+			rewards: [{
+				id: "2545F0637DC5DED8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "¡Funde tu Esencia Arcana!"			tasks: [{
+				id: "69FC0A4C266DCDC8"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			hide_dependent_lines: true
+			id: "7CC48E8A4B994DB2"
+			rewards: [{
+				id: "7E1802E217C6600E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una barra refinada imbuida de energía arcana, utilizada para craftear equipo mágico poderoso y artefactos."			tasks: [{
+				id: "48F37D42A6A17D82"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4BCC52361B88E745"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25518731412132F5"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Raros como escombros ancestrales, se pueden encontrar en el Overworld."			tasks: [{
+				id: "4F5295C656C6493A"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BCC52361B88E745"]
+			id: "4E530EB655AB70B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "494100ACEBED7013"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que escudos al portador desde el abrasador poder de fuego."			tasks: [{
+				id: "3CF07354DF4BB7DA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:fireward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BCC52361B88E745"]
+			id: "5F1EB25F810567CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEF22DD2BB546E9"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que custodia al portador contra el frío y la magia de escarcha."			tasks: [{
+				id: "2A0C245D04F55D63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:frostward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BCC52361B88E745"]
+			id: "4138921528BBBB26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32C8F6651F730B07"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que establece una valla contra tóxinas y venenos."			tasks: [{
+				id: "0C55D421936969F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:poisonward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BCC52361B88E745"]
+			id: "7A8BB0AD2347731E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF97036DDBB838A"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo mágico que aumenta la eficiencia del lanzamiento, reduciendo el enfriamiento de tus hechizos."			tasks: [{
+				id: "2D9EF20C78085B4E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cast_time_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BCC52361B88E745"]
+			id: "369CB89732610CCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "715E9EAF1DB503F1"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo imbuido con energía de Esmeralda, permitiendo al portador obtener Experiencia adicional desde sus Aventuras."			tasks: [{
+				id: "6F291C2781851F2E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:emerald_stoneplate_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7CC48E8A4B994DB2"
+				"0D692FF825DD0961"
+				"4BCC52361B88E745"
+			]
+			id: "29FAD0B5DB1B67A0"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "1868B023B927E607"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4619E363D987B157"
+			rewards: [{
+				count: 2
+				id: "6187083A12B7F5A4"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de magia abrasadora, fortaleciendo hechizos de fuego y destrucción."			tasks: [{
+				id: "641E30C3B68C58F4"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "286F314C4F0F3592"
+			rewards: [{
+				count: 2
+				id: "4EF2468C501062F6"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de Magia de Escarcha, potenciando hechizos de Congelamiento y Poder gélido."			tasks: [{
+				id: "6C98ECC8DA90D01B"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "1CA81F25FE361BB1"
+			rewards: [{
+				count: 2
+				id: "2D8AB33D5F9796E6"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe crujiente con energía de tormenta, potenciando hechizos de iluminación y trueno."			tasks: [{
+				id: "45189C51A17E2E46"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4A87B1C7CDE4A6FA"
+			rewards: [{
+				count: 2
+				id: "2FC0241CE84A64FA"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe bendecido con poder radiante, potenciando hechizos de magia ligera y magia divina."			tasks: [{
+				id: "6BE0F07F6B9961B3"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "63D17C69404735CA"
+			rewards: [{
+				count: 2
+				id: "4A54CE4199152D61"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de Magia de Enderman, potenciando hechizos que deforman el Espacio y el Vacío."			tasks: [{
+				id: "73FC06A881F461D9"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "2E97274C76BA44B1"
+			rewards: [{
+				count: 2
+				id: "413F499902E9945A"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de magia de sangre, amplificando hechizos alimentados por Contenedor vital."			tasks: [{
+				id: "092D7A1578B45BB8"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "0B2066FF09AD1B01"
+			rewards: [{
+				count: 2
+				id: "496938F73E90F1AF"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de fuerza arcana, fortaleciendo los hechizos que invocan poder mágico puro."			tasks: [{
+				id: "55D01D4535FC55D4"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "0EA2089E33036FEB"
+			rewards: [{
+				count: 2
+				id: "67CE9FF8CC85D06C"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de energía natural, potenciando hechizos extraídos del salvaje."			tasks: [{
+				id: "04F89A570D14B92D"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4B1325EEAC496EAA"
+			rewards: [{
+				count: 2
+				id: "3D5E36B7CF209D6D"
+				item: "irons_spellbooks:arcane_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe rebosante de energía arcana, que aumenta las reservas de maná del portador."			tasks: [{
+				id: "1E336E31D6988003"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4F45542CFAB86D57"
+			rewards: [{
+				count: 2
+				id: "3A65E2969CEFED71"
+				item: "irons_spellbooks:cooldown_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe que aumenta la Eficiencia en el Lanzamiento de Conjuros, reduciendo el tiempo necesario para volver a lanzar."			tasks: [{
+				id: "21954B322B9470DC"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "2376B6F30C0FE16F"
+			rewards: [{
+				id: "4EE291DF4CDA6C19"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Reinicia tu raza y clase."			tasks: [{
+				id: "41C63E89E969FE16"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			title: "&6Orbe de Orígenes"			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CC48E8A4B994DB2"]
+			id: "3681B232AE7A60F8"
+			rewards: [{
+				id: "0755D4E33AC967A0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un anillo mágico que aumenta la maná del portador, permitiendo a los lanzadores de conjuros extraer más profundamente desde sus reservas arcanas."			tasks: [{
+				id: "3F71C7C98AC6D993"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:mana_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Anillo de Maná"			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "48AF9F3D413D0488"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76548A9AF1060501"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Tu primer collar mágico"			tasks: [{
+				id: "341E84417CDD4C00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_resonance_charm"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "0DCD62DDE3260A89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4243CA1B083C4539"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Tu primer anillo mágico"			tasks: [{
+				id: "4E1ADCB2F78A04B4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:silver_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0881C6A032BDE866"]
+			id: "3BB4DA768D5534F8"
+			rewards: [{
+				id: "36756E14FEFC44C9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un material oscuro y sin pulir, imbuido de energía sombría, aguardando un refinamiento adicional."			tasks: [{
+				id: "03C2F0D3661984CF"
+				item: "dungeons_and_combat:ebony_scrap"
+				type: "item"
+			}]
+			title: "&8Ébano Crudo"			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0881C6A032BDE866"]
+			id: "3B8A11A85195618A"
+			rewards: [{
+				id: "59658BB3BDF4B7B2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un material volátil nacido desde un calor intenso y piedra fundida, frecuentemente usado para forjar aleaciones abrasadoras."			tasks: [{
+				id: "44EE52D3917500B4"
+				item: "dungeons_and_combat:igneous"
+				type: "item"
+			}]
+			title: "&cÍgneo"			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["290B537CDBF41E22"]
+			hide_dependent_lines: true
+			id: "3D2B424101AF3A22"
+			subtitle: "Una plantilla de forja carmesí utilizada para forjar armadura imbuida con el poder de Magia Sangrienta."			tasks: [{
+				id: "5FDEBBFF9E46DFBD"
+				item: "dungeons_and_combat:crimson_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BB4DA768D5534F8"]
+			id: "75A896B6D4814C73"
+			rewards: [{
+				id: "51CB7DDF7167FE3E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Un rune imbuido de magia de Marchitamiento, capaz de extender la Decadencia y drenar la vida desde sus víctimas."			tasks: [{
+				id: "322EEB218E67D3B4"
+				item: "dacxirons:wither_rune"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75A896B6D4814C73"]
+			id: "0CD30D5AE362429F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A211BD1D4058EF"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos Maestros que amplifican TODAS las formas de Magia, potenciando el Poder Mágico en cada escuela."			tasks: [{
+				id: "26B730AA48CE8257"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75A896B6D4814C73"]
+			id: "4AA2531310347C64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A8A29E55BDCF19"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos Maestros que amplifican TODAS las formas de Magia, potenciando el Poder Mágico en cada escuela."			tasks: [{
+				id: "51FF295C3F4190DD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75A896B6D4814C73"]
+			id: "14E447C836C3357E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "239179819470992F"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos Maestros que amplifican TODAS las formas de Magia, potenciando el Poder Mágico en cada escuela."			tasks: [{
+				id: "56D8F243D213BFEA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75A896B6D4814C73"]
+			id: "15E1F3372C91120A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36D54734A3F86889"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos Maestros que amplifican TODAS las formas de Magia, potenciando el Poder Mágico en cada escuela."			tasks: [{
+				id: "5DC12B41D31B0EA2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75A896B6D4814C73"]
+			id: "3BB84611491D638C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43709765A28DAFFD"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un anillo maldito que imbuye tus hechizos con energía de marchitamiento, causando que infligan decadencia a sus dianas."			tasks: [{
+				id: "17E82BA3B1CC9490"
+				item: {
+					Count: 1
+					id: "dacxirons:wither_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&8Anillo Marchitar"			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B8A11A85195618A"]
+			id: "52247460ADDA02B1"
+			rewards: [{
+				id: "7BD884D2DD9147E0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una barra forjada desde un calor intenso y un poder fundido, irradiando la energía de un fuego abrasador."			tasks: [{
+				id: "7BF831EE93BA2A51"
+				item: "dungeons_and_combat:blazing_ingot"
+				type: "item"
+			}]
+			title: "&6Lingote Abrasador"			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52247460ADDA02B1"]
+			id: "7266D60A42B83F9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101F0E62890E1A7C"
+				table_id: 7346661832890300010L
+				type: "loot"
+			}]
+			subtitle: "Túnicas usadas por los piromantes que empuña el implacable poder del fuego abrasador."			tasks: [{
+				id: "6C6CA397C0F3444A"
+				item: {
+					Count: 1
+					id: "dacxirons:blazymancer_hood"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52247460ADDA02B1"]
+			id: "6728E0802B7534FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6227F0F555E1DBF1"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por los piromantes que empuña el implacable poder del fuego abrasador."			tasks: [{
+				id: "6B3C7274BC8AD86C"
+				item: {
+					Count: 1
+					id: "dacxirons:blazymancer_tunic"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52247460ADDA02B1"]
+			id: "1830AEA476AF0C45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25ABFB25CD2E8177"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por los piromantes que empuña el implacable poder del fuego abrasador."			tasks: [{
+				id: "5CDF95D11027AF22"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52247460ADDA02B1"]
+			id: "3BF375F829F407F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F51D6815FED93F9"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por los piromantes que empuña el implacable poder del fuego abrasador."			tasks: [{
+				id: "6F29D5D43A1A33CF"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0881C6A032BDE866"]
+			icon: "dungeons_and_combat:blood_vial"
+			id: "290B537CDBF41E22"
+			rewards: [{
+				id: "4EC54B475D664CE2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Encuentra la Catedral"			tasks: [{
+				icon: "dungeons_and_combat:monarch_table"
+				id: "2E83FC94593EC354"
+				structure: "dungeons_and_combat:the_cathedral"
+				title: "La Catedral"				type: "structure"
+			}]
+			title: "Derrota a &l&4el Sacerdote Supremo"			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0CD30D5AE362429F"
+				"3D2B424101AF3A22"
+			]
+			id: "37EC0132F21D1B50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "421B2F1B5273272B"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos carmesí que aprovechan el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "23F098CB06694C26"
+				item: {
+					Count: 1
+					id: "dacxirons:crimson_wizard_hood"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4AA2531310347C64"
+				"3D2B424101AF3A22"
+			]
+			id: "00ADF88D9D28DCA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1738E29CE3A849BE"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos carmesí que aprovechan el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "3C0D473C7A78DDA3"
+				item: {
+					Count: 1
+					id: "dacxirons:crimson_wizard_robe"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"14E447C836C3357E"
+				"3D2B424101AF3A22"
+			]
+			id: "6163CA9DBA8B16D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06CE1C6B56E988F2"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos carmesí que aprovechan el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "4C22D1FA86775380"
+				item: {
+					Count: 1
+					id: "dacxirons:crimson_wizard_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"15E1F3372C91120A"
+				"3D2B424101AF3A22"
+			]
+			id: "0CCF528EDBC72742"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C6B3F560F6ED5BC"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Túnicas usadas por magos carmesí que aprovechan el peligroso poder de Magia Sangrienta."			tasks: [{
+				id: "1F012F564F4F0D60"
+				item: {
+					Count: 1
+					id: "dacxirons:crimson_wizard_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			icon: "dungeons_and_combat:sandstone_light"
+			id: "201EF186A4DAE5E7"
+			rewards: [{
+				count: 2
+				id: "2F0D1F863E976B1D"
+				item: "dungeons_and_combat:blessed_gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Arenas antiguas, largamente sepultadas por el tiempo, portando los susurros de tierras olvidadas y civilizaciones perdidas."			tasks: [
+				{
+					icon: "dungeons_and_combat:sandstone_light"
+					id: "689E8E2B4C957ADB"
+					structure: "dungeons_and_combat:the_forgotten_sands"
+					title: "Encuentra las Arenas Olvidadas."					type: "structure"
+				}
+				{
+					count: 4L
+					id: "6AA8675B78F8A01E"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+			]
+			title: "&6Arenas Olvidadas"			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E1D56423F99D009"]
+			id: "4C3AC40D93DC8207"
+			rewards: [{
+				id: "436783434AD16C45"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un molde sagrado veces soltado por Sunleia, usado para forjar equipo bendecido con poder divino."			tasks: [{
+				id: "6CA198BE9A2DA1F4"
+				item: "dacxirons:divine_mold"
+				type: "item"
+			}]
+			title: "&6Moho Divino"			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4EAE01E1A213EA0A"
+				"4C3AC40D93DC8207"
+			]
+			id: "0490339832AA981A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ABB7A6654A0F77C"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Armadura sagrada usada por sacerdotes bendecidos, imbuida de energía divina para proteger a los fieles y repeler la Muy Oscuridad."			tasks: [{
+				id: "111A984DFBE0391B"
+				item: {
+					Count: 1
+					id: "dacxirons:blessed_priest_hood"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"666A4608E77582E8"
+				"4C3AC40D93DC8207"
+			]
+			id: "72E3B15D5E50D569"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C58DEFC572849AC"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Armadura sagrada usada por sacerdotes bendecidos, imbuida de energía divina para proteger a los fieles y repeler la Muy Oscuridad."			tasks: [{
+				id: "396D27847B03996D"
+				item: {
+					Count: 1
+					id: "dacxirons:blessed_priest_robe"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7D10A59E34BD7022"
+				"4C3AC40D93DC8207"
+			]
+			id: "027358807456A54E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "641616085E5E74B9"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Armadura sagrada usada por sacerdotes bendecidos, imbuida de energía divina para proteger a los fieles y repeler la Muy Oscuridad."			tasks: [{
+				id: "639E3263069A13C2"
+				item: {
+					Count: 1
+					id: "dacxirons:blessed_priest_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"03347437E3A8D0FF"
+				"4C3AC40D93DC8207"
+			]
+			id: "64D77CA0C99279B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2406B5F47C515036"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Armadura sagrada usada por sacerdotes bendecidos, imbuida de energía divina para proteger a los fieles y repeler la Muy Oscuridad."			tasks: [{
+				id: "56365F1407AE8ABC"
+				item: {
+					Count: 1
+					id: "dacxirons:blessed_priest_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			icon: "dungeons_and_combat:divine_blood_vial"
+			id: "2E1D56423F99D009"
+			rewards: [{
+				id: "41B1CD7879D46E7F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Derrota a Sunleia, un ser radiante de inmenso poder divino, y demuestra tu fuerza contra la luz misma."			tasks: [
+				{
+					icon: "dungeons_and_combat:sunleia_light"
+					id: "67214F82C0934AFD"
+					structure: "dungeons_and_combat:the_pantheon_of_sunleia"
+					title: "Encuentra el Panteón de Sunleia."					type: "structure"
+				}
+				{
+					id: "61A4672E69C0082F"
+					item: "dungeons_and_combat:blessed_beetle"
+					type: "item"
+				}
+			]
+			title: "Derrota &l&6Sunleia"			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "0881C6A032BDE866"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "2BB4649B48704CE7"
+				title: "El Nether"				type: "dimension"
+			}]
+			title: "&l&4El Nether"			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "2CBA9858C2656462"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03F28620EE776376"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Armadura antaño usada por sacerdotes devotos del Dragón de Fuego, imbuida de poder abrasador y reverencia por antiguos fuegos."			tasks: [
+				{
+					id: "759AC3FA6011FE7A"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06D8D3956EC84324"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "656633766F59616F"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F73DE858B3539E8"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cArmadura de Sacerdote Dragón de Fuego"			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "177BC89F5EC2F686"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A0910B0AEE6EBB1"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Armadura antaño usada por devotos sacerdotes del Dragón de Hielo, imbuida de un escalofriante poder y reverencia por la escarcha antigua."			tasks: [
+				{
+					id: "73E276E68E1EB4F2"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "176DE06AC0A307F4"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7BD13B007E3BA6"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AEFF1D50697A0BC"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bArmadura de Sacerdote Dragón de Hielo"			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "31212ECDFBE755BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41A9D4CEE5F90EAB"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Armadura antaño usada por sacerdotes devotos del Dragón Relámpago, crujiente con energía de tormenta y reverencia por el trueno antiguo."			tasks: [
+				{
+					id: "64F9E1AE85D86F67"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6993DC977C3B7C94"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17FDDA341552EB8E"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "280689D281788E9B"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Armadura de Sacerdote Dragón Relámpago"			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67B60B7BB58A549C"]
+			id: "09CC3E13AFCEED69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DED83A745DE080E"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un báculo empuñado por los sacerdotes del Dragón de Fuego, canalizando un Fuego infernal devastador."			tasks: [{
+				id: "18D71EC1C54FEE6B"
+				item: "ice_and_fire_spellbooks:crimson_dragon_priest_staff"
+				type: "item"
+			}]
+			title: "&cBastón del Sacerdote Dragón Infernal"			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67B60B7BB58A549C"]
+			id: "5564141BE9CDAD61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F0B7B80FD46944"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un báculo empuñado por los sacerdotes del Dragón de Hielo, con conductividad de escarcha glacial implacable."			tasks: [{
+				id: "2A4D904384336454"
+				item: "ice_and_fire_spellbooks:silver_dragon_priest_staff"
+				type: "item"
+			}]
+			title: "&bSacerdote Dragón Bastón Glacial"			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67B60B7BB58A549C"]
+			id: "79917CA374A562FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521B626667ED37E4"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un báculo empuñado por los sacerdotes del Dragón Relámpago, conductividad de la ira de tormentas furiosas."			tasks: [{
+				id: "59BC245DDA096D78"
+				item: "ice_and_fire_spellbooks:thunderous_dragon_priest_staff"
+				type: "item"
+			}]
+			title: "&9Bastón Sacerdote Dragón Truenoso"			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "67B60B7BB58A549C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "454C4678C141A7A5"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un báculo empuñado por antiguos sacerdotes dragón, capaz de conductividad de Magia draconiana Poderoso."			tasks: [{
+				id: "21ADF348B578D999"
+				item: "ice_and_fire_spellbooks:dragon_priest_staff"
+				type: "item"
+			}]
+			title: "&8Sacerdote Dragón Bastón"			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "51FE8A03E8D87C06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E611C2E9A01C324"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6676F82BE69E806F"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:hunter_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "116ECA13D4922BB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481BAEF2D940050D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19E24A666F3E6383"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:necromancer_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "471D5A6F6B0F38C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69EEB7C6253206DB"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37E8ADB7F2E79682"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:summoner_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "7B3DADF348C4AB0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "302C700BE99D1A14"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65ECC270BE2D7D86"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:mage_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "1D40B1C2E1A24BBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0E6C009B4E02C3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F0FCD29D4558330"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:archmage_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "6AEEC97622F5B8C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27556CFF582EA08D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09ED9C54D2B56405"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:illusionist_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "3A1701555CFE9E8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DBF30C61B6A908B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3856EE2DFD41D005"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:scorcher_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "20827AD8DD965990"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074FD51094E575CC"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CB9BC6E042077B5"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:cleric_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "7144BA822778039F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78B59953E03AC488"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F0C7D831BFF9975"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:plague_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "470F63BA0CCFC71E"
+			rewards: [{
+				id: "6E31F553A42F6145"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Actualmente, no existe una armadura dedicada para los Sonomanteros. Sin embargo, si te interesa esta escuela de Magia, elige algo que proporcione Poder Mágico general (Ejemplo: Armadura de Mago Ébano)."			tasks: [{
+				id: "7C726646A96FAA05"
+				title: "Geomancia y Sonancia"				type: "checkmark"
+			}]
+			title: "Sonomaestría"			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			description: [""]
+			id: "66BB73468E6BAAB0"
+			rewards: [
+				{
+					id: "7CB433E025720AE3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "266B27F7A82EE13C"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Un runa imbuida con el Poder de la Tierra, capaz de sacudir el terreno y provocar la Trituración de los enemigos bajo su Peso."			tasks: [{
+				id: "2EAE1CE19D41DC6C"
+				item: "gtbcs_geomancy_plus:geo_rune"
+				type: "item"
+			}]
+			title: "&2Runa Geo"			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["470F63BA0CCFC71E"]
+			id: "3A3E59A2C6BDD1E4"
+			rewards: [
+				{
+					id: "6DDCCE65B9D875A4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "78C0791E82C4D4B9"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0727A1A18B972BD4"
+				item: "alshanex_familiars:sound_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "47B314DBD6D28FCE"
+			rewards: [{
+				count: 2
+				id: "2CFE1822013B174C"
+				item: "gtbcs_geomancy_plus:geo_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe imbuido de magia de la Tierra, que potencia los hechizos ligados al poder de la piedra y la Tierra."			tasks: [{
+				id: "3E19E04677E6D31B"
+				item: "gtbcs_geomancy_plus:geo_upgrade_orb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A3E59A2C6BDD1E4"]
+			id: "012883E9D2826E65"
+			rewards: [{
+				count: 2
+				id: "3F91719536021C11"
+				item: "alshanex_familiars:sound_upgrade_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A343BA5E066FB2"
+				item: "alshanex_familiars:sound_upgrade_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66BB73468E6BAAB0"]
+			description: ["Para obtener este Establecer de armadura, debes cumplir con los requisitos de Tongbi (Tab de la Búsqueda de Mitos Caídos)."]			id: "2AE0E83566D14CD1"
+			rewards: [{
+				id: "79236CDB3ACDD530"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por Geomancers que aprovechan el incontenible Poder de la Tierra y la Piedra."			tasks: [{
+				id: "2BA0F64C7D91F3A4"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_sandals"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66BB73468E6BAAB0"]
+			description: ["Para obtener este Establecer de armadura, debes cumplir con los requisitos de Tongbi (Tab de la Búsqueda de Mitos Caídos)."]			id: "124C0B9B03CEFBA1"
+			rewards: [{
+				id: "7DDA0055F2B9D062"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por Geomancers que aprovechan el incontenible Poder de la Tierra y la Piedra."			tasks: [{
+				id: "11CDBB478DCCDCA2"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_belt"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["66BB73468E6BAAB0"]
+			description: ["Para obtener este Establecer de armadura, debes cumplir con los requisitos de Tongbi (Tab de la Búsqueda de Mitos Caídos)."]			id: "07A52DF4C14663E8"
+			rewards: [{
+				id: "367D9F01D9B0509F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por Geomancers que aprovechan el incontenible Poder de la Tierra y la Piedra."			tasks: [{
+				id: "5F39CCD614CC8A67"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_robe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["66BB73468E6BAAB0"]
+			description: ["Para obtener este Establecer de armadura, debes cumplir con los requisitos de Tongbi (Tab de la Búsqueda de Mitos Caídos)."]			id: "5F88307BA3AECFA9"
+			rewards: [{
+				id: "13E29A6A324AFB4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por Geomancers que aprovechan el incontenible Poder de la Tierra y la Piedra."			tasks: [{
+				id: "394596B4055B5667"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_beads"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+	]
+	title: "&3 Magia Equipo"}

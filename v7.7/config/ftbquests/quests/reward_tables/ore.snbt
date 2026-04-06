@@ -1,0 +1,10 @@
+{
+	id: "6B407F26C7319CE0"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 16, item: "minecraft:raw_iron" }
+		{ count: 16, item: "minecraft:raw_gold" }
+		{ count: 16, item: "create:raw_zinc" }
+	]
+	title: "MINERÍA"}

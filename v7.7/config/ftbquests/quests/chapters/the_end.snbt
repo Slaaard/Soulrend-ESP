@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "7C77405D74600A5D"
+	icon: "cataclysm:void_infused_end_stone_bricks"
+	id: "5B4435F3D2FB1A09"
+	images: [
+		{
+			height: 1.2d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 3.0d
+			image: "minecraft:item/ender_dragon_spawn_egg"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependency: "03C841D829A0AF1B"
+			height: 2.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -8.2d
+		}
+		{
+			dependency: "08139F6207D0CA7D"
+			height: 1.5d
+			image: "mowziesmobs:textures/mob_effect/suns_blessing.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.021d
+			y: -10.54d
+		}
+		{
+			dependency: "03C841D829A0AF1B"
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependency: "03C841D829A0AF1B"
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependency: "2FB22426DB873552"
+			height: 1.5d
+			image: "apotheosis:blocks/endshelf"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependency: "2FB22426DB873552"
+			height: 1.0d
+			image: "efn:item/yamato_dmc"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependency: "03C841D829A0AF1B"
+			height: 3.0d
+			image: "soulrend:textures/quests/end_theme.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: -12.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6CA4DCF4B8F4E34F"
+			rewards: [{
+				id: "7B177D2BE888C5EF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:ender"
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Una Tierra Corrompida y Desolada"			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "cataclysm:void_infused_end_stone_bricks"
+				id: "26C4820E0571F209"
+				title: "El End"				type: "dimension"
+			}]
+			title: "&l&dEl End"			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			hide_until_deps_complete: true
+			id: "2FB22426DB873552"
+			rewards: [
+				{
+					id: "3A2B33B130E53508"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74443D5890983C58"
+					table_id: 5855199985956072846L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Libera El End"			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "1BF0616BC2E77703"
+				title: "&l&5Derrota al Enderdragón"				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			id: "085FE4CC064C70C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682FB8571B2CAB70"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "outer_end:himmel_block"
+				id: "14C501392D0BA59D"
+				structure: "outer_end:end_tower"
+				title: "Torre del Fin"				type: "structure"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"2FB22426DB873552"
+				"03C841D829A0AF1B"
+			]
+			hide_until_deps_complete: true
+			id: "08139F6207D0CA7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F445750D2B5E8A6"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				icon: "minecraft:end_stone"
+				id: "081A8A0BB1901CB5"
+				type: "biome"
+			}]
+			title: "El End (zona elevada)"			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			id: "19DC1742F9C29DA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47848F04B0968611"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "outer_end:violite_bricks"
+				id: "2415E96B67437BAE"
+				structure: "outer_end:catacombs"
+				title: "Catacumbas del Fin"				type: "structure"
+			}]
+			title: "Catacumbas del Fin"			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			icon: "waystones:end_stone_waystone"
+			id: "67F6FBFE89F0232D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC1FEFEFD2B787D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "waystones:end_stone_waystone"
+				id: "391B343671BD017C"
+				structure: "end_villager_outpost:end_villager_outpost"
+				title: "Avance de Aldeanos del Fin"				type: "structure"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			id: "538D78A3F6712811"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E7AAAD16D248EE4"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Recupera equipo antiguo que puedas encontrar en cofres de botín o al derrotar a los Jefes de Apoteosis."			tasks: [{
+				id: "2DF1488101056D6F"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			title: "Antiguo Reforzamiento"			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			id: "6AE456996BD4192C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "180BC9E6B1347DE6"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:end_rod"
+				id: "4515B2132438276F"
+				structure: "minecraft:end_city"
+				title: "Ciudad del end"				type: "structure"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			icon: "minecraft:shroomlight"
+			id: "149299069784F096"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32550B376E6DE370"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:shroomlight"
+				id: "716C72A3494E2536"
+				structure: "dungeons_arise:aviary"
+				title: "Aviario"				type: "structure"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["08139F6207D0CA7D"]
+			icon: "minecraft:hoglin_spawn_egg"
+			id: "342786B537BB7C5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0450B7C4CA6F4682"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "¿Un barco en ascensión con Hoglins a bordo?"			tasks: [{
+				id: "4EF2731E468BD7E9"
+				structure: "dungeons_arise:heavenly_conqueror"
+				title: "Conquistador Celestial"				type: "structure"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2FB22426DB873552"]
+			hide_until_deps_complete: true
+			id: "03C841D829A0AF1B"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "7A898D9413FB8586"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			subtitle: "Prepárense antes de explorar El End (zona elevada), los monstruos allí pueden ser muy Poderosos."			tasks: [{
+				id: "5E5384432BE4CE60"
+				title: "Con cautela"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2FB22426DB873552"]
+			hide_until_deps_complete: true
+			id: "2D9057A2D2C2E757"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "300ACF70954252DD"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Úsalo para craftear Yamato."			tasks: [{
+				id: "4985CB7601D5EF8D"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FB22426DB873552"]
+			hide_until_deps_complete: true
+			id: "7E8AA41716D71D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "569F63B5217D0671"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Obtén Aliento de Dragón para craftear las mejores estanterías."			tasks: [{
+				id: "6B67E5917D8BCA5C"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+	]
+	title: "&7El End"}

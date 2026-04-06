@@ -1,0 +1,1587 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragonslayer"
+	group: "59FD824E9CBEF444"
+	icon: "iceandfire:dragon_skull_fire"
+	id: "3C02EA1EE73558A6"
+	images: [
+		{
+			height: 3.0d
+			image: "iceandfire:block/dragonforge_fire_core"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			height: 4.0d
+			image: "iceandfire:textures/gui/main_menu/drawing_0.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_ice_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_lightning_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_fire_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			alpha: 100
+			height: 6.0d
+			image: "efn:textures/trail/exsilium2.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			alpha: 100
+			height: 6.0d
+			image: "efn:textures/trail/exsilium2.png"
+			rotation: 180.0d
+			width: 6.0d
+			x: 3.5d
+			y: 1.34d
+		}
+		{
+			alpha: 100
+			dependency: "24AE41FAB820180D"
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			color: 3565737
+			dependency: "4432DEBAD053DCB6"
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 5.0d
+			y: -10.3d
+		}
+		{
+			alpha: 100
+			color: 10309959
+			dependency: "4CB8F9DF906CAF06"
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 6.0d
+			y: -6.6d
+		}
+		{
+			alpha: 100
+			color: 5981607
+			dependency: "753265B7F974BB2E"
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 5.0d
+			y: -2.2d
+		}
+		{
+			dependency: "4CB8F9DF906CAF06"
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependency: "4CB8F9DF906CAF06"
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.0d
+			y: -6.6d
+		}
+		{
+			dependency: "4CB8F9DF906CAF06"
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.5d
+			y: -6.2d
+		}
+		{
+			color: 9034751
+			dependency: "4432DEBAD053DCB6"
+			height: 1.5d
+			image: "simplyswords:item/icewhisper_layer"
+			rotation: -45.0d
+			width: 1.5d
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependency: "753265B7F974BB2E"
+			height: 2.0d
+			image: "simplyswords:item/thunderbrand_layer_e"
+			rotation: -90.0d
+			width: 2.0d
+			x: 6.2d
+			y: -2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lDragones&r reptan por las tierras, &delementales feroces&r con &lantigua ascendencia&r. Te encontrarás con numerosos a lo largo de tus viajes, deshazte de ellos para obtener &drecompensas&r y crecer en &linmenso poder&r."]			icon: "iceandfire:dragon_skull_fire"
+			id: "2F5199D884ED321D"
+			rewards: [{
+				id: "15CD79E1C43725C0"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			shape: "none"
+			size: 3.0d
+			subtitle: "Lagartos Legendarios"			tasks: [{
+				id: "37BDD67141730DB9"
+				title: "¡Haz clic!"				type: "checkmark"
+			}]
+			title: "&l&4Dragones"			x: 0.0d
+			y: 1.1d
+		}
+		{
+			id: "6159A707681CE89C"
+			rewards: [
+				{
+					id: "583B07ED7DEBC684"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/solar"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49B573962EF1F962"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern de Fuego."			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "2DFC03E805D647A4"
+				title: "Dragón de Fuego"				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lDragón de Fuego"			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "33BD3E0846354517"
+			rewards: [
+				{
+					id: "1C1668AD085924EB"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/lightning"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F2D6EC27F193F8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern del Trueno"			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "7AC7B2DC4D8A020C"
+				title: "Dragón Relámpago"				type: "kill"
+				value: 1L
+			}]
+			title: "&9&lDragón Relámpago"			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "7C4B8B01D32CD20D"
+			rewards: [
+				{
+					id: "023886BCA9B13CB8"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/lunar"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14C69F45D14E847C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern de Escarcha."			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "23113603236B95CE"
+				title: "Dragón de Hielo"				type: "kill"
+				value: 1L
+			}]
+			title: "&b&lDragón de Hielo"			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6159A707681CE89C"
+				"33BD3E0846354517"
+				"7C4B8B01D32CD20D"
+			]
+			hide_until_deps_complete: true
+			id: "24AE41FAB820180D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D4E7E243C472922"
+					table_id: 7543698869780679326L
+					type: "choice"
+				}
+				{
+					id: "04C02C1A3AD4294F"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: "iceandfire:dragon_skull_fire"
+				id: "63BB2CE0AE6F0654"
+				title: "&l&4Cazador de Dragones"				type: "advancement"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33BD3E0846354517"]
+			description: ["Craftea el &l&9Radar del Dragón Relámpago&r&r para encontrar la ubicación de &9Dragones Relámpago&r."]			hide_until_deps_complete: true
+			id: "0D605CCB5D0CDCB2"
+			rewards: [
+				{
+					id: "3CADB487981C0A78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "37FF9F65479D49DD"
+					item: "iceandfire:dragonscales_electric"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "130A1BC8905612F3"
+				item: "dragonradarmod:lightning_radar"
+				type: "item"
+			}]
+			title: "&9Radar de Iluminación"			x: -2.4d
+			y: -4.8d
+		}
+		{
+			dependencies: ["7C4B8B01D32CD20D"]
+			description: ["Craftea el &l&bRadar del Dragón de Hielo&r&r para encontrar la ubicación de &bDragones de Hielo&r."]			hide_until_deps_complete: true
+			id: "5F6DB646D88B6F46"
+			rewards: [
+				{
+					id: "51EE3AC34CD46F03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3664AA5D4A95DF51"
+					item: "iceandfire:dragonscales_blue"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "028676A50C12F9B8"
+				item: "dragonradarmod:ice_radar"
+				type: "item"
+			}]
+			title: "&bRadar de Hielo"			x: -2.4d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: ["6159A707681CE89C"]
+			description: ["Craftea el &l&4Radar del Dragón de Fuego&r&r para encontrar la ubicación de &4Dragones de Fuego&r."]			hide_until_deps_complete: true
+			id: "5B9EFD98F6436F84"
+			rewards: [
+				{
+					id: "6020F4CDB30F4884"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5CB0A0D20BC9A2B2"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "573B93D849DED11A"
+				item: "dragonradarmod:fire_radar"
+				type: "item"
+			}]
+			title: "&4Radar de Fuego"			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5F6DB646D88B6F46"
+				"5B9EFD98F6436F84"
+				"0D605CCB5D0CDCB2"
+				"38498B18DE3B8C49"
+			]
+			description: ["Craftea el &l&aMaestro Radar de Dragón&r&r para encontrar la ubicación de cualquier &lDragón&r."]			id: "4F3D6A96D2F3F7A8"
+			rewards: [
+				{
+					id: "2A5C23DA18AB3BEB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1CC0397BC5D1E241"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "5E585FDB49706F1C"
+				item: "dragonradarmod:master_radar"
+				type: "item"
+			}]
+			title: "&a&lMaestro Radar"			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59F3BDEAAE1F1C0F"]
+			description: [
+				"{image:soulrend:textures/quests/ice_and_fire_dragon_egg.png width:200 height:140 align:center}"				"Izquierda: Un Huevo de Dragón de Fuego eclosionando. Derecha: Un Huevo de Dragón de Hielo eclosionando."				"{image:soulrend:textures/quests/lightning_dragon_egg.png width:200 height:140 align:center}"				"{\"text\":\"Un Huevo de Dragón iluminado eclosionando.\",\"align\":\"center\"}"			]
+			hide_until_deps_complete: true
+			id: "6D4E46958716B057"
+			rewards: [
+				{
+					id: "4FB30C4FA3908A9F"
+					item: "iceandfire:fire_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "1336A03B6556CC49"
+					item: "iceandfire:ice_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "49FFA5E2A4EE338C"
+					item: "iceandfire:lightning_dragon_blood"
+					type: "item"
+				}
+			]
+			subtitle: "El Jugador puede aumentar el Nivel de un Dragón usando la Comida de Dragón o estando cerca de él mientras este sube de nivel pasivamente. Una vez que un Dragón alcanza el Game Stage 3 (lo cual se puede verificar interactuando con el Dragón en Sigilo), se vuelve montable para un Jugador."			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				icon: "iceandfire:dragonegg_red"
+				id: "7C226084A6E0A16A"
+				title: "Huevo de Dragón"				type: "advancement"
+			}]
+			title: "Eclosión de Huevo de Dragón"			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6159A707681CE89C"
+				"7C4B8B01D32CD20D"
+				"33BD3E0846354517"
+			]
+			description: [
+				"Para obtener un huevo de dragón, uno debe emprender una búsqueda de un &l&4hembra de dragón, de Game Stage 4+."				"que puede ser encontrado durmiendo en cavernas repletas de tesoro, profundo subterráneo. Una vez que hayas encontrado uno, mátalo y haz clic derecho en el torso con una mano vacío para recolectar botín, y dejará caer un huevo de dragón de color aleatorio dependiendo de la especie."				"{image:soulrend:textures/quests/dragon_nest.png width:200 height:130 align:center}"			]
+			id: "59F3BDEAAE1F1C0F"
+			rewards: [{
+				id: "5B98D9E6A638D96B"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "588278FFACCC3764"
+				title: "Tu Primer Huevo de Dragón"				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_ice_ingot"
+			id: "4432DEBAD053DCB6"
+			rewards: [
+				{
+					id: "4F86CCBE35758350"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "41D131AFCB3F8889"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón de Hielo"			tasks: [
+				{
+					count: 17L
+					id: "58A3ACC519D1D665"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63E9AA18ED47FBA2"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "2A613A13C36F6B87"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					id: "43DBA9147EA91713"
+					item: "iceandfire:dragonforge_ice_core"
+					type: "item"
+				}
+			]
+			title: "Lingote de Acero Dragónhielo"			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "4CB8F9DF906CAF06"
+			rewards: [
+				{
+					id: "0CD55D162E15608B"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "26265AC1E556101A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón de Fuego"			tasks: [
+				{
+					count: 17L
+					id: "624C99454CA74E16"
+					item: { Count: 17, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5E824B64C923D377"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					id: "4D364BDB3A0370C7"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "38D1078B8619BB0F"
+					item: "iceandfire:dragonforge_fire_core"
+					type: "item"
+				}
+			]
+			title: "Lingote de Acero Dragónfuego"			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_lightning_ingot"
+			id: "753265B7F974BB2E"
+			rewards: [
+				{
+					id: "0E0787F709F26A6B"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					id: "0F1D4A625B646A86"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón Relámpago"			tasks: [
+				{
+					count: 17L
+					id: "6B60379831C1B45A"
+					item: { Count: 17, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63BC526BE60A3A9C"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					id: "533E8A7489DCAE3D"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					id: "7FF20E90C6A668E9"
+					item: "iceandfire:dragonforge_lightning_core"
+					type: "item"
+				}
+			]
+			title: "Ingot de Acero Dragón Iluminación"			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59F3BDEAAE1F1C0F"]
+			description: [
+				"{image:soulrend:textures/quests/dragon_forge_1.png width:150 height:150 align:center}"				"{image:soulrend:textures/quests/dragon_forge_2.png width:150 height:150 align:center}"			]
+			hide_until_deps_complete: true
+			id: "470D81ADBE048185"
+			rewards: [{
+				id: "0A92B8D48743052B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Es importante destacar que un Forjador de Dragones no es solo un bloque creable, sino un cubo de 3x3x3 de bloques. Los bloques requeridos son los siguientes: 1 Núcleo de Forjador de Dragones, 1 Entrada de Forjador de Dragones (Apertura de Forjador de Dragones), 8 Bloques de Hueso de Dragón y 17 Ladrillos de Forjador de Dragones."			tasks: [{
+				id: "63FEB9F5E33F83FD"
+				title: "Tu Primera Forja del Dragón"				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CB8F9DF906CAF06"]
+			id: "30BACEAD9DEAAD53"
+			rewards: [
+				{
+					id: "5465E0A0B27F68A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08C53711D1DBEB9F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjado con el poder de los Dragones, este casco protege la mente del Guerrero que se atreve a llevarlo."			tasks: [{
+				id: "5AAD5A4183017A34"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de Dragónacero de Fuego"			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4CB8F9DF906CAF06"]
+			id: "697FAF4C562398B1"
+			rewards: [
+				{
+					id: "6FF644C48809001A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2985B83B94261EF0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Solo los guerreros más valientes pueden usar armadura forjada desde dracorestano. Este peto es el símbolo de un Poder Verdadero."			tasks: [{
+				id: "15C6088214BF918B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&4&lPeto de Acero Dragónfuego"			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4CB8F9DF906CAF06"]
+			id: "011A09191598A1F9"
+			rewards: [
+				{
+					id: "71FAA28A0EFEAFDA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2171279D628984A6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjadas con fuego de dragón y metal Antiguo, estas grebas fortalecen al Guerrero que las viste."			tasks: [{
+				id: "140D8F87C54B0308"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónfuego"			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CB8F9DF906CAF06"]
+			id: "488EEB8A1743E8BD"
+			rewards: [
+				{
+					id: "06C29BD485C89F24"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E06FD14297CE641"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Cada paso que agarras en dracacierro te acerca a convertirte en una leyenda."			tasks: [{
+				id: "2ECAC8E0E312B3D3"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónfuego"			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4432DEBAD053DCB6"]
+			id: "38E0458E2F6B0699"
+			rewards: [
+				{
+					id: "41180ECF889CF995"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E9BFD7BC7405A00"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjado con el poder de los Dragones, este casco protege la mente del Guerrero que se atreve a llevarlo."			tasks: [{
+				id: "6E658B23D7BF51F9"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de Dragónacero de Hielo"			x: 10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4432DEBAD053DCB6"]
+			id: "5613CA4C8865F883"
+			rewards: [
+				{
+					id: "68FF630DD780EF23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E8A45A7758A61C0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Solo los guerreros más valientes pueden usar armadura forjada desde dracorestano. Este peto es el símbolo de un Poder Verdadero."			tasks: [{
+				id: "72165009CACFA702"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lPeto de Acero Dragónhielo"			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4432DEBAD053DCB6"]
+			id: "583E8897D9870EAE"
+			rewards: [
+				{
+					id: "172068EC9C7B3D6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4C9CF0985ED155"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjadas con fuego de dragón y metal Antiguo, estas grebas fortalecen al Guerrero que las viste."			tasks: [{
+				id: "55DDC38A45F6543C"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónhielo"			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4432DEBAD053DCB6"]
+			id: "1890CF473503EC77"
+			rewards: [
+				{
+					id: "0CA3BD350D8A0E1F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E92CA5B6A4DCE76"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Cada paso que agarras en dracacierro te acerca a convertirte en una leyenda."			tasks: [{
+				id: "7A0A141A339700F1"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lBotas de Acero Dragónhielo"			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["753265B7F974BB2E"]
+			id: "020468DB3993FF69"
+			rewards: [
+				{
+					id: "4E2573E8E9BB6AB1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BF1CCE3EBE68B8D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjado con el poder de los Dragones, este casco protege la mente del Guerrero que se atreve a llevarlo."			tasks: [{
+				id: "6FBFCA74F940B005"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lCasco de Dragónacero de Rayo"			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["753265B7F974BB2E"]
+			id: "6D40AF737449B43E"
+			rewards: [
+				{
+					id: "0A7DD31732347620"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77410DAF8422CFBB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Solo los guerreros más valientes pueden usar armadura forjada desde dracorestano. Este peto es el símbolo de un Poder Verdadero."			tasks: [{
+				id: "57FF66098E159490"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lPeto de Dragónacero de Rayo"			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["753265B7F974BB2E"]
+			id: "4F035D189F5E6E50"
+			rewards: [
+				{
+					id: "48E0E784BDD3B149"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "726FCBF27B766E59"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Forjadas con fuego de dragón y metal Antiguo, estas grebas fortalecen al Guerrero que las viste."			tasks: [{
+				id: "7D6231244DEA73F7"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lGrebas Rayo de Acero Dragón"			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["753265B7F974BB2E"]
+			id: "3055E05A75EBA4F6"
+			rewards: [
+				{
+					id: "160EAC9B4E07891C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122E2CAA5B9ACF88"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Cada paso que agarras en dracacierro te acerca a convertirte en una leyenda."			tasks: [{
+				id: "569A4F8D1D53D272"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lBotas de Acero Dragón Rayo"			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30BACEAD9DEAAD53"]
+			id: "21982EF366CC4738"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C211C9D2B71AE56"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "6223859B476E6626"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fire_dragonsteel_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&4&lAcero de Dragón de Fuego"			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["697FAF4C562398B1"]
+			id: "372F3F7AC4C234AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E14017F0EA29CF"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "19731DC8E93EE73A"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fire_dragonsteel_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&4&lPeto de Acero Dragónfuego"			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["011A09191598A1F9"]
+			id: "302E86349CCFDFA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08B3B2A465A92D8C"
+				table_id: 5740687291917975057L
+				type: "loot"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "614458DFF5FE0166"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fire_dragonsteel_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónfuego"			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["488EEB8A1743E8BD"]
+			id: "11FF54A0376546E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "369B0E66FBACA8EA"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "58604C1212B7FDD5"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fire_dragonsteel_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónfuego"			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["020468DB3993FF69"]
+			id: "2A98A5456F2EA455"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB7FCFD0E376E34"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "70B32ABE2AB631D0"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:lightning_dragonsteel_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lCasco de Dragónacero de Rayo"			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D40AF737449B43E"]
+			id: "1696CE44C5406C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "651A8E6B0A45AEEC"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "243753CA95191A9C"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:lightning_dragonsteel_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lPeto de Dragónacero de Rayo"			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F035D189F5E6E50"]
+			id: "379DF9C9D24A8B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4A8D78E30E77B0"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "0EB2CFC525F70B38"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:lightning_dragonsteel_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lGrebas Rayo de Acero Dragón"			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3055E05A75EBA4F6"]
+			id: "1DE5E2494D2B7288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "306F808E3E099B16"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "334BA3D1E33B2FB5"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:lightning_dragonsteel_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lBotas de Acero Dragón Rayo"			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38E0458E2F6B0699"]
+			id: "4A82A58436789BA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FB6C4714AE8FB6E"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "1E9D0447BB7417B8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ice_dragonsteel_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de Dragónacero de Hielo"			x: 11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5613CA4C8865F883"]
+			id: "274EA224109C0DA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48631321159C4B5F"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "4B915401BF818A91"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ice_dragonsteel_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lPeto de Acero Dragónhielo"			x: 11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["583E8897D9870EAE"]
+			id: "0B1902080681F8AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571972BCF6C8B1F9"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "6EA3799D05BBA027"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ice_dragonsteel_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grebas de Acero Dragónhielo"			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1890CF473503EC77"]
+			id: "4C1E95469A01BC15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "580893E722FCBD48"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra una Plantilla de Recorte de Tohi que altere la Apariencia y los Atributos de la Armadura de Acero de Dragón."			tasks: [{
+				id: "0FED374E7E2A8E93"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ice_dragonsteel_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lBotas de Acero Dragónhielo"			x: 11.5d
+			y: -8.5d
+		}
+		{
+			id: "38498B18DE3B8C49"
+			tasks: [{
+				id: "353039EDEEE8C9AC"
+				item: "dragonradarmod:dormant_radar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+	]
+	title: "&l&4Cazador de Dragones"}

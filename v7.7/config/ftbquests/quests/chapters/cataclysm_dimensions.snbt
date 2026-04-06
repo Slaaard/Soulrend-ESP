@@ -1,0 +1,593 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm_dimensions"
+	group: "59FD824E9CBEF444"
+	icon: "cataclysm:flame_eye"
+	id: "4E857876449FEEFD"
+	images: [
+		{
+			alpha: 150
+			height: 2.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_wayston_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/mossy_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/mossy_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			height: 1.6d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle3.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			height: 2.2d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_3.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			height: 2.2d
+			image: "cataclysm:textures/particle/lightning_explosion_1.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			height: 1.7d
+			image: "cataclysm:textures/particle/custom_explosion_1.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			height: 2.5d
+			image: "cataclysm:textures/particle/custom_explosion_2.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "soulrend:textures/quests/cataclysm_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.25d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -13.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["643AE0B9025A8146"]
+			id: "08B1892AC2D78C93"
+			rewards: [{
+				id: "3FD9AEAB5E8C7601"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_sanctum_fallen"
+				icon: "cataclysm:azure_seastone_tiles"
+				id: "03C9CA3C99CD8412"
+				title: "Entrar al Santuario Caído"				type: "dimension"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3AE4501A43066D4B"]
+			id: "2F755113BCCDB242"
+			rewards: [{
+				id: "1702366885AFBED2"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_abyssal_depths"
+				icon: "cataclysm:chiseled_stone_brick_pillar"
+				id: "4907C63990BDA866"
+				title: "Entrar a las Profundidades Abisales"				type: "dimension"
+			}]
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["24EF39B199049CA1"]
+			id: "2C2478D5126C90B1"
+			rewards: [{
+				id: "6B4D47C7C1A1526E"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_bastion_lost"
+				icon: "cataclysm:void_crystal"
+				id: "673BC24F2FE17CBE"
+				title: "Entrar a la Fortaleza Perdida"				type: "dimension"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["48624D065AABBA2F"]
+			id: "059368703F82C9C3"
+			rewards: [{
+				id: "3AFCBDD0F2FE7B85"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_eternal_frosthold"
+				icon: "cataclysm:frosted_stone_bricks"
+				id: "25B83046B9CB697D"
+				title: "Entrar a la Fortaleza de Hielo Eterno"				type: "dimension"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["442F04906D034A99"]
+			id: "35DD22640C5E3B26"
+			rewards: [{
+				id: "49965909F3FF9E03"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_forge_of_aeons"
+				icon: "cataclysm:witherite_block"
+				id: "7C359546EA5CDF6C"
+				title: "Entrar a la Forja de Eones."				type: "dimension"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["020ED3100B161344"]
+			id: "036AA39B48C8A41C"
+			rewards: [{
+				id: "234E2BD048697CE8"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_infernos_maw"
+				icon: "minecraft:gilded_blackstone"
+				id: "22BE0075BA70B557"
+				title: "Entrar al Fauce del Infierno"				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64DDACEDEEB10791"]
+			id: "521BB5F2113BDFB5"
+			rewards: [{
+				id: "4966502FFD7DE08D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_pharaohs_bane"
+				icon: "minecraft:chiseled_sandstone"
+				id: "76F06F20FB6A4611"
+				title: "Entrar al Azote del Faraón"				type: "dimension"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["641A971C4790CFF4"]
+			id: "37CBE6F8F5E30E3F"
+			rewards: [{
+				id: "432FE5D60753A42A"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "cataclysm_dimension:cataclysm_souls_anvil"
+				icon: "minecraft:magma_block"
+				id: "49501BA58F815C89"
+				title: "Entrar al Yunque del Alma"				type: "dimension"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "643AE0B9025A8146"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "4A700C997798E24F"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			title: "&b&lOjo de la Tormenta"			x: -2.5d
+			y: -9.0d
+		}
+		{
+			id: "3AE4501A43066D4B"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "6093625A32E552A3"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "&5&lOjo del Abismo"			x: 7.5d
+			y: -9.0d
+		}
+		{
+			description: [""]
+			id: "64DDACEDEEB10791"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "3426776A99305753"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "&e&lOjo del Desierto"			x: -5.05d
+			y: -9.0d
+		}
+		{
+			description: ["Necesitarás &6Cenizas ardientes&r, veces soltado desde &cBárbaros encendidos&r en &4Fortalezas del Nether&r con una probabilidad del 25%."]			id: "020ED3100B161344"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "363094C5AD528124"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "&c&lOjo del Fuego"			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "24EF39B199049CA1"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "042D0A6445C3A2DB"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "&d&lOjo del Vacío"			x: 5.0d
+			y: -9.0d
+		}
+		{
+			description: [""]
+			id: "641A971C4790CFF4"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "2CEEFDDB44D96A88"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "&6&lOjo de la Monstruosidad"			x: 2.5d
+			y: -3.9000000000000004d
+		}
+		{
+			id: "48624D065AABBA2F"
+			shape: "none"
+			size: 1.3d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "783F728761A59DF2"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			title: "&3&lOjo de la Maldición"			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "442F04906D034A99"
+			shape: "none"
+			size: 1.35d
+			subtitle: "&8Artesanal"			tasks: [{
+				id: "023B77DB55841506"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "&4&lOjo de Mecánica"			x: 0.0d
+			y: -9.0d
+		}
+	]
+	title: "&d&lDimensiones Cataclísmicas"}
