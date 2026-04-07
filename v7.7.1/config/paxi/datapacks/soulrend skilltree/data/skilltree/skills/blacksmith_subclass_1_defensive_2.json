@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:blacksmith_subclass_1_defensive_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "3b6c5586-0732-4201-afc1-d1873cd0cb24",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "d42bc9e2-419c-476c-856e-3ef284e8b209",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_subclass_1_defensive_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armadura y Sigilo",
+  "titleColor": "",
+  "positionX": -146.66481,
+  "positionY": -222.0563,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

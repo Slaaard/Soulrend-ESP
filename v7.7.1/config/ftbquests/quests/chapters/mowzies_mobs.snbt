@@ -1,0 +1,672 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "59FD824E9CBEF444"
+	icon: "mowziesmobs:gong"
+	id: "4BBA6F57AE1BCABC"
+	images: [
+		{
+			alpha: 170
+			dependency: "160D05447987DF9E"
+			height: 8.0d
+			image: "mowziesmobs:item/gong"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			alpha: 150
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			alpha: 150
+			dependency: "160D05447987DF9E"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			alpha: 125
+			dependency: "160D05447987DF9E"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			alpha: 25
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			alpha: 100
+			dependency: "160D05447987DF9E"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			alpha: 50
+			dependency: "160D05447987DF9E"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/strix_footprint.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 3.6d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BFEC4D6EADD16C0"]
+			id: "003271605F0716CA"
+			rewards: [
+				{
+					id: "623DFEA89447DFC3"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "6F3F6C99C825495E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "699CF1F618527837"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_beads"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lCuentas de geomante"			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BFEC4D6EADD16C0"]
+			id: "19544F234E5798B1"
+			rewards: [
+				{
+					id: "1F18C3180E5252CA"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "60BB127538469AAC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "240F1BEB1BF5D972"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_robe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lTúnica de geomante"			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4BFEC4D6EADD16C0"]
+			id: "64922D3ED400CD2C"
+			rewards: [
+				{
+					id: "4F57A059C99FD760"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "0009847ED4F522CC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "58B1C7E553914A2E"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lCinturón de geomante"			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BFEC4D6EADD16C0"]
+			id: "4BE2035BAD4E33D4"
+			rewards: [
+				{
+					id: "7A13B9D92B8E2DC1"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "38CB002AA6851141"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4E4F5B8C2CD425DC"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_sandals"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSandalias de geomante"			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["160D05447987DF9E"]
+			description: ["&lEl Monasterio&r puede ser encontrado en &lregiones montañosas nevadas&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "073262CF3594D892"
+			rewards: [
+				{
+					id: "533665F2C0EBA35E"
+					item: {
+						Count: 1
+						id: "mowziesmobs:sand_rake"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3315BA64B3758BD7"
+					item: "gtbcs_geomancy_plus:geo_rune"
+					type: "item"
+				}
+			]
+			subtitle: "Santuario del Gran Escultor"			tasks: [{
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33F62718F527276B"
+				structure: "mowziesmobs:monastery"
+				title: "El Monasterio"				type: "structure"
+			}]
+			title: "El Monasterio"			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["073262CF3594D892"]
+			description: [
+				"&lTongbi&r espera en el &lpatio del monasterio&r, desafiando a los visitantes a una Prueba de parkour. 〖Nunca〗 antes un discípulo ha alcanzado la 〖Arriba〗 de esta ardua ascensión, pero aquel que lo haga será digno del 〖Poder〗 de los &lMonjes Destripamundos&r."				""
+				"El Escultor otorgará al que complete la tarea un &lpoderoso artefacto&r llamado el &lGuantelete terraexcavador&r, el cual le concede a su portador control sobre &lmagia de la Tierra&r."			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BFEC4D6EADD16C0"
+			rewards: [
+				{
+					count: 2
+					id: "2FA2CAF02377FDAD"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "5D25889008965F84"
+					item: "nether_remastered:seal_piece_1"
+					type: "item"
+				}
+				{
+					id: "705CAB61FD253CF3"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "08D0150A9C5539C9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			size: 1.1d
+			subtitle: "Aceptar y completar el Desafío de Tongbi."			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "27BBE181F187F7EA"
+				title: "Completa el Desafío de Tongbi"				type: "advancement"
+			}]
+			title: "&lEl Desafío del Escultor"			x: -2.0d
+			y: -2.8499999999999996d
+		}
+		{
+			dependencies: ["160D05447987DF9E"]
+			description: ["&l&7La Cámara Forjada&r puede ser encontrado &lprofundo subterráneo&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "274795147C77455A"
+			rewards: [
+				{
+					id: "3AE2305B62A4DD9A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7D625CE6A6F5637C"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "595296943202C9DF"
+					table_id: 7728316765095173344L
+					type: "all_table"
+				}
+			]
+			subtitle: "Morada del Ferrous Wroughtnaut"			tasks: [{
+				icon: "mowziesmobs:wrought_axe"
+				id: "3FD2FCE52CC020BE"
+				structure: "mowziesmobs:wrought_chamber"
+				title: "La Cámara Forjada"				type: "structure"
+			}]
+			title: "La Cámara Forjada"			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["274795147C77455A"]
+			description: [
+				"Solo los aventureros más valientes se atreverían a desafiar al &l&7Ferrous Wroughtnaut&r. Tras la &l&7Derrota&r, el &lYelmo forjado&r y su &lHacha de Miles de Metales&r caerán para el vencedor."				""
+				"Hacer clic derecho con la hacha ataca en un arco &lgrande&r, y hacer clic derecho con Mayús izdo. creará una &lOnda de Choque&r que acerca las &ldianas&r. &lNinguna herramienta puede romper&r."			]
+			id: "6D466CC8380478C7"
+			rewards: [
+				{
+					id: "1A5CFFDFD8017CDF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "2E45476CE802DBE8"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "4E14ECAB03D59A40"
+					item: "nether_remastered:seal_piece_3"
+					type: "item"
+				}
+				{
+					id: "27D872DC1F6D862A"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "514A2294188FA52A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			size: 1.1d
+			subtitle: "Elimina al Caballero Caído."			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				icon: "mowziesmobs:wrought_helmet"
+				id: "6968610B81B6862A"
+				title: "&7Ferrous Wroughtnaut"				type: "advancement"
+			}]
+			title: "&l&7El Ferrous Wroughtnaut"			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["160D05447987DF9E"]
+			description: [
+				"&l&bEl Frostmaw&r es una bestia peligrosa encontrada raramente en &lregiones nevadas&r. Su enorme tamaño, impresionante gracia terrible, y poderoso &l&baliento de hielo&r los hacen oponentes casi imposibles. Si, en tus viajes, te encuentras con uno durmiendo en tu camino, es probable que sea mejor agarrar una ruta diferente y dejarlo reposar."				""
+				"La bestia custodia un &lvalioso cristal de hielo&r que puede desatar pura &l&benergía invernal&r al ser empuñado."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "189D2B99C20B4513"
+			rewards: [
+				{
+					id: "10F32495AD0FA89F"
+					item: {
+						Count: 1
+						id: "immersive_weathering:ice_sickle"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "685882D1C6726276"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ice_block"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10201CF1C39D510C"
+					item: "nether_remastered:seal_piece_2"
+					type: "item"
+				}
+				{
+					id: "03153689CE4A34E5"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "59572F814A282334"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			size: 1.1d
+			subtitle: "Elimina al Terror de las Escarchas."			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "154BD80678470E7F"
+				title: "Frostmaw"				type: "advancement"
+			}]
+			title: "&b&lEl Frostmaw"			x: 0.0d
+			y: -3.8000000000000007d
+		}
+		{
+			dependencies: ["4F5325EF5676EDFB"]
+			description: [
+				"&lUmvuthi&r reside en un asiento estático sobre un trono en &labetales de sabana&r. Él extrae su poder desde el sol, invocando &l&edescargas solares&r, &l&edescargas solares&r, y &l&erayos solares&r enormes."				""
+				"Él también puede crear seguidores &lUmvuthana&r, incluyendo curanderos llamados &lGrulla umvuthana&r, desde &emáscaras&r para defenderlo durante el combate. Como tal, sus hijos enmascarados lo veneran como un dios. Los viajeros sin equipo deben mantener la distancia desde su abetal, para evitar ser golpeados por su &lheliomancia&r."			]
+			id: "16199629BB324B62"
+			rewards: [
+				{
+					id: "711AEB0B628CBCD1"
+					item: "nether_remastered:seal_piece_4"
+					type: "item"
+				}
+				{
+					id: "7C5E0129F8D40096"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/solar"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED8AE2809ED1C52"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "55032798160A4072"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			size: 1.1d
+			subtitle: "Elimina a Umvuthi, creador de los Abavuthana."			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				icon: "mowziesmobs:sol_visage"
+				id: "05CA3BDDD381107B"
+				title: "Umvuthi, el Ave Solar"				type: "advancement"
+			}]
+			title: "&e&lUmvuthi, el Ave Solar"			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["160D05447987DF9E"]
+			description: ["&l&eEl Abetal del Umvuthana&r puede ser descubierto en las &lsabanas&r y &lregiones de hierba seca&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4F5325EF5676EDFB"
+			rewards: [
+				{
+					id: "29C073CFABBAC82C"
+					item: {
+						Count: 1
+						id: "mowziesmobs:blowgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47E4B4ABB6AB8C6C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Oasis del Pájaro del Sol"			tasks: [{
+				icon: "mowziesmobs:grant_suns_blessing"
+				id: "71167998F9BBB45B"
+				structure: "mowziesmobs:umvuthana_grove"
+				title: "El Abetal del Umvuthana"				type: "structure"
+			}]
+			title: "El Abetal del Umvuthana"			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "41958EF65503494B"
+			rewards: [{
+				id: "134618AEE5E0BA48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Conseguí esos saltos!"			tasks: [{
+				id: "073EC1425CEB90A0"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_bliss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de felicidad"			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "505C93B48D09542E"
+			rewards: [{
+				id: "300D375E56B724C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Ya no necesito más Salud!"			tasks: [{
+				id: "2A4A54C055C8765F"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_faith"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de fe"			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "283446E4A926C22A"
+			rewards: [{
+				id: "24A0E259A7B6840B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Cuanto más furioso me pongo, más rápido me vuelvo!"			tasks: [{
+				id: "62B55A460324E27A"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de rabia"			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "5CE909848E8C3685"
+			rewards: [{
+				id: "79A191708DFAEB24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Obtén la Velocidad!"			tasks: [{
+				id: "11B6BB842BC39F96"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de miedo"			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "415D6A2ADF0165AA"
+			rewards: [{
+				id: "2A14F018FC5B4CF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Duro como el acero!"			tasks: [{
+				id: "09D9CC5370F81181"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_misery"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de miseria"			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16199629BB324B62"]
+			id: "2D48D845CC795902"
+			rewards: [{
+				id: "3EEC88F3362DF58D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡Tan Poderoso!"			tasks: [{
+				id: "745BCA12FECFB16E"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lMáscara de furia"			x: 4.0d
+			y: -4.5d
+		}
+		{
+			icon: "mowzies_cataclysm:wrought_eye"
+			id: "160D05447987DF9E"
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "Explora y Exilia"			tasks: [{
+				id: "5CA6221233BC468E"
+				title: "Jefes"				type: "checkmark"
+			}]
+			title: "&lMitos Caídos"			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "&l&6Mitos Caídos"}

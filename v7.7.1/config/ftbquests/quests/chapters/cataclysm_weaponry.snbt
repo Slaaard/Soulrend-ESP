@@ -1,0 +1,1851 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm_weaponry"
+	group: "578CEED7CC7D235C"
+	icon: "cataclysm:the_annihilator"
+	id: "5BCDE51D499558B1"
+	images: [
+		{
+			height: 1.5d
+			image: "soulrend:textures/quests/cataclysm_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_wayston_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/mossy_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/mossy_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			height: 2.2d
+			image: "cataclysm:textures/particle/lightning_explosion_1.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.7d
+			image: "cataclysm:textures/particle/custom_explosion_1.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/custom_explosion_2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -0.1d
+		}
+		{
+			height: 2.2d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_3.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.6d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle3.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_wayston_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/andesite_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/blackstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			color: 16712980
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			height: 2.2d
+			image: "cataclysm:textures/particle/lightning_explosion_1.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.7d
+			image: "cataclysm:textures/particle/custom_explosion_1.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			height: 1.6d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle3.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 10.0d
+			y: 9.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:sandstorm_in_a_bottle"
+			id: "7BA6318D678165E6"
+			rewards: [
+				{
+					id: "35C986A93DDC5EBE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3825C47083353330"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un Guardián Antiguo, sepultado bajo las arenas del Desierto, ha despertado. Derrota al Remanente Antiguo y descubre los restos de una civilización Olvidada."			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:sandstorm_in_a_bottle"
+				id: "391DB2181AA507B4"
+				title: "Derrota &l&6Remanente Antiguo"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&6Remanente Antiguo"			x: -5.5d
+			y: 0.0d
+		}
+		{
+			icon: "cataclysm:lacrima"
+			id: "157953F67E32DF16"
+			rewards: [
+				{
+					id: "42334F673FBF4D3E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F2C31E529AF36E4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "La Emperatriz de la Tormenta gobierna los Altos de la Acrópolis. Enfrenta a Scylla y sobrevive a la Ira del trueno."			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:lacrima"
+				id: "522C1A1466757E2E"
+				title: "Derrota &l&3Scylla"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&3Scylla"			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "236FEB340F871CCE"
+			rewards: [
+				{
+					id: "6E174A09A585697D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446C0493630AE26C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un heraldo de Destrucción despierta desde antiguas ruinas. Derrótalo antes de que su Poder consuma el mundo."			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "49D15FFC9C610A03"
+				title: "Derrota &l&cEl Heraldo"				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2A8985977F4C64A2"
+			rewards: [
+				{
+					id: "7B93DCBD0293C8B7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15B1C3CCB4B80E03"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un guerrero abrasador forjado en el Fuego de Nether. Enfrenta a Ignis y sobrevive a la prueba de Fuego."			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "3844406BCAFE976E"
+				title: "Derrota &l&4Ignis"				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "2B929B9BF4EEA0D1"
+			rewards: [
+				{
+					id: "4038C4F2A01A4BDF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0196F7A43B1E6FAD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un campeón caído consumido por poder oscuro. Enfrenta a Maledictus y pon fin a la antigua maldición."			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursium_ingot"
+				id: "4FFEAF4737CAC538"
+				title: "Derrota &l&3Maledictus"				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5C6CFA1401FFBE63"
+			rewards: [
+				{
+					id: "0A1CC8151BC0C733"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E4F6429889CE95"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una fortaleza viviente forjada desde netherita antigua. Derrota a la Monstrosidad de Netherita y sobrevive al infierno."			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:lava_power_cell"
+				id: "3AAB5A95FAB46520"
+				title: "Derrota &l&6Monstrosidad de Netherita"				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "546A8F1723CA47A1"
+			rewards: [
+				{
+					id: "6A3B4EA3A137362D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A6507B3B73B8985"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "El Antiguo protector de las ciudades Olvidado de el End. Desafía al Guardián Ender y Reclamar la Victoria."			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_core"
+				id: "43BBECAF79272F3F"
+				title: "Derrota &l&dGuardián Ender"				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "0764F63421733E88"
+			rewards: [
+				{
+					id: "4F3A97F984025447"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AFCA44FA962B42E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un terror colosal acecha en el abismo. Enfrenta al Leviatán y sobrevive a la Profundidad."			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyssal_egg"
+				id: "52861C284D3ADC48"
+				title: "Derrota &l&5El Leviatán"				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BA6318D678165E6"]
+			hide_until_deps_complete: true
+			id: "6AB139FCC688E09B"
+			rewards: [{
+				id: "11C971C2F6468523"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2FA94AF62229EF90"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			title: "&l&6Lingote de metal antiguo"			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AB139FCC688E09B"]
+			id: "234F8D0812E9DAC7"
+			rewards: [
+				{
+					id: "6A089B0BD570EB6F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C696A553B7E599"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67745BA6BDB9E22E"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Lanza Antigua"			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AB139FCC688E09B"]
+			id: "2D1F7D2B2D61F58C"
+			rewards: [
+				{
+					id: "1AFA340F0CA17594"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA934EDDA6DF9AA"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49E11D9E36CFE5A5"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pechera de reptil óseo &l&6"			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6AB139FCC688E09B"]
+			id: "1DE32E17B667B940"
+			rewards: [
+				{
+					id: "67AB94C1D305E656"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C0832675FCDCD9B"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67CFC51C01430893"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Casco de reptil óseo"			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["157953F67E32DF16"]
+			hide_until_deps_complete: true
+			id: "64B7EBC8F7B4A096"
+			rewards: [{
+				id: "3E2EEF95F8C1723F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "02D5FFAD7393209A"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			title: "&l&3Contenedor de la tormenta"			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64B7EBC8F7B4A096"]
+			id: "0954D85E2C0B4B8B"
+			rewards: [
+				{
+					id: "5E145339571661FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D9F08FD512733D0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "031247CB017A2390"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			title: "&l&3Astrape"			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64B7EBC8F7B4A096"]
+			id: "2B91ADDB33F4397A"
+			rewards: [
+				{
+					id: "20AF499341615072"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BAA73CC9EA5B5E6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73DE4C2A12C34BB6"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			title: "&l&3Ceráuneo"			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["236FEB340F871CCE"]
+			hide_until_deps_complete: true
+			id: "2B4ED7AD5A880BF0"
+			rewards: [
+				{
+					id: "57ECC97C6588DF8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DBEFD8CFDA85C92"
+					table_id: 7543698869780679326L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3A223C55E4223A6D"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			title: "&l&cDesmenuzador de carne"			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["236FEB340F871CCE"]
+			hide_until_deps_complete: true
+			id: "3DF3135C87C94A95"
+			rewards: [
+				{
+					id: "20E4FD2CE426FA59"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BADD4BC43FFB58C"
+					table_id: 7543698869780679326L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "678F5A24A465B058"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "&l&cArma de Hombro de Asalto del Devastador"			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["236FEB340F871CCE"]
+			hide_until_deps_complete: true
+			id: "1587A7DD9EDA70ED"
+			rewards: [
+				{
+					id: "500AFEC0F676A4DC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C3AFC77369FCA43"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B8938880B531C7D"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cLase Gatling"			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A8985977F4C64A2"]
+			hide_until_deps_complete: true
+			id: "11A7BC4085A4C010"
+			rewards: [
+				{
+					id: "1E7DCD17CF437D13"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E732B77FB9BE71C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "740054AB8783BCE2"
+				item: {
+					Count: 1
+					id: "cataclysm:bulwark_of_the_flame"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Baluarte de la Llama"			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A8985977F4C64A2"]
+			hide_until_deps_complete: true
+			id: "40CF502A0E3D2F73"
+			rewards: [
+				{
+					id: "0C0678381453B493"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "677F835A945B9370"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23D201FDAB5370B3"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
+			title: "&l&4Garras Ardientes"			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B929B9BF4EEA0D1"]
+			hide_until_deps_complete: true
+			id: "68082E9B5A97E995"
+			rewards: [
+				{
+					id: "4BA77C53D2680F9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B6A54693AA514C6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C92C46A78660B65"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Arco Maldito"			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B929B9BF4EEA0D1"]
+			hide_until_deps_complete: true
+			id: "3E52BF735ACC862D"
+			rewards: [
+				{
+					id: "704A45E684AB929C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7803342C0274E2A1"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6102C899B22C7BFB"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			title: "&l&3Renderizado de Alma"			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B929B9BF4EEA0D1"]
+			hide_until_deps_complete: true
+			id: "05800A1A0681F210"
+			rewards: [
+				{
+					id: "64353FAC6F49F92F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FD19DABD291BA65"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3AE65C7C8AE6211A"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			title: "&l&3El Aniquilador"			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6CFA1401FFBE63"]
+			hide_until_deps_complete: true
+			id: "7CB5138F54B184A2"
+			rewards: [{
+				id: "3744F22820E54E29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "28D6BA3D47223334"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Forja infernal"			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C6CFA1401FFBE63"]
+			hide_until_deps_complete: true
+			id: "6A59A1878507AC4A"
+			rewards: [
+				{
+					id: "4819F90D2AF3CF5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446A58ED26AAE63F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38E5AE04759A633E"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Yelmo monstruoso"			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A8985977F4C64A2"]
+			hide_until_deps_complete: true
+			id: "0314BD32E6093193"
+			rewards: [
+				{
+					id: "4D466BD4B479E055"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41199ECD990FDE60"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2E12CC82F621311B"
+				item: {
+					Count: 1
+					id: "cataclysm:the_incinerator"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4El incinerador"			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05800A1A0681F210"]
+			id: "2724B6D7D8856C76"
+			rewards: [
+				{
+					id: "2CB4892ADEA2D00E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B2D10F7E1B4763B"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6D5FEBF720973E29"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			title: "&l&6El Inmolador"			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["376E4FAFAA036D5A"]
+			id: "09EA48CE29919E84"
+			rewards: [
+				{
+					id: "0103319397F34DC6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70234DE209C61412"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B8F4BCE2A7E5F5A"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			title: "&l&5Guantelete de Baluarte"			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CB5138F54B184A2"]
+			id: "568614A7793137D6"
+			rewards: [
+				{
+					id: "4481513CFBF78623"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "763F744FAB789FE0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C99EC575CDE462F"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Forja del Vacío"			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["376E4FAFAA036D5A"]
+			id: "29FEA9A35E0F5545"
+			rewards: [
+				{
+					id: "1FA6B51655DAF2CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0698F99D748EC175"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "651EAB6F6F1E47BB"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			title: "&l&6Guantelete del Maelstrom"			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68082E9B5A97E995"]
+			id: "1FDE263CECC8F524"
+			rewards: [
+				{
+					id: "3AE88E77BA63DF72"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4CA349309DD3D6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68D39FF2B8FF1BA0"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			title: "&l&6Ira del Desierto"			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DF3135C87C94A95"]
+			id: "5A0D62FFB73D2200"
+			rewards: [
+				{
+					id: "390B7A4531F06D78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "180751650DA6D6C4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01AB17EE6C4D8CEC"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "&l&5Arma de Hombro de Asalto del Vacío"			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["546A8F1723CA47A1"]
+			hide_until_deps_complete: true
+			id: "376E4FAFAA036D5A"
+			rewards: [{
+				id: "3CD28A1ADFD95A38"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0E670A6F0FDB38E4"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			title: "&l&dGuantelete de la Guardia"			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0764F63421733E88"]
+			hide_until_deps_complete: true
+			id: "728A2770DB39B198"
+			rewards: [{
+				id: "1B0D55C9B7484855"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2286BB8F9EDEFA80"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			title: "&l&5Garras mareales"			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0881C6A032BDE866"]
+			icon: "dungeons_and_combat:blood_vial"
+			id: "59D229D4371A5D2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15957593DFDAA8E8"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Encuentra la Catedral"			tasks: [{
+				entity: "dungeons_and_combat:high_priest"
+				icon: "dungeons_and_combat:blood_vial"
+				id: "60D8719F3019893D"
+				title: "Derrota al Sacerdote Supremo"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota a &l&4el Sacerdote Supremo"			x: 0.5d
+			y: 9.0d
+		}
+		{
+			icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			id: "45AA871FCE02B859"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BAC5AA92348DA2E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "42116865FBC528D9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+				id: "7CF9B8CAB4D94763"
+				title: "Derrota Al Dragón Infernal"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&cal Dragón Infernal"			x: 8.0d
+			y: 9.0d
+		}
+		{
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "5A20E4E03DF53FD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A82684B5F59044C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "4CFE121F2613CC9B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				icon: "block_factorys_bosses:yeti_spawn_egg"
+				id: "5E0C2399F13DB183"
+				title: "Derrota al Yeti."				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&bYeti"			x: 6.0d
+			y: 9.0d
+		}
+		{
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "7F43DA8D4D54B14A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "068EA92F28F921AC"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "2D5BC9B4C309DF3F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: "block_factorys_bosses:sandworm_spawn_egg"
+				id: "585D4837371831EB"
+				title: "Derrota Al Gusano De Arena"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&eAl Gusano de Arena"			x: 4.0d
+			y: 9.0d
+		}
+		{
+			icon: "block_factorys_bosses:underworld_knight_spawn_egg"
+			id: "19595091BE5EE10E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28033DF9D5C9ADEC"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "1B754C91A2D8FE5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: "block_factorys_bosses:underworld_knight_spawn_egg"
+				id: "7D25C6D03269A07F"
+				title: "Derrota Al Caballero Del Inframundo"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&1al Caballero del Inframundo"			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			icon: "dungeons_and_combat:divine_blood_vial"
+			id: "0A856C0BADA5238F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F1EDDC3D687BFA5"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Derrota a Sunleia, un ser radiante de inmenso poder divino, y demuestra tu fuerza contra la luz misma."			tasks: [{
+				entity: "dungeons_and_combat:sunleia"
+				icon: "dungeons_and_combat:divine_blood_vial"
+				id: "368FA57041F20259"
+				title: "Derrota a Sunleia"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&6Sunleia"			x: -7.0d
+			y: 9.0d
+		}
+		{
+			icon: "dungeons_and_combat:essence_of_kamath"
+			id: "72D432DB8192148C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "185EAB0B77B52422"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "dungeons_and_combat:kamath"
+				icon: "dungeons_and_combat:essence_of_kamath"
+				id: "0F345B5F63B918B4"
+				title: "Derrota a Kamath"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota &l&3Kamath"			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A856C0BADA5238F"]
+			id: "7BAD20750280735D"
+			rewards: [{
+				id: "272CD11ECF50614B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un Contenedor radiante dejado atrás por Sunleia, conteniendo un fragmento de su poder divino."			tasks: [{
+				id: "49A15D3CA9041B38"
+				item: "dungeons_and_combat:essence_of_sunleia"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7BAD20750280735D"]
+			id: "0387C9B582ECA087"
+			rewards: [
+				{
+					id: "644D15D029D1F342"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65723E8D32B748F4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "194B46C3DE4343F9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fang_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BAD20750280735D"]
+			id: "68A9CB055721353E"
+			rewards: [
+				{
+					id: "403226E60BADEB71"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC1602EA3C06F7F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12E46C08C1124D5F"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:klauen_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BAD20750280735D"]
+			id: "2E4DFB03C360FF0E"
+			rewards: [
+				{
+					id: "16442C185A000A12"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "073FB3F7E626408E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2FE899681A53F008"
+				item: "dungeons_and_combat:sunleia_hand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BAD20750280735D"]
+			id: "7CA2748E944D9AE7"
+			rewards: [
+				{
+					id: "78DA4C10AEB1EE94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "751A147A8F0D9E42"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52034AFFEAEFD681"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:blessed_amulet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["72D432DB8192148C"]
+			id: "49936211A3B4E24C"
+			rewards: [{
+				id: "25EBFB4A956A6A27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3DD58993D47244AB"
+				item: "dungeons_and_combat:armor_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72D432DB8192148C"]
+			id: "40225980BA9B382B"
+			rewards: [
+				{
+					id: "6D96FEFA7DC5EFBB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72EE3C9A20E98637"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BF088D76EEF9FEE"
+				item: "dungeons_and_combat:champion_belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49936211A3B4E24C"]
+			id: "1ABC22E176F99EC3"
+			rewards: [
+				{
+					id: "5D74AA8ABCBA45FC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D394A07C8E58DE8"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05EBEE190466EE70"
+				item: "dungeons_and_combat:steel_shoulder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59D229D4371A5D2F"]
+			id: "4B8A2EF92A9E8E4E"
+			rewards: [
+				{
+					id: "096DBFFFCB9C5DC4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EE2BE4FD5B0443B"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D989F8600DDA3DF"
+				item: "dungeons_and_combat:fleshy_cloth"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7F43DA8D4D54B14A"]
+			id: "64BA98845D17D1C0"
+			tasks: [{
+				id: "3F6F77039220D172"
+				item: "astral_calamity_extras:sandworm_scale"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A20E4E03DF53FD9"]
+			id: "437A5E98CC881C47"
+			tasks: [{
+				id: "7C18F5053CC6C115"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:frozen_fist"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45AA871FCE02B859"]
+			id: "2EFE328CA7D3F8EE"
+			tasks: [{
+				id: "1AE8ACD2C2BE5D9B"
+				item: "block_factorys_bosses:dragon_bone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19595091BE5EE10E"]
+			id: "249E7B060C107CC5"
+			tasks: [{
+				id: "5B949405E9D70D23"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:knight_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+	]
+	title: "&dEl Silencio Vigilante"}

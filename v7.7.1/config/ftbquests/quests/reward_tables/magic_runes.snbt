@@ -1,0 +1,19 @@
+{
+	id: "011831901463CE1E"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 4, item: "gtbcs_geomancy_plus:geo_rune" }
+		{ count: 4, item: "irons_spellbooks:fire_rune" }
+		{ count: 4, item: "irons_spellbooks:ice_rune" }
+		{ count: 4, item: "irons_spellbooks:lightning_rune" }
+		{ count: 4, item: "irons_spellbooks:ender_rune" }
+		{ count: 4, item: "irons_spellbooks:holy_rune" }
+		{ count: 4, item: "irons_spellbooks:blood_rune" }
+		{ count: 4, item: "irons_spellbooks:evocation_rune" }
+		{ count: 2, item: "irons_spellbooks:arcane_rune" }
+		{ count: 2, item: "irons_spellbooks:cooldown_rune" }
+		{ count: 2, item: "irons_spellbooks:protection_rune" }
+		{ count: 4, item: "irons_spellbooks:nature_rune" }
+	]
+	title: "Runas de Magia"}

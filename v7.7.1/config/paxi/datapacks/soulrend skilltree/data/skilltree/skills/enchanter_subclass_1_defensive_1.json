@@ -1,0 +1,90 @@
+{
+  "id": "skilltree:enchanter_subclass_1_defensive_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "02933ba9-f8b9-4988-ad96-dcd139c8b4ac",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.005,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "816e873c-0e08-49b0-a565-e62403fe27ef",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_1_defensive_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 239.63829,
+  "positionY": -15.995789,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Probabilidad de Esquivar: 0.5%"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+0.5 Sigilo"
+    },
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131102_": false,
+      "f_131103_": true,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "La sigilo reduce el alcance de la agresividad de los monstruos."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:miner_offensive_crafting_3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "ed78b36e-65fc-4af3-8cc0-2870c7ff3ccf",
+      "name": "Habilidad",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_offensive_crafting_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Daño Cuerpo a Cuerpo por Gemas en Armas",
+  "titleColor": "",
+  "positionX": -183.63829,
+  "positionY": 45.99579,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:hunter_defensive_crafting_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "579b6247-3519-45ef-b643-3e6876a2c040",
+      "name": "Habilidad",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_defensive_crafting_keystone_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_defensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Maná con Gemas en Armadura",
+  "titleColor": "",
+  "positionX": 310.66266,
+  "positionY": 72.0113,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

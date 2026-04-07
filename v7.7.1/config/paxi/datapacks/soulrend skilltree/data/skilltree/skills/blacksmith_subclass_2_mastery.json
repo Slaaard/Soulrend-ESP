@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:blacksmith_subclass_2_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "item_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 1.5
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "48d4b295-3530-4377-a3ae-c761b61501d1",
+      "name": "Habilidad",
+      "amount": 0.6,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2_life_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/miner_class.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Minero",
+  "titleColor": "",
+  "positionX": -462.889,
+  "positionY": -102.192,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

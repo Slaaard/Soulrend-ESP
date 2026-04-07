@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:enchanter_defensive_6",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "25495af4-f299-481a-ae35-568de5e45949",
+      "name": "Bonificación de Habilidad",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_defensive_7",
+    "skilltree:enchanter_crit_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sigilo",
+  "titleColor": "",
+  "positionX": 230.6784,
+  "positionY": -195.52164,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

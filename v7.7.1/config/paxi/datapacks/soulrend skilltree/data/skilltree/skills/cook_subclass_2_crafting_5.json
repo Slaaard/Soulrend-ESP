@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:cook_subclass_2_crafting_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "ffa74dd9-5680-44b7-b544-032e2a7d220c",
+      "name": "Habilidad",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_subclass_special"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Energizado",
+  "titleColor": "",
+  "positionX": -183.47227,
+  "positionY": -381.80008,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

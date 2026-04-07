@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:enchanter_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.2
+    },
+    {
+      "type": "skilltree:free_enchantment",
+      "chance": 0.2
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_7"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 354.67056,
+  "positionY": -204.50749,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Encantamientos: +30% Probabilidad de Amplificación"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Encantamientos: +20% Posibilidad de Encantamiento Gratuito"
+    }
+  ]
+}

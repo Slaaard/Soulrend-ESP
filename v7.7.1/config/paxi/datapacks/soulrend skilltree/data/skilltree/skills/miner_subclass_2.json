@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:miner_subclass_2",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:distance_to_target"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_subclass_2_crafting_1",
+    "skilltree:miner_subclass_2_life_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Francotirador",
+  "titleColor": "",
+  "positionX": -200.402,
+  "positionY": 283.073,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

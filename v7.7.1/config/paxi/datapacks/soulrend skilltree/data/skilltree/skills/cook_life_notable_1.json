@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:cook_life_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "049357e2-1662-4061-b9eb-78f0be5def3b",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.015,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 0.0059814453,
+  "positionY": -245.52727,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "skilltree:alchemist_crafting_notable_1",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:new_skill_5"
+  ],
+  "oneWayConnections": [
+    "skilltree:new_skill_2"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Renacimiento",
+  "titleColor": "",
+  "positionX": 1.4083439e-14,
+  "positionY": 37.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

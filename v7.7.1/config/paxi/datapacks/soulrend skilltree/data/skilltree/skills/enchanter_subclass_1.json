@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:enchanter_subclass_1",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:burning"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_1_offensive_1",
+    "skilltree:enchanter_subclass_1_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Asesino de No Muertos",
+  "titleColor": "",
+  "positionX": 345.352,
+  "positionY": -31.995,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

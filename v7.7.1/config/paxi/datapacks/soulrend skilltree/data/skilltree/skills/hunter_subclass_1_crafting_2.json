@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:hunter_subclass_1_crafting_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "b611143c-cb63-4aba-a78e-c6a6ebdb4a38",
+      "name": "Habilidad",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_subclass_1_crafting_3",
+    "skilltree:hunter_subclass_1_crafting_5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Manos Ágiles",
+  "titleColor": "",
+  "positionX": 238.89299,
+  "positionY": 323.80698,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:hunter_subclass_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "5e825ef6-bdc2-4f8b-bda8-99e214986825",
+      "name": "Bonificación de Habilidad",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:jump_height",
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.15
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_subclass_1_offensive_1",
+    "skilltree:hunter_subclass_1_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sombra",
+  "titleColor": "",
+  "positionX": 200.378,
+  "positionY": 283.092,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

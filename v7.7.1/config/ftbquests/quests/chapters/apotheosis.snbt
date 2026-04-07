@@ -1,0 +1,2294 @@
+{
+	autofocus_id: "64A82CF529304E51"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "578CEED7CC7D235C"
+	icon: "minecraft:bookshelf"
+	id: "6B086EB4C1B336F4"
+	images: [
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:item/melon_slice"
+			rotation: 0.0d
+			width: 0.75d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bee_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/warden_spawn_egg"
+			rotation: 1.0d
+			width: 3.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 4.5d
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			alpha: 120
+			height: 5.0d
+			image: "minecraft:block/lava_flow"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/blaze_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/blaze_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/blaze_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/blaze_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/guardian_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein_hanging"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Así que quieres aprender a encantar. ¡Excelentes novedades, no es muy difícil una vez que le balanceas el ritmo a las cosas! Aprenderemos cómo usar los nuevos estantes para obtener lo mejor de nuestros encantamientos."]			id: "0D04CADD36EB4501"
+			rewards: [
+				{
+					id: "033316D847F41C5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F2BE8A3A0215D08"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7F349177783A9912"
+				title: "Apoteosis Encantamiento"				type: "checkmark"
+			}]
+			title: "&l&5Apoteosis Encantamiento"			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D04CADD36EB4501"]
+			description: [
+				"Primero, necesitarás una &bMesa de encantamientos&f, al igual que la versión Base, y algunos &aEstantes (15)&f."				"Los estantes de libros básicos no son excesivamente mágicos, ¡pero son un gran comienzo! También podemos usar las tablas de encantamiento para infundir objetos y mejorarlos."			]
+			id: "64A82CF529304E51"
+			rewards: [
+				{
+					id: "18825C754C7FB1E0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6C5EACCB5008233C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Novato Encantador"			tasks: [{
+				id: "6BD747A6B0654514"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64A82CF529304E51"]
+			description: [
+				"&bLibrerías Oceánicas&f ofrecen &a&lEterna&f&r y &9&lArcanos&f&r. ¡Podrías tener que encontrar un templo sumergido para Prismarina Bloques!"				"&9&lArcanos&f&r se utiliza para cambiar la rareza de los encantamientos. Los encantamientos más raros se vuelven mucho más comunes y los comunes se vuelven mucho más raros."			]
+			id: "4861CE79204B7E0A"
+			rewards: [
+				{
+					id: "190D1DA144FC912E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2F0C10AED40E8725"
+					item: {
+						Count: 1
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mis Libros están empapados..."			tasks: [{
+				count: 6L
+				id: "31F29E177C5D90FE"
+				item: { Count: 6, id: "apotheosis:seashelf" }
+				type: "item"
+			}]
+			title: "Bajo las Aguas"			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64A82CF529304E51"]
+			description: [
+				"&4Librería Infernal&f ayuda a aumentar &4&lCuánta&l. &4&lCuánta&f&r es nuestra carta salvaje que ayuda a cambiar los niveles de nuestros encantamientos! Es algo parecido a jugar con tu experiencia..."				"Alto riesgo, alta recompensa. Primero necesitamos &4Estantes del Infierno&f, es el comienzo de nuestra &4&lCuánta&f &raventura."			]
+			id: "179A01D8E26CD35F"
+			rewards: [
+				{
+					count: 3
+					id: "005D37F551A3B182"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "308563DCBE7EBEB5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "¿Has visto el Nether?"			tasks: [{
+				count: 6L
+				id: "705C3C66535CA646"
+				item: { Count: 6, id: "apotheosis:hellshelf" }
+				type: "item"
+			}]
+			title: "¿Te atreves a apostar?"			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["179A01D8E26CD35F"]
+			description: [
+				"〖0"				"Infundir es fácil, solo ubicar la &4HellSheleves&f en la &l&bMesa de Encantamiento&f&r con las cantidades adecuadas de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 22.5 &a&lEterna&f&r y al menos 30% &4&lCuánta&f&r."				"¡No olvides los niveles de experiencia!"			]
+			id: "707F87125AB8CB31"
+			rewards: [
+				{
+					id: "29E35B9D2FE1AEB5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3E72C232FCDB558B"
+					item: "quark:blaze_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "¡Guau, qué brillante!"			tasks: [{
+				count: 6L
+				id: "24E488E20948CFA8"
+				item: { Count: 6, id: "apotheosis:infused_hellshelf" }
+				type: "item"
+			}]
+			title: "El Infierno se ha vuelto aún más ardiente."			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["707F87125AB8CB31"]
+			description: [
+				"&4Glowing Hellshelves&f&r provide the highest cap of &a&lEterna&f&r while also giving &4&lQuanta&f&r and for the first time in the Hell Series&f&r &9&lArcana&f&r. "
+				"No olviden que &l&9Más Arcanos&f&rUstedes poseen, más sus encantamientos comunes se vuelven raros y sus encantamientos raros se vuelven más comunes."			]
+			id: "25EDE783DCEC4846"
+			rewards: [{
+				count: 32
+				id: "7B34BB4A4D78AF9C"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			subtitle: "¿Resplandecen?"			tasks: [{
+				count: 6L
+				id: "3A6466B15640602E"
+				item: { Count: 6, id: "apotheosis:glowing_hellshelf" }
+				type: "item"
+			}]
+			title: "Lo Mejor Que El Infierno Tiene Para Ofrecer."			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["707F87125AB8CB31"]
+			description: ["&4Estantes del Infierno Abrasador&f son ideales para ese impulso de &l&aEterna&f&r y &4&lCuánta&f&r. La mala noticia es que perderás &3Pistas de Encantamiento&f&r. Sin ellas, no sabrás qué podrías estar obteniendo."]			id: "55495FDDBCB1937F"
+			rewards: [
+				{
+					id: "6F7513155B451C5F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "17EF7B8935B4AFA5"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "fallen_gems_affixes:compat/spell_fire"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "¡Apuesta arriesgada ahora, ¿eh!"			tasks: [{
+				id: "14D25C816C41737A"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			title: "¿Mis Libros Están en Fuego?"			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["707F87125AB8CB31"]
+			description: ["&f&rLa &4Librería de Revelación&f&r no te otorga estadísticas, excepto por &3Pistas de Encantamiento&f&r. ¡Ideal para descubrir qué encantamientos recibirás!"]			id: "0E17FB8AA0201465"
+			rewards: [{
+				count: 3
+				id: "05BC7C371E4EBE52"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "¿Dónde están mis Cristales?"			tasks: [{
+				id: "1EF509CDAEA0E4E8"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			title: "Librería de Revelación"			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E17FB8AA0201465"]
+			description: ["Súper costosa, pero la &4Librería Magistral de Revelación&f&r nos permite ver 2 &4Encantamientos&f más. ¡Eso es uno &4más&f que la &4Librería de Revelación&f&r!"]			id: "45876C4C9A2CD55B"
+			rewards: [
+				{
+					count: 6
+					id: "626EB37BD512F798"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C0976F1239E1274"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Visión Perfecta"			tasks: [{
+				id: "09DC993AD166A05C"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			title: "Librería Magistral de Revelación"			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4861CE79204B7E0A"]
+			description: [
+				"&bLibrerías Oceánicas Infundidas&f&r son excelentes para equilibrar &9&lArcanos&f&r y &a&lEterna&f&r. Infundir es muy fácil, solo ubicar &bLibrería Oceánica&f en la &l&bMesa de Encantamiento&f&r con la cantidad adecuada de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 22.5 &a&lEterna&f&r, al menos 15% &4&lCuánta&f&r, y 10% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia!"			]
+			id: "62573A1530FAAB7C"
+			rewards: [
+				{
+					id: "7C843415526AB4B7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "146572BC7314C55B"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			subtitle: "Sí, todavía empapado..."			tasks: [{
+				count: 6L
+				id: "75C3D43B05AA6193"
+				item: { Count: 6, id: "apotheosis:infused_seashelf" }
+				type: "item"
+			}]
+			title: "¿Cuándo se secarán mis Libros...?"			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62573A1530FAAB7C"]
+			description: [
+				"&bLibrería Cristalina&f&rproporcionan el límite más alto de &a&lE"				"No olviden que &l&4Más&f&rCuánta&f&r poseen, más sus encantamientos podrían ser de un nivel más alto o incluso de un nivel más bajo."				"¡Es como apostar!"			]
+			id: "61526EBB5F5B64C3"
+			rewards: [{
+				id: "2341EA1C2A482950"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:lure"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "¿Cristalizado es mejor que mojado?"			tasks: [{
+				count: 6L
+				id: "3468491FECD5F78D"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			title: "Lo Mejor Que El Mar Puede Ofrecer"			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62573A1530FAAB7C"]
+			description: [
+				"&bCorazones-Forjados de MarShevles&f&r tienen una gran cantidad de &9&lArcanos&f&r e introducen la &eRectificación&f&r."				"&eRectificación&f&r ayuda a cambiar la &4&lCuánta&f&r de juego. Una &eRectificación&f&r más alta ayuda a aumentar el nivel de encantamiento, mientras que una &eRectificación&f&r más baja disminuye los niveles generales. En este caso, comienza a reducir nuestras probabilidades en niveles altos. ¡Bú!"			]
+			id: "3E858356A0DC3612"
+			rewards: [
+				{
+					count: 3
+					id: "6190DD664D960EB1"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "7422D1067BEAFD29"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enmienda mis pecados, pez Jesús."			tasks: [{
+				id: "47B6EE4C53BBF2C0"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			title: "¿Ha empeorado mi afición por el juego?"			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A82CF529304E51"]
+			description: ["Bien &2Librería de Sandía&f&r dan &l&aEterna&f&r y &l&4Cuánta&f&r. ¡Muy útil si ustedes son tratando de obtener entre ciertos valores!"]			id: "12BBC29BFC5EE3FE"
+			rewards: [{
+				count: 10
+				id: "274250852F743100"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			subtitle: "¿No se pudrirá esto?"			tasks: [{
+				id: "22ED2C48639D6E27"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12BBC29BFC5EE3FE"]
+			description: ["¿Querías algo de caos? ¡Simplemente llena tus &l&4Cuánta&f&r con un montón de abejas! Lleva tu &l&aEterna&f&r al Máximo a costa de un poco de caos."]			id: "67DF89661F3B57CD"
+			rewards: [{
+				count: 3
+				id: "2289DABA0B3AEB32"
+				item: "minecraft:bee_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Me encanta arriesgarme."			tasks: [{
+				id: "5FB3CCE8A4A3A4E3"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67DF89661F3B57CD"]
+			description: ["Bien &8Estantería de Piedra&f&r dan &l&aEterna&f&r y &l&9Arcanos&f&r. Muy útil si ustedes son tratando de mantener una cierta cantidad de &l&9Arcanos&f&r."]			id: "114246A5B9659EF6"
+			rewards: [{
+				count: 10
+				id: "76F19AE6FD03FA9B"
+				item: "minecraft:polished_andesite"
+				type: "item"
+			}]
+			subtitle: "Son tan pesados..."			tasks: [{
+				id: "7C677E6935C89FED"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"25EDE783DCEC4846"
+				"61526EBB5F5B64C3"
+			]
+			description: ["En una Fortaleza &0Estantes Dormidos&f no ofrecen ninguna ventaja sobre los estantes de madera, ¡pero pueden ser mejorados y proporcionar muchas estadísticas!"]			id: "0F12F1EBBCED19A6"
+			rewards: [{
+				id: "71EC24C93215465F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Zzz…"			tasks: [{
+				count: 6L
+				id: "7E60C60178C53C2B"
+				item: { Count: 6, id: "apotheosis:dormant_deepshelf" }
+				type: "item"
+			}]
+			title: "Simplemente está descansando."			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F12F1EBBCED19A6"]
+			description: [
+				"&0Estanterías Abisales&f son estanterías magníficas que otorgan una enorme cantidad a TODAS las 3 estadísticas."				"Infundir es fácil, solo ubicar las &0Dorment Shleves&f en la &l&bMesa de Encantamiento&f&r con las cantidades adecuadas de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 30 &a&lEterna&f&r, al menos 40% &4&lCuánta&f&r, y al menos 40% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia!"			]
+			hide_until_deps_complete: true
+			id: "21F8299368396D45"
+			rewards: [{
+				id: "3C2A300A3338E951"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "En serio, no puedo alcanzarles."			tasks: [{
+				count: 6L
+				id: "7216BB3ECE6D4897"
+				item: { Count: 6, id: "apotheosis:deepshelf" }
+				type: "item"
+			}]
+			title: "Mis Libros Se Encuentran Profundamente Allí."			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21F8299368396D45"]
+			description: [
+				"&0Profundidades Resonantes&f dan un impulso increíble a &9&lArcanos&f&r. ¡Muy útil si están tratando de encontrar un encantamiento más raro!"				"También aumenta el límite de &a&lEterna&f&r."			]
+			id: "79E2D5628E8B2C23"
+			rewards: [{
+				count: 6
+				id: "647B8B993959A143"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			subtitle: "... ¿Hola?... ¿Hola?... ¿Hola?..."			tasks: [{
+				count: 6L
+				id: "6AE50EF1463933B0"
+				item: { Count: 6, id: "apotheosis:echoing_deepshelf" }
+				type: "item"
+			}]
+			title: "¿Hay un Eco aquí?"			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21F8299368396D45"]
+			description: [
+				"&0Soul-Touched DeepShelves&f give an insane boost to &4&lQuanta&f&r. Very helpful if you don't mind gambling for higher level enchants!"
+				"También aumenta el límite de &a&lEterna&f&r."			]
+			id: "79CB1308CB4AAB02"
+			rewards: [
+				{
+					count: 64
+					id: "2AC52EE1BF5F3FB7"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "289935F835945531"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "Tocar el Alma"			tasks: [{
+				count: 6L
+				id: "39ADE3C2CDFE2E2B"
+				item: { Count: 6, id: "apotheosis:soul_touched_deepshelf" }
+				type: "item"
+			}]
+			title: "Buscando Almas"			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E2D5628E8B2C23"]
+			description: ["Adivina que todo ese eco valió la pena porque ahora nuestra &a&lEterna&f&r ha aumentado de nuevo con nuestras &0Estanterías de Skulk que Resuenan&f&r. Ganamos una pequeña cantidad de &4&lCuánta&f&r pero también &3Pistas de Encantamiento&f!"]			id: "0107C1024CAABC35"
+			rewards: [
+				{
+					count: 3
+					id: "2C14418E7C7C828C"
+					item: "apotheosis:warden_tendril"
+					type: "item"
+				}
+				{
+					id: "278AA862ECC18202"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheotic_additions:artifact"
+							}
+							gem: "apotheotic_additions:crafted/warden"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "¡No hay tiempo para sculkear!"			tasks: [{
+				count: 6L
+				id: "1670075A7BBAA00A"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "Ni siquiera puedo leer esto..."			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79CB1308CB4AAB02"]
+			description: [
+				"Nuestro &a&lEterna&f&r ha aumentado de nuevo con todas las acciones de Tocar el Alma que hemos estado realizando. Ganamos una pequeña cantidad de &9&lArcanos&f&r pero también &eRectificación&f&r!"				"&eRectificación&f&r ayuda a cambiar la &4&lCuánta&f&r de juego. Una &eRectificación&f&r más alta ayuda a aumentar el nivel de encantamiento, mientras que una &eRectificación&f&r más baja disminuye los niveles generales."			]
+			id: "1729D51940B5CC40"
+			rewards: [
+				{
+					count: 3
+					id: "0ABABB4B7603B452"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					id: "16FFCF47344609FB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Yo soy un Acechador"			tasks: [{
+				count: 6L
+				id: "1DA87A248842ABB4"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			title: "Tengo Skulk en mi alma... ¡Puaj!"			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C835F91F8D3AD80"]
+			description: ["&6Librería del End&f&r ¡Tienen algunas de las estadísticas más altas! ¡Y nuestra &l&aEterna&f&r ha alcanzado un nuevo alto!"]			hide_until_deps_complete: true
+			id: "4B468FBDD9C663B4"
+			rewards: [
+				{
+					id: "0F70C179621B9AF1"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7440F327E9D2CA81"
+					item: "endergetic:ender_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "¿Pueden los Enderman leer?"			tasks: [{
+				count: 6L
+				id: "404CA04385CF684B"
+				item: { Count: 6, id: "apotheosis:endshelf" }
+				type: "item"
+			}]
+			title: "El Fin de la Sabiduría"			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B468FBDD9C663B4"]
+			description: ["&6Librería de Ender&f&r Ostentan altas cantidades en las tres estadísticas, haciéndolas extremadamente útiles para aumentar todo a la vez."]			id: "611ECDC41617E08D"
+			rewards: [
+				{
+					id: "1EE29D45D3F18E25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2259F85EE26ECD54"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Esas son muchas estadísticas..."			tasks: [{
+				count: 6L
+				id: "74088AD11D4539AC"
+				item: { Count: 6, id: "apotheosis:pearl_endshelf" }
+				type: "item"
+			}]
+			title: "¡Qué asombro! ¡Cuánta Sabiduría!"			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B468FBDD9C663B4"]
+			description: ["Cuando solo necesitas ese impulso de &a&lEterna&f&r! También el límite máximo que puedes alcanzar. Probablemente lo mejor es incluir al menos una de estas."]			id: "6A4814D8D73EE685"
+			rewards: [
+				{
+					id: "519197D633F3FE5C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1742BDB52E450D6F"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			subtitle: "La Literatura del Dragón"			tasks: [{
+				id: "773ED523766350CA"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "Librería Dracónica"			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21F8299368396D45"]
+			description: ["&0Estantería Abisal de Tesoros Arcanos&f&r es otra vitrina especial que nos permite comenzar a obtener &0Encantamientos&f como &0Reparación&f. ¿Quién necesita a esos molestos &0Aldeanos&f, ¿verdad?"]			id: "5C3B078E29DFF98A"
+			rewards: [{
+				id: "082AF84B5946FD57"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B79309845931BA4"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62573A1530FAAB7C"]
+			description: [
+				"Esta librería no otorga estadísticas. ¡Qué decepción…!"				"Sí filtra los encantamientos que no deseas en la piscina, ¡aunque!"				"Simplemente ubica la librería abajo e inserta los libros de encantamiento que ya no deseas ver."			]
+			id: "47B40315BFC58A87"
+			rewards: [{
+				id: "5A28299E33DBC8AE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Hay arena en mis libros..."			tasks: [{
+				id: "0948B6A53D4DF87C"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			title: "¿Un Filtro de Libro?"			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1729D51940B5CC40"
+				"0107C1024CAABC35"
+				"5C3B078E29DFF98A"
+			]
+			description: [
+				"Necesitaremos &cAliento de Dragón Imbuido&f para poder movernos."				"Infusion es fácil, ya la hemos hecho muchísimas ahora, solo ubicar el &cAliento de Dragón&f en la &l&bMesa de Encantamiento&f&r con las cantidades adecuadas de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 40 &a&lEterna&f&r, al menos 15% PERO no más que 25% &4&lCuánta&f&r, y al menos 60% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia!"			]
+			id: "1C835F91F8D3AD80"
+			rewards: [{
+				count: 3
+				id: "62B14F4608F98CB6"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			subtitle: "¿Puedo beber esto para exhalar Fuego?"			tasks: [{
+				count: 3L
+				id: "3D8FB21E8773E242"
+				item: { Count: 3, id: "apotheosis:infused_breath" }
+				type: "item"
+			}]
+			title: "¡Puaj! ¡Qué asco!"			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D04CADD36EB4501"]
+			description: [
+				"Los tomos son increíblemente útiles para reducir los encantamientos a un tipo específico o para desactivarlos de los Objetos."				"Mantén en mente que estos son para el &7Yunque&r, no para la &eMesa de herrería&r."			]
+			id: "676543101C4F4C94"
+			rewards: [{
+				count: 32
+				id: "7A3E0C56275091FE"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			subtitle: "Libros Mágicos"			tasks: [{
+				id: "499855679803C170"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "¿Qué son los Tomos?"			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["676543101C4F4C94"]
+			description: ["Estos solo afectan a los mods que se colocan en la armadura de la ranura específica. ¡Extremadamente útiles para el hallazgo de ciertos encantamientos!"]			id: "095AD02006F7A37C"
+			rewards: [{
+				id: "40DF0FD0A91EE23B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [
+				{
+					id: "51953F43FB5BCE37"
+					item: "apotheosis:helmet_tome"
+					type: "item"
+				}
+				{
+					id: "2D058F3B647F1E49"
+					item: "apotheosis:chestplate_tome"
+					type: "item"
+				}
+				{
+					id: "0F60242A1084CAF5"
+					item: "apotheosis:leggings_tome"
+					type: "item"
+				}
+				{
+					id: "0CAE3E1298B9916F"
+					item: "apotheosis:boots_tome"
+					type: "item"
+				}
+			]
+			title: "Armaduras Tomos"			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["676543101C4F4C94"]
+			description: ["Cada uno de estos tomos solo puede obtener los encantamientos destinados a armas o arquería. Muy útil si ustedes son quienes buscan uno en particular."]			id: "6EA28720ABD8432E"
+			rewards: [{
+				id: "484F382D4C348A10"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "2555B7B544051515"
+					item: "apotheosis:weapon_tome"
+					type: "item"
+				}
+				{
+					id: "6E0198B4E026C3FF"
+					item: "apotheosis:bow_tome"
+					type: "item"
+				}
+			]
+			title: "Armas Tomos"			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["676543101C4F4C94"]
+			description: ["¡Exactamente como indica el libro! Puedes usar esto para obtener solo media cantidad de Encantamientos desactivados de un Objeto, y también destruirá el Objeto. Esperamos que no lo desearas..."]			id: "349B35A09041E579"
+			rewards: [{
+				id: "5D32DF7EF7E2CAE1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "¿Solo media?"			tasks: [{
+				id: "592E6B1634401DDE"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["349B35A09041E579"]
+			description: [
+				"Infundir es muy fácil, solo ubicar el &bTomo de Raspado&f en el &l&bMesa de Encantamiento&f&r con las cantidades adecuadas de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 22.5 &a&lEterna&f&r, al menos 25% pero no más que 50% &4&lCuánta&f&r, y al menos 35% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia!"			]
+			id: "772FE901DD43C152"
+			rewards: [{
+				id: "703C87A9016EED6B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "¡Todos ellos!"			tasks: [{
+				id: "18BE122789D1FE05"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["772FE901DD43C152"]
+			description: [
+				"Infundir es muy fácil, solo ubica el &bTomo de Superior Raspado&f en el &l&bMesa de Encantamiento&f&r con las cantidades adecuadas de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos al menos 30 &a&lEterna&f&r, al menos 25% pero no más que 75% &4&lCuánta&f&r, y 45% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia!"			]
+			id: "4B45383EE672B2D4"
+			rewards: [{
+				id: "02CB8A34BD4BB82E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Por fin, no se romperá."			tasks: [{
+				id: "705B9A08654183C3"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["676543101C4F4C94"]
+			description: ["Cada uno de estos tomos solo puede obtener los Encantamientos destinados a Herramientas o la Caña de pescar. Muy útil si ustedes son para encontrar uno en particular."]			id: "3F565D3F2604A577"
+			rewards: [{
+				id: "223E4ED23B0C5482"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "2BB4018CE77F656A"
+					item: "apotheosis:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "093EBCADD3DEC616"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+			]
+			title: "Herramientas Tomos"			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["676543101C4F4C94"]
+			description: ["Esto agarra todos los encantamientos extra que quizás no uses."]			id: "5F1BA8F8B73BC6EB"
+			rewards: [{
+				id: "3B39B4383079AB2C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7520EEF66DBA0D70"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			title: "Comandos de Conocimiento"			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B468FBDD9C663B4"]
+			description: ["Utilizando los estantes infundidos que hemos aprendido a crear, podemos aumentar nuestro límite de Encantamiento al unirlos mediante crafteo y formando una biblioteca."]			id: "3BD3FD79948CFFFC"
+			rewards: [
+				{
+					id: "6B06F9F7FB88954A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 64
+					id: "2F0FB409A75E2DAA"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "264FB0A175948A88"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BD3FD79948CFFFC"]
+			description: [
+				"Simplemente ubicar la &7Estantería de Encantamientos&f en la &l&bMesa de Encantamientos&f&r con la cantidad adecuada de &l&aEterna&f&r, &4&lCuánta&f&r, y &9&lArcanos&f&r."				"Necesitaremos exactamente 50 &a&lEterna&f&r, al menos 45% PERO no más que 50% &4&lCuánta&f&r, y 100% &9&lArcanos&f&r."				"¡No olvides los niveles de experiencia! ¿A estas alturas no tendría que recordártelo?"			]
+			id: "0705A66CC75ADC65"
+			rewards: [
+				{
+					id: "7D3960A51590D133"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D5B672120FB9E5E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5562B93B25D50277"
+					table_id: 3181997575744570686L
+					type: "random"
+				}
+			]
+			subtitle: "Por favor, no lo incendies..."			tasks: [{
+				id: "5D8F964B21BBFFEA"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+	]
+	title: "Módulo de Encantamiento"}

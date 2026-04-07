@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:hunter_subclass_2_crafting_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "a10b7fed-a078-46d3-9201-4da47f8756e2",
+      "name": "Habilidad",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_special"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Zapatillas Ligeras",
+  "titleColor": "",
+  "positionX": 422.37567,
+  "positionY": 32.01235,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

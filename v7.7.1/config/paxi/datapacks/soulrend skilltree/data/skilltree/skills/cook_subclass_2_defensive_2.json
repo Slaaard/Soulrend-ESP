@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:cook_subclass_2_defensive_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "40080110-f4ec-436f-bb39-5578f64f91c4",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "83883a27-046e-4183-bf36-64f28e276a5b",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_2_defensive_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armadura y Sigilo",
+  "titleColor": "",
+  "positionX": -118.95877,
+  "positionY": -238.0512,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

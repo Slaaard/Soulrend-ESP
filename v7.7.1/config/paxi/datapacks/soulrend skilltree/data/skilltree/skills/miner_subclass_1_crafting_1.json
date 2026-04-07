@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:miner_subclass_1_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "47a80cd3-75fa-450f-88b3-351da74e0932",
+      "name": "Habilidad",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "tag_id": "curios:ring",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_subclass_1_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Salud por Joya",
+  "titleColor": "",
+  "positionX": -377.352,
+  "positionY": 31.995,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:alchemist_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 2.0,
+      "loot_type": "gems"
+    },
+    {
+      "type": "skilltree:free_enchantment",
+      "chance": 0.05
+    }
+  ],
+  "directConnections": [
+    "skilltree:alchemist_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:alchemist_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejorador de Clase",
+  "titleColor": "",
+  "positionX": 3.796405e-15,
+  "positionY": 121.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

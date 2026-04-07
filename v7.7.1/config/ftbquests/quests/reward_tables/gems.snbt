@@ -1,0 +1,859 @@
+{
+	id: "1F1042DC78C35959"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/blood_tyrant"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/fallen_warrior"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/guardian_of_hell"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/howling_storm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/howling_storm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/infernal_overlord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/ruler_of_abyss"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/void_guardian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/withered_sentinel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:cast_time"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/arcane_catalyst"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/divine_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/emberheart_shard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/frostvein_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/hemolith_shard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/nyxite_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/power_eldritch"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_eldritch"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_ender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_evocation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_holy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_ice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/spell_nature"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/thunderheart_fragment"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/verdanite_shard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:compat/voidmancers_eye"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:cooldown"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/ballast"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/breach"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/combatant"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/guardian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:curios/reinforced"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:curios/twisted"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:curios/vitalic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:evocation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:holy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:ice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/armor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/draconic_legacy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/heartland"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/heartland"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheotic_additions:modded/midas"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:nature"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_end/mageslayer"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:summoning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:spell_resist"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:ragnarok"
+				}
+			}
+		}
+	]
+	title: "Gemas"}

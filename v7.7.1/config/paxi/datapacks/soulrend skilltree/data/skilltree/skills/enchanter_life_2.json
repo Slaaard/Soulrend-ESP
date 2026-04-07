@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:enchanter_life_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "ae83ded3-af83-4014-916a-5ee48935bd86",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "helmet",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_life_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 226.639,
+  "positionY": -98.51286,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

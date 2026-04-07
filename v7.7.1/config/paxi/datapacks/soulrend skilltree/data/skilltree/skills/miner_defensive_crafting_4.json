@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:miner_defensive_crafting_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "0b4af238-cc4a-4bb5-9150-2b750701a67a",
+      "name": "Habilidad",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:gems_amount"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_defensive_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Armadura con Gemas en Armadura",
+  "titleColor": "",
+  "positionX": -144.6628,
+  "positionY": 158.54494,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

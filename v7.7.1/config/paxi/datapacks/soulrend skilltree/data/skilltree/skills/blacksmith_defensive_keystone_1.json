@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:blacksmith_defensive_keystone_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "8b7911ba-0f73-448b-bf1a-1868d9dea7d8",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.07,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.armor",
+        "min": 50.0,
+        "type": "skilltree:attribute_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "daa7e5ac-dcd6-44c5-8e5a-8ddb7d2a35d6",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.08,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.armor",
+        "min": 100.0,
+        "type": "skilltree:attribute_value"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -359.13812,
+  "positionY": -145.01605,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

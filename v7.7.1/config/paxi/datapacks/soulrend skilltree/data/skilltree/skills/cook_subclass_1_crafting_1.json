@@ -1,0 +1,80 @@
+{
+  "id": "skilltree:cook_subclass_1_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "73177e8e-ac5a-44dd-b4d7-2b062f68df1a",
+      "name": "Habilidad",
+      "amount": 0.4,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "3f379a09-d51e-4231-a430-2caac8c8621d",
+      "name": "Habilidad",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "axe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_1_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Hachas Probabilidad Crítica",
+  "titleColor": "",
+  "positionX": 160.972,
+  "positionY": -342.783,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+40% Velocidad de Minería si Ustedes poseen Hacha en mano."
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "+5% Posibilidad de Crítico si Ustedes poseen Hacha en mano"
+    }
+  ]
+}

@@ -1,0 +1,1516 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epicfight"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"fallen_gems_affixes:augment_capability": {
+				Augments: [{
+					Test: "test"
+				}]
+			}
+		}
+		id: "efn:nf_dual_sword"
+		tag: {
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "0759C99621ACF851"
+	images: [
+		{
+			height: 1.0d
+			image: "realmrpg_skeletons:block/wither_skeleton_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "realmrpg_skeletons:block/wither_skeleton_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "realmrpg_skeletons:block/wither_skeleton_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.75d
+			image: "simplyswords:item/empowered_remnant"
+			rotation: 0.0d
+			width: 1.75d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "44C2BCCF0DAF0860"
+			height: 3.0d
+			image: "efn:textures/gui/skills/weapon_innate/murasama.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependency: "44C2BCCF0DAF0860"
+			height: 1.55d
+			image: "simplyswords:item/lichblade_aura_e"
+			rotation: 0.0d
+			width: 1.6d
+			x: 4.0d
+			y: 1.4d
+		}
+		{
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_13.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_15.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulrend:textures/quests/tier_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulrend:textures/quests/tier_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulrend:textures/quests/tier_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			color: 1988351
+			height: 1.0d
+			image: "soulrend:textures/quests/end_game.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: -3.0d
+			y: -4.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A1A43F8A9865516"
+			subtitle: "Un núcleo legendario de inmenso poder. Cuando es forjado en un arma, desata una energía devastadora capaz de abrumar incluso a los enemigos más fuertes."			tasks: [{
+				id: "2285BCC2EF2B8500"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&6Estrella del Nether"			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"62D97B94D45A243F"
+				"0DC4F481DDF95D1B"
+			]
+			hide_until_deps_visible: true
+			id: "19D2DA9834DC50FA"
+			rewards: [
+				{
+					id: "58FC7E77BBCAF816"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4581E8ACF221AEB0"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "447EC9DEBE4F61CE"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "efn:zansetsu"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "464C3A4836C89420"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "efn:mortal_blade"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "La legendaria Murasama, una hoja de Filo inigualable, capaz de cortar casi cualquier cosa."			tasks: [{
+				id: "28CC89D7ED3527A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "efn:hf_murasama"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["632099D4FCC73C2C"]
+			hide_until_deps_complete: true
+			id: "1DC5812589A1308B"
+			rewards: [
+				{
+					id: "014230C0B939BC33"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63853D28CA040855"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja finamente elaborada, conocida por su precisión y elegancia en combate."			tasks: [{
+				id: "33F9257B6BAD99F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "efn:kusabimaru"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				title: "&l&7KUSABIMARU"				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44C2BCCF0DAF0860"]
+			hide_until_deps_complete: true
+			id: "62D97B94D45A243F"
+			rewards: [
+				{
+					id: "0E59787A19A6B90C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "748F5C49841D429E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un fragmento destrozado de la legendaria Murasama, aún irradiando un tenue rastro de su antiguo poder."			tasks: [{
+				id: "7DBBB2FADEECF337"
+				item: "efn:hf_murasama_blade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44C2BCCF0DAF0860"]
+			hide_until_deps_complete: true
+			id: "0DC4F481DDF95D1B"
+			rewards: [
+				{
+					id: "6EF7B759AF405C0C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A4ECA4925CD769A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "La vaina del legendario Murasama, forjada para contener el inmenso poder de la hoja."			tasks: [{
+				id: "7CEB0EB748BB58F4"
+				item: "efn:hf_murasama_sheath"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "44C2BCCF0DAF0860"
+			rewards: [
+				{
+					id: "34AABE64FD3E19A4"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "61FE6C85D4E114C5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Un metal refinado, diseñado para resonar a frecuencias de extremo. Armas forjadas desde él golpean con gracia terrible y precisión, cortando armadura con facilidad."			tasks: [{
+				id: "618EC0EC094AD23E"
+				item: "efn:hf_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["Puedes encontrar en el Templo de jungla."]			id: "3B48A7D3B7ABAEBF"
+			rewards: [{
+				id: "05AC191010F00FF7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una katana finamente equilibrada, conocida por su gracia terrible, precisión y elegancia letal en la batalla."			tasks: [{
+				id: "38EB1AEEC86F4FBD"
+				item: {
+					Count: 1
+					id: "epicfight:uchigatana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1053A170CB086373"
+				"632099D4FCC73C2C"
+			]
+			hide_until_deps_complete: true
+			id: "36EEE8361ECA4B3B"
+			rewards: [
+				{
+					id: "62149B5F7C209E11"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4859DD009D5587C2"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja letal forjada para una ejecución rápida y silenciosa."			tasks: [{
+				id: "330C72017673E7FC"
+				item: {
+					Count: 1
+					id: "wom:satsujin"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1053A170CB086373"
+				"7A1A43F8A9865516"
+			]
+			hide_until_deps_complete: true
+			id: "18AA2E7B8F7FCFC4"
+			rewards: [
+				{
+					id: "647363D3D47DF483"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "596296748338512F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Una guadaña oscura que cosecha las almas de aquellos que corta abajo."			tasks: [{
+				id: "270DCC4A13B893F5"
+				item: {
+					Count: 1
+					id: "wom:antitheus"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&0ANTÍTEO"			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74AD3A93D99A930B"]
+			hide_until_deps_complete: true
+			id: "1053A170CB086373"
+			rewards: [{
+				id: "32C7650724083086"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Puedes encontrar en Estructuras del Nether."			tasks: [{
+				id: "306B061D498772C3"
+				item: "wom:demon_seal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["Puedes encontrar en Mazmorras"]			id: "560E389F5D837ED4"
+			rewards: [{
+				id: "5FF1C034C7D5D839"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una lanza cruel, forjada para un combate brutal, perforando a los enemigos con una fuerza implacable."			tasks: [{
+				id: "3D02D0FFDC033560"
+				item: {
+					Count: 1
+					id: "wom:agony"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Puedes encontrar en Puestos de saqueadores."]			id: "714840349D83B33D"
+			rewards: [{
+				id: "2C6666BAB1F74848"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un arma cruel diseñada para infligir un dolor implacable a aquellos que se interpongan en tu camino."			tasks: [{
+				id: "3109701A461B368F"
+				item: {
+					Count: 1
+					id: "wom:tormented_mind"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3A1AB855C0D679FD"
+			rewards: [
+				{
+					id: "4EB526E5A7BE13C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37063280418E28CD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja colosal imbuida de poder solar, capaz de desplazándose su forma y propiedades a medida que cambian sus energías."			tasks: [{
+				id: "79D385D9EF1940D2"
+				item: {
+					Count: 1
+					id: "wom:solar"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Solar"			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Puedes encontrar en el Desierto Pirámide."]			icon: {
+				Count: 1
+				id: "wom:moonless"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3FED931A8000160D"
+			rewards: [{
+				id: "454D326F8D388712"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Una hoja tocada por la Muy Oscuridad de un Eclipse sin luna, golpeando con Poder Silencioso y ominoso."			tasks: [{
+				id: "2E7D9CC8EE4E6CBA"
+				item: {
+					Count: 1
+					id: "wom:moonless"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B48A7D3B7ABAEBF"]
+			hide_until_deps_complete: true
+			id: "632099D4FCC73C2C"
+			rewards: [
+				{
+					id: "0146E1523E31A48C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "353ECBD9981A42DF"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja afilada y elegante diseñada para golpes rápidos y precisos en combate cuerpo a cuerpo."			tasks: [{
+				id: "5595A778CF426CE1"
+				item: {
+					Count: 1
+					id: "cdmoveset:katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["632099D4FCC73C2C"]
+			description: ["&l¡BAILEMOS!"]			hide_until_deps_complete: true
+			id: "1D6E09F0279F5155"
+			rewards: [
+				{
+					id: "0D7233D8EA743D89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24A4BBBC5295260E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Una katana legendaria, reconocida por su precisión inigualable y su devastador poder de corte. Existen variantes diferentes, cada una con una apariencia única."			tasks: [{
+				id: "2696137215FAD9B7"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc_in_sheath"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["Puedes encontrar en Mazmorras"]			id: "45E823AC46F0FA68"
+			rewards: [{
+				id: "139388B28A32C736"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una espada desgastada por la batalla, recuperada desde mazmorras, aún llevando el eco de incontables batallas olvidadas."			tasks: [{
+				id: "38178F52C2935466"
+				item: {
+					Count: 1
+					id: "wom:ruine"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Puedes encontrar en las Ruinas Submarinas."]			id: "30C035D7C0E8DE31"
+			rewards: [{
+				id: "03629E08B51E592D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un escudo robusto, forjado para mantener el orden y la justicia, capaz de resistir hasta los golpes más feroces."			tasks: [{
+				id: "1E67DFADA0CFA78C"
+				item: {
+					Count: 1
+					id: "wom:gesetz"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7182ED2B967EDD18"
+			rewards: [
+				{
+					id: "3EF5FB8855738657"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CAA923C3996CEBF"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un arma híbrida única que combina el combate con espada y disparos, recompensando las combinaciones precisas con disparos devastadores."			tasks: [{
+				id: "5967A33CB3809BDB"
+				item: {
+					Count: 1
+					id: "wom:napoleon"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&fNapoleón"			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "565AF5473C2F2CE8"
+			rewards: [{
+				id: "0C4E1DA232E02F81"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6EB6244063A33391"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:berserker"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "011E0205C205AFF8"
+			rewards: [{
+				id: "738EECDB5A16DBD1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6BD301EE020F39D4"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:catharsis"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "56A9B6B29C9FFC40"
+			rewards: [{
+				id: "15A963A87A3AC5EB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0C610A6DE5FC25AE"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:forbidden_strength"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "4796A68EF50420DC"
+			rewards: [{
+				id: "27CA9C8D2FE929FA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "56F145A475A85911"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:meteor_slam"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "7D4C518F0EEEAC13"
+			rewards: [{
+				id: "40040B74E118A5B2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4285D61509462B9C"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:technician"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "5AABA33CD1601610"
+			rewards: [{
+				id: "66E14A10867E5A85"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1398C294A7434761"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:dopamine"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "32F53139C4B84DF0"
+			rewards: [{
+				id: "515BD1151F94F397"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6BCA6FB9C2E20D05"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:natural_sprinter"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "2A96337AC2CFD24D"
+			rewards: [{
+				id: "3D0050544A198347"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "39342A3DB48290CA"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:punishment_kick"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "327C2DFC4EB70BB0"
+			rewards: [{
+				id: "6F2339F2A2ACF913"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "492142C59F1AD1E5"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:shooting_style"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "00BE997DB26716A5"
+			rewards: [{
+				id: "749757485E66CF33"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1E77EDA19DA4F2CD"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:spider_techniques"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "7873D2C75CE733E7"
+			rewards: [{
+				id: "01C0C803F32A0A54"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5F8359AA3E57441B"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:yamato_step"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "30E63E68CE9C6019"
+			rewards: [{
+				id: "51980D5A605A5492"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1FF35FC3DDD103D2"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:fatalfalsh"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "073528EF9069645F"
+			rewards: [{
+				id: "0B63DA5B0C21B869"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3AE8EE4861869E64"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:emergency_escape"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "370F52D938DF4FE9"
+			rewards: [{
+				id: "61F5E1EDA021AD91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4078C8D75011F85C"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:endurance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "22E7A73DAA0179A0"
+			rewards: [{
+				id: "7E7875BBB06555F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "19679341F726262B"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:hypervitality"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "0F97A1D9B7E01266"
+			rewards: [{
+				id: "5FBAACD3E226A5F4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2945E3C3BC74F1F1"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:aqua_maneuvre"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "599D56D7E54BE4F4"
+			rewards: [{
+				id: "02D71B6C5910A6E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0E2FDE08C9E984FA"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:bull_charge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "7484DD98CA94D827"
+			rewards: [{
+				id: "2130F81296396FAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4A4FE174E0E22304"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:counter_attack"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "772AF1BD23382D7A"
+			rewards: [{
+				id: "0E4C9520C20D8BBC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "31896D56C0B79083"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:buster_parade"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "79194E16BD5EF73A"
+			rewards: [{
+				id: "7432F6D7C12D0F77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "12E9380899C10D02"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfightx:combat_mastery_i"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "501C868E27AE8AF7"
+			rewards: [{
+				id: "65853BF97AD6F771"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5959BA8A81EC17E4"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "efn:execution"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "5E86BFA79E8AE7EF"
+			rewards: [{
+				id: "22BACBBF66889410"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6FF82F96EEEB0EBD"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "efn:stomp"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "71530A0631A0F9D9"
+			rewards: [{
+				id: "054B997E556C9FEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3340FA85F0DE893E"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:adrenaline_fiend"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			id: "08AA1C0C58F10143"
+			rewards: [{
+				id: "1D8088B00E8A6294"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3BB81B18A8898F7B"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:arrow_tenacity"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "7C547215E02DAD62"
+			rewards: [{
+				id: "4975C250C154D150"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2558B6C705AC234A"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:ender_step"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			id: "5A1D9EB5BAF2B77F"
+			rewards: [{
+				id: "626DE3CEC6F19627"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4BFDBBFA0EA0DBBE"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:manipulator"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "1168A2DBB4061975"
+			rewards: [{
+				id: "3669E727B2AC0DDD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "25EAE0A4630457CD"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:precise_roll"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "162C3CF10A12AC5F"
+			rewards: [{
+				id: "41C6500AEA3483BE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6B98145ABA7AEE42"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:time_travel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "49872825FE6E384C"
+			rewards: [{
+				id: "7C752782A709E46B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "47673ADA5FC2AF06"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:vengeance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			id: "7231E3FDB886875B"
+			rewards: [{
+				id: "181F4BB33517917A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "5921180C861723E4"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:dancing_blade"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			id: "103DA9BE0A3DC560"
+			rewards: [{
+				id: "3E41006643D90EE7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1FF46041B3D7F329"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wom:critical_knowledge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			id: "48AC04F7294E1EA1"
+			rewards: [{
+				id: "5270E2BE41BC12AB"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Si bien los libros de habilidades listados aquí pueden ser creados, muchos de los más raros deben ser encontrados en estructuras peligrosas o ser una obtención desde enemigos poderosos."			tasks: [{
+				id: "64A3D0261EAFAB50"
+				title: "Objetos de EpicFight Libros de Habilidad"				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "04017F53E17E5EF7"
+			rewards: [{
+				id: "57A28C4D4419A000"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "07577D4C64A8A14A"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:demolition_leap"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["632099D4FCC73C2C"]
+			description: ["&l¡BAILEMOS!"]			id: "7AC18028BDB20FE1"
+			invisible: true
+			subtitle: "Una katana legendaria, reconocida por su precisión inigualable y su devastador poder de corte. Existen variantes diferentes, cada una con una apariencia única."			tasks: [{
+				id: "4309FD72E4664B87"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc4_in_sheath"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+	]
+	title: "&c Batalla Épica"}

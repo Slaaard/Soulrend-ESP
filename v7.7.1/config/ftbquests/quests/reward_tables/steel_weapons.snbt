@@ -1,0 +1,316 @@
+{
+	id: "0B4E192DB043A1F6"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_dagger"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_greataxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:morning_star_mace"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_tomahawk_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_axe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeons_and_combat:steel_shield"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_stylet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_shortsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_katzbalger"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_pike"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_ranseur"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_ahlspiess"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_chivalrylance"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_bastardsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_estoc"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_claymore"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_zweihander"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_lochaberaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_concavehalberd"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_heavymace"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_heavywarhammer"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_lucernhammer"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_morgenstern"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_chainmorgenstern"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:steel_guisarme"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+	]
+	title: "Armas de Acero"}

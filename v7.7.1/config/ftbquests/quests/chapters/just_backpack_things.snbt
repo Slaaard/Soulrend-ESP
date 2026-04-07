@@ -1,0 +1,1079 @@
+{
+	autofocus_id: "4F60E0510A23B1A3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_backpack_things"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "travelersbackpack:standard"
+		tag: {
+			StarterUpgrades: {
+				Items: [{
+					Count: 1b
+					id: "travelersbackpack:tanks_upgrade"
+				}]
+			}
+		}
+	}
+	id: "7A5BAB12FB8603D3"
+	images: [
+		{
+			dependency: "4F60E0510A23B1A3"
+			height: 2.0d
+			image: "quark:item/backpack"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			height: 4.9d
+			image: "create:block/bullwheel"
+			rotation: 0.0d
+			width: 4.9d
+			x: 7.75d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Las Plantillas en Blanco son un excelente punto de partida para añadir un toque personalizado a tus bolsas o incluso para actualizar tu capacidad de carga."]			id: "4F60E0510A23B1A3"
+			rewards: [{
+				count: 24
+				id: "482E70FFF9FA817C"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.8d
+			subtitle: "Un nuevo comienzo"			tasks: [{
+				id: "7EB0ADDFAB1C37D4"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			title: "Personalizando tu Bolsa"			x: 7.75d
+			y: -1.000000000000007d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Perfecto para fundiendo Estampados de Mojang sobre la marcha."]			hide_until_deps_complete: true
+			id: "72BB93EB6B31CAF7"
+			rewards: [{
+				count: 32
+				id: "249A07E9420171D9"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "No quemaré tu inventario, lo prometo."			tasks: [{
+				id: "34F1DFFC08EB2FB9"
+				item: "travelersbackpack:furnace_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72BB93EB6B31CAF7"]
+			description: ["Ya conoces el proceso, es un horno de fundición."]			id: "34CB7FFC2D1C47CD"
+			rewards: [{
+				count: 32
+				id: "0214034F5F7465C5"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "¡Aún no quema tu alforja!"			tasks: [{
+				id: "681E2D1AD2135EBB"
+				item: "travelersbackpack:blast_furnace_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72BB93EB6B31CAF7"]
+			description: ["Ya conoces el proceso, ¡es un Ahumador para Comida!"]			id: "2F7AAE5AC2FCA1F2"
+			rewards: [{
+				count: 24
+				id: "10419116D8D29451"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			subtitle: "Perfecto con el comedero automático!"			tasks: [{
+				id: "0BB792ED210B8FA0"
+				item: "travelersbackpack:smoker_upgrade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["¡Nunca más tendrás que detenerte a comer con esta actualización!!!"]			hide_until_deps_complete: true
+			id: "5740C1BD2125C0A0"
+			rewards: [{
+				count: 64
+				id: "2938AB8A7A922FD4"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "¿Podría llevarme esto conmigo?"			tasks: [{
+				id: "172904A08C17156D"
+				item: "travelersbackpack:feeding_upgrade"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -2.8571428571428577d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["¡Una Mesa de trabajo portátil! ¡Un artículo indispensable para todo Explorador!"]			hide_until_deps_complete: true
+			id: "74BFD418D29D73A4"
+			rewards: [{
+				count: 4
+				id: "726072F398D0C230"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			subtitle: "¡Imprescindible!"			tasks: [{
+				id: "130B5D539524B778"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 0.8571428571428612d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Esta actualización rellenará Objetos desde tu bolsa a tu Mano si te quedas sin algo."]			hide_until_deps_complete: true
+			id: "17455F03066F4830"
+			rewards: [{
+				id: "253C40ABC19E7574"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "¡La IA no puede reemplazar esto!"			tasks: [{
+				id: "5F05BA1B664BD07E"
+				item: "travelersbackpack:refill_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["¡Lleva Objetos a tus Pies!"]			hide_until_deps_complete: true
+			id: "35D3A2941CB56355"
+			rewards: [{
+				id: "5B17F2B389196F5B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "¿Tirón al Norte o al Sur?"			tasks: [{
+				id: "252DE8CF2176C383"
+				item: "travelersbackpack:magnet_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Permite desechar Objetos o Lanzar Objetos automáticamente para que no tengas TODAS las acumulaciones innecesarias."]			hide_until_deps_complete: true
+			id: "3D7CF0E5816CF7C0"
+			rewards: [{
+				id: "1807CA7BE8794A32"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "No se puede reciclar aquí."			tasks: [{
+				id: "2B9D779AC5E2626E"
+				item: "travelersbackpack:void_upgrade"
+				type: "item"
+			}]
+			x: 6.035714285714285d
+			y: -1.000000000000007d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Reproduce tus melodías favoritas con la Mejora de tocadiscos."]			hide_until_deps_complete: true
+			id: "483EE2801C0839C9"
+			rewards: [{
+				id: "7542D1EC8E46837B"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			subtitle: "¡Nunca te abandonaré!"			tasks: [{
+				id: "2FD34EBA24885DA0"
+				item: "travelersbackpack:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Los tanques equipados a tu bolsa pueden mantener Agua y Otro Fluido!"]			hide_until_deps_complete: true
+			id: "4DA33D839109F5AD"
+			rewards: [
+				{
+					count: 2
+					id: "4C9C340ABB868007"
+					item: "travelersbackpack:backpack_tank"
+					type: "item"
+				}
+				{
+					id: "051CD7AD6DC53E80"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "No es un tanque de guerra."			tasks: [{
+				id: "2B726DBF1E814628"
+				item: "travelersbackpack:tanks_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["Usando Cuero como una plantilla en una Mesa de herrería y añadiendo una Mochila de &6Rango de cuero&f, puedes usar esto para aumentar el almacenamiento y también la cantidad de Mejoras que tu bolsa puede Mantener."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0AA7687A0CE790FB"
+			rewards: [{
+				id: "220A5C5A84EE1B7D"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60EA7D90AE7F7B79"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA7687A0CE790FB"]
+			description: ["Usando Cuero como una plantilla en una Mesa de herrería y añadiendo una &8Rango de hierro&f Mochila, puedes usar esto para aumentar el almacenamiento y también la cantidad de Mejoras que tu bolsa puede Mantener."]			id: "64F41C4A9545F324"
+			rewards: [{
+				id: "5928B59493B1575D"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27255FB7E21CC8F4"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64F41C4A9545F324"]
+			description: ["Usando Cuero como una plantilla en una Mesa de herrería y añadiendo una &eMochila de Rango de oro&f puedes usar esto para aumentar el almacenamiento y también la cantidad de mejoras que tu mochila puede mantener."]			id: "1D2D588E5CC54B4A"
+			rewards: [{
+				id: "22ABADC18E67F9B3"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "280C254BF5E9BBCF"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D2D588E5CC54B4A"]
+			description: ["Usando Cuero como una plantilla en una Mesa de herrería y añadiendo una Mochila de &bRango de diamante&f puedes usar esto para aumentar el almacenamiento y también la cantidad de Mejoras que tu bolsa puede Mantener."]			id: "2CD49BDA5CA2AE2D"
+			rewards: [{
+				count: 3
+				id: "500699846D2305B0"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC6C447BE2522EA"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "72BA4A4FEE080CB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17708849A3185B38"
+				table_id: 741140953155902097L
+				type: "random"
+			}]
+			subtitle: "La Suerte está de mi lado."			tasks: [{
+				id: "18A7C255F50CF516"
+				item: {
+					Count: 1
+					id: "travelersbackpack:emerald"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5BB589DC7CFDF6DE"
+			rewards: [{
+				count: 64
+				id: "56EA6AB330A6FD59"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "¡Nivel Superior!!!"			tasks: [{
+				id: "0E40BD83D5E7662F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:lapis"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6DAA2C45105ED123"
+			rewards: [{
+				count: 64
+				id: "06B42B360BC230DA"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "¿Tienes alguna barra?"			tasks: [{
+				id: "63BEA85DAD699B1A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:redstone"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6C2B1F51421B3F75"
+			rewards: [
+				{
+					id: "2AB8C149A492D869"
+					item: "everycomp:q/natures_spirit/blue_wisteria_hedge"
+					type: "item"
+				}
+				{
+					id: "7A78BAB6C2AAADEC"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:red_samurai_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B3625EA1BD37BC"
+					item: {
+						Count: 1
+						id: "skilltree:golden_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hay que ir Rápido."			tasks: [{
+				id: "78F61D6C1A902E49"
+				item: {
+					Count: 1
+					id: "travelersbackpack:quartz"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7E32EE9A7BBA3A6F"
+			rewards: [{
+				count: 2
+				id: "3C50190FF0C95465"
+				item: "travelersbackpack:backpack_tank"
+				type: "item"
+			}]
+			subtitle: "¡Esponja, mi muchacho!"			tasks: [{
+				id: "614F2519CB231CAB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sponge"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4F6A7BCA75178A2E"
+			rewards: [{
+				count: 8
+				id: "46B43F9B54EA0D18"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			subtitle: "Diente Dulce"			tasks: [{
+				id: "646CCA49FA31010E"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cake"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4C0EF9968DE6BA37"
+			rewards: [{
+				count: 64
+				id: "1CF1AFBC6D8D048B"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			subtitle: "¡Nunca más sufras el calor!"			tasks: [{
+				id: "1643EB42BF3F8481"
+				item: {
+					Count: 1
+					id: "travelersbackpack:magma_cube"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.14000000000000012d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "78EFF3D3768C25A2"
+			rewards: [{
+				id: "26BA1C235771E046"
+				item: "handcrafted:spider_trophy"
+				type: "item"
+			}]
+			subtitle: "Con Gran Poder, Vienen Grandes Responsabilidades."			tasks: [{
+				id: "43AAD0F89E803CC0"
+				item: {
+					Count: 1
+					id: "travelersbackpack:spider"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "64B15658A7FA6E4A"
+			rewards: [{
+				id: "388C294D407D41EA"
+				item: "handcrafted:wither_skeleton_trophy"
+				type: "item"
+			}]
+			subtitle: "Por una cabeza"			tasks: [{
+				id: "1918DFE59A510277"
+				item: {
+					Count: 1
+					id: "travelersbackpack:wither"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "14D6472AA4D78776"
+			rewards: [{
+				id: "64CB0EFBF9E5CF48"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			subtitle: "¡Robusto como un Warden!"			tasks: [{
+				id: "631C57EB7A8C05C0"
+				item: {
+					Count: 1
+					id: "travelersbackpack:warden"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.14000000000000012d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "07B1B4831072D8FC"
+			rewards: [{
+				count: 3
+				id: "746CCAA35D82655D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Observa en la Oscuridad."			tasks: [{
+				id: "3989C816C50588BE"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bat"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "65066313F6F693EB"
+			rewards: [{
+				count: 3
+				id: "232F244F51D2E715"
+				item: "minecraft:bee_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Zumbido Zumbido"			tasks: [{
+				id: "3390A8F3C8C7C389"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bee"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5709C12DCBBDA17B"
+			rewards: [{
+				id: "556E8340713CFBBD"
+				item: "minecraft:ocelot_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "¡Cobarde Gato!"			tasks: [{
+				id: "63AE5D3ADB26A0FC"
+				item: {
+					Count: 1
+					id: "travelersbackpack:ocelot"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5357142857142705d
+			y: -0.142857142857153d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5F073EEC20542B9E"
+			rewards: [{
+				count: 10
+				id: "1FD3209C83F82E46"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			subtitle: "Calabaza Útil"			tasks: [{
+				id: "0557EE514F2FC3CD"
+				item: {
+					Count: 1
+					id: "travelersbackpack:pumpkin"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "65B3793CD4660DA7"
+			rewards: [{
+				count: 16
+				id: "2881AB5241049E3E"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			subtitle: "Puntiagudo"			tasks: [{
+				id: "64C405EFB307007A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cactus"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "06D38985D7FAF947"
+			rewards: [{
+				id: "11686F73F809EA5C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "¡Pulgar Verde!"			tasks: [{
+				id: "485DB45E532B5873"
+				item: {
+					Count: 1
+					id: "travelersbackpack:hay"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "660B38A6EBDB1287"
+			rewards: [{
+				id: "1F54D6B2C2D776EE"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			subtitle: "¿Una Segunda Oportunidad?"			tasks: [{
+				id: "2EBEA209897FAFA7"
+				item: {
+					Count: 1
+					id: "travelersbackpack:creeper"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "34AA4B3A2740BFD0"
+			rewards: [{
+				id: "7973E380FCC481CF"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			subtitle: "¡Nunca he estado mejor!"			tasks: [{
+				id: "4ADD0AA417812B18"
+				item: {
+					Count: 1
+					id: "travelersbackpack:dragon"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0357142857142705d
+			y: -0.142857142857153d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2B8B9A3EC1259511"
+			rewards: [{
+				id: "6C520B2238931E24"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
+			subtitle: "¡No Más Daño por Caída!"			tasks: [{
+				id: "6B1D02F25F6E356C"
+				item: {
+					Count: 1
+					id: "travelersbackpack:blaze"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "63A779A380E08F93"
+			rewards: [{
+				id: "02BCD88D08D59A04"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "¡No Más Días de Enfermedad!"			tasks: [{
+				id: "038A1B3092569D0E"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cow"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4A25467D2CB6D68C"
+			rewards: [{
+				id: "25F2C1CDF441C57D"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			subtitle: "¿Alguna vez has deseado poner un Huevo?"			tasks: [{
+				id: "5B9670C060506B24"
+				item: {
+					Count: 1
+					id: "travelersbackpack:chicken"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6EC3EEB3F497DC32"
+			rewards: [{
+				count: 12
+				id: "1980AD0618C6A80E"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			subtitle: "¿Quién Necesita una Sirena Con Esto?"			tasks: [{
+				id: "530C1774A270892C"
+				item: {
+					Count: 1
+					id: "travelersbackpack:squid"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			description: ["¡Qué gran ahorro de tiempo! ¡Excelente para Explorando!"]			hide_until_deps_complete: true
+			id: "35860C7254717A34"
+			rewards: [{
+				id: "1E03F4FD8CA71260"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "17E8448AFB9FA12F"
+				item: "travelersbackpack:pickup_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "57E6CA0C3BFB97C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F3D5C1453422C9C"
+				table_id: 741140953155902097L
+				type: "random"
+			}]
+			subtitle: "Hrr"			tasks: [{
+				id: "637D2273F8CE6F57"
+				item: {
+					Count: 1
+					id: "travelersbackpack:villager"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F60E0510A23B1A3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "32E8F9578DC1DB9F"
+			rewards: [{
+				count: 2
+				id: "7792080EE6C2BB0B"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Metal Pesado"			tasks: [{
+				id: "4672807711E14D6B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:iron_golem"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "&eMochilas"}

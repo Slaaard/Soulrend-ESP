@@ -1,0 +1,512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lfactions"
+	group: "59FD824E9CBEF444"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "medievalorigins:item/dwarf"
+		}
+	}
+	id: "7106564D67C7D8E5"
+	images: [
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_valarian"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_burgundian"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_orleanian"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_hospitaller"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_templar"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_bohemian"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_visgothian"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/block_top_barathian"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:item/templar_sword"
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:item/templar_sword"
+			rotation: 44.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:item/templar_sword"
+			order: 1
+			rotation: 135.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:item/templar_sword"
+			rotation: -135.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 15.0d
+			image: "minecraft:item/cit/custom/shield_round"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Existen &l&d8 facciones&r en &l&4Soulrend&r, cada una con su propio equipo, unidades y ciudadanía Únicos."				""
+				"Para obtener la ciudadanía de &l&dcualquiera Facción&r, debes derrotar a los Soldados&r de dicha Facción y reclamar la ciudadanía. Una vez obtenida la ciudadanía, puedes &lconsumirla&r para hacer que todas las unidades de esa Facción &lNeutrales o seguir tus Comandos&r."			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "medievalorigins:item/dwarf"
+				}
+			}
+			id: "3E89EBD6C01E2F99"
+			rewards: [{
+				id: "326C39942FB91B5A"
+				item: "valarian_conquest:nomad_citizenship"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Muchas moradas salpican el reino."			tasks: [{
+				id: "57ACCDD19E94452D"
+				title: "Facciónes Valarianas"				type: "checkmark"
+			}]
+			title: "&lFacciónes"			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:valarian_citizenship"
+			id: "074EE7F0F64982FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14C47E14CFCCDDF0"
+					table_id: 741140953155902097L
+					type: "random"
+				}
+				{
+					id: "58E2C57FB3EBE8B4"
+					item: "valarian_conquest:valarian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B68F8C28F73F5AD"
+					structure: "valarian_conquest:valarian_castle"
+					title: "Encuentra un Castillo Valariano"					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:valarian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "1BDC23652B017D7B"
+					title: "Derrota a 10 Soldados."					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:bohemian_citizenship"
+			id: "392468D975899A32"
+			rewards: [
+				{
+					id: "63A5B872CA879278"
+					item: "ironchests:crystal_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "5271B62A379EDAF7"
+					item: "valarian_conquest:bohemian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24B3FCBD93662E91"
+					structure: "valarian_conquest:bohemian_outpost"
+					title: "Encuentra un puesto bohemio."					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:bohemian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "0CC76ABC1A3002FA"
+					title: "Derrota a 60 Soldados."					type: "kill"
+					value: 60L
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:templar_citizenship"
+			id: "2365BA5949FE6427"
+			rewards: [
+				{
+					id: "52C7CB4451EC30F9"
+					item: "ironchests:diamond_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "4197696E471EF857"
+					item: "valarian_conquest:templar_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "708D5DEB1865E5BF"
+					structure: "valarian_conquest:templar_castle"
+					title: "Encuentra un Castillo Templario"					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:templar_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "12C9E4ADFAE6E996"
+					title: "Derrota a 50 Soldados."					type: "kill"
+					value: 50L
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:burgundian_citizenship"
+			id: "60BF45A9C5958BC5"
+			rewards: [
+				{
+					id: "363EA2B43CA9F8E8"
+					item: "ironchests:copper_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "297258855174C81A"
+					item: "valarian_conquest:burgundian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11A37E86016376CA"
+					structure: "valarian_conquest:burgundian_castle"
+					title: "Encuentra un castillo borgonón."					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:burgundian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "05068B82508B283B"
+					title: "Derrota a 20 Soldados."					type: "kill"
+					value: 20L
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:visigothian_citizenship"
+			id: "67FA222531307F99"
+			rewards: [
+				{
+					id: "0147721FF2F8FD9B"
+					item: "ironchests:obsidian_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "5751ED3CB6EA915B"
+					item: "valarian_conquest:visigothian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "629103A12FF34FE0"
+					structure: "valarian_conquest:visgothian_castle"
+					title: "Encuentra un Castillo Visgótico"					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:visgothian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "5C18808DF36FC4D1"
+					title: "Derrota a 70 Soldados."					type: "kill"
+					value: 70L
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:barathian_citizenship"
+			id: "3BB99892967DD459"
+			rewards: [
+				{
+					id: "37E600F848627955"
+					item: "ironchests:netherite_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "52FBE44CEB138A98"
+					item: "valarian_conquest:barathian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1377B58050930299"
+					structure: "valarian_conquest:barathian_castle"
+					title: "Encuentra un Castillo Barathiano"					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:barathian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "62A070E0DC4911BB"
+					title: "Derrota a 80 Soldados."					type: "kill"
+					value: 80L
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:orleanian_citizenship"
+			id: "71D958B18C1FA655"
+			rewards: [
+				{
+					id: "70511283A643758F"
+					item: "ironchests:iron_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "52018AC8A971786E"
+					item: "valarian_conquest:orleanian_citizenship"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5688B1689327E77E"
+					structure: "valarian_conquest:orleanian_castle"
+					title: "Encuentra un Castillo Orleanés"					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:orleanian_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "2B099CDB4D7DF811"
+					title: "Derrota a 30 Soldados."					type: "kill"
+					value: 30L
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			icon: "valarian_conquest:hospitaller_citizenship"
+			id: "0425F9648802CDCC"
+			rewards: [
+				{
+					id: "6192E17CED67BD96"
+					item: "ironchests:gold_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "05023286EA0D76BF"
+					item: "valarian_conquest:hospitaller_swordsman_item"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D48861FF052A8BD"
+					structure: "valarian_conquest:hospitaller_castle"
+					title: "Encuentra un Castillo de los Hospitalarios."					type: "structure"
+				}
+				{
+					entity: "valarian_conquest:soldier"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:hospitaller_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					id: "325D6C3DA8F9A503"
+					title: "Derrota a 40 Soldados."					type: "kill"
+					value: 40L
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+	]
+	title: "&l&fFacciónes"}

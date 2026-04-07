@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:miner_subclass_2_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "minecraft:poison",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_subclass_2_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Flechas de Veneno",
+  "titleColor": "",
+  "positionX": -216.404,
+  "positionY": 310.785,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

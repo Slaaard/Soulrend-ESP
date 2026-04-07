@@ -1,0 +1,20 @@
+{
+	id: "337523805B5851DA"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 32, item: "minecraft:bread" }
+		{ count: 16, item: "minecraft:bread" }
+		{ count: 4, item: "delightful:deluxe_cheeseburger" }
+		{ count: 8, item: "delightful:cheeseburger" }
+		{ count: 12, item: "alexsmobs:kangaroo_burger" }
+		{ count: 32, item: "minecraft:carrot" }
+		{ count: 16, item: "minecraft:golden_carrot" }
+		{ count: 4, item: "aquaculturedelight:unusual_fish_soup" }
+		{ count: 4, item: "farmersdelight:noodle_soup" }
+		{ count: 8, item: "minecraft:pufferfish" }
+		{ count: 32, item: "farmersdelight:bacon" }
+		{ count: 32, item: "minecraft:salmon" }
+		{ count: 32, item: "minecraft:cooked_chicken" }
+	]
+	title: "Comida"}

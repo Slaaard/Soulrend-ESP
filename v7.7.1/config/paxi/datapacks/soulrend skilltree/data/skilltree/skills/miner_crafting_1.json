@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:miner_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "e550a6ba-899a-4cde-a4bc-3d0b2208b527",
+      "name": "Habilidad",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.005,
+      "multiplier": 2.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.005,
+      "multiplier": 2.0,
+      "loot_type": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:miner_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejorador de Clase",
+  "titleColor": "",
+  "positionX": -104.79101,
+  "positionY": 60.496647,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

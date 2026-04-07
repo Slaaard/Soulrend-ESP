@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:cook_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.1,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.2,
+      "multiplier": 1.0,
+      "loot_type": "fishing"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_6"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_class.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Pecado capital",
+  "titleColor": "",
+  "positionX": 0.006,
+  "positionY": -409.527,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

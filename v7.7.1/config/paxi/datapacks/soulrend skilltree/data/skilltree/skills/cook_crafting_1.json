@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:cook_crafting_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "46daffe6-caec-46c9-b09e-029248926009",
+      "name": "Habilidad",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.025,
+      "experience_source": "mobs"
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "ore"
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_crafting_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:cook_class"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejorador de Clase",
+  "titleColor": "",
+  "positionX": 1.8614632e-14,
+  "positionY": -121.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

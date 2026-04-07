@@ -1,0 +1,508 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l9_sky_arena"
+	group: "59FD824E9CBEF444"
+	icon: "skyarena:altar_battle"
+	id: "5CAFB0CC5F8D98C4"
+	images: [
+		{
+			height: 3.0d
+			image: "deeperdarker:item/warden_sword"
+			order: -1
+			rotation: -45.0d
+			width: 3.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "endlessbiomes:block/endaltaritem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A01139A2F791579"]
+			id: "66609CBEEFE57F35"
+			rewards: [{
+				id: "74FB96F3F2966C54"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un campo de batalla congelado donde solo los guerreros más resistentes soportan el frío implacable. Vence sus desafíos para obtener llaves valiosas y demostrar tu fuerza."			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "6C7897F45609695D"
+				structure: "skyarena:ice_arena"
+				title: "Encuentra la &l&3Arena de Hielo"				type: "structure"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A01139A2F791579"]
+			id: "7689CD2FBDB1E085"
+			rewards: [{
+				id: "175E8FC3080BD64C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un campo de batalla abrasador, repleto de enemigos implacables y calor inclemente. Derrotalos para obtener llaves y reclamar tus recompensas."			tasks: [{
+				icon: "minecraft:polished_blackstone"
+				id: "6321E6163E032894"
+				structure: "skyarena:sky_arena"
+				title: "Encuentra la &l&cArena del Cielo"				type: "structure"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Todas las arenas disponibles solo dejan caer Llaves de Hielo."				"(No uses llaves en cofres)"			]
+			id: "2A01139A2F791579"
+			rewards: [{
+				id: "00F3255DB7445A56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Derrota a enemigos en las &l&3Arenas de Hielo&r y &l&cArenas del Cielo&r para obtener llaves. Usa una tecla en un cofre vacío para generar &l&6botín aleatorio&r, comercia con ellos en la tienda de arriba, y conquista la dificultad más alta para reclamar el &l&6trofeo definitivo."			tasks: [{
+				id: "1E67A14647EBBD8A"
+				type: "checkmark"
+			}]
+			title: "¡Ponte a prueba en SkyArena!"			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6E2FB604BFC7321D"
+			rewards: [{
+				id: "07DA3A620F100DDD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Concedido a aquellos que conquistan la arena en la dificultad básica."			tasks: [{
+				id: "4B2887F52CD6DF1E"
+				item: "skyarena:oak_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "06A7AB6075FDCCCD"
+			rewards: [
+				{
+					id: "7F01759ED321226D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4181949206237843"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una señal de Fuerza obtenida al superar un desafío Mayor."			tasks: [{
+				id: "1806ADA23EC4B197"
+				item: "skyarena:stone_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "596D9742F0896E0A"
+			rewards: [
+				{
+					id: "784866EE5CE9E531"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E8179A6A1134798"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684A73131BCDED47"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Prueba de Determinación y destreza dentro de la arena."			tasks: [{
+				id: "14EA224AC0F4B691"
+				item: "skyarena:iron_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "2B505134526A87D5"
+			rewards: [
+				{
+					id: "5E9BCBB452E6A3EA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4653E9404A1614"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Una recompensa para Guerreros que triunfen más de formidables pruebas."			tasks: [{
+				id: "1CD9F1EF612130DD"
+				item: "skyarena:gold_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "0A52B56FE9B9DC65"
+			rewards: [
+				{
+					id: "3EA0A401CA1CB981"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1213611CE5047E93"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7367B25B5FECFB92"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Un emblema de maestría obtenida al vencer los desafíos más arduos de la arena."			tasks: [{
+				id: "2DCB366C38973C68"
+				item: "skyarena:diamond_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "404AD60CD3981C35"
+			rewards: [
+				{
+					id: "5E299F2702ECA0E8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "008F20147E8F626B"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			subtitle: "El trofeo definitivo, reservado para aquellos que conquisten la arena en su máxima Dificultad."			tasks: [{
+				id: "009964B95F4F2019"
+				item: "skyarena:netherite_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13EE8BA2480013CF"]
+			icon: {
+				Count: 1
+				id: "simplyswords:slumbering_lichblade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3C0A5A2E84B9673F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "752E798B61FCA06C"
+				table_id: 5855199985956072846L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 32L
+				icon: "skyarena:ice_key"
+				id: "025F845862A8626F"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Desenvaina tu &6Sencilla Espada"			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+			id: "66672B450DBDA9B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B7313FEACD46690"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3E9F81A8F069A303"
+				item: { Count: 4, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "&8Gemas Agrietadas&r"			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:boss_gems/infernal_overlord"
+				}
+			}
+			id: "5FC1ACABFA0BAF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43522F419C28DFA9"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "62D71BD93538E151"
+				item: { Count: 8, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "&aGemas Astilladas&r"			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:compat/spell_eldritch"
+				}
+			}
+			id: "37840DFCDAECED68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CFF0E16A277E26F"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "4489E704FF0E7CC4"
+				item: { Count: 20, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "&9Gemas Defectuosas&r"			x: -1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:emerald"
+			id: "5D1BB93EC0C18845"
+			rewards: [{
+				count: 8
+				id: "00B3D1D1DA456B43"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7BC69134DAD24A96"
+				item: { Count: 2, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "8 &2Esmeraldas"			x: 1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:diamond"
+			id: "1ED58CD2900E855E"
+			rewards: [{
+				count: 4
+				id: "18F3BA08AD95ABE8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "41FDD558186F22D6"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "4 &9Diamantes"			x: 1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13EE8BA2480013CF"]
+			icon: {
+				Count: 1
+				id: "simplyswords:awakened_lichblade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "789163DA20F496A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75F4220B010DE633"
+				table_id: 5855199985956072846L
+				type: "choice"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "04EFC2F491B02229"
+				item: { Count: 64, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "Elige tu &6Sencilla Espada"			x: -3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: "irons_spellbooks:ancient_knowledge_fragment"
+			id: "730DA955DA741C20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "158379928E54CAFC"
+				table_id: 3181997575744570686L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7957134F25D8660D"
+				item: { Count: 8, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "Fragmento de Conocimiento Ancestral"			x: -3.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bread"
+			id: "30617B32D8194FCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF5556CA9E50058"
+				table_id: 3707908902404772314L
+				type: "loot"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "320520868A190135"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&fComida"			x: 1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:iron_ingot"
+			id: "7856D61C4137350D"
+			rewards: [{
+				count: 16
+				exclude_from_claim_all: true
+				id: "14CCC4F36D6C5F3D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "27B6D67847863279"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "16 &7Lingote de hierro"			x: 3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:gold_ingot"
+			id: "2B3156436270C555"
+			rewards: [{
+				count: 8
+				id: "6D74A38A731241BE"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "1FB3F1BE01017E47"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "8 &6Lingote de oro"			x: 3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtbcs_geomancy_plus:geo_rune"
+			id: "6C3EEC7E848DB2FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D360628039E515A"
+				table_id: 78867488366120478L
+				type: "random"
+			}]
+			subtitle: "¡Haz clic! en las Teclas para intercambiarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1A336E51491DC0C1"
+				item: { Count: 2, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "&3Runas de Magia"			x: 3.0d
+			y: -6.5d
+		}
+	]
+	title: "&l&9 Arenas del Cielo "}

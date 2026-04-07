@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:alchemist_defensive_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "f55b253b-ca16-44b3-8612-c57d38d3b3dd",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.01,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:alchemist_defensive_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 27.99845,
+  "positionY": 200.49832,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Probabilidad de Esquivar: 1%"
+    }
+  ]
+}

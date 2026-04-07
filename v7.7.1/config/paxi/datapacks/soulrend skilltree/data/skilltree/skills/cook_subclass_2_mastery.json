@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:cook_subclass_2_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "e536f9ae-33a4-407c-9688-16748a7f529e",
+      "name": "Habilidad",
+      "amount": 0.01,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_2_life_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Hambre Insaciable",
+  "titleColor": "",
+  "positionX": -142.954,
+  "positionY": -451.974,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

@@ -1,0 +1,494 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "7C77405D74600A5D"
+	icon: "minecraft:netherrack"
+	id: "4E9CFDD949918D24"
+	images: [
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 3.0d
+			image: "aquaculture:item/quartz_hook"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.0d
+			image: "minecraft:item/cit/custom/netherite_excalibur"
+			order: 1
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 2.3d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependency: "1F70A4EA66FBAFA0"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependency: "74AD3A93D99A930B"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependency: "1F70A4EA66FBAFA0"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1F70A4EA66FBAFA0"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			alpha: 150
+			dependency: "74AD3A93D99A930B"
+			height: 3.0d
+			image: "soulrend:textures/quests/nether_theme.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "74AD3A93D99A930B"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "2AE1CB4EBCF87650"
+				title: "El Nether"				type: "dimension"
+			}]
+			title: "&l&4El Nether"			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74AD3A93D99A930B"]
+			hide_until_deps_complete: true
+			icon: "quark:nether_brick_chest"
+			id: "0FC6F6647AF76A7B"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "2998BC743F53D399"
+				title: "Mazmorras Infernales"				type: "checkmark"
+			}]
+			title: "Mazmorras Infernales"			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			icon: "twigs:quartz_column"
+			id: "6A85ACAFF2835665"
+			rewards: [
+				{
+					count: 3
+					id: "392888BD6530A2CA"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "5BD4ED5B17D68138"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Hace mucho tiempo..."			tasks: [{
+				icon: "twigs:quartz_column"
+				id: "399CC4EC278B8067"
+				structure: "incendium:abandoned_tower"
+				title: "Torre Abandonada"				type: "structure"
+			}]
+			title: "Paraíso Infernal"			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "29F720E04BAB6528"
+			rewards: [
+				{
+					id: "2D73BCA11880F76F"
+					item: {
+						Count: 1
+						id: "magistuarmory:minicrown_decoration"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7779944988D5D819"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Vestigios de un Reino Desmoronado"			tasks: [{
+				icon: "minecraft:gilded_blackstone"
+				id: "4B12D7DED67BD47F"
+				structure: "incendium:forbidden_castle"
+				title: "Castillo Prohibida"				type: "structure"
+			}]
+			title: "Salón del Rey Piglín"			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "44B2AAA85810EEE5"
+			rewards: [
+				{
+					id: "4B499B35E3F2F6D9"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "irons_spellbooks:fire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E5E0BE61467BAD2"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33081DF7C6BA16C9"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Exigen Sacrificio"			tasks: [{
+				icon: "minecraft:smooth_red_sandstone"
+				id: "50E44C6A479A9925"
+				structure: "incendium:infernal_altar"
+				title: "Altar Infierna"				type: "structure"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "09979CDC03B4B2BC"
+			rewards: [
+				{
+					count: 2
+					id: "067CD25CC67FC761"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "715B65521F05C2D3"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45BBE10368553B15"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Edicion Pocket Alpha"			tasks: [{
+				icon: "quark:purple_framed_glass"
+				id: "06D0D2DD3CE93A7E"
+				structure: "incendium:nether_reactor"
+				title: "El Reactor del Inframundo"				type: "structure"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "60F8228E13C10EC6"
+			rewards: [
+				{
+					id: "5D011FE392EC15D7"
+					item: "handcrafted:warped_fancy_bed"
+					type: "item"
+				}
+				{
+					id: "5EDB98BBDAF3BF00"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Conoce a los Cercanos"			tasks: [{
+				icon: "minecraft:stripped_crimson_stem"
+				id: "448E42765B485F3E"
+				structure: "incendium:piglin_village"
+				title: "Aldea de los Piglin"				type: "structure"
+			}]
+			title: "¿Un Refugio?"			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "56C71F8AD015A1CE"
+			rewards: [
+				{
+					count: 4
+					id: "472DE41F4CBF53F4"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "19A60C67957F3D12"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Infraestructura Antigua"			tasks: [{
+				icon: "minecraft:cyan_terracotta"
+				id: "68BC5CDF273868CB"
+				structure: "incendium:pipeline"
+				title: "La Tubería"				type: "structure"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "44D1A3BEE85AEB9D"
+			rewards: [
+				{
+					id: "04EDAF188EB5F713"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63FEE5709F70915E"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "¡Eso es una albóndiga picante!"			tasks: [{
+				icon: "delightful:quartz_cabinet"
+				id: "5FB6D0B2C9FE3419"
+				structure: "incendium:quartz_kitchen"
+				title: "Cocina de Cuarzo"				type: "structure"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "0233D0F697D33DC5"
+			rewards: [
+				{
+					id: "3D0C02705CA4CDD4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "582D8FF396D8CE98"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Grandes Largos de Guerra"			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "47BC972ABE3DE9EB"
+				structure: "incendium:ruined_lab"
+				title: "Labatorio Arruinada"				type: "structure"
+			}]
+			title: "Experimentos alquímicos"			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0FC6F6647AF76A7B"]
+			id: "16AE4323BA6327F5"
+			rewards: [
+				{
+					id: "13E22C47043B7B6D"
+					item: "handcrafted:pillager_trophy"
+					type: "item"
+				}
+				{
+					id: "5C303C2C65C8B9EB"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:quartz_samurai_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ED55F88E58D4C9B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Invasores Familiares"			tasks: [{
+				icon: "minecraft:chiseled_quartz_block"
+				id: "366A8ADAF0CD208E"
+				structure: "incendium:sanctum"
+				title: "El Santuario"				type: "structure"
+			}]
+			title: "El Santuario"			x: 0.0d
+			y: -11.5d
+		}
+	]
+	title: "&7El Nether"}

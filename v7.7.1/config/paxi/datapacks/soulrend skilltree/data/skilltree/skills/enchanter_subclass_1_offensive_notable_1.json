@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:enchanter_subclass_1_offensive_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "8e0a9f25-7a26-4a09-9f01-d1c46141c2ff",
+      "name": "Habilidad",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 428.90466,
+  "positionY": -128.70454,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

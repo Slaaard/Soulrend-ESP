@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:enchanter_subclass_2_life_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:mining_speed",
+      "id": "bf4b67e1-1f82-40cb-92df-f6d17673f88d",
+      "name": "Bonificación de Habilidad",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "create:extendo_grip",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_life_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sabiduría del Terreno",
+  "titleColor": "",
+  "positionX": 232.40228,
+  "positionY": -283.073,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

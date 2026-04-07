@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:cook_defensive_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "872e83a1-0b3a-4dde-8e82-38fa501ce9d6",
+      "name": "Bonificación de Habilidad",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_defensive_8",
+    "skilltree:cook_lesser_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sigilo",
+  "titleColor": "",
+  "positionX": -53.99701,
+  "positionY": -323.53247,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
