@@ -1,0 +1,2618 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "578CEED7CC7D235C"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"fallen_gems_affixes:augment_capability": {
+				Augments: [{
+					Test: "test"
+				}]
+			}
+		}
+		id: "simplyswords:harbinger"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "0E4AC46ACE909A11"
+	images: [
+		{
+			height: 10.0d
+			image: "simplyswords:item/soulpyre"
+			rotation: -45.0d
+			width: 10.0d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			height: 10.0d
+			image: "simplyswords:item/soulrender"
+			rotation: 180.0d
+			width: 10.0d
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/soulrender_demon"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 10.0d
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 10.0d
+			x: -19.56d
+			y: -1.45d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/lichblade"
+			rotation: -45.0d
+			width: 10.0d
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/stars_edge"
+			rotation: 0.0d
+			width: 10.0d
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/stars_edge_anim_03"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/stars_edge_anim_01"
+			rotation: 0.0d
+			width: 10.0d
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "dungeons_and_combat:item/mjolnir"
+			rotation: 135.0d
+			width: 10.0d
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/icewhisper"
+			rotation: 135.0d
+			width: 10.0d
+			x: 9.85d
+			y: 7.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/wickpiercer"
+			rotation: 135.0d
+			width: 10.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/wickpiercer_anim_02"
+			rotation: 135.0d
+			width: 10.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/wickpiercer_anim_01"
+			rotation: 135.0d
+			width: 10.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/watching_warglaive"
+			rotation: -45.0d
+			width: 10.0d
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/watching_warglaive_eyes"
+			rotation: -45.0d
+			width: 10.0d
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/shadowsting"
+			rotation: -45.0d
+			width: 10.0d
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/shadowsting_layer_32x32_e"
+			rotation: -45.0d
+			width: 10.0d
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/soulstealer"
+			rotation: -45.0d
+			width: 7.0d
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/soulstealer_layer"
+			rotation: -45.0d
+			width: 7.0d
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/whisperwind"
+			order: 1
+			rotation: 45.0d
+			width: 7.0d
+			x: 28.5d
+			y: 1.0d
+		}
+		{
+			height: 7.0d
+			image: "simplyswords:item/whisperwind_effect_below"
+			rotation: 45.0d
+			width: 7.0d
+			x: 28.5d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/caelestis_hilt_strip"
+			rotation: 135.0d
+			width: 7.0d
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/caelestis_blade_strip"
+			rotation: 135.0d
+			width: 7.0d
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/molten_edge_old"
+			rotation: -45.0d
+			width: 10.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			alpha: 180
+			height: 10.0d
+			image: "simplyswords:item/molten_edge_layer"
+			rotation: -45.0d
+			width: 10.0d
+			x: 9.5d
+			y: -4.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13EE8BA2480013CF"]
+			description: [
+				"&c&lRemanentes Imbuidos&r se crean en &c&lYunque de Infusión Mecánico&r o fundiendo armas únicas."				""
+				"Se utilizan en la creación de &9&lEquipo Único&r, y &6&lGemas Fundidas del Nether&r."			]
+			hide_until_deps_complete: true
+			id: "5AA2A1E358A18B4E"
+			rewards: [
+				{
+					id: "484700ADEF26CFD9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "5BF39C352371EC2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3AD57D6DAA2392B8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Un Dolor por Causar..."			tasks: [{
+				id: "5DF612576542C997"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: [
+				"Para crearlo, combina un &cRemanente Imbuido&r con una &6Lingote de Netherita&r en una Mesa de Herrería."				""
+				"¡Haz Clic! para identificar qué poder ustedes poseen."			]
+			id: "47EBDA6516061205"
+			rewards: [
+				{
+					id: "5B95526DD588D574"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00F0A6CDD2E3D77C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "09E4171B6A7E42EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Hecho con ceniza."			tasks: [{
+				id: "1F673D38D2BBDA24"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CB5DD879B712BA1"]
+			description: [
+				"Para crearlo, combina una &bTableta Rúnica&r con una &cEscala de Netherita&r en una Mesa de Herrería."				""
+				"¡Haz Clic! para identificar qué poder ustedes poseen."			]
+			id: "3E5207641E8653DC"
+			rewards: [
+				{
+					count: 5
+					id: "7E8172D545591CF2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "123D0FDCADF578A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7FB4D2E4F7B5AD64"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Hecho con &klol&r"			tasks: [{
+				id: "5C78E6FA3E4F93CB"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.3d
+		}
+		{
+			dependencies: ["2D18CB8E589C3083"]
+			description: [""]
+			id: "1A59D35015E0BB3F"
+			rewards: [
+				{
+					id: "078B62038E47ABC3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B53512686365DE4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "El poder latente yace bajo..."			tasks: [{
+				id: "0F8DD51E27AD3B4A"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A59D35015E0BB3F"]
+			id: "1E65DAC37F8D34F9"
+			rewards: [{
+				id: "4D4664097A94E786"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "¡Todos los Poderes!"			tasks: [{
+				id: "70287F102D2FE077"
+				item: {
+					Count: 1
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E65DAC37F8D34F9"]
+			id: "3B50D775CE678833"
+			rewards: [
+				{
+					id: "35CBCEA6D5519A6D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "001ABC0D6243F24C"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Puro Ligero."			tasks: [{
+				id: "1CECDA302A1F41AE"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A59D35015E0BB3F"]
+			id: "10710081934A30C6"
+			rewards: [{
+				id: "1F3F63D864A2579F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Taintados y Retorcidos."			tasks: [{
+				id: "7B79D2A0339B4CFC"
+				item: {
+					Count: 1
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["10710081934A30C6"]
+			id: "3B253027B3A56099"
+			rewards: [
+				{
+					id: "61DC296EEFD8DFFA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "72B94569AD9F163E"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Oscuridad pura"			tasks: [{
+				id: "31C29D8D28776CF2"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: [
+				"Cada arma rúnica recibe un regalo adicional en forma de un Poder Rúnico. Aquí hay algunos ejemplos de Poderes Rúnicos:"				""
+				"&5Poder Rúnico Mayor&l"				"Poder Rúnico:Lentos"				"Cambiar al impactar para ralentizar a las dianas por una duración."				""
+				"Poder Rúnico:Velocidad"				"Probabilidad de golpe para aumentar la velocidad de movimiento del portador por una duración."				""
+				"Claro que hay muchos más poderosos, pero tendrás que descubrirlos por tu cuenta."			]
+			hide_until_deps_complete: true
+			id: "1CB5DD879B712BA1"
+			rewards: [{
+				id: "73A86618693087A6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6BD0AC529FE86F78"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.3d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "61BC8E49C868ACDB"
+			rewards: [{
+				id: "16ABEC1B716F69DE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una arma de largo alcance que mantiene a los enemigos a distancia."			tasks: [{
+				id: "4D21B85D065A452D"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "6A294C33D335DABC"
+			rewards: [{
+				id: "0D9C4E2EF455F36F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hoja artesano, conocida por su gracia terrible y precisión."			tasks: [{
+				id: "2CE4792AE9040A4A"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "20F9CAEF218A607A"
+			rewards: [{
+				id: "16EB6850D4E53F49"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una rápida arma utilizada para bloquear ataques y golpear con precisión."			tasks: [{
+				id: "30736CE43464829A"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_sai"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "204BC90713BEF150"
+			rewards: [{
+				id: "76D75867BBAC9780"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hoja de duelista preciso, diseñada para la gracia terrible y estocadas mortales."			tasks: [{
+				id: "09B58E1E0E8F55E5"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "5D6CD5259CF84CE7"
+			rewards: [{
+				id: "013C13CA7A1238C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una rápida espada curva favorecida por valientes luchadores."			tasks: [{
+				id: "368B3DE1CA26C3C3"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_cutlass"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "09F758E67B9C841A"
+			rewards: [{
+				id: "7D08F44A84F5D1B7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Un arma de asta versátil que combina alcance, poder y control."			tasks: [{
+				id: "415F7C70129ACA38"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_halberd"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "7217C444B0BD870F"
+			rewards: [{
+				id: "31E6EC269B027633"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hacha brutal capaz de cortar enemigos con fuerza bruta."			tasks: [{
+				id: "0E6A1BD3A35DECD2"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "2EF44F2D9979FC80"
+			rewards: [{
+				id: "132ABA3C7FB3A1E1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una enorme espada de dos manos que lanza devastadores balanceos."			tasks: [{
+				id: "6F9FEE85B828E45F"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "17C9A9C66D28B5E2"
+			rewards: [{
+				id: "5C2A76CF7D89DC21"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Un enorme martillo construido para aplastar armaduras y hacer añicos defensas."			tasks: [{
+				id: "125ED4DD1846C742"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "05025AAAD240F1F6"
+			rewards: [{
+				id: "4DCA9423AD6122BA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hoja curva hecha para un combate ágil e implacable."			tasks: [{
+				id: "4C1D4AF24EABE831"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_warglaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "5307526419E6073A"
+			rewards: [{
+				id: "782AC4C88011143D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una arma de doble filo construida para golpes incesantes y fluidos."			tasks: [{
+				id: "1BD85E4EE5F18B30"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_twinblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "2D18CB8E589C3083"
+			rewards: [{
+				id: "54D29497286A44A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hoja equilibrada adecuada para golpes rápidos y poderosos."			tasks: [{
+				id: "113BA06771FA114F"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "34FE1A398F1B2E61"
+			rewards: [{
+				id: "7F56B117BDB680E2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una hoja curva capaz de cortar a múltiples enemigos a la vez."			tasks: [{
+				id: "3DB1FCDDF8911D7B"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "13EC1BF9B956EC8E"
+			rewards: [{
+				id: "043C3077D97A3809"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Un anillo arrojadizo de filo a navaja que golpea con letal precisión."			tasks: [{
+				id: "4C28C301727E4B82"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_chakram"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			id: "6E2D070D8027F505"
+			rewards: [{
+				id: "18FCD32023C4E754"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Una arma de asta con una hoja de barrido hecha para golpes amplios y poderosos."			tasks: [{
+				id: "20CFA1CFCA053366"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_glaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "1225909988C3773E"
+			rewards: [
+				{
+					id: "117E7648FA0B04AB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EA04B7C6EA8CF32"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70F3D84E2C012275"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1225909988C3773E"]
+			id: "5243927ABA92E6B8"
+			rewards: [{
+				id: "226EDA4ACBF908D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "602901C26B2B513F"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5243927ABA92E6B8"]
+			id: "380EC4E161543201"
+			rewards: [
+				{
+					id: "75568F36FB66BFAB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0A3BFCC58710E0E9"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "401C10272C552C3A"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["13EC1BF9B956EC8E"]
+			id: "514E776255828CB3"
+			rewards: [
+				{
+					id: "044C08991F1F217D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40FD9AEBD4E17B3A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "\"El Original\""			tasks: [{
+				id: "544F47B03E16D80C"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "656F5726B48D1498"
+			rewards: [
+				{
+					id: "74122C8E8CAD3B96"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1414B01F1954AB34"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "468D07711D18663B"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17C9A9C66D28B5E2"]
+			id: "364E170C68A2A0C3"
+			rewards: [
+				{
+					id: "21E476A9301AE543"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "691D16CADFC769E2"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3DD8EE471289358F"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "75675572EE435CD7"
+			rewards: [
+				{
+					id: "5CD6C8387EDD6300"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "349DFB80AEE2BE0A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "48434A883BADC4E5"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34FE1A398F1B2E61"]
+			id: "6977360DD2DDFB46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3822D76744A2E680"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "076F958048798DE0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "79D6F0B75B840E70"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34FE1A398F1B2E61"]
+			id: "35A9FBE3BE916660"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D5F204D07C9D733"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "4A32C4C1A149EED2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "79C8D62B83436EA2"
+				item: {
+					Count: 1
+					id: "efn:crimson_moon"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D18CB8E589C3083"]
+			id: "54F6428D92BD77B9"
+			rewards: [
+				{
+					id: "4ACE3D4FFDD4E75A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02FA33C624FC52F0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4352AB94C6091B61"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D18CB8E589C3083"]
+			id: "07FAA83400F8F22C"
+			rewards: [
+				{
+					id: "47EFBED7FCD3B77C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114E1D23A4449855"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1CE4C0AE75DFF35D"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5307526419E6073A"]
+			id: "31519A01B62AAE1D"
+			rewards: [
+				{
+					id: "28259CCAD2B4B298"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C0972ED7F62D7D2"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E77BAB06530F6D2"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5307526419E6073A"]
+			id: "0C1DEB10FF41779B"
+			rewards: [
+				{
+					id: "0B72429C26C5E714"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00817B6B2BD0841B"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4DFF92923A1DB362"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5307526419E6073A"]
+			id: "35C7F81FD5EA1B1E"
+			rewards: [
+				{
+					id: "0E50B0F4D49C63DC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "161BA82CB071C4BD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D0646CA63A3E27E"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34FE1A398F1B2E61"]
+			id: "64258305DD757200"
+			rewards: [
+				{
+					id: "63F4840DB190B24B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148794FC10B16EC9"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7585C20D4481FEC0"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17C9A9C66D28B5E2"]
+			id: "5741EAEF943C4C63"
+			rewards: [
+				{
+					id: "50C2FC28D6FB4495"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C26404645243C59"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6775E75E5BF39A7B"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["17C9A9C66D28B5E2"]
+			id: "36A69A0074BB0E02"
+			rewards: [
+				{
+					id: "4A2F6F46EDEEF3C8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51DD58979D6147E3"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2851B2668C37FBF4"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "7AB2D8A8E53D6A1D"
+			rewards: [
+				{
+					id: "4C0DAD77D2377E14"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29AE349284D60C88"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42B85F841682D44D"
+				item: {
+					Count: 1
+					id: "efn:ruinsgreatsword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17C9A9C66D28B5E2"]
+			id: "1AA373D68FE7C1D2"
+			rewards: [
+				{
+					id: "6072A5A2532570E1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B50415B62D25F1A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51F8E5E754484E43"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7217C444B0BD870F"]
+			id: "5F053CBDB4FC1B52"
+			rewards: [
+				{
+					id: "30DEBAFF85832569"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15ABB559FC2588B5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A2E227FC66E338D"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7217C444B0BD870F"]
+			id: "6733B5979065A4A7"
+			rewards: [
+				{
+					id: "2B58E3A3E50B347E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D9B1C0D5CB34F41"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B90D3FA2E269872"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7217C444B0BD870F"]
+			id: "6F2AB0A052809E53"
+			rewards: [
+				{
+					id: "59BE159EE1275274"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46F0CA91EE42B418"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4313C575DCDB5A57"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09F758E67B9C841A"]
+			id: "779E8A1509E2C2AF"
+			rewards: [
+				{
+					id: "64D59D3BCA45FDC3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F04BA76A48A9A38"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F881F216197ED40"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09F758E67B9C841A"]
+			id: "34FA8903A558D805"
+			rewards: [
+				{
+					id: "6641018C53939CFB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D8F82C483D69FB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "20B4A3062EEADFCC"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E2D070D8027F505"]
+			id: "307F1E430D2F8CA5"
+			rewards: [
+				{
+					id: "19BE24636C51A9E9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327BF2BE80D17438"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45EF7B473932CB25"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E2D070D8027F505"]
+			id: "1845E73BAEFBA931"
+			rewards: [
+				{
+					id: "313DB987B6AB7381"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EBA3F87399EE4A6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "40A2ADF2BCAF9C92"
+				item: {
+					Count: 1
+					id: "efn:crescent_moon"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61BC8E49C868ACDB"]
+			id: "13DE32258494A2C4"
+			rewards: [
+				{
+					id: "372B83FF9E8D044E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70DE9EC9C21C1A81"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1834994C02189176"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["61BC8E49C868ACDB"]
+			id: "01C636FD2CC73B97"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23296BE019F20723"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "050386BC2FB9C51A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "16E5399DE2D2B3BB"
+				item: {
+					Count: 1
+					id: "efn:meen_spear"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7217C444B0BD870F"]
+			id: "1CCFA7C8A5741A2C"
+			rewards: [
+				{
+					id: "39B937085027C87D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26712510CE0E4109"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BB0244FE0BE65A6"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["05025AAAD240F1F6"]
+			id: "6124604C2F600CDF"
+			rewards: [
+				{
+					id: "4DA515B47E537111"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "728886322C124F44"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41CE0E7CE4CE0BBA"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61BC8E49C868ACDB"]
+			id: "4D5E7F806A55ED5E"
+			rewards: [
+				{
+					id: "5834BBE387688774"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E7E6525FDE35BD5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24DC98E5C935BEB4"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.35d
+			y: 11.5d
+		}
+		{
+			dependencies: ["204BC90713BEF150"]
+			id: "03EB7974E0F41772"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3264DEC9E9A43941"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "55C41F43E9B89418"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "187BC2D5506A399D"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "5B41C700A2FA2AB1"
+			rewards: [
+				{
+					id: "625362160BCC7456"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59FDF79AFA7BDC4A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "649FD68C7C855DEB"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["20F9CAEF218A607A"]
+			id: "5855586001F66DC6"
+			rewards: [
+				{
+					id: "49FA1207082C9B5B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CF184C8232AAC24"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EABF6B21DEFCB11"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17C9A9C66D28B5E2"]
+			id: "364B8B7901645F81"
+			rewards: [
+				{
+					id: "75E4A9631F359ED2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73AF5596C56544CB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D918C846F521673"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["204BC90713BEF150"]
+			id: "315DB5FE5BAB833D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40DAC8C28315AFE2"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "029E8166F7391009"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "573FA896ACDBD9BB"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5D6CD5259CF84CE7"]
+			id: "72FE422BE7F5B65B"
+			rewards: [
+				{
+					id: "17291AB053A95269"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711349750C1B36A6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B8F1F2A1EF0AA9C"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A294C33D335DABC"]
+			id: "0E43A71102B77E35"
+			rewards: [
+				{
+					id: "4524D89BD15C7F4C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65AEF3BE4CE13CBA"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "¡El favorito de Soldierdonkey!"			tasks: [{
+				id: "6A1BB2E699F009CC"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF44F2D9979FC80"]
+			id: "77777F71D4553FFD"
+			rewards: [
+				{
+					id: "59F89A22AE9F0572"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76C7CB6C71485A8E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "619FA50FEAC8AFFD"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D6CD5259CF84CE7"]
+			id: "0593A05DF9D79791"
+			rewards: [
+				{
+					id: "2BA843D200910A4E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E6A5F70014F09F5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5369BF187BD778C2"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D6CD5259CF84CE7"]
+			id: "22BE54A9D5389ACE"
+			rewards: [
+				{
+					id: "7E22D7DB812FAD13"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "458ED0C78C082FE3"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "206C8476A51C5C56"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5D6CD5259CF84CE7"]
+			id: "20D4C6EE690646F4"
+			rewards: [
+				{
+					id: "3CD1EC4A81327E66"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E35BB7541CDBFF9"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F09A6D8498A6D6F"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20F9CAEF218A607A"]
+			id: "35531AFE87A67114"
+			rewards: [
+				{
+					id: "6DA08D59DD9FD09C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20235B5200488441"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5880BC5623AA9931"
+				item: {
+					Count: 1
+					id: "efn:nf_shortsword_2"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20F9CAEF218A607A"]
+			id: "705AD432AC43E64C"
+			rewards: [
+				{
+					id: "3E8D8E5C471F04FB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "144BA6F9AF02EE44"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "76AD02B854BDB1FF"
+				item: {
+					Count: 1
+					id: "efn:nf_shortsword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A294C33D335DABC"]
+			id: "354EAFB857001435"
+			rewards: [
+				{
+					id: "335BABB75D7F3514"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D2A5723DA36368E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "371C52E66C59D3CC"
+				item: {
+					Count: 1
+					id: "efn:air_tachi"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"35531AFE87A67114"
+				"705AD432AC43E64C"
+			]
+			id: "3FC1C88F4731355C"
+			rewards: [
+				{
+					id: "71BD859D355F6FDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0077C9473CCE56F6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "76443C6FFF5558D7"
+				item: {
+					Count: 1
+					id: "efn:nf_dual_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A294C33D335DABC"]
+			id: "425738B389B044EA"
+			rewards: [
+				{
+					id: "069A415AF08EBED1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB37F368D72BD5A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "136528227C281119"
+				item: {
+					Count: 1
+					id: "efn:sword_of_pioneer"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D18CB8E589C3083"]
+			id: "6A618BC5DD5CAA2A"
+			rewards: [
+				{
+					id: "313A51BC50784708"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CD6B19678BD8F0F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4697B5E758CF7202"
+				item: {
+					Count: 1
+					id: "efn:exsiliumgladius"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D18CB8E589C3083"]
+			id: "7EF5830AD94A4DFA"
+			rewards: [
+				{
+					id: "11D1C7091734F44E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EFD8D0E3B51A794"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "321DB38D57632895"
+				item: {
+					Count: 1
+					id: "efn:fire_exsiliumgladius"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4218E721A2FABF4D"]
+			description: [
+				"&6&lEspadas Simples&r ofrece Más de &a&l15&r tipos de armas para que el jugador utilice."				""
+				"También tiene el conjunto de características único de &b&n&lPoderes Rúnicos&r, que pueden otorgarse a armas a través de &n&bzócalos&r!"			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simplyswords:runic_grimoire"
+				}
+			}
+			id: "0F426527B63F854D"
+			rewards: [
+				{
+					id: "4990EA6F31E34290"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "5E12586E60A353E5"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "637B319789AC5A40"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "¡Uno de muchos receptáculos!"			tasks: [{
+				id: "6461B5E43F7DF63E"
+				title: "&d&lEspadas Simples"				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.7d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: ["Poderoso yunque utilizado para &l&bÚnico Equipos"]			hide_until_deps_complete: true
+			id: "13EE8BA2480013CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78CCF9FD8B2DBFC8"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "5BE7C028535B2C0B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "57C25C5EC182854D"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			title: "&l&cYunque de Fusión Mecánica"			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34FE1A398F1B2E61"]
+			id: "1992AC3041D78F0D"
+			rewards: [
+				{
+					id: "39CDABC904E10529"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321E05DB99114F17"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "354560471F8ADF46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epicfightx:eternal_night_scythe"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+	]
+	title: "&9Simplemente Caída de la Noche"}

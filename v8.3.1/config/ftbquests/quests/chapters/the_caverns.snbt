@@ -1,0 +1,349 @@
+{
+	autofocus_id: "5F7B3E773503523E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_caverns"
+	group: "7C77405D74600A5D"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:ambersol"
+	id: "3FFBA21E5DC1B124"
+	images: [
+		{
+			height: 2.0d
+			image: "soulrend:textures/quests/alexs_caves.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependency: "2D56F239371CFF35"
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/forlorn_hollows.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependency: "2C2F5F5A82741D67"
+			height: 1.0d
+			image: "alexscaves:item/primordial_tunic"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependency: "05D64B5B45230395"
+			height: 1.0d
+			image: "alexscaves:block/block_of_uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependency: "559D546183C08560"
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/magnetizing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependency: "4A366794D76C3272"
+			height: 1.0d
+			image: "traveloptics:item/hullbreaker_scales"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3AEB77D824A31A36"]
+			id: "559D546183C08560"
+			subtitle: "Objeto que te teletransporta a cuevas magnéticas"			tasks: [{
+				id: "337C5C49F043091B"
+				item: "alex_caves_dimensions:magnetic_caves_key"
+				title: "&4Cuadrado Le&1ad Magneto"				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEB77D824A31A36"]
+			id: "2C2F5F5A82741D67"
+			subtitle: "Objeto que te teletransporta a cuevas primordiales"			tasks: [{
+				id: "4F6B16DB6A5448D5"
+				item: "alex_caves_dimensions:primordial_caves_key"
+				title: "&6Mina Original Ancestral"				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AEB77D824A31A36"]
+			id: "4A366794D76C3272"
+			subtitle: "Objeto que te teletransporta a fosas abisales"			tasks: [{
+				id: "1AFB8BB0ED265B94"
+				item: "alex_caves_dimensions:abyssal_chasm_key"
+				title: "&8Arrecife Abisal"				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEB77D824A31A36"]
+			id: "05D64B5B45230395"
+			subtitle: "Objeto que te teletransporta a cuevas tóxicas"			tasks: [{
+				id: "7923C3938C6086CF"
+				item: "alex_caves_dimensions:toxic_caves_key"
+				title: "&2Esmeralda Arsénico Cobre Uranio"				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AEB77D824A31A36"]
+			id: "2D56F239371CFF35"
+			subtitle: "Objeto que te teletransporta a depresiones desoladas"			tasks: [{
+				id: "5C08246C162033A6"
+				item: "alex_caves_dimensions:forlorn_hollows_key"
+				title: "&cMedallón Redondo Pagano"				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05D64B5B45230395"]
+			icon: "alexscaves:fissile_core"
+			id: "5F7B3E773503523E"
+			rewards: [{
+				id: "026839B943063C59"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "alex_caves_dimensions:toxic_caves"
+				icon: "alexscaves:fissile_core"
+				id: "6F5B63D08DB1B643"
+				title: "&l&2Cuevas tóxicas"				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["559D546183C08560"]
+			icon: "alexscaves:notor_gizmo"
+			id: "260750982046BBEA"
+			rewards: [{
+				id: "2BE7D93E9BC709E3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "alex_caves_dimensions:magnetic_caves"
+				icon: "alexscaves:notor_gizmo"
+				id: "537E6C3B77741A8B"
+				title: "&l&4Magnético &1Cuevas"				type: "dimension"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A366794D76C3272"]
+			icon: "alexscaves:pearl"
+			id: "70144A92FACA2345"
+			rewards: [{
+				id: "5DDAD290A7B39A9A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "alex_caves_dimensions:abyssal_chasm"
+				icon: "alexscaves:pearl"
+				id: "5B564FFD29FA6AC6"
+				title: "&l&8Fosas abisales"				type: "dimension"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D56F239371CFF35"]
+			icon: "alexscaves:occult_gem"
+			id: "35D6AD187AD9BFA8"
+			rewards: [{
+				id: "04B3771109D67CA3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "alex_caves_dimensions:forlorn_hollows"
+				icon: "alexscaves:occult_gem"
+				id: "4BE84F952E8F24BC"
+				title: "&l&cDepresiones desoladas"				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C2F5F5A82741D67"]
+			icon: "alexscaves:amber_curiosity"
+			id: "32D6EF1FAE7482C3"
+			rewards: [{
+				id: "31FB7708F726F04C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				dimension: "alex_caves_dimensions:primordial_caves"
+				icon: "alexscaves:amber_curiosity"
+				id: "4FAE9D7557E5AE22"
+				title: "&l&6Cuevas primordiales"				type: "dimension"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70144A92FACA2345"]
+			icon: "alexscaves:immortal_embryo"
+			id: "078C78E0A116FDD0"
+			rewards: [
+				{
+					id: "100E43686A3169A8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AD0334AC9C15A0B"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "646B714D0E7C294F"
+				title: "Derrota a los &l&8Rompecascos"				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["260750982046BBEA"]
+			icon: "alexscaves:telecore"
+			id: "50B0AC1A6317324B"
+			rewards: [
+				{
+					id: "04CF7C913563B737"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "221508537877D85E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:telecore"
+				id: "2B121C51D999F431"
+				title: "Derrota a &l&4Magne&l&1tron"				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F7B3E773503523E"]
+			icon: "alexscaves:nuclear_bomb"
+			id: "141D31A0CF047099"
+			rewards: [
+				{
+					id: "7F1E2E7ACEC95A1D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "298CB80B8AF4B542"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: "alexscaves:nuclear_bomb"
+				id: "343585B57882111C"
+				title: "Derrota a los &l&2Cerebracos"				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35D6AD187AD9BFA8"]
+			icon: "alexscaves:pure_darkness"
+			id: "4D7F915501DF8891"
+			rewards: [
+				{
+					id: "07363B11CA664B72"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D27BD485C322039"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:pure_darkness"
+				id: "1CE072E81ABFD055"
+				title: "Derrota a los &l&4Olvidademonios"				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32D6EF1FAE7482C3"]
+			icon: "alexscaves:tectonic_shard"
+			id: "3F1DC9D152299F9C"
+			rewards: [
+				{
+					id: "7831B50E11055990"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FAB083F0245FA1E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "0A10978FC839065C"
+				title: "Derrota a los &l&6Luxtruyesaurios"				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	title: "&eLas Cavernas"}

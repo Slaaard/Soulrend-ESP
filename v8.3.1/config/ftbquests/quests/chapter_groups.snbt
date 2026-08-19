@@ -1,0 +1,8 @@
+{
+    chapter_groups: [
+        { id: "59FD824E9CBEF444", title: "&7&lEl Camino Exaltado" },
+        { id: "519DE62D7CDBD327", title: "&c&lRelatos de Soulrend" },
+        { id: "578CEED7CC7D235C", title: "&l&6Armería Legendaria" },
+        { id: "7C77405D74600A5D", title: "&l&dLos Reinos Míticos" }
+    ]
+}

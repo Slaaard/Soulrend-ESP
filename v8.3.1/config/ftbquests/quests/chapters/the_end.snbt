@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "7C77405D74600A5D"
+	hide_quest_until_deps_complete: true
+	icon: "cataclysm:void_infused_end_stone_bricks"
+	id: "5B4435F3D2FB1A09"
+	images: [
+		{
+			height: 1.2d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependency: "6CA4DCF4B8F4E34F"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			height: 2.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -8.2d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: -5.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["185016ECD6698C63"]
+			id: "6CA4DCF4B8F4E34F"
+			rewards: [{
+				id: "7B177D2BE888C5EF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:ender"
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Una Tierra Corrompida Desolada"			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "cataclysm:void_infused_end_stone_bricks"
+				id: "26C4820E0571F209"
+				title: "El End"				type: "dimension"
+			}]
+			title: "&l&dFin"			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "085FE4CC064C70C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682FB8571B2CAB70"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "outer_end:himmel_block"
+				id: "14C501392D0BA59D"
+				structure: "outer_end:end_tower"
+				title: "Torre del Fin"				type: "structure"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "19DC1742F9C29DA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47848F04B0968611"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "outer_end:violite_bricks"
+				id: "2415E96B67437BAE"
+				structure: "outer_end:catacombs"
+				title: "Catacumbas del Fin"				type: "structure"
+			}]
+			title: "Catacumbas del Fin"			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			icon: "waystones:end_stone_waystone"
+			id: "67F6FBFE89F0232D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC1FEFEFD2B787D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "waystones:end_stone_waystone"
+				id: "391B343671BD017C"
+				structure: "end_villager_outpost:end_villager_outpost"
+				title: "Puesto avanzado de aldeanos del Fin"				type: "structure"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "6AE456996BD4192C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "180BC9E6B1347DE6"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:end_rod"
+				id: "4515B2132438276F"
+				structure: "minecraft:end_city"
+				title: "Ciudad del end"				type: "structure"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			icon: "minecraft:shroomlight"
+			id: "149299069784F096"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32550B376E6DE370"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:shroomlight"
+				id: "716C72A3494E2536"
+				structure: "dungeons_arise:aviary"
+				title: "Aviario"				type: "structure"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			icon: "minecraft:hoglin_spawn_egg"
+			id: "342786B537BB7C5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0450B7C4CA6F4682"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "¿Una nave de Ascensión con hoglins a bordo?"			tasks: [{
+				id: "4EF2731E468BD7E9"
+				structure: "dungeons_arise:heavenly_conqueror"
+				title: "Conquistador Celestial"				type: "structure"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "5F64C7EA3DD98974"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A94DE07DF240A1E"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:phantom_membrane"
+				id: "5A7AC03A4C56405A"
+				structure: "dungeons_arise:heavenly_rider"
+				title: "Jinete Celestial"				type: "structure"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "0A024F084A6288A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "408078742FB3228F"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "quark:vertical_acacia_planks"
+				id: "2054891C71A5C004"
+				structure: "dungeons_arise:heavenly_challenger"
+				title: "Desafiante Celestial"				type: "structure"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "4346FA1575269AD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0659152BAB7E8BAB"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "endlessbiomes:resistive_arkan"
+				id: "522D26A74C0CF832"
+				structure: "endlessbiomes:resitive_bulwark"
+				title: "Bastión Resistente"				type: "structure"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6CA4DCF4B8F4E34F"]
+			id: "5D11FA4895DB160A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D24197DF1EBF7DC"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "endlessbiomes:twisted_shoal_lamp"
+				id: "7693128471DF18AB"
+				structure: "endlessbiomes:arkan_bulwark"
+				title: "Baluarte Arkan"				type: "structure"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+	]
+	title: "&5el End"}

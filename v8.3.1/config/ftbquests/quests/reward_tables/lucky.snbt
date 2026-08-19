@@ -1,0 +1,13 @@
+{
+	id: "0A490FC5295A1A91"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "minecraft:emerald", weight: 20.0f }
+		{ item: "minecraft:emerald", weight: 20.0f }
+		{ item: "minecraft:emerald", weight: 20.0f }
+		{ item: "minecraft:emerald_block" }
+		{ count: 16, item: "minecraft:emerald", weight: 0.8f }
+		{ count: 8, item: "minecraft:emerald_block", weight: 0.6f }
+	]
+	title: "Afortunado"}

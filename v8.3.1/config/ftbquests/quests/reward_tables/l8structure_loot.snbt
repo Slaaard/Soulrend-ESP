@@ -1,0 +1,17 @@
+{
+	icon: "valarian_conquest:barathian"
+	id: "472AED3C1B1D83E2"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 4, item: "minecraft:bread" }
+		{ count: 2, item: "minecraft:leather" }
+		{ count: 4, item: "minecraft:bone_meal" }
+		{ count: 4, item: "minecraft:wheat_seeds" }
+		{ count: 4, item: "minecraft:string" }
+		{ item: "minecraft:dirt" }
+		{ item: "minecraft:white_wool" }
+		{ item: "minecraft:golden_carrot", weight: 0.2f }
+		{ count: 2, item: "minecraft:wheat" }
+	]
+	title: "&l&8Estructura Botín"}

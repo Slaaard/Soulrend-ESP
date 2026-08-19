@@ -1,0 +1,613 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soulslike_champions"
+	group: "519DE62D7CDBD327"
+	icon: "soulsweapons:iron_skull"
+	id: "4F6AA181E7C46E60"
+	images: [
+		{
+			dependency: "4667630C9656EDDD"
+			height: 1.6d
+			image: "soulsweapons:item/essence_of_luminescence"
+			order: 2
+			rotation: 0.0d
+			width: 1.6d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependency: "7D2E63E7DC4FDF32"
+			height: 1.6d
+			image: "soulsweapons:item/essence_of_eventide"
+			order: 2
+			rotation: 0.0d
+			width: 1.6d
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependency: "1EDBB06BF4D86561"
+			height: 1.6d
+			image: "soulsweapons:item/essence_of_eventide"
+			order: 2
+			rotation: 0.0d
+			width: 1.6d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependency: "3B0C386899373F73"
+			height: 1.6d
+			image: "soulsweapons:item/essence_of_luminescence"
+			order: 2
+			rotation: 0.0d
+			width: 1.6d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			alpha: 150
+			height: 4.0d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 14.0d
+			image: "soulsweapons:item/frostmourne"
+			rotation: 45.0d
+			width: 14.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:textures/particle/soul_beam_13.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:textures/particle/soul_beam_13.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependency: "0325AAAA2A88EC29"
+			height: 4.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependency: "0325AAAA2A88EC29"
+			height: 3.0d
+			image: "efn:textures/entity/blood_slash/2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependency: "0325AAAA2A88EC29"
+			height: 3.0d
+			image: "efn:textures/particle/blood_harvest4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: -3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B792E5AA521B5F2"]
+			description: [""]
+			icon: "soulsweapons:altar_block"
+			id: "3B0C386899373F73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "483D321AA49BBF98"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD62E75F5913C4D"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			subtitle: "Aquí yace un Caído Caballero. Libéralo usando un Alma Perdida en el Altar."			tasks: [{
+				id: "1E8CF29780FCE775"
+				item: "soulsweapons:altar_block"
+				type: "item"
+			}]
+			title: "Encuentra la Catedral de la Resurrección"			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5B792E5AA521B5F2"]
+			description: ["¿Qué te obliga a crear un objeto como este? ¿Para invocar un gran demonio o algo maligno?"]			id: "7D2E63E7DC4FDF32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B6DDCFC25013E02"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F342A3D2B140233"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			subtitle: "Craftea un Pedestal de Piedra Negra"			tasks: [{
+				id: "60093F40E5DF21D0"
+				item: "soulsweapons:blackstone_pedestal"
+				type: "item"
+			}]
+			title: "El Olor de Decadencia está cerca..."			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B792E5AA521B5F2"]
+			icon: "soulsweapons:cracked_infused_blackstone"
+			id: "4667630C9656EDDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AB8650E5032B462"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26ABF8D16E6F40AB"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			subtitle: "Aquí se alza un rey que perdió todo, ponga fin a su falso reinado y emerja victorioso."			tasks: [{
+				id: "30EF96745F99F552"
+				structure: "soulsweapons:decaying_kingdom"
+				title: "Encuentra el Reino Decadente"				type: "structure"
+			}]
+			title: "El Reino de Dacaying"			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B792E5AA521B5F2"]
+			icon: "graveyard:leaning_skeleton"
+			id: "1EDBB06BF4D86561"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11CA2E6B99573341"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A8ACE9F79775FC"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			subtitle: "Aquí yace un gran campeón, incapaz de encontrar paz ni descanso. Debes matarlo y enviar su cuerpo de vuelta a la Tierra."			tasks: [{
+				id: "666236AD26DCF0C8"
+				structure: "soulsweapons:champions_graves"
+				title: "Encuentra la Tumba del Campeón"				type: "structure"
+			}]
+			title: "Encuentra la Tumba del Campeón"			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EDBB06BF4D86561"]
+			description: ["Un alma poderosa de un gran Campeón y un Contenedor poderoso de un Fantasma. Ustedes liberaron a los muertos y ahora han vuelto a la Tierra para descansar."]			hide_until_deps_complete: true
+			icon: "soulsweapons:lord_soul_dark"
+			id: "1EA2FE83DF292A85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D1E3CD65B8C8787"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64048E27CA99B937"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66839998768206DE"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Exorcismo"			tasks: [
+				{
+					id: "306B22E67205A029"
+					item: "soulsweapons:lord_soul_dark"
+					type: "item"
+				}
+				{
+					id: "1EFEEBD259197A81"
+					item: "soulsweapons:essence_of_eventide"
+					type: "item"
+				}
+				{
+					entity: "soulsweapons:night_shade"
+					id: "20C6BB67A9E3EDF3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "soulsweapons:draugr_boss"
+					id: "27A6B28ADA9285E2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Derrota a &l&9El Viejo Campeón"			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4667630C9656EDDD"]
+			description: ["Un alma poderosa de un líder caído y un corazón de un demonio en decadencia. Ustedes han liberado al rey que no podía morir."]			hide_until_deps_complete: true
+			icon: "soulsweapons:lord_soul_red"
+			id: "1908F3903A63062B"
+			rewards: [
+				{
+					count: 5
+					id: "697A813FB8D24A6B"
+					item: "soulsweapons:soul_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "048205F4F53CC561"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D66A92102E2B946"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Caída de un reino"			tasks: [
+				{
+					id: "22A32D00123EF149"
+					item: "soulsweapons:lord_soul_red"
+					type: "item"
+				}
+				{
+					id: "58C1FF26B3DF2670"
+					item: "soulsweapons:withered_demon_heart"
+					type: "item"
+				}
+			]
+			title: "Derrota a &l&cEl Rey Decadente"			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D2E63E7DC4FDF32"]
+			description: [""]
+			hide_until_deps_complete: true
+			icon: "soulsweapons:lord_soul_void"
+			id: "4797F8F75E4E1EC2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B1D280FE8B0A571"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122021F945CD9E10"
+					table_id: 1174104366176383878L
+					type: "random"
+				}
+			]
+			subtitle: "Un alma poderosa de una encarnación de decadencia, el Wither, y dejó caer un fragmento que emana energía caótica. ¿Para qué sirve?"			tasks: [
+				{
+					id: "2DCC8A7D47931D55"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "624EACEB7BB420B2"
+					item: "soulsweapons:lord_soul_void"
+					type: "item"
+				}
+			]
+			title: "Derrota a &l&8El Wither"			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B0C386899373F73"]
+			description: [
+				"Un alma poderosa que estaba bajo el control de una fuerza oscura y una pura Piedra Lunar que irradiaba con energía poderosa. Pero, ¿no pudimos hacer cualquier cosa más?"				""
+				"Invocado con un &l&bAlma Perdida&r&r en un &7Antiguo Altar Lunar&r."			]
+			hide_until_deps_complete: true
+			icon: "soulsweapons:lord_soul_rose"
+			id: "31074978BAD2832F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C849AEA57F26AE1"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F84FAAFA9C1E6C3"
+					table_id: 7938273166641392587L
+					type: "random"
+				}
+			]
+			subtitle: "Muñecos Caídos"			tasks: [
+				{
+					id: "748EE6B36DC033CD"
+					item: "soulsweapons:lord_soul_rose"
+					type: "item"
+				}
+				{
+					entity: "soulsweapons:returning_knight"
+					id: "2FF1E9C9EC578C5A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "70E809EC11437809"
+					item: "soulsweapons:altar_block"
+					type: "item"
+				}
+				{
+					id: "363F21B42E6CA03F"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			title: "Derrota a &l&5El Caballero Retornado"			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31074978BAD2832F"]
+			description: [
+				"Ustedes poseen un Caído Caballero devuelto a su legítimo Torso, y ahora lo enfrentan en su antigua gloria."				""
+				"Invocado con una &l&3Esencia del crepúsculo&r&r en un &7Antiguo Altar Lunar&r."			]
+			hide_until_deps_complete: true
+			icon: "soulsweapons:essence_of_eventide"
+			id: "2A44985BAF8FC85F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A54C50DF46057D8"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3573330422079C7B"
+					table_id: 3181997575744570686L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2687D38C02FB1CA1"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Retribución"			tasks: [
+				{
+					id: "513B98489CFD1402"
+					item: "soulsweapons:lord_soul_white"
+					type: "item"
+				}
+				{
+					entity: "soulsweapons:moonknight"
+					id: "0FA16B60F741D463"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1A7E3BA75669BD35"
+					item: "soulsweapons:essence_of_eventide"
+					type: "item"
+				}
+				{
+					id: "4C48CC13E163026E"
+					item: "soulsweapons:altar_block"
+					type: "item"
+				}
+			]
+			title: "Derrota a &l&fEl Ícono Caído"			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4797F8F75E4E1EC2"]
+			description: [
+				"Un peligroso monstruo, invocado desde el Pedestal usando el fragmento, causará Decadencia en cualquier cosa sobre la que camine, el Monarca del caos. Derrótalo y recibe su Equipo personal."				""
+				"Invocado con un &l&0Fragmento de incertidumbre&r&r en un &8Pedestal de piedra negra&r."			]
+			hide_until_deps_complete: true
+			icon: "soulsweapons:shard_of_uncertainty"
+			id: "4B59515AB4B7234B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11336283567532E8"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA4EA236C9430DF"
+					table_id: 858487407543727412L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7981BD3EAE64C40D"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "El olor de decadencia está cerca..."			tasks: [
+				{
+					id: "364461D455F27A5D"
+					item: "soulsweapons:lord_soul_void"
+					type: "item"
+				}
+				{
+					entity: "soulsweapons:chaos_monarch"
+					id: "073109BDE345ACA6"
+					title: "Mata al Monarca del caos"					type: "kill"
+					value: 1L
+				}
+				{
+					id: "71121E904963266B"
+					item: "soulsweapons:blackstone_pedestal"
+					type: "item"
+				}
+				{
+					id: "532597973E6DA911"
+					item: "soulsweapons:shard_of_uncertainty"
+					type: "item"
+				}
+			]
+			title: "Derrota a &l&8El Monarca del caos"			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1FF2991FCD3B3CEB"]
+			hide_until_deps_complete: true
+			icon: "soulsweapons:boss_compass"
+			id: "5B792E5AA521B5F2"
+			rewards: [{
+				count: 2
+				id: "5A5E451B6B9BE831"
+				item: "soulsweapons:lost_soul"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.6d
+			subtitle: "Craftea una Brújula de Piedra Lunar, revelando la ubicación de teclas estructuras"			tasks: [
+				{
+					id: "65BD5D83A1F824E2"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D6E7E7FA3D6D1B8"
+					type: "checkmark"
+				}
+			]
+			title: "&lLa Luna Guía"			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4B59515AB4B7234B"
+				"2A44985BAF8FC85F"
+				"1908F3903A63062B"
+				"1EA2FE83DF292A85"
+			]
+			hide_dependency_lines: true
+			id: "0325AAAA2A88EC29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4218204E1A81133B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33274C927B5DEF8F"
+				item: "soulsweapons:chaos_orb"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0325AAAA2A88EC29"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "soulsweapons:dawnbreaker"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B960E37DA8CBE7A"
+			rewards: [{
+				id: "64C264CC2CB59013"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "¡Derrótala para que puedas vivir libre bajo el sol!"			tasks: [{
+				id: "409128DA33D42B20"
+				item: "soulsweapons:lord_soul_day_stalker"
+				type: "item"
+			}]
+			title: "Derrota al Cazador de Día &l&6&r"			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0325AAAA2A88EC29"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "soulsweapons:forlorn_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "323862D0BF9F5CA4"
+			rewards: [{
+				id: "33EB9301593A8917"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "¡Derrota a este enemigo para que puedas dormir en paz!"			tasks: [{
+				id: "2A2A524CBB2044CA"
+				item: "soulsweapons:lord_soul_night_prowler"
+				type: "item"
+			}]
+			title: "Derrota a &l&4Los Merodeadores Nocturnos&r"			x: 14.5d
+			y: -3.0d
+		}
+	]
+	title: "&l&3Campeones de Alma"}

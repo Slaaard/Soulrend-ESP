@@ -1,0 +1,7809 @@
+{
+	autofocus_id: "7370A599A59F3188"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_schools"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "traveloptics:deepling_mage_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "13E58327CE506E63"
+	images: [
+		{
+			height: 2.5d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 9.5d
+			y: -3.75d
+		}
+		{
+			dependency: "7A1A43F8A9865516"
+			height: 1.25d
+			image: "simplyswords:item/soulrender_demon_layer"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.3d
+			y: -8.3d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/thunderbrand_layer_2"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.32d
+			y: -6.5d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: -90.0d
+			width: 1.25d
+			x: 12.8d
+			y: -8.3d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/compat/spell_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -6.2d
+		}
+		{
+			height: 1.55d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 1.55d
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_purple"
+			rotation: 0.0d
+			width: 1.1d
+			x: 19.0d
+			y: -6.7d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes_e_demon"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.3d
+			y: -8.4d
+		}
+		{
+			height: 1.25d
+			image: "simplyswords:item/lichblade_eyes_e_demon"
+			rotation: -90.0d
+			width: 1.25d
+			x: 5.8d
+			y: -8.4d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/sconce_fire_green"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.25d
+			y: -7.2d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/sconce_fire_green"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.2d
+			y: -7.2d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			height: 1.9d
+			image: "gtbcs_geomancy_plus:item/geo_orb_swirl"
+			rotation: 0.0d
+			width: 1.9d
+			x: 1.95d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:item/aqua_orb_water"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.95d
+			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "traveloptics:item/eldritch_orb_corruption"
+			rotation: 0.0d
+			width: 1.25d
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			color: 4980520
+			height: 1.85d
+			image: "traveloptics:item/aqua_orb_swirl"
+			rotation: 0.0d
+			width: 1.85d
+			x: 14.95d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.0d
+			y: -9.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: -11.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -13.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.5d
+			y: -11.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.0d
+			y: -12.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.5d
+			y: -12.5d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.5d
+			y: -12.0d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			height: 0.75d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 0.75d
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 0.75d
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_12.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_12.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 0.75d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 0.75d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 0.75d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "twigs:item/bamboo_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.0d
+			y: -11.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			height: 0.6d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			height: 0.6d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			height: 0.6d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.5d
+			y: -6.5d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			height: 0.5d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.5d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -11.0d
+		}
+		{
+			color: 6855935
+			height: 1.0d
+			image: "cataclysm:textures/particle/lightning_zap_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: -6.0d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 18.5d
+			y: -7.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			color: 8802989
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: -10.5d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 22.0d
+			y: -4.0d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 20.0d
+			y: -7.0d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 21.5d
+			y: -7.0d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 21.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			height: 1.5d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			height: 0.6d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "irons_spellbooks:textures/particle/dragon_fire_3.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 0.75d
+			image: "quark:item/dirty_shard"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:item/blood_orb"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			height: 0.6d
+			image: "outer_end:block/small_cobalt_crystal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			color: 8802989
+			height: 0.75d
+			image: "create:textures/particle/soul_sprite_end_10.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			height: 0.75d
+			image: "traveloptics:textures/entity/soul_apex/soul_apex_5.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/sun_particle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/soul_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -15.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 9.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A83047D85E293CD"]
+			hide_until_deps_complete: true
+			id: "7370A599A59F3188"
+			subtitle: "Ahora que has aprendido acerca de las clases disponibles, es hora de craftear tu primera pieza de equipo mágico."			tasks: [{
+				id: "05DC41D4123518F8"
+				title: "El Primer Equipo del Mago"				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "1557247F11AD4927"
+			rewards: [{
+				count: 8
+				id: "0B0E4D28D2BEA45A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "Un fragmento concentrado de pura energía mágica, utilizado como componente núcleo en muchos artesanías arcanas"			tasks: [{
+				id: "2FBBFACAA9D4548C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["027E19C073AA60B6"]
+			id: "6DAEF40FBA9C7AB0"
+			rewards: [{
+				count: 8
+				id: "6ABFAF91BAA94CED"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			subtitle: "Una tela tejida con hilos de pura magia, comúnmente utilizada en el crafteo de prendas y equipo mágico."			tasks: [{
+				id: "0B9CBE7CF40D545D"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1557247F11AD4927"
+				"0D692FF825DD0961"
+			]
+			id: "027E19C073AA60B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6334E0DF1B188AE0"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Prendas sencillas usadas por lanzadores de hechizos viajeros. Aunque modestas, ofrecen bienestar y un toque de afinidad mágica para magos errantes."			tasks: [
+				{
+					id: "197C5F8B7C55FDB1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FC6AD9400AC4DDB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23771488B2231A51"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FAA1583A9B857BB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6DAEF40FBA9C7AB0"
+				"16F8587B03307AF6"
+				"027E19C073AA60B6"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3DC3230C16A0FD4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56D9ADEB20300B5F"
+					table_id: 3617535977500179015L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E5F24B26394C4F"
+					table_id: 1174104366176383878L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E054737FC59825E"
+					table_id: 78867488366120478L
+					type: "choice"
+				}
+			]
+			subtitle: "Un atuendo ajado que se asemeja a un espantapájaros, infundido con una magia inquietante que asusta y desestabiliza a los enemigos cercanos."			tasks: [
+				{
+					id: "2D2F5246CC9D30CE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619496E523C01873"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4305E05D2E676688"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049A357DEA3AAC54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CC48E8A4B994DB2"]
+			id: "376BA7C6196EAFC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5636C947075AFE76"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DFEAB11E9FA5488"
+					table_id: 78867488366120478L
+					type: "choice"
+				}
+			]
+			size: 1.5d
+			subtitle: "Una runa vacía esperando energía mágica. Sirve como la base para crear runas más poderosas."			tasks: [{
+				id: "3313A7640A887E0F"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "5D2C2F2B33C617C2"
+			rewards: [
+				{
+					id: "68A40667EB013031"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3E0FCFC15C6AFB57"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa abrasadora que encarna el poder crudo de las llamas y la destrucción."			tasks: [{
+				id: "14DE944C761F2D78"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "&cRuna de Fuego"			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D2C2F2B33C617C2"]
+			id: "2A0FDE9E0660E3ED"
+			rewards: [{
+				id: "156D70A032C06C52"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Togas usadas por piromantes que dedican su magia al poder destructivo de fuego."			tasks: [
+				{
+					id: "78F059550AF6D201"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79DD8F82D921487A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D5E60697AB00C18"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "279D8AD72ACD0736"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "641D300B38F53698"
+			rewards: [
+				{
+					id: "4FE0DD40291FD7B9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "75FB777E5BB2B53D"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Crujiente con energía eléctrica, esta runa representa gracia terrible y poder devastador."			tasks: [{
+				id: "22CB37F897DF1AB7"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "&9Runa de Electricidad"			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["641D300B38F53698"]
+			id: "271E9C9C1B4EB7C1"
+			rewards: [{
+				id: "3FD8E0F9D521D3C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por electromantes que canalizan el poder crudo de las iluminaciones y las tormentas."			tasks: [
+				{
+					id: "36B4C139C8BF1A07"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "513859F89B6FCB6A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "418261EBB209647F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "048FB2E5B95D2C54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "2D79E29D2166D9F9"
+			rewards: [
+				{
+					id: "0E88674E6B7C6F75"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "298B63544DDE9A52"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa infundida con energía sagrada. A menudo utilizada por clérigos y paladines para canalizar magia divina."			tasks: [{
+				id: "0EFEE631E5BC352A"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "&6Runa Sagrada"			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "21E24F23A7102DB2"
+			rewards: [
+				{
+					id: "345F6F3425694199"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "663D76D721A42A25"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa conectada a los salvajes, que extrae poder de plantas, bestias y el entorno viviente."			tasks: [{
+				id: "38BDDF0DF571B78E"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "&aRuna de la Naturaleza"			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "66171275B0E56907"
+			rewards: [
+				{
+					id: "7D708D0EC574B765"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "56D78643AD2918CA"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa que irradia energía de congelamiento, capaz de ralentizar y causar fragmentación a los enemigos."			tasks: [{
+				id: "33CF936468570009"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "&bRuna de Hielo"			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "55C38E51453C92B6"
+			rewards: [
+				{
+					id: "3D5AD74C6DA1226D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "145400F670E9C1C6"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Una misteriosa runa vinculada al End y al extraño poder de la teletransportación y la energía del Vacío."			tasks: [{
+				id: "5C87D8DD425A39FF"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "&dRuna de Ender"			x: 19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "4D53B62DB56BCB25"
+			rewards: [
+				{
+					id: "70899E147BB20979"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "28B5029ED2106990"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa oscura alimentada por esencia de vida, a menudo utilizada en magia prohibida y sacrificial."			tasks: [{
+				id: "1FCD1018B70271EC"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "&4Runa de Sangre"			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "367A69EC299D5896"
+			rewards: [
+				{
+					id: "7244F25EF3288626"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "36F1E9BF26257EFE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa utilizada para desatar pura fuerza mágica, favorecida por poderosos magos de batalla."			tasks: [{
+				id: "7531A48D6FA1F089"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			title: "&8Runa de Invocación"			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["66171275B0E56907"]
+			id: "21285C2EAF5B7EBE"
+			rewards: [{
+				id: "2BB394343BBD9260"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Togas usadas por criomantes que empuñan el poder gélido de la escarcha y el hielo."			tasks: [
+				{
+					id: "64AA927302598236"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6014AD268D168FF3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43F280252552F1EB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6836B5EBE805071F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55C38E51453C92B6"]
+			id: "0072ABCF7397F511"
+			rewards: [{
+				id: "2FD2C02141B3C8B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por caminantes de sombras que extraen poder del Vacío, atacando desde Muy Oscuridad y caminos invisibles."			tasks: [
+				{
+					id: "68E7768EBD5C7C22"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12914EDBBD36C1EC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0475FB1797B98E32"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4745696F58FBC2AD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D53B62DB56BCB25"]
+			id: "48F1147201CB8130"
+			rewards: [{
+				id: "07312127AF2261DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Togas usadas por adeptos que empuñan el peligroso poder de la Magia De Magia Sangrienta."			tasks: [
+				{
+					id: "5E2FCCF3130EAC9F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6705E26377D8B936"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E3D49817A40AF09"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C1A8E7F7A368D80"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D79E29D2166D9F9"]
+			id: "4EAE01E1A213EA0A"
+			rewards: [{
+				id: "28A0D4D324CE3225"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas sagradas usadas por sacerdotes que canalizan magia divina para proteger y sanar a sus aliados."			tasks: [
+				{
+					id: "08E3541C7B3FF1F6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F9DA382D087FE4B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6122216F08492F90"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F90583A3B312ADF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["367A69EC299D5896"]
+			id: "4F9D0E9BFA2A04F6"
+			rewards: [{
+				id: "2F61123F670BC817"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Togas usadas por arcanistas que dominan un inmenso poder arcano y dominan las puras fuerzas de la magia"			tasks: [
+				{
+					id: "19A6CFAB559AC8A3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E33C8A021A27112"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2659276FEEBEFC49"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037104F5F4B9A8D5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21E24F23A7102DB2"]
+			id: "038D6F95366FE126"
+			rewards: [{
+				id: "0B2C0E0DE29F0F9D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por portadores de plaga que empuñan el poder corruptor de la decadencia y la magia tóxica."			tasks: [
+				{
+					id: "4D55F5689B2DFEEC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "665410449C7DFBC0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "132E78B06F70C11D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F70D202B80D5166"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "0D692FF825DD0961"
+			rewards: [{
+				id: "2545F0637DC5DED8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "¡Funde tu esencia arcana!"			tasks: [{
+				id: "69FC0A4C266DCDC8"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1557247F11AD4927"]
+			id: "7CC48E8A4B994DB2"
+			rewards: [
+				{
+					id: "7E1802E217C6600E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02B09ABD1F61BE29"
+					table_id: 1174104366176383878L
+					type: "random"
+				}
+			]
+			subtitle: "Un lingote refinado infundido con energía arcana, utilizado para craftear equipo y artefactos mágicos y poderosos."			tasks: [{
+				id: "48F37D42A6A17D82"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "4E530EB655AB70B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "494100ACEBED7013"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que protege al portador de la abrasadora potencia de las llamas."			tasks: [{
+				id: "3CF07354DF4BB7DA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:fireward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "5F1EB25F810567CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEF22DD2BB546E9"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que guarda al portador contra el frío congelamiento y la magia de escarcha."			tasks: [{
+				id: "2A0C245D04F55D63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:frostward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "4138921528BBBB26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32C8F6651F730B07"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo protector que protege al portador contra tóxinas venenosas y veneno."			tasks: [{
+				id: "0C55D421936969F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:poisonward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "7A8BB0AD2347731E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF97036DDBB838A"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo mágico que mejora la eficiencia del lanzamiento, reduciendo el enfriamiento de tus hechizos."			tasks: [{
+				id: "2D9EF20C78085B4E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cast_time_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "369CB89732610CCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "715E9EAF1DB503F1"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Un anillo infundido con energía de esmeralda, que permite al portador ganar experiencia adicional de sus aventuras."			tasks: [{
+				id: "6F291C2781851F2E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:emerald_stoneplate_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7CC48E8A4B994DB2"
+				"0D692FF825DD0961"
+				"6F8CDA2430DDD9D0"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "29FAD0B5DB1B67A0"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "6D33FA2285111064"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1868B023B927E607"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4619E363D987B157"
+			rewards: [{
+				count: 2
+				id: "6187083A12B7F5A4"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con magia abrasadora, fortaleciendo hechizos de fuego y destrucción."			tasks: [{
+				id: "641E30C3B68C58F4"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "286F314C4F0F3592"
+			rewards: [{
+				count: 2
+				id: "4EF2468C501062F6"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con magia de congelamiento, que potencia hechizos de escarcha y poder gélido."			tasks: [{
+				id: "6C98ECC8DA90D01B"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "1CA81F25FE361BB1"
+			rewards: [{
+				count: 2
+				id: "2D8AB33D5F9796E6"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe crujiente con energía de tormenta, que potencia hechizos de iluminación y trueno."			tasks: [{
+				id: "45189C51A17E2E46"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4A87B1C7CDE4A6FA"
+			rewards: [{
+				count: 2
+				id: "2FC0241CE84A64FA"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe bendecido con poder radiante, que potencia hechizos de luz y magia divina."			tasks: [{
+				id: "6BE0F07F6B9961B3"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "63D17C69404735CA"
+			rewards: [{
+				count: 2
+				id: "4A54CE4199152D61"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con magia Enderman, que potencia hechizos que doblan el espacio y el Vacío."			tasks: [{
+				id: "73FC06A881F461D9"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "2E97274C76BA44B1"
+			rewards: [{
+				count: 2
+				id: "413F499902E9945A"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con magia de sangre, amplificando hechizos alimentados por esencia vital."			tasks: [{
+				id: "092D7A1578B45BB8"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "0B2066FF09AD1B01"
+			rewards: [{
+				count: 2
+				id: "496938F73E90F1AF"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con fuerza arcana, fortaleciendo hechizos que conjuran poder mágico puro."			tasks: [{
+				id: "55D01D4535FC55D4"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "0EA2089E33036FEB"
+			rewards: [{
+				count: 2
+				id: "67CE9FF8CC85D06C"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con energía natural, que potencia hechizos extraídos de lo salvaje."			tasks: [{
+				id: "04F89A570D14B92D"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4B1325EEAC496EAA"
+			rewards: [{
+				count: 2
+				id: "3D5E36B7CF209D6D"
+				item: "irons_spellbooks:arcane_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe desbordante de energía arcana, que aumenta las reservas de mana del portador."			tasks: [{
+				id: "1E336E31D6988003"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "4F45542CFAB86D57"
+			rewards: [{
+				count: 2
+				id: "3A65E2969CEFED71"
+				item: "irons_spellbooks:cooldown_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe que mejora la eficiencia del lanzamiento de conjuros, reduciendo el tiempo necesario para lanzar de nuevo."			tasks: [{
+				id: "21954B322B9470DC"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7CC48E8A4B994DB2"
+				"0DCD62DDE3260A89"
+			]
+			id: "3681B232AE7A60F8"
+			rewards: [{
+				id: "0755D4E33AC967A0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un anillo mágico que potencia el mana del portador, permitiendo a los lanzadores de hechizos extraer más profundamente de sus reservas arcanas."			tasks: [{
+				id: "3F71C7C98AC6D993"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:mana_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Anillo de maná"			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "48AF9F3D413D0488"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76548A9AF1060501"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Tu primer collar mágico"			tasks: [{
+				id: "341E84417CDD4C00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_resonance_charm"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "0DCD62DDE3260A89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4243CA1B083C4539"
+				table_id: 3617535977500179015L
+				type: "random"
+			}]
+			subtitle: "Tu primer anillo mágico"			tasks: [{
+				id: "4E1ADCB2F78A04B4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:silver_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "3BB84611491D638C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43709765A28DAFFD"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "Un anillo maldita que infunde tus hechizos con energía de marchitamiento, haciendo que inflijan decadencia sobre sus dianas."			tasks: [{
+				id: "17E82BA3B1CC9490"
+				item: {
+					Count: 1
+					id: "dacxirons:wither_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&8Anillo de Wither"			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["474A16ED878834C4"]
+			id: "37EC0132F21D1B50"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16E867A40985227C"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "3A49C7419D142733"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Togas usadas por magos carmesí que aprovechan el peligroso poder de la magia sangrienta."			tasks: [
+				{
+					id: "23F098CB06694C26"
+					item: {
+						Count: 1
+						id: "dacxirons:crimson_wizard_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5112CA2B4A62DB87"
+					item: {
+						Count: 1
+						id: "dacxirons:crimson_wizard_robe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B18B3BD7B420D95"
+					item: {
+						Count: 1
+						id: "dacxirons:crimson_wizard_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ECAAE7F263A4C14"
+					item: {
+						Count: 1
+						id: "dacxirons:crimson_wizard_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"7370A599A59F3188"
+				"4B8BA1E011B15DE2"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "dungeons_and_combat:sandstone_light"
+			id: "201EF186A4DAE5E7"
+			rewards: [{
+				count: 2
+				id: "2F0D1F863E976B1D"
+				item: "dungeons_and_combat:blessed_gold_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Arenas Antiguas, enterradas por el tiempo, que llevan los susurros de tierras olvidadas y civilizaciones perdidas."			tasks: [{
+				count: 4L
+				id: "6AA8675B78F8A01E"
+				item: "dungeons_and_combat:blessed_gold_ingot"
+				type: "item"
+			}]
+			title: "&6Arenas Olvidadas"			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4EAE01E1A213EA0A"]
+			id: "4C3AC40D93DC8207"
+			rewards: [
+				{
+					id: "436783434AD16C45"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "72978A4165067AE3"
+					item: "irons_spellbooks:holy_rune"
+					type: "item"
+				}
+			]
+			subtitle: "Un molde sagrado dejado por Sunleia, utilizado para forjar equipo bendecido con poder divino"			tasks: [{
+				id: "6CA198BE9A2DA1F4"
+				item: "dacxirons:divine_mold"
+				type: "item"
+			}]
+			title: "&6Moho Divino"			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C3AC40D93DC8207"]
+			id: "0490339832AA981A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ABB7A6654A0F77C"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "5E426ED03EB1D6F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Armadura sagrada usada por sacerdotes bendecidos, imbuida con energía divina para proteger a los fieles y repeler Muy Oscuridad."			tasks: [
+				{
+					id: "111A984DFBE0391B"
+					item: {
+						Count: 1
+						id: "dacxirons:blessed_priest_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01E1D8EF293F1F7C"
+					item: {
+						Count: 1
+						id: "dacxirons:blessed_priest_robe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290D4F8FB5D5D9F5"
+					item: {
+						Count: 1
+						id: "dacxirons:blessed_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F2B61AE38551F1D"
+					item: {
+						Count: 1
+						id: "dacxirons:blessed_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2A0FDE9E0660E3ED"]
+			id: "2CBA9858C2656462"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03F28620EE776376"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "269C29AF9E7D21C5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Armadura alguna vez usada por devotos sacerdotes del Dragón de Fuego, imbuida con poder abrasador y reverencia por antiguas llamas."			tasks: [
+				{
+					id: "759AC3FA6011FE7A"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06D8D3956EC84324"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "656633766F59616F"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F73DE858B3539E8"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fire_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cArmadura de Sacerdote Dragón de Fuego"			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21285C2EAF5B7EBE"]
+			id: "177BC89F5EC2F686"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A0910B0AEE6EBB1"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "16D15F89327CCE0F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Armadura alguna vez usada por devotos sacerdotes del Dragón de Hielo, imbuida con poder gélido y reverencia por la antigua escarcha."			tasks: [
+				{
+					id: "73E276E68E1EB4F2"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "176DE06AC0A307F4"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7BD13B007E3BA6"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AEFF1D50697A0BC"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:ice_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Sacerdote de Dragón de Hielo"			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["271E9C9C1B4EB7C1"]
+			id: "31212ECDFBE755BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41A9D4CEE5F90EAB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "5884C114E8129C91"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Armadura que fue usada por sacerdotes devotos del Dragón Relámpago, crujiente con energía de tormenta y reverencia por el antiguo trueno."			tasks: [
+				{
+					id: "64F9E1AE85D86F67"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6993DC977C3B7C94"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17FDDA341552EB8E"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "280689D281788E9B"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:lightning_dragon_priest_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Armadura de Sacerdote Dragón Relámpago"			x: 18.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "51FE8A03E8D87C06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E611C2E9A01C324"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6676F82BE69E806F"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:hunter_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "116ECA13D4922BB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481BAEF2D940050D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19E24A666F3E6383"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:necromancer_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "471D5A6F6B0F38C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69EEB7C6253206DB"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37E8ADB7F2E79682"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:summoner_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "7B3DADF348C4AB0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "302C700BE99D1A14"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65ECC270BE2D7D86"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:mage_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "1D40B1C2E1A24BBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0E6C009B4E02C3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F0FCD29D4558330"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:archmage_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "6AEEC97622F5B8C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27556CFF582EA08D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09ED9C54D2B56405"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:illusionist_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "3A1701555CFE9E8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DBF30C61B6A908B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3856EE2DFD41D005"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:scorcher_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "20827AD8DD965990"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074FD51094E575CC"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CB9BC6E042077B5"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:cleric_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "7144BA822778039F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78B59953E03AC488"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F0C7D831BFF9975"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:plague_trinket"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			description: [""]
+			id: "66BB73468E6BAAB0"
+			rewards: [
+				{
+					id: "7CB433E025720AE3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "266B27F7A82EE13C"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa infundida con el poder de la Tierra, capaz de sacudir el suelo y triturar enemigos bajo su peso."			tasks: [{
+				id: "2EAE1CE19D41DC6C"
+				item: "gtbcs_geomancy_plus:geo_rune"
+				type: "item"
+			}]
+			title: "&2Runa Geo"			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "3A3E59A2C6BDD1E4"
+			rewards: [
+				{
+					id: "6DDCCE65B9D875A4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "78C0791E82C4D4B9"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa resonante sintonizada a vibraciones sónicas, que canaliza olas de sonido que resuenan con fuerza destructiva y armoniosa."			tasks: [{
+				id: "0727A1A18B972BD4"
+				item: "alshanex_familiars:sound_rune"
+				type: "item"
+			}]
+			title: "&aRuna del Sonido"			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "47B314DBD6D28FCE"
+			rewards: [{
+				count: 2
+				id: "2CFE1822013B174C"
+				item: "gtbcs_geomancy_plus:geo_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con magia de tierra, potenciando hechizos ligados al poder de la piedra y la tierra."			tasks: [{
+				id: "3E19E04677E6D31B"
+				item: "gtbcs_geomancy_plus:geo_upgrade_orb"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "012883E9D2826E65"
+			rewards: [{
+				count: 2
+				id: "3184959073FDB382"
+				item: "alshanex_familiars:sound_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe que resuena con pura energía sónica, amplificando hechizos a través de vibraciones que hacen añicos y hacen eco por el aire."			tasks: [{
+				id: "19A343BA5E066FB2"
+				item: "alshanex_familiars:sound_upgrade_orb"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["66BB73468E6BAAB0"]
+			description: ["Para obtener este conjunto de armadura, necesitas encontrar a Tongbi (Pestaña de Mitos Caídos de Misión)"]			id: "5F88307BA3AECFA9"
+			rewards: [{
+				id: "13E29A6A324AFB4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por los geomanceres que aprovechan el poder inquebrantable de la Tierra y la Piedra."			tasks: [
+				{
+					id: "394596B4055B5667"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_beads"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B549675947ECC0"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_robe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A526750D5219F98"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_belt"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22303FDD9A9DD154"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_sandals"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3DC3230C16A0FD4B"
+				"7CC48E8A4B994DB2"
+				"6DAEF40FBA9C7AB0"
+			]
+			id: "00FBC43638347279"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EE7E3E9412148B7"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "7E6F2ACF207B80D7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "6B1C5A5ADE8AE489"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11C837B080BA4DFF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "027C99A20EC2805A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76D948EB46199234"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "0EB5C6B7FDD66724"
+			rewards: [
+				{
+					id: "09E1309AD4A28280"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4CC814728630F5E9"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75373E5BDB13F42F"
+				item: "traveloptics:aqua_rune"
+				type: "item"
+			}]
+			title: "&3Runa Aqua"			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A3E59A2C6BDD1E4"]
+			id: "5FC5DC7BB0D58798"
+			rewards: [{
+				id: "744B60C8246A49A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Túnicas usadas por artistas arcanos, que tejen música y magia para desatar poderosos hechizos sónicos sobre sus enemigos."			tasks: [
+				{
+					id: "088FC6B8B52E7C5F"
+					item: {
+						Count: 1
+						id: "alshanex_familiars:bard_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77C9AE46C9C483CB"
+					item: {
+						Count: 1
+						id: "alshanex_familiars:bard_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6189CC10B361A2D0"
+					item: {
+						Count: 1
+						id: "alshanex_familiars:bard_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ABD35A9B43CAE7E"
+					item: {
+						Count: 1
+						id: "alshanex_familiars:bard_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0EB5C6B7FDD66724"]
+			id: "36F6F7BBCB661D41"
+			rewards: [{
+				id: "666F18A14CDEDE15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "647F46C1D1ABEC0C"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3219498BC11790D3"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_robe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F7D20C53CC0106D"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "439AEEAC40E56C59"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["36F6F7BBCB661D41"]
+			id: "74212637D9FF6F85"
+			rewards: [
+				{
+					count: 16
+					id: "743B34FC7CE0B0C7"
+					item: "traveloptics:aqua_rune"
+					type: "item"
+				}
+				{
+					id: "5F134D5C44A6FFF7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4CFFE7E2FB46782C"
+				item: "traveloptics:ocean_sovereign_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74212637D9FF6F85"]
+			dependency_requirement: "one_completed"
+			id: "41914204D9219FF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A6E92195BB46DFC"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BE226667549E9FE"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "7ABBB0AE1351718E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "1EE8C08045B184B2"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_hat"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A017C60829A9546"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_fincloak"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04ACCA909AD788A9"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E599533FF208F02"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["02183CFE0703A956"]
+			id: "1B6DD526F10DB178"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C9FBCD632EE89E1"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4652618DA0443D6C"
+					table_id: 5740687291917975057L
+					type: "loot"
+				}
+				{
+					id: "042EBBED80BBD014"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "458A147BA2CD498C"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_hood"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68628663211624C9"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_robe"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F816DA7A29DBE49"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48D6925E19B837A0"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"4F9D0E9BFA2A04F6"
+				"48F1147201CB8130"
+			]
+			dependency_requirement: "one_completed"
+			id: "02183CFE0703A956"
+			rewards: [
+				{
+					count: 16
+					id: "305661F9C8FB6014"
+					item: "irons_spellbooks:evocation_rune"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "698F655D3B2885FF"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					id: "69997AD38BE4C82B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "61BCFC478CBC82AF"
+				item: "traveloptics:darkness_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5F88307BA3AECFA9"
+				"038D6F95366FE126"
+			]
+			dependency_requirement: "one_completed"
+			id: "6AA6D983D8B620B2"
+			rewards: [
+				{
+					count: 16
+					id: "77954D7CFE014255"
+					item: "irons_spellbooks:nature_rune"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C5852CA8014C8DB"
+					item: "gtbcs_geomancy_plus:geo_rune"
+					type: "item"
+				}
+				{
+					id: "04C93514C2DC68B3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "749C3C35DAC75F0E"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "433D3A2D7E5A9819"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "783AC66F392042A7"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46D2B0D14EF1DD52"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37333C7032168BF8"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"49E85307B142D8DB"
+				"6AA6D983D8B620B2"
+				"2CBA9858C2656462"
+			]
+			dependency_requirement: "one_completed"
+			id: "601F08E4A6BE6EE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "113DC605D9600778"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "117B5A1793CA9B1C"
+					table_id: 5740687291917975057L
+					type: "loot"
+				}
+				{
+					id: "0E25E3F020EDE512"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "337083C56DD591BD"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_helmet"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17E01CB4AD8EBAFE"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3243CBBF2621C190"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2E402EBA232EAE"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"2A0FDE9E0660E3ED"
+				"6AA6D983D8B620B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "49E85307B142D8DB"
+			rewards: [
+				{
+					count: 16
+					id: "4B6BA591BF001978"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+				{
+					id: "5E3DA4262499D43C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "042372B379CC7C2D"
+				item: "traveloptics:tectonic_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["376BA7C6196EAFC3"]
+			id: "5433CEB8AB69057D"
+			rewards: [
+				{
+					id: "490AFFA84C422252"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1504E3084C3FCB8C"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Una runa prohibida ligada a fuerzas antiguas más allá de la realidad, que pulsa con energía caótica del vacío y poder insondable."			tasks: [{
+				id: "5728B5EA5B64670C"
+				item: "irons_spellbooks:protection_rune"
+				type: "item"
+			}]
+			title: "Runa Arcano"			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5433CEB8AB69057D"]
+			id: "41355BC214BEA024"
+			rewards: [{
+				id: "1601132A9E624ECC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Togas usadas por quienes abrazan el conocimiento prohibido, canalizando las energías caóticas del Vacío y las antiguas Entidades más allá de la comprensión."			tasks: [
+				{
+					id: "46656AE843D497BB"
+					item: {
+						Count: 1
+						id: "fantasy_armor:wandering_wizard_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66B708DB051F7D73"
+					item: {
+						Count: 1
+						id: "fantasy_armor:wandering_wizard_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61499F73D0C225B7"
+					item: {
+						Count: 1
+						id: "fantasy_armor:wandering_wizard_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67707E7F3EA0EA92"
+					item: {
+						Count: 1
+						id: "fantasy_armor:wandering_wizard_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["749132608461C621"]
+			id: "3D560C392055979A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EB9499C7AF177BC"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F1BDF5B10FDB3A6"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "77DA3369F58744A0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "4103189593BD8A50"
+					item: {
+						Count: 1
+						id: "traveloptics:abyssal_hide_armor_hat"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC2C43A32BCC084"
+					item: {
+						Count: 1
+						id: "traveloptics:abyssal_hide_armor_robe"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "093A9FAB4922713C"
+					item: {
+						Count: 1
+						id: "traveloptics:abyssal_hide_armor_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2E5F0C70713991"
+					item: {
+						Count: 1
+						id: "traveloptics:abyssal_hide_armor_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0072ABCF7397F511"
+				"41355BC214BEA024"
+			]
+			dependency_requirement: "one_completed"
+			id: "749132608461C621"
+			rewards: [
+				{
+					count: 16
+					id: "6A977AEBEBDD2102"
+					item: "irons_spellbooks:protection_rune"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6FF7E49384F96410"
+					item: "irons_spellbooks:ender_rune"
+					type: "item"
+				}
+				{
+					id: "221348C4A680E500"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "79D4F97B39AE5875"
+				item: "traveloptics:abyssal_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6E5BA1F842601955"
+				"177BC89F5EC2F686"
+			]
+			dependency_requirement: "one_completed"
+			id: "60C159531177DCE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FDB7EB7FBBD1A5D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E0599E74B84F854"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "33BA86431584BAA8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "2E65F83559550534"
+					item: {
+						Count: 1
+						id: "traveloptics:cursed_wraithguard_crown"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "585B20791FC854BD"
+					item: {
+						Count: 1
+						id: "traveloptics:cursed_wraithguard_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16DFAA4415E55A1C"
+					item: {
+						Count: 1
+						id: "traveloptics:cursed_wraithguard_spectral_wrapping"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31F3AF146AB96DC2"
+					item: {
+						Count: 1
+						id: "traveloptics:cursed_wraithguard_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"21285C2EAF5B7EBE"
+				"5FC5DC7BB0D58798"
+			]
+			dependency_requirement: "one_completed"
+			id: "6E5BA1F842601955"
+			rewards: [
+				{
+					count: 16
+					id: "02ECB5AD524A89CB"
+					item: "irons_spellbooks:ice_rune"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "52FD264422990D0C"
+					item: "alshanex_familiars:sound_rune"
+					type: "item"
+				}
+				{
+					id: "5C2B4864DFE248C5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "51020D583FACB4F9"
+				item: "cataclysm:cursium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4B160225D87E5F7D"
+				"31212ECDFBE755BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "752E5C3294177FD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AF5197833659F69"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02F2B465E8598168"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "3FA3627A2058C9D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "57CC4DCA43A9C0FD"
+					item: {
+						Count: 1
+						id: "traveloptics:mechanized_exoskeleton_helmet"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A6F06227626F66D"
+					item: {
+						Count: 1
+						id: "traveloptics:mechanized_exoskeleton_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31617F9F18EA7B8E"
+					item: {
+						Count: 1
+						id: "traveloptics:mechanized_exoskeleton_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6665139D757B0F37"
+					item: {
+						Count: 1
+						id: "traveloptics:mechanized_exoskeleton_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["271E9C9C1B4EB7C1"]
+			id: "4B160225D87E5F7D"
+			rewards: [
+				{
+					count: 16
+					id: "3CA426025360FDC4"
+					item: "irons_spellbooks:lightning_rune"
+					type: "item"
+				}
+				{
+					id: "6953718BAA1E4426"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "465723A9336F809B"
+				item: "traveloptics:witherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "3FAF9DFD70590C92"
+			rewards: [{
+				count: 2
+				id: "65115B0CDF008982"
+				item: "traveloptics:aqua_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe rebosante de contenedor de agua, potenciando hechizos con gracia fluida y la fuerza implacable de las mareas."			tasks: [{
+				id: "53019CE44C803290"
+				item: {
+					Count: 1
+					id: "traveloptics:aqua_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "traveloptics:aqua_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29FAD0B5DB1B67A0"]
+			id: "00F3264F9CED6685"
+			rewards: [{
+				count: 2
+				id: "48265DCC3AFD6EE0"
+				item: "irons_spellbooks:protection_rune"
+				type: "item"
+			}]
+			subtitle: "Un orbe infundido con energía arcanos prohibida, que deforma la realidad misma para potenciar hechizos más allá de la comprensión mortal."			tasks: [{
+				id: "21B1BBE824CE0134"
+				item: {
+					Count: 1
+					id: "traveloptics:eldritch_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "traveloptics:eldritch_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48F1147201CB8130"]
+			description: ["Una plantilla de forja carmesí utilizada para forjar armadura infundida con el poder de la magia de sangre."]			id: "474A16ED878834C4"
+			rewards: [
+				{
+					count: 16
+					id: "22FFEE29574C01B7"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					id: "2A6485C2FB7CFE6D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "1ED34D727A073922"
+				item: "dungeons_and_combat:crimson_smithing_template"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7144BA822778039F"]
+			id: "1DEAB5AB7855AD6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FCBCCEA162608E2"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D76D936C377E5A3"
+				item: {
+					Count: 1
+					id: "gtbcs_geomancy_plus:geo_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["51FE8A03E8D87C06"]
+			id: "12FE424A79112712"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20ADACB585B22938"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BA77E76E5C52E56"
+				item: {
+					Count: 1
+					id: "traveloptics:aqua_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D40B1C2E1A24BBA"]
+			id: "05322B57A067C241"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6465D94E55C9EA5A"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D1F1ECF62062C61"
+				item: {
+					Count: 1
+					id: "traveloptics:blood_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["471D5A6F6B0F38C8"]
+			id: "330B2C2A7099E084"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1171E917F1887750"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A2AFACEDE16777A"
+				item: {
+					Count: 1
+					id: "traveloptics:eldritch_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["655C5A44B6A94995"]
+			id: "295BBED1FBB23889"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51338BF0B2AF7CDA"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C80CE925EC1A496"
+				item: {
+					Count: 1
+					id: "traveloptics:ender_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AEEC97622F5B8C7"]
+			id: "3E5CAE73E85E9BFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339E634A293DE88E"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49008E8F7082CC37"
+				item: {
+					Count: 1
+					id: "traveloptics:evocation_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3A1701555CFE9E8F"]
+			id: "3FF9D423F4A27A6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D294B75AA72E8AC"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AC9A9AF9FFA91D7"
+				item: {
+					Count: 1
+					id: "traveloptics:fire_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["20827AD8DD965990"]
+			id: "53872F6FAFB132EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "627BD0DC1A9CF288"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "426D209AB2C23D17"
+				item: {
+					Count: 1
+					id: "traveloptics:holy_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["378DCD86F4F35761"]
+			id: "566CFA0DC75093C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D65D03AE987F332"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70BE0D01B26EAA50"
+				item: {
+					Count: 1
+					id: "traveloptics:ice_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7B3DADF348C4AB0B"]
+			id: "51DE266DCBC3DC72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BCBD398F48EA0E7"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A81E424007F1A30"
+				item: {
+					Count: 1
+					id: "traveloptics:lightning_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["70150E610B49C70F"]
+			id: "3F6E07927DBF38FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6637FAE092C20B9D"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "680FE91E6FCA5434"
+				item: {
+					Count: 1
+					id: "traveloptics:nature_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "655C5A44B6A94995"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046D4B5EF8EB38FA"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5128B7379C046B01"
+				item: "alshanex_familiars:dragon_warrior_trinket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "378DCD86F4F35761"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DAD43FBAB4CEDD2"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0189C8F5DA99C760"
+				item: "alshanex_familiars:frostling_trinket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["201EF186A4DAE5E7"]
+			id: "70150E610B49C70F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CDF581388B676B0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D949E5DBF318BCC"
+				item: "alshanex_familiars:forest_trinket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3E5CAE73E85E9BFC"
+				"53872F6FAFB132EE"
+			]
+			dependency_requirement: "one_completed"
+			id: "6040D106D79DE396"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1789F0F79D673B98"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32EC82DAE6AA75F0"
+				item: {
+					Count: 1
+					id: "traveloptics:aetherial_despair_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3FF9D423F4A27A6D"]
+			id: "6A6C492CEA67E98D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ECF1AA743E887A9"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "008B832FD352F4A6"
+				item: {
+					Count: 1
+					id: "traveloptics:firestorm_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["12FE424A79112712"]
+			id: "74D96F16BCB57DBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "009E4F439603449E"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "038F1A21BB086798"
+				item: {
+					Count: 1
+					id: "traveloptics:guided_currents_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51DE266DCBC3DC72"]
+			id: "0B4400ED1852156C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "338B7C77FEBA69F2"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27DBE7DF23C39E8C"
+				item: {
+					Count: 1
+					id: "traveloptics:salted_depths_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1DEAB5AB7855AD6B"]
+			id: "65334273925EF001"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6348B551EBD7F2FD"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40D9A76185B951FA"
+				item: "gtbcs_geomancy_plus:bracelet_of_inversion"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["51DE266DCBC3DC72"]
+			id: "064886DF7FB0CC09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682D0878D2095470"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B7BA09AD59FBF55"
+				item: "traveloptics:hydrocharge_bracelet"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["566CFA0DC75093C4"]
+			id: "4C9300FE6D78C24B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "750912C64DFA42B0"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A96CA0F0CBC2FEA"
+				item: "traveloptics:cryostorm_bracelet"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3FF9D423F4A27A6D"]
+			id: "65BD4AC74CC3AE1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CBA467123AA1311"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "562AFC2CA143561F"
+				item: "traveloptics:azure_ignition_bracelet"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["51DE266DCBC3DC72"]
+			id: "445AC521F9A42B75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "096A93EC724A9B10"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CBE19558AED1F9A"
+				item: {
+					Count: 1
+					id: "traveloptics:energy_unbound_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3F6E07927DBF38FE"]
+			id: "09EC2E2478C65D59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3675A0D9640D2889"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6816E17E87C573C5"
+				item: {
+					Count: 1
+					id: "traveloptics:sigil_of_the_spider_sorcerer"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["295BBED1FBB23889"]
+			id: "5408244645C8C2C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "645A1FC8DBA71F9B"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "121DC4ECA9603D81"
+				item: {
+					Count: 1
+					id: "traveloptics:amulet_of_spectral_shift"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12FE424A79112712"]
+			id: "6BF0007281A6494A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "239BCBCE6645E75B"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CAF423E882493E7"
+				item: {
+					Count: 1
+					id: "traveloptics:collar_of_the_turning_tide"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12FE424A79112712"]
+			id: "5FFA8127CA7AFEA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02CE0253E2260592"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "522F5E26EFFB3C8B"
+				item: "traveloptics:bottled_raincloud"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			id: "25B5AD722671FF32"
+			rewards: [{
+				id: "71FCE6BD78372113"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Fragmentos raros de Mitril encontrados en las profundidades del Overworld, ocultos dentro de las capas más antiguas de Piedra. Muy parecido a escombros Antiguos."			tasks: [{
+				id: "45CF37456ACC6259"
+				item: "irons_spellbooks:mithril_scrap"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["25B5AD722671FF32"]
+			id: "6F8CDA2430DDD9D0"
+			rewards: [{
+				id: "78A660BE52D7D8E7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "00789C81A8F9042F"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "2CFE3F73545AC3AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5001221FFBC13001"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "528015B71009959A"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ring_of_life"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CC48E8A4B994DB2"]
+			id: "012E77B78375B3C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74BA9C736F094217"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "¡Desplázate hacia abajo para ver más anillos!"			tasks: [{
+				id: "355B0B2A9576278C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cooldown_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			hide_dependency_lines: true
+			id: "59566B85EC147776"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E906878E4A7EF18"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05996F3BE2BFCA74"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:ring_of_the_eternal_resting"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A83047D85E293CD"]
+			hide_until_deps_complete: true
+			id: "16F8587B03307AF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F99FEEAAEB0B853"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "2677245C5E5C44EF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5674318FD4AA58D0"
+				item: { Count: 4, id: "farmersdelight:stuffed_pumpkin_block" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F8CDA2430DDD9D0"]
+			id: "494BCB9989175C92"
+			rewards: [{
+				id: "1EE4A4E1CE598691"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4B947848D21E6C0F"
+				item: "irons_spellbooks:mithril_weave"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["068194F3CE1A10ED"]
+			description: [""]
+			id: "1337432A912CA5C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74F0D4089C94C20C"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "34F5EA4059861BA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Citadela en el Nether..."			tasks: [{
+				id: "1EC676A8C0CD090D"
+				item: "irons_spellbooks:pyrium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1337432A912CA5C3"]
+			id: "43A638E0DF5D31C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38E1C079B414F0BF"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "7D1B2DC7EF21604F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "41BDF865E51A9B3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:legionnaire_flamberge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1337432A912CA5C3"]
+			id: "1239BE4249172874"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "673C628AAF70249E"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "73880C0476AA7E48"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "79BB7E6088DB4DE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:hellrazor"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_hell"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1337432A912CA5C3"
+				"7B18D557520D3EA0"
+			]
+			id: "0DDE5AA749EC9703"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1808CDBCF8634166"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "166E39C408B0C320"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "10B67670294EF67C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:infernal_sorcerer_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"494BCB9989175C92"
+				"7B18D557520D3EA0"
+			]
+			id: "2C74F529BB8BDF1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EC5E7683807BF08"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D1F35794D7B6D47"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:paladin_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"494BCB9989175C92"
+				"7B18D557520D3EA0"
+			]
+			id: "41166C457F85A545"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DD5D7F0D9083A61"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "038E152AA6433E99"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:speed_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6F8CDA2430DDD9D0"]
+			hide_dependency_lines: true
+			id: "4B02D3371105A3CC"
+			rewards: [{
+				id: "1DB88DBC7D162870"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "47601E301B9BE83B"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B02D3371105A3CC"]
+			id: "6C2F262D04806A0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FA2403A3F832737"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "7F113A5A2E7A7E2F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "7FB1BC4B14466A08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:boreal_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostbite"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B02D3371105A3CC"]
+			id: "43DF71731F1CE4A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2851E0FE7068A44B"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					id: "198A96C2237D0774"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "17181A3D3755991B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:twilight_gale"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:volt_strike"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["520F88EB6FA29B57"]
+			id: "7B18D557520D3EA0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25653D45D97AE089"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "17B1FE1F28FC6387"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "3675B082AE51C6D7"
+				item: "irons_spellbooks:divine_soulshard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7370A599A59F3188"]
+			description: [
+				"Los Familiares pueden ser domesticados usando &lEsencia Arcana&r. Los Familiares pueden ser establecidos para permanecer en un despliegue haciendo clic derecho con un bastón, lo que hará que permanezcan allí sin ataque."				""
+				"Familiares Domesticados pueden ser &csummoned/unsummoned&r por la combinación de teclas correspondiente (predeterminado \"&cX&r\")"				""
+				"Al obtener el avance \"Aprender Necromancia\", el familiar evitará la muerte, a costa de mana, pero si te quedas sin mana, morirán &l&c."			]
+			hide_dependency_lines: true
+			id: "56F77FF90471C781"
+			tasks: [
+				{
+					id: "4A70DE0AEE133453"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					id: "6571E2AF9CC77BB9"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Familiares de Alshanex"			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			id: "12ECBD1683E5FE53"
+			rewards: [
+				{
+					id: "4758A4614E35F359"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "6916F9E1C39B8BD2"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5A7A0EBEA51FA25E"
+				structure: "alshanex_familiars:hunter_campsite"
+				title: "Campamento de Cazadores"				type: "structure"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			id: "3BAEEB346984111B"
+			rewards: [
+				{
+					id: "167EEC1AD5B9E526"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0DDA1E2E2918C689"
+					item: "alshanex_familiars:pet_bed"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cracked_polished_blackstone_bricks"
+				id: "59BA1A2D3B37E3F8"
+				structure: "alshanex_familiars:graveyard"
+				title: "Cementerio"				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			description: [
+				"Una isla perdida desde hace mucho tiempo, encontrada en los vastos océanos, que guarda los secretos de la existencia de los familiars. Sus únicos habitantes son pequeños &bAlmas Perdidas&r, formas muy tempranas de los familiars que nunca alcanzaron su forma final."				"Estas criaturas pueden ser embotelladas usando &lbotellas vacías&r, y pueden ser utilizadas en los rituales nuevos. Los rituales se realizan en el centro de la &lIsla&r."			]
+			id: "60E3ADEAD0648A94"
+			rewards: [{
+				id: "0F14E5E7E4FC69B5"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:ritual_core"
+				id: "102E7249FCE32448"
+				structure: "alshanex_familiars:origin_island"
+				title: "Isla de Origen"				type: "structure"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			id: "2A0A78050C9A15F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "760FDE6DFC03B0EB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "7CD83F27BAE2B100"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: "endlessbiomes:cracked_end_stone_bricks"
+				id: "6DBE596CC5BFFB0E"
+				structure: "alshanex_familiars:end_laboratory"
+				title: "Laboratorio del Fin"				type: "structure"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60E3ADEAD0648A94"]
+			id: "75451E3CFEB3201E"
+			tasks: [{
+				id: "7C00CF70D547B15E"
+				item: "alshanex_familiars:pet_soul"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "6A2ABB02122278B2"
+			tasks: [{
+				id: "392C47537D81BF08"
+				item: "alshanex_familiars:summoner_shard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "4B7481255ED19CE9"
+			tasks: [{
+				id: "2D5DB6E8E3A90A7E"
+				item: "alshanex_familiars:archmage_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "536379DADEA7A055"
+			tasks: [{
+				id: "5B0477EE8FD5097B"
+				item: "alshanex_familiars:druid_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "4AA2BE354295FC4F"
+			tasks: [{
+				id: "58A6794E8D6C8922"
+				item: "alshanex_familiars:hunter_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "09B05A0D2BB4A613"
+			tasks: [{
+				id: "0490F652E43F0397"
+				item: "alshanex_familiars:lightning_mage_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "4A49553286E95576"
+			tasks: [{
+				id: "75BD3FDA1088DCDB"
+				item: "alshanex_familiars:illusionist_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "39D961AD4BFE2528"
+			tasks: [{
+				id: "201A182E5A7D791C"
+				item: "alshanex_familiars:illusionist_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "7C34306C4068FA5C"
+			tasks: [{
+				id: "2F134EEAE81718E8"
+				item: "alshanex_familiars:frostling_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "06B290B4997A9239"
+			tasks: [{
+				id: "3AE4F53B1F54D0B8"
+				item: "alshanex_familiars:bard_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "7C647EF015DE8A9D"
+			tasks: [{
+				id: "32A6D45C8F010400"
+				item: "alshanex_familiars:cleric_shard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "760E368B2F6285E0"
+			tasks: [{
+				id: "2A83BE588921AFB5"
+				item: "alshanex_familiars:necromancer_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "095C25C190F20DAF"
+			tasks: [{
+				id: "60F4706C540D6AC9"
+				item: "alshanex_familiars:plague_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "06A6CBB816FAA99C"
+			tasks: [{
+				id: "0A1D3D721517E148"
+				item: "alshanex_familiars:scorcher_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75451E3CFEB3201E"]
+			id: "574AB2B0DBC4CBA2"
+			tasks: [{
+				id: "7FABB16E5D6FBA62"
+				item: "alshanex_familiars:dragon_warrior_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			description: ["Usado para craftear equipo para los Familiares de Alshanex"]			id: "7DAB14FC373BFCC6"
+			rewards: [{
+				count: 2
+				id: "0A6187ADC0C0C475"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "533C1AC992539F2A"
+				item: "alshanex_familiars:shrinking_station"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7DAB14FC373BFCC6"]
+			id: "013A711A1B5DCADA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E99D8D87B11FA93"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27D701D1DF9EEBF5"
+				item: "alshanex_familiars:life_fruit_tier_1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013A711A1B5DCADA"]
+			id: "55F40FE14A42A31F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CAAC89B98DF6B32"
+				table_id: 8748162718720558329L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BA920AEDE8760B2"
+				item: "alshanex_familiars:life_fruit_tier_2"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["55F40FE14A42A31F"]
+			id: "09BF24A34CFCF1B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7728E0A7F97419D3"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "111EE993B44AE24C"
+				item: "alshanex_familiars:life_fruit_tier_3"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7DAB14FC373BFCC6"]
+			id: "125F7C2BB9F2B53E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5209CDEA47E62FA3"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32A9F64EBC63F2BB"
+				item: "alshanex_familiars:armor_plate_tier_1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["125F7C2BB9F2B53E"]
+			id: "22CAB7807E3A4B91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CFB767B7633D62C"
+				table_id: 8748162718720558329L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1554182549DE6B11"
+				item: "alshanex_familiars:armor_plate_tier_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["22CAB7807E3A4B91"]
+			id: "6F0639D784B07822"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "077CA951A8E352D1"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1309EE4BDF679D42"
+				item: "alshanex_familiars:armor_plate_tier_3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7DAB14FC373BFCC6"]
+			id: "6B6D84EC48F652F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AE69B6CFD7EFFA"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08A33E0318160FF6"
+				item: "alshanex_familiars:magic_power_tier_1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B6D84EC48F652F2"]
+			id: "0488314681ED46AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B926DE2BEFEDB82"
+				table_id: 8748162718720558329L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36C8A3F858547631"
+				item: "alshanex_familiars:magic_power_tier_2"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0488314681ED46AB"]
+			id: "4035E265F7DC221E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C4DCE51907BFCC"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AF61832A7D2C566"
+				item: "alshanex_familiars:magic_power_tier_3"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7DAB14FC373BFCC6"]
+			id: "3E847FCA6FD18CA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2207AE1CF58D1040"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5443910A56336F3E"
+				item: "alshanex_familiars:magic_resist_tier_1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E847FCA6FD18CA6"]
+			id: "785BF1CEA30249B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF480802686163D"
+				table_id: 8748162718720558329L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3ECC9A470D1639F9"
+				item: "alshanex_familiars:magic_resist_tier_2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["785BF1CEA30249B7"]
+			id: "73ADC8A0492C4CEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22B3AED4AD6FDDBC"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D4EFD7A712A683E"
+				item: "alshanex_familiars:magic_resist_tier_3"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7DAB14FC373BFCC6"]
+			id: "1D701896791E8861"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CC74912DA430A67"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3752F28F7C3211D7"
+				item: "alshanex_familiars:tiny_totem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56F77FF90471C781"]
+			id: "78A92949ED7EF79F"
+			rewards: [{
+				id: "1C1C8EA24EA31DE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3D4294B243035257"
+				item: "alshanex_familiars:monocle"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+	]
+	title: "&3 Magia Equipo"}

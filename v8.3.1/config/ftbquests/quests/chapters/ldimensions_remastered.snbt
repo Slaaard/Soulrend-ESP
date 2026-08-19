@@ -1,0 +1,805 @@
+{
+	autofocus_id: "1CE719315677ABDC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ldimensions_remastered"
+	group: "519DE62D7CDBD327"
+	icon: {
+		Count: 1
+		id: "endrem:exotic_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1E4AD9E1009D881C"
+	images: [
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			click: "#2FB22426DB873552"
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.4d
+			image: "minecraft:block/nether_portal"
+			order: 1
+			rotation: 0.0d
+			width: 2.4d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.5d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			alpha: 170
+			dependency: "4B4FDDC869F9BA28"
+			height: 14.0d
+			image: "efn:textures/particle/efn_parry_flash_main_render4.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.5d
+			image: "endlessbiomes:block/enderroots"
+			rotation: 0.0d
+			width: 2.5d
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.0d
+			image: "block_factorys_bosses:item/spawn_egg/yeti_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.2d
+			image: "block_factorys_bosses:item/spawn_egg/dragon_spawn_egg"
+			rotation: 0.0d
+			width: 2.2d
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.3d
+			image: "minecraft:item/evoker_spawn_egg"
+			rotation: 0.0d
+			width: 2.3d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependency: "4B4FDDC869F9BA28"
+			height: 2.4d
+			image: "minecraft:item/wither_skeleton_spawn_egg"
+			rotation: 0.0d
+			width: 2.4d
+			x: -12.0d
+			y: 1.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E143FB4B34F7DA0"]
+			description: [
+				"Para activar el Portal del Fin &l&5&r, necesitarás encontrar &l16&r de los Ojos Legendarios &l&d&r. Se pueden encontrar como botín raro en las estructuras del Overworld &l&r."				""
+				"La Fortaleza también ha sido renovada, con muchos enemigos y habitaciones por descubrir; usa los &l&dOjos Legendarios&r para localizarla en lugar de &l&6ojos de enderman&r."			]
+			hide_until_deps_complete: true
+			icon: "minecraft:ender_eye"
+			id: "4B4FDDC869F9BA28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33B4DBBB0CB47825"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55EF7718B50AA03E"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			subtitle: "Los Ojos Legendarios"			tasks: [{
+				id: "343446FEAAD1D333"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "End Remasterizado"			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &c8/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "77286E9644626911"
+			rewards: [
+				{
+					id: "4D03F781E994A3D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "314B51F34128EA8C"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en cofres de Tesoro Enterrado"			tasks: [{
+				id: "24D038D91755346B"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"El &b&lYeti&r puede encontrarse en el &lEscondrijo de Yeti&r entre la tundra nevada."				""
+				"Dificultad: &c9/10&r."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1738BAA0DF4E0CFB"
+			rewards: [
+				{
+					id: "47F7B2E0398F4691"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6342304E4F6CF814"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 1.3d
+			subtitle: "Caído desde los Yeti"			tasks: [{
+				id: "2DD5A0D7A060C5FF"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lOjo Frío"			x: -3.1d
+			y: -3.7d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &b1/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "255FA44F2A994839"
+			rewards: [
+				{
+					id: "15FAA97A20B3811C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FABAB4EB6DA22F1"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			size: 1.0d
+			subtitle: "Encontrado en cofres del Puesto de Saqueadores"			tasks: [{
+				id: "6D55A4FD6C3FF77B"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &e5/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "25020DF9F1BC579E"
+			rewards: [
+				{
+					id: "431469EE358ECCE0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CB9B4E9F3C4D143"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en cofres de Mina Abandonada"			tasks: [{
+				id: "7E00BDB01FC252E3"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &a2/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7934FA8612DACE29"
+			rewards: [
+				{
+					id: "5319B6BFB17FBB1A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0F2AEE8AAC952A"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en cofres de la Fortaleza del Nether"			tasks: [{
+				id: "5635324B294B38B9"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &e4/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A042F7E3D18F739"
+			rewards: [
+				{
+					id: "5427DF16433C5514"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CE10B3B462EFCF"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en Cofres de la Pirámide del Desierto"			tasks: [{
+				id: "1754A7A8ABCAE206"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &e5/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2D0ABF518416D636"
+			rewards: [
+				{
+					id: "0F8553CDB42E10F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220972B62DB8A38A"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en cofres de la Pirámide de Jungla"			tasks: [{
+				id: "44DDE84F1205938A"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &e5/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76306C29799BA205"
+			rewards: [
+				{
+					id: "7E59E3FCE1F7CD4A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CB255B7448314AF"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Encontrado en cofres de Tesoro de Bastión"			tasks: [{
+				id: "432C91860BEB6BC7"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"El &l&4Dragón Infernal&r habita en la &lTorre del Dragón&r."				""
+				"Dificultad: &410/10&r."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1CFCDA95DAAA0542"
+			rewards: [
+				{
+					id: "3AFAA11FB6EA1204"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC11ABB643ADDA5"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 1.3d
+			subtitle: "Caído del Dragón Infernal"			tasks: [{
+				id: "5FB129F22F25AB4A"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4&lOjo Maligno"			x: -12.05d
+			y: -3.7d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &e6/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2B406FC2231BCECF"
+			rewards: [
+				{
+					id: "3E54B1C21691F89C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3403CF63295EA612"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Caído de los Guardianes Ancianos"			tasks: [{
+				id: "542012377EDAA337"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"Encontrado en cofres de la Mansión del Bosque o caído raramente de los Evocadores."				""
+				"Dificultad: &c8/10&r."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5952C900D58E0C3C"
+			rewards: [
+				{
+					id: "0D194B001799AF36"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DEBF9D0C0E68D84"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 1.3d
+			subtitle: "Sin este Ojo, un Evocador carece de poder."			tasks: [{
+				id: "4D5A07AA4951E286"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.15d
+			y: 1.1d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &a2/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3BACC34373E6F0FA"
+			rewards: [
+				{
+					id: "230FF0701539AFDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50F2F3D755A6F395"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 1.3d
+			subtitle: "Obtención Rara desde Esqueleto Wither. También es dejado por el Wither."			tasks: [{
+				id: "671C84C6A8D278B1"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.1d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: ["Dificultad: &a3/10&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4F1A26A560860A5A"
+			rewards: [
+				{
+					id: "03B3C15994C5A786"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A5354DCD91DAABD"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Artesano al combinar 1 Ojo de Enderman y 1 Pupila de Bruja"			tasks: [{
+				id: "5BFEAE3426417E06"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"&o&7Artesano con 1 Membrana de Fantasma, 1 Hueso, 1 Carne Podrida, 1 Lágrima de Ghast, y 1 Alma No-muerta. Ligera probabilidad de que un caballo no-muerto Obtención al Morir."				"Dificultad: &67/10&r."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "44B35615D0DA0ACF"
+			rewards: [
+				{
+					id: "5C882254E8ECE56F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6150BA8098BF22A2"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Fabricable"			tasks: [{
+				id: "4C793540D55BA294"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"&o〖1"				"Dificultad: &67/10&r."			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5E05C28481A3A000"
+			rewards: [
+				{
+					id: "4F997839D2DF5255"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08339E74E3A4F1E5"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Fabricable"			tasks: [{
+				id: "6A606D5C4CDB979C"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4FDDC869F9BA28"]
+			description: [
+				"Creado al encantar un Ojo de Enderman."				""
+				"Dificultad: &e4/10&r."				""
+				"Requiere: 20%-30% &2Eterna&r, 10% &cQuanta&r, 25%-30% &5Arcana&r"			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5652FDF5FF688B1F"
+			rewards: [
+				{
+					id: "18198CCB5FF2B62B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27EFF43FB7F33D6E"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Fabricable"			tasks: [{
+				id: "4CE50EE9C445400E"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+	]
+	title: "&l&5Viaje a el End"}

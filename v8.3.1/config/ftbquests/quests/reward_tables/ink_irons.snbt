@@ -1,0 +1,12 @@
+{
+	id: "2740687CE5BC9B76"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 8, item: "irons_spellbooks:common_ink" }
+		{ count: 32, item: "irons_spellbooks:common_ink" }
+		{ count: 8, item: "irons_spellbooks:uncommon_ink", weight: 0.9f }
+		{ count: 4, item: "irons_spellbooks:epic_ink", weight: 0.125f }
+		{ count: 2, item: "irons_spellbooks:legendary_ink", weight: 0.1f }
+	]
+	title: "Hierro de Tinta"}

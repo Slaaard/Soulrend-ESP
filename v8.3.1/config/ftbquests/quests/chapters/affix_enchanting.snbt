@@ -1,0 +1,1482 @@
+{
+	autofocus_id: "2BD12BC6536234C6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "affix_enchanting"
+	group: "578CEED7CC7D235C"
+	icon: "ancientreforging:ancient_reforging_table"
+	id: "55DD54D09FDB1B6C"
+	images: [
+		{
+			height: 3.0d
+			image: "apotheosis:items/gem_dust"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.464285714285715d
+			y: -5.642857142857146d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/mob_effect/blessing_of_amethyst.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			alpha: 180
+			color: 16579327
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			height: 1.4d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.4d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			height: 1.3d
+			image: "minecraft:block/pointed_dripstone_down_frustum"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			height: 2.2d
+			image: "minecraft:block/pointed_dripstone_down_tip"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/villager_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.7d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "dungeons_and_combat:item/blacksmith_hammer"
+			rotation: -75.0d
+			width: 1.0d
+			x: -5.3d
+			y: -6.785714285714292d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -14.0d
+			y: 0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A8408C59B32F69D"]
+			description: [
+				"¡Estos Sigilos añaden más ranuras a tu equipo! Hay un límite por nivel de Enlace, así que tenlo en cuenta al usarlos."				"Utilizas la &8Mesa de Herrería&f para este Sigilo."			]
+			id: "2C290D596110BBD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CF1D3D4D75610BA"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09704BE56437E542"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "Más espacio para gemas"			tasks: [{
+				id: "189CE86C963F8DFD"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: [
+				"¿Ya no deseas una gema específica, o quizás has encontrado una en algunos equipo aleatorio que no deseas usar?"				""
+				"Este Símbolo es perfecto para ti entonces. Combina el objeto con este Símbolo dentro de un &8Smithing Table&f y removerá todas las gemas por el costo de 1 Símbolo."			]
+			id: "2A8408C59B32F69D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E73CBB384330F89"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57006178A7B64623"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "¡Qué ganga!"			tasks: [{
+				id: "35FE9D9AF43A700B"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			title: "Sello de Retirada"			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: ["Estos son los sigilos mencionados en la misión anterior, los que son similares al lapislázuli. Cuanto más alto sea el nivel de Apófisis que elijas, más &6Rebirthing Sigils&f necesitas para completar el encantamiento."]			id: "26BC764384E82779"
+			rewards: [
+				{
+					count: 6
+					id: "720BA83B491D7286"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "14860FCCB830D02A"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			subtitle: "Como un Fénix"			tasks: [{
+				id: "034712AD3D1041F8"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["38CCA4B98D53137C"]
+			description: ["¡Estos Sigilos también son combustible! Esta vez son para la &dMesa de Aumento&f."]			id: "5DE7CB7D652F3EE9"
+			rewards: [
+				{
+					id: "02E55880E0835B85"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28E4ADD951D962A4"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4920C889EC50D318"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "El primer conjunto es por nuestra cuenta. -Tortuga"			tasks: [{
+				id: "391C6AFF053F855A"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: ["El Sigilo perfecto para eliminar la necesidad de nombrar de tus Objetos de Afijo. De esta manera, puedes nombrar tus Objetos lo que tú elijas sin el inconveniente extra adjuntado."]			id: "3CB00C596A146F3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AFEA24C4AF9CD54"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "201055362CA3632B"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "Olvidé"			tasks: [{
+				id: "3B7CF3ED2829E164"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			title: "Sello de Desnombramiento"			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AE541D884741AB1"]
+			description: ["Esta línea de misión te mostrará cómo usar las &bTablas de Re-forjado&f, lo cual será una gran ayuda para sobrevivir a mobs de nivel superior."]			id: "5258930F6B77FFFC"
+			size: 1.3d
+			subtitle: "No tus mejoras promedio"			tasks: [
+				{
+					id: "055B8149BA82CB82"
+					title: "Encantamiento Más Grande y Mejorado"					type: "checkmark"
+				}
+				{
+					id: "3A4AFE9F7F0CF6D2"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			title: "&5&lAplicar Encantamiento"			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5258930F6B77FFFC"]
+			description: ["El primer paso es fácil, lanza algunos gemas que no quieras en el suelo y deja caer un avil sobre ellos; se romperán y te darán &dGem Dust&f, una herramienta muy importante para esta sección."]			id: "78A30123B0234B9C"
+			rewards: [{
+				count: 16
+				id: "033217038CF5B9DB"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "¡Éxitos rotundos!"			tasks: [{
+				count: 2L
+				id: "268D043CA1B0A7D1"
+				item: { Count: 2, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78A30123B0234B9C"]
+			description: ["Una &aSalvaging Table&r es probablemente el bloque más importante en esta sección. Permite desarmar Equipo de Afix y Gemas para obtener Rareza Materiales/polvo."]			id: "2AD16EF9C0F0C23A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40EC6D8B4775DE0B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Reciclaje"			tasks: [{
+				id: "0D7D3A12AADD1C9B"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: ["Estas pizarras se usarán muchas veces para"]			id: "2BD12BC6536234C6"
+			rewards: [
+				{
+					count: 12
+					id: "29AF69ABC1FFA0CA"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "21386E7811537264"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			subtitle: "Una pizarra limpia"			tasks: [{
+				count: 8L
+				id: "717036E1E92CB8B8"
+				item: { Count: 8, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26BC764384E82779"]
+			description: [
+				"El momento que has estado esperando, es hora de aprender a craftear la &bSimple Reforging Table&f y usarla. La mesa no requiere un craftear duro: 1 Hierro, 1 mesa de encantamiento, 3 piedra lisa, y finalmente 2 polvo de gemas."				"{@pagebreak}"				"Arriba a la Izquierda contendrá el material de Rareza para el nivel de Enlace que deseas añadir; la tabla de Fortaleza solo llega hasta Raro, el centro se utiliza para tu Objeto, y Abajo a la Derecha se utiliza para los &6Sigilos de Renacimiento&f."				"Los 3 de abajo son 3 diferentes opciones para elegir desde,"			]
+			id: "11D9162218F30D68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63026AB2FF6847CB"
+					table_id: 7543698869780679326L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A0E13369B187A69"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "¡Por fin!"			tasks: [{
+				id: "0E3C1101D9CDA080"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11D9162218F30D68"]
+			description: ["Esta mesa funciona similar a la &bSencillo Reforging Table&f, excepto que ahora refuerza hasta nivel Mítico."]			id: "38CCA4B98D53137C"
+			rewards: [
+				{
+					id: "73AACEE823AAAEA7"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "69CBF5D7EAF17D43"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "671D6E7A3C516B54"
+					table_id: 5740687291917975057L
+					type: "loot"
+				}
+			]
+			subtitle: "Elegante"			tasks: [{
+				id: "60DC3CA654C6C35E"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Mesa de Reforja &5"			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: [
+				"En el &2Overworld&f encontrarás principalmente equipo de nivel hasta &bRaro&f."				"En el &4Nether&f encontrarás hasta &5Equipo&f Épico, &6Mítico&r equipo, y a veces nivel &cAntiguo/Reliquia&f."				"El &7Fin&f es donde hallarás la mayor parte de tus &6&lAntiguo Equipo&r piezas."			]
+			id: "58315313353508F2"
+			rewards: [
+				{
+					id: "292F94DE5869F074"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					id: "645DC89288FA5BBA"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "3A1612757065E7BF"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "198D187B8608A7FA"
+				type: "checkmark"
+			}]
+			title: "Niveles de Rareza de los Reinos"			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DE7CB7D652F3EE9"]
+			description: ["La &dAugment Table&f se utiliza para volver a tirar los afijos o potenciarlos. Sencillo y fácil de manejar, ¡solo asegúrense de que ustedes poseen suficientes &dEnchantment Sigils&f!"]			id: "2BBAE7488B2FBC84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3542D36286719D7A"
+				table_id: 2238362529489443161L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1F68187B6D547368"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CB00C596A146F3A"]
+			description: ["Al usar uno de estos con varios Fragmentos de Reliquia y Materiales relacionados con jefes, ¡puedes fabricar un Tipo de gema especial!"]			hide_dependent_lines: true
+			id: "11C0DB1BFB142568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2056C7DB879AB73B"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "¡Despierta!"			tasks: [{
+				id: "7A7317B9B60A8E83"
+				item: "apotheotic_additions:gemboundsigil"
+				type: "item"
+			}]
+			title: "Sigilo del despertar"			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: ["Esta mesa de gemas es excelente para mejorar sus gemas, aumentando su rareza. Necesitarás un cierto nivel de materiales de Afijo dependiendo del nivel de la gema, 2 copias de esa gema, y finalmente algunos &dGem Dust&f."]			id: "3F198DED8757995A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "510D94F6EF90104D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23FA178583B7FCD6"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "Solo corta tus gemas."			tasks: [{
+				id: "591ACD1CFD1B194E"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38CCA4B98D53137C"]
+			description: ["Similar a los &5Reforging Table&r Atrás, pero ahora llega hasta &e&lAntiguo&r&r Rareza."]			id: "6F20BC641DB8F90B"
+			rewards: [{
+				id: "616875D3B21AD2D9"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			subtitle: "Más elegante"			tasks: [{
+				id: "592A8D882ED452A0"
+				item: "ancientreforging:ancient_reforging_table"
+				type: "item"
+			}]
+			title: "&eMesa de Reforzamiento Antiguo"			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C290D596110BBD2"]
+			description: ["¡Convierte tu ranura vacía para la ranura de mejora!"]			id: "2CC3AF5AA3AA9A1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03E2364D948C799D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E36D96AAA5C34A9"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F193F5B285A5507"
+				item: "fallen_gems_affixes:sigil_of_ascension"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2C290D596110BBD2"]
+			description: ["¡Transforma los prefijos en otra arma! (la antigua arma desaparecerá después de eso)"]			id: "3924AD68206F9ED6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDA3DCF6700E48C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F6AB6CC53962F86"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D61D0A70A1EFE71"
+				item: "fallen_gems_affixes:sigil_of_transmutation"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2A8408C59B32F69D"]
+			description: ["¿No deseas cualquiera ranura? ¡Usa ese sigilo!"]			id: "4537816B78CB56CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "517F519C6F57EA74"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14469E5D3A34D9B5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10511597C2DCA681"
+				item: "fallen_gems_affixes:sigil_of_severance"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CC3AF5AA3AA9A1D"]
+			id: "0674B5FFE4348576"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D9198C65F792ED4"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E101BA83D2DF786"
+				item: {
+					Count: 1
+					id: "fallen_gems_affixes:augment"
+					tag: {
+						AugmentId: "fallen_gems_affixes:cascade"
+						"fallen_gems_affixes:augment_data": {
+							augments: [{
+								inner_data: {
+									affixPowerBoost: 0.1f
+									critChanceMultiplier: 2.0f
+									critDamageReduction: 0.3f
+									defaultPower: 0.5f
+									gemPowerBoost: 0.1f
+									magicRatio: 0.5f
+									physicalRatio: 0.5f
+									power: 1.0f
+								}
+								type: "fallen_gems_affixes:cascade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2CC3AF5AA3AA9A1D"]
+			id: "6BE5B38F4E739ADF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D77CD60A4B1A068"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D1621A37F071218"
+				item: {
+					Count: 1
+					id: "fallen_gems_affixes:augment"
+					tag: {
+						AugmentId: "fallen_gems_affixes:supremacy"
+						"fallen_gems_affixes:augment_data": {
+							augments: [{
+								inner_data: {
+									affixPowerBoost: 0.1f
+									critChanceMultiplier: 2.0f
+									critDamageReduction: 0.3f
+									defaultPower: 0.5f
+									gemPowerBoost: 0.1f
+									magicRatio: 0.5f
+									physicalRatio: 0.5f
+									power: 1.5f
+								}
+								type: "fallen_gems_affixes:supremacy"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2CC3AF5AA3AA9A1D"]
+			id: "5B3449C1A77097BE"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61FFF2913DCB338D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A9881E42ABE1BE0"
+				item: {
+					Count: 1
+					id: "fallen_gems_affixes:augment"
+					tag: {
+						AugmentId: "fallen_gems_affixes:gem_power"
+						"fallen_gems_affixes:augment_data": {
+							augments: [{
+								inner_data: {
+									affixPowerBoost: 0.1f
+									critChanceMultiplier: 2.0f
+									critDamageReduction: 0.3f
+									defaultPower: 0.5f
+									gemPowerBoost: 0.1f
+									magicRatio: 0.5f
+									physicalRatio: 0.5f
+									power: 1.35f
+								}
+								type: "fallen_gems_affixes:gem_power"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2CC3AF5AA3AA9A1D"]
+			id: "2D9D4D96D356DA38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13FB50A062306AD0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DDD407F83CAF7F4"
+				item: {
+					Count: 1
+					id: "fallen_gems_affixes:augment"
+					tag: {
+						AugmentId: "fallen_gems_affixes:duality"
+						"fallen_gems_affixes:augment_data": {
+							augments: [{
+								inner_data: {
+									affixPowerBoost: 0.1f
+									critChanceMultiplier: 2.0f
+									critDamageReduction: 0.3f
+									defaultPower: 0.5f
+									gemPowerBoost: 0.1f
+									magicRatio: 0.5f
+									physicalRatio: 0.5f
+									power: 1.0f
+								}
+								type: "fallen_gems_affixes:duality"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2CC3AF5AA3AA9A1D"]
+			id: "1F11405B52D8E63B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43B3055D6D41E123"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BDD7F7EC5C9EAFE"
+				item: {
+					Count: 1
+					id: "fallen_gems_affixes:augment"
+					tag: {
+						AugmentId: "fallen_gems_affixes:genesis"
+						"fallen_gems_affixes:augment_data": {
+							augments: [{
+								inner_data: {
+									affixPowerBoost: 0.05f
+									critChanceMultiplier: 2.0f
+									critDamageReduction: 0.3f
+									defaultPower: 0.5f
+									gemPowerBoost: 0.05f
+									magicRatio: 0.5f
+									physicalRatio: 0.5f
+									power: 1.0f
+								}
+								type: "fallen_gems_affixes:genesis"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "237F24DBEC87CA79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67F861B7838DB2C1"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "486DB4E97A7D532F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/cornelia"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "1E572CCCF64C50DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E238EABA581F1A8"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19DA270A1364613B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/ender_dragon"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "1054544E22001C7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31BE0046510B9BB0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73EF37AF07C896ED"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/frostmaw"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "60257DCE8923F4E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68DEE144516B89C0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7889EBD7A0934324"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/harbringer"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "5AA569BDC55C28D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "605CA51B0042D3B1"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B47E7BBCA70D3F1"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/ignis"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "7F04935CF365B963"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1615A883E96EBD95"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F9DB3DFF2BE60F3"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/leviathan"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "5F718777471140BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "243FF8C618804B84"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "591F692F90193524"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/maledictus"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "7582665F3C14408C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "473BC6C348C662EE"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BFC82797B4384F5"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/monstrosity"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "42533A086747D3AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "110B88B8377FE6E7"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "305ED157D5EA61DC"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/remnant"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "57E09FA0639E53E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F4641BDCFF56632"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "102AF11FEEFF7D6B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/sunbird"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "21B3A2E95AC72B01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "558461D5C7A11D2A"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "269A84008F83899E"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/warden"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "47435DD7AB80E81C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E36FFCD6A68C8EA"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BA5619B37DA358C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/wither"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11C0DB1BFB142568"]
+			id: "05BAB9B900D86FBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A5CAB0186343C6A"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F64FB635EAD5340"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheotic_additions:artifact"
+						}
+						gem: "apotheotic_additions:crafted/wroughtnaut"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6F20BC641DB8F90B"
+				"675050C79C731CCA"
+			]
+			hide_until_deps_visible: true
+			id: "5484B6F6F48AD844"
+			subtitle: "¡Por fin!"			tasks: [{
+				id: "5240EB784740C9EF"
+				item: "esotericreforging:esoteric_reforging_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+	]
+	title: "&6Reforja"}

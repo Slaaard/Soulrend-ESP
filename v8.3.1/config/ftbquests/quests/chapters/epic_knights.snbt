@@ -1,0 +1,873 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epic_knights"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "magistuarmory:armet"
+		tag: {
+			ArmorDecoration: {
+				Items: [{
+					color: -10092544
+					dyeable: 1b
+					name: "magistuarmory:big_plume"
+				}]
+			}
+			Damage: 0
+			display: {
+				Name: "{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Armet\"]}"
+			}
+		}
+	}
+	id: "347A0B25E0535364"
+	images: [
+		{
+			height: 4.0d
+			image: "dungeons_and_combat:item/dragon_dagger_fire"
+			rotation: -45.0d
+			width: 4.0d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 4.0d
+			image: "dungeons_and_combat:item/dragon_dagger_ice"
+			rotation: -90.0d
+			width: 4.0d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "dungeons_and_combat:item/dragon_dagger_lightning"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "dungeons_and_combat:item/crimson_blades"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			height: 5.0d
+			image: "dungeons_and_combat:item/true_claymore"
+			rotation: 135.0d
+			width: 5.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 5.0d
+			image: "refm:item/enderite_rapier"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "refm:item/oceanite_rapier"
+			rotation: -90.0d
+			width: 5.0d
+			x: 5.5d
+			y: -6.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52B0F602FCB04A5A"]
+			description: [
+				"Bienvenidos a la forja. Este capítulo sirve como su guía principal a través de la progresión estándar de armamento. Aquí, encontrarán los caminos adecuados para craftear, mejorar y dominar armas de básico a avanzado."				""
+				"Las &6únicas armas&r desde poseen poderes que podrían hacer añicos el equilibrio actual del conflicto. Sus planos y secretos permanecen bloqueados, y solo se desvelarán una vez que &lalcance ^$#@!...&r Por ahora, perfecciona tus habilidades con acero tradicional."			]
+			id: "7E874C7C6B0FECB0"
+			tasks: [{
+				id: "45192B34D74402A8"
+				title: "Cabaleros Épicos"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E874C7C6B0FECB0"]
+			description: ["Recomendado para Elfos Lunares y Guerreros"]			id: "4B3929CF359797B0"
+			tasks: [{
+				id: "4F994B40A09AC84B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B3929CF359797B0"]
+			id: "49CC395E64DBE89A"
+			tasks: [{
+				id: "5614CB30C812308F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:titanium_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49CC395E64DBE89A"]
+			id: "7509ABBC0B3D6C88"
+			tasks: [{
+				id: "309AE7605914FC8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:cursed_steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7509ABBC0B3D6C88"]
+			id: "42D93FF914AAD236"
+			tasks: [{
+				id: "3A86CE229D9D10EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:dragon_dagger_bone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42D93FF914AAD236"]
+			id: "6476E7584D41AE4D"
+			tasks: [{
+				id: "58C1EF7F11BCEA80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:dragon_dagger_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42D93FF914AAD236"]
+			id: "6EFC8EFAD95D51CD"
+			tasks: [{
+				id: "5CAD01D82AE6F708"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:dragon_dagger_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42D93FF914AAD236"]
+			id: "44B55CC6FA568F0C"
+			tasks: [{
+				id: "723B07137068036A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:dragon_dagger_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F29D82F271FE840"]
+			id: "7C0C4A11A1B182EF"
+			tasks: [{
+				id: "6AE59C5A65C74A1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:ebony_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6476E7584D41AE4D"
+				"44B55CC6FA568F0C"
+				"6EFC8EFAD95D51CD"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F29D82F271FE840"
+			tasks: [{
+				id: "3330021C287474CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:molten_dark_steel_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7C0C4A11A1B182EF"
+				"3AA4083C37BFDE92"
+			]
+			id: "3117F50D8B7361F1"
+			tasks: [{
+				id: "7D04205771E78576"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:crimson_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"6476E7584D41AE4D"
+				"44B55CC6FA568F0C"
+				"6EFC8EFAD95D51CD"
+			]
+			dependency_requirement: "one_completed"
+			id: "330D1525839459DF"
+			tasks: [{
+				id: "13DAF4E6F6DE2597"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:ceremonial_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["330D1525839459DF"]
+			id: "3AA4083C37BFDE92"
+			tasks: [{
+				id: "545934BCEE413E20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:slimy_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7E874C7C6B0FECB0"]
+			id: "14DBACA62D593A3A"
+			tasks: [{
+				id: "321E562AFD2B8FEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "magistuarmory:steel_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14DBACA62D593A3A"]
+			id: "6AF1D1AD0B5FCA93"
+			tasks: [{
+				id: "1B617C891C1D572C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "magistuarmory:diamond_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AF1D1AD0B5FCA93"]
+			id: "370BAA6D1F8A51D4"
+			tasks: [{
+				id: "39B694ECE8C07CB2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragon_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["370BAA6D1F8A51D4"]
+			id: "1AF1B07B3A9A019B"
+			tasks: [{
+				id: "5D3BD3E4DEC15493"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragon_fire_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["370BAA6D1F8A51D4"]
+			id: "317BED4F7CEAE07F"
+			tasks: [{
+				id: "4F815CBE3D5A0297"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragon_ice_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["370BAA6D1F8A51D4"]
+			id: "54B896B398FED7C9"
+			tasks: [{
+				id: "07F58E112CBBC04E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragon_lightning_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1AF1B07B3A9A019B"]
+			id: "6EEF7B0ED15578C6"
+			tasks: [{
+				id: "0C3668201822ED48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragonsteel_fire_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["54B896B398FED7C9"]
+			id: "32402D0F75773CBE"
+			tasks: [{
+				id: "3502C6CE359E849F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragonsteel_lightning_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["317BED4F7CEAE07F"]
+			id: "4732ED994560C946"
+			tasks: [{
+				id: "25534AAF1870972F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "epic_knights_ice_and_fire:dragonsteel_ice_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6EEF7B0ED15578C6"
+				"4732ED994560C946"
+				"32402D0F75773CBE"
+			]
+			dependency_requirement: "one_completed"
+			id: "374D6951D87B1574"
+			tasks: [{
+				id: "148B55F8358F9D5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:true_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7E874C7C6B0FECB0"]
+			id: "1F819165200E0DB4"
+			tasks: [{
+				id: "144C815AFED5BF45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F819165200E0DB4"]
+			id: "75D407A06902829F"
+			tasks: [{
+				id: "0C6B8033BAEB2A3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:diamond_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["106702D2D6601EC7"]
+			id: "4BFD0AA5FF48CA65"
+			tasks: [{
+				id: "0EFAC1CB95F28AF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:netherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BFD0AA5FF48CA65"]
+			id: "3B015E444AF69386"
+			tasks: [{
+				id: "05615876FA0AFCF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:oceanite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75D407A06902829F"]
+			id: "106702D2D6601EC7"
+			tasks: [{
+				id: "7620DF36AC9850C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B015E444AF69386"]
+			id: "5954A8C3685236AA"
+			tasks: [{
+				id: "467F3E8ECC82A2B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:witherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5954A8C3685236AA"]
+			id: "0299D07B10211A0E"
+			tasks: [{
+				id: "55E4CEC793A813D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "refm:enderite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["07772CA0B2EE6052"]
+			id: "01ABBB8447938C72"
+			tasks: [{
+				id: "5AEC08894A0D6E5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "cataclysm:zweiender"
+					tag: {
+						Damage: 0
+						sheath: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["374D6951D87B1574"]
+			id: "07772CA0B2EE6052"
+			tasks: [{
+				id: "34D9B60680C63471"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:crimson_long_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+	]
+	title: "&0 Cabaleros Épicos"}

@@ -1,0 +1,5339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rise_of_the_champion"
+	group: "59FD824E9CBEF444"
+	icon: {
+		Count: 1
+		id: "fantasy_armor:hero_helmet"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "4D515074D5CEAC66"
+	images: [
+		{
+			alpha: 160
+			height: 7.5d
+			image: "soulrend:textures/quests/square_quest.png"
+			rotation: -59.5d
+			width: 7.5d
+			x: 0.15d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 5.0d
+			image: "simplyswords:item/enigma_base"
+			rotation: 12.0d
+			width: 5.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			height: 7.0d
+			image: "simplyswords:item/waxweaver"
+			rotation: -102.0d
+			width: 7.0d
+			x: -6.5d
+			y: -3.7d
+		}
+		{
+			alpha: 180
+			height: 6.5d
+			image: "simplyswords:item/waxweaver_anim_01"
+			rotation: -102.0d
+			width: 6.5d
+			x: -6.5d
+			y: -3.7d
+		}
+		{
+			height: 6.0d
+			image: "simplyswords:item/watcher_claymore"
+			rotation: 135.0d
+			width: 6.0d
+			x: 0.5d
+			y: 7.57d
+		}
+		{
+			height: 6.5d
+			image: "simplyswords:item/watcher_eyes"
+			rotation: 135.0d
+			width: 6.5d
+			x: 0.5d
+			y: 7.7d
+		}
+		{
+			alpha: 180
+			height: 6.5d
+			image: "simplyswords:item/watcher_layer"
+			rotation: 135.0d
+			width: 6.5d
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			alpha: 180
+			height: 6.5d
+			image: "simplyswords:item/waxweaver_anim_02"
+			rotation: -102.0d
+			width: 6.5d
+			x: -6.3d
+			y: -3.6d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			color: 3257132
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			color: 3107279
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			color: 3107279
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			color: 16714512
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:textures/particle/soul_beam_10.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: 0.2d
+		}
+		{
+			color: 3257132
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			color: 16714512
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			color: 16751258
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			color: 16714512
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			color: 3107279
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			color: 3257132
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: 7.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F32E6759F7E1AB0"]
+			description: [
+				"Existen cuatro rutas de armadura distintas, cada una ofreciendo un camino único para volverse más poderoso:"				"&cCamino de Fuerza&r"				"Concentrado en resistencia y aguante puro."				"Otorga un &lMáximo de Salud&r y &lEstabilidad&r, permitiéndote mantenerte firme contra cualquier enemigo."				"&2Camino de Agilidad&r"				"Construido para la gracia terrible y la precisión."				"Otorga un aumento en el &lDaño Crítico o Probabilidad de Crítico&r y la &lVelocidad de Movimiento&r, perfecto para aquellos que golpean rápido y desaparecen más rápido."				"&9Camino de la Sabiduría&r"				"Un equilibrio de fuerza y poder mágico"				"Otorga un aumento en el &lDaño de Ataque&r y el &lPoder Mágico&r, haciéndote letal tanto en Cuerpo a Cuerpo como en Magia."				"&dSenderos del Dragón&r"				"Las escamas de un dragón se convierten en tu escudo."				"Otorga un aumento en la &lArmadura&r y la &lDureza de la Armadura&r a costa de la Estabilidad&r, permitiéndote resistir incluso a los ataques más poderosos. (El Camino del Dragón Azul tiene un &lPoder Mágico&r adicional)"				""
+				"Tu sendero determinará tu travesía."				""
+				"&l&4ahora, ELIGE"			]
+			hide_until_deps_complete: true
+			id: "36BD809C80E765D4"
+			rewards: [{
+				id: "146A1BAA85D14456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "465245B916E5F34A"
+				title: "Los Tres Caminos"				type: "checkmark"
+			}]
+			title: "&lLos Tres Caminos"			x: 0.5d
+			y: 0.2d
+		}
+		{
+			dependencies: ["6EB42D642FFFF635"]
+			description: [
+				"Refinadas y perfeccionadas, las hojas de titanio dejan poco espacio para la debilidad."				""
+				"Ya no atada a lo que fue, esta armadura se sostiene por sí misma, fuerte, estable e inflexible."			]
+			id: "1FB8EC82D636549D"
+			rewards: [
+				{
+					id: "3932D3D20923C8E1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140352C2F22146D6"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38CEA6B8A4E72945"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota al Dragón Infernal"			tasks: [
+				{
+					id: "13A3BE114BDC44EC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titanium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1300AA794327AA95"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titanium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "090791385B447890"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titanium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614F4B84D4B54CB7"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titanium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Titanio"			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1FB8EC82D636549D"]
+			description: [
+				"Forjada en las profundidades de Nether, esta armadura marca un gran paso adelante."				""
+				"Poderoso e inflexible, sin embargo no es el Fin del camino."			]
+			id: "7C9A5DE8DB2BE67C"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "7B3ABF8626789F35"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FA8B7F95ADFD83A"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "15E6D051F50BB54D"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "717FEB8AF2D8D2F4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47A0510EC4100878"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BADA9B840A58EF7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherita"			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0240C48BD91CE6CB"]
+			description: [
+				"Forjada en el calor de El Nether, esta armadura canaliza poder con Poder Rúnico Mayor intensidad."				""
+				"La energía dentro de él se siente viva, controlada, mas nunca verdaderamente en calma."			]
+			id: "2FB444B18B81E128"
+			rewards: [
+				{
+					id: "136EB21BB27B0A00"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6AAAE6AA2C09F9"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Armadura de netherita de Mazmorras y Combate"			tasks: [
+				{
+					id: "2B3AE5C4EF3F20CD"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:netherite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6819E9BEFC08A8E5"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:netherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "369D9806A5D82636"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:netherite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A618A1D9CF4B708"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:netherite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherita"			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C9A5DE8DB2BE67C"]
+			description: [
+				"Forjada de acero oscuro y calor fundido, esta armadura empuja más allá de los límites convencionales."				""
+				"Irradia una intensidad cruda, una señal de que ustedes se acercan al verdadero poder."			]
+			id: "7AA9A6F220C8DB9C"
+			rewards: [
+				{
+					id: "3AA3EC74358B3A86"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19E3CD50AABFD63D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05612BB6E3163300"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4439B2C1E6B67B11"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_dark_steel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B72D46CC1CD4852"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_dark_steel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43AC287C966FFC0E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_dark_steel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "676D303D7DF2D990"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_dark_steel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero Oscuro Fundido"			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["69A0423C76299BC0"]
+			description: [
+				"Llevada por aquellos que se mueven sin ser vistos a través de dunas interminables, esta armadura se mezcla con el desierto mismo."				""
+				"Cada paso es más ligero, cada movimiento más difícil de seguir."			]
+			id: "6A192DB260113E61"
+			rewards: [
+				{
+					id: "5282B9D9DA1B32B2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "1FFF7387EAC6F451"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "011B41DE4CA004E1"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sandstone_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "408B48420C503E8B"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sandstone_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71A2BB3788113F47"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sandstone_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4665A5D909F69877"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sandstone_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arenisca"			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			description: [
+				"Plata moldeada por más que martillo y llama."				""
+				"Se doblega a aquellos que empuñan tanto la hoja como lo arcano con igual propósito."			]
+			hide_until_deps_complete: true
+			id: "00FEB3EBDDF386B0"
+			rewards: [
+				{
+					id: "6B60E7EF17F93777"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76680962566D4C34"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "524763859E2332AE"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:silver_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641CA849A7966C2E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:silver_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57FCBD2F2F3D69DB"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:silver_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F4B68A612A13720"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:silver_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plata"			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7757B1116484C45A"]
+			description: [
+				"Reforjada de chatarra y moldeada con propósito, esta armadura marca un paso más allá de la mera supervivencia."				""
+				"Lo que antes se vestía con miedo ahora se ha templado en fuerza."			]
+			id: "4E4533EB8DB02A65"
+			rewards: [
+				{
+					id: "1A81B8F989098E20"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "1F1BFC4320AB9E7C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "08D6F343D01BBFAC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710155145313983F"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C66314CC6053EA9"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60AC3DF79A390520"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero Forjado"			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			description: [
+				"Vestida alguna vez por quienes huyeron del campo de batalla, esta armadura lleva una historia de miedo y supervivencia."				""
+				"Ahora reforjada, sirve a un nuevo propósito en las manos de quien se niega a caer."			]
+			hide_until_deps_complete: true
+			id: "7757B1116484C45A"
+			rewards: [
+				{
+					id: "42C328F84C2F1F1B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B5D4E425BB272D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3FC157D8D6E2B566"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:deserter_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E9BAF2A3C37FE90"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:deserter_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF24CA958E5E2BA"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:deserter_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66C07996816023CA"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:deserter_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Desertor"			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E4533EB8DB02A65"]
+			description: [
+				"Forjada de lo que queda de Kamath, esta armadura lleva el peso de un jefe caído."				""
+				"Su presencia es pesada, un recordatorio de la batalla que lo hizo posible."			]
+			id: "6EB42D642FFFF635"
+			rewards: [
+				{
+					id: "11E31F5032DC1F45"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42FF8692F59396F9"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota a los Kamath"			tasks: [
+				{
+					id: "4B165F87E8A9F6BE"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:wolf_steel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3975FDBE0853FF44"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:wolf_steel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "718FE516947E2390"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:wolf_steel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38841614DC43288E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:wolf_steel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Restos de Kamath"			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28C68C0D42D60FE2"]
+			description: [
+				"Nacida de los restos de Kamath y templada en llama menguante, esta armadura encarna la resistencia por encima de todo."				""
+				"No busca la victoria por la fuerza, solo superar a todo."			]
+			id: "3E57BD6A1B8715C1"
+			rewards: [
+				{
+					id: "6470DF7B08142AFF"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17DCE8B99898F3D1"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1452A741F8F8D07B"
+					item: {
+						Count: 1
+						id: "efn:duskfire_helmet"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C83B3329A6730A"
+					item: {
+						Count: 1
+						id: "efn:duskfire_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0905BD7D4EE55F9C"
+					item: {
+						Count: 1
+						id: "efn:duskfire_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D289D271B0833FB"
+					item: {
+						Count: 1
+						id: "efn:duskfire_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&cFuego Crepuscular"			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			description: [
+				"Diseñada para pasos silenciosos y manos rápidas, esta armadura es ideal para quienes evitan los enfrentamientos directos."				""
+				"Gracia Terrible y el ritmo importan más que la fuerza bruta."			]
+			hide_until_deps_complete: true
+			id: "69A0423C76299BC0"
+			rewards: [
+				{
+					id: "122960AB68D48461"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77288B442F395B73"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2D7A4256F357B00A"
+					item: {
+						Count: 1
+						id: "fantasy_armor:thief_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A5CE83AC1B10C8B"
+					item: {
+						Count: 1
+						id: "fantasy_armor:thief_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39C92B876E8F91E7"
+					item: {
+						Count: 1
+						id: "fantasy_armor:thief_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "151E70292BB52B2C"
+					item: {
+						Count: 1
+						id: "fantasy_armor:thief_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ladrón"			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47131881E64DB8EA"]
+			description: [
+				"Forjada en presencia de abrasador ligero, esta armadura mantiene un fragmento del poder del Sol."				""
+				"Brilla, no por exhibición, sino con propósito."			]
+			id: "01D7BE38D17C1B46"
+			rewards: [
+				{
+					id: "039B9EB3DF79BD87"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AAA8D867B3A1E4C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0088234256DC0FD4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota a Sunleia"			tasks: [
+				{
+					id: "0D51DC4A2A85B58A"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blessed_gold_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17218EE302569BED"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blessed_gold_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71A41BA6C752536B"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blessed_gold_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69348EA7B43017D1"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blessed_gold_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dorado Bendito"			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A192DB260113E61"]
+			description: [
+				"Bendecida por fuerzas que habitan bajo las arenas desplazándose, esta armadura porta un poder silencioso."				""
+				"Quienes lo visten se mueven con propósito, marcados, invisibles y precisos."			]
+			id: "47131881E64DB8EA"
+			rewards: [
+				{
+					id: "78F1AAA0105C4785"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74484B15723C4A6E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota al Gusano de Arena"			tasks: [
+				{
+					id: "061B3B2BD0E5C77A"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:centinel_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "370B6A5F82ED9256"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:centinel_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1934604794C6EFA6"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:centinel_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33574DEEDB0495BF"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:centinel_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Centinela"			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01D7BE38D17C1B46"]
+			description: [
+				"Tus movimientos se vuelven más nítidos, más rápidos y más difíciles de predecir."				""
+				"En este punto, la Gracia Terrible ya no es una ventaja; es tu Identidad."			]
+			id: "3B297602935A4A4D"
+			rewards: [
+				{
+					id: "70DDFE0856476E34"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F42AD0A122E56C2"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0EB63303644AB7F8"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:netherite_samurai_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1576D5DDF7559F62"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:netherite_samurai_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FB457BCBCE0800"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:netherite_samurai_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6203D3F760385118"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:netherite_samurai_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0FC0F44E4F7DACCA"]
+			description: [
+				"El calor irradia desde cada pieza, como si la armadura misma se negara a enfriarse."				""
+				"Esto no es solo fuego, es poder en movimiento."			]
+			id: "5762D5584CD83DE4"
+			rewards: [
+				{
+					id: "1D4AE380C0E5C01B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421B7DE5C2BD744E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03B23216CEC56CA5"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "55F98D19180E03F0"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3274E254AA590248"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E89D0C1489FC894"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "059118D0FB86CC3A"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Abrasador"			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"222D9035975F94D9"
+				"66CAB783B8089329"
+				"05F03990E2168693"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Inestable e impredecible, esta armadura dobla el destino lo suficiente para mantenerte vivo."				""
+				"Lo que debería haberte aniquilado, no lo logra."			]
+			id: "479CDF9806841C68"
+			rewards: [
+				{
+					id: "023E82E0EF1D6149"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10C78C2A50372A4B"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2D6AFACA1B95F406"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E38E34FF9A44980"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B635479D623E9EC"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "395DD42B0479E34C"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&6Cursium"			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3B297602935A4A4D"]
+			description: [
+				"Oscura y refinada, esta armadura mejora la precisión mediante el silencio y el control."				""
+				"Cada movimiento se siente más fluido, cada golpe más deliberado."			]
+			hide_until_deps_complete: false
+			id: "0A5E2E2852920112"
+			rewards: [
+				{
+					id: "0D2EC5B35303019B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26132F3EE05D7981"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E1D006DC445974"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5B9EE651A0538781"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ebony_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21EEE0CE9051B4D5"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ebony_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C5D778BAA7C1A38"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ebony_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C100248A5B78678"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ebony_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ébano"			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A5E2E2852920112"]
+			description: [""]
+			id: "66CAB783B8089329"
+			rewards: [
+				{
+					id: "7999A5D2A697ACCC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "739A1FE8BFC12E79"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C4C4AB6BDE7E36B"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3101D7C140DF374A"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:crimson_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A81B870EA80C636"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:crimson_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7121714D92BA7A39"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:crimson_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B52C2450652ECF7"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:crimson_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4Carmesí"			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"5762D5584CD83DE4"
+				"1D660E9F39819EB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Las llamas dentro de esta armadura arden con ferocidad, impulsando tu poder hacia el exterior."				""
+				"Cada acción se siente más pesada, cada golpe más decisivo."			]
+			id: "521F6FA1ABECA021"
+			rewards: [
+				{
+					id: "75EF347A1A611EE5"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "425A1D7C1CA395EA"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "328252028EA1CA68"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CF451E6FAF0EA36"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62D84829E20C75D5"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354D1F4CF0876988"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&6Ignitium"			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CB47C9CFBD2D58E"]
+			description: [
+				"Forjada para aquellos que cazan en climas implacables, esta armadura refleja una mentalidad fría y concentrada."				""
+				"No hay vacilación, solo la persecución."			]
+			id: "19225FB3BC0C62DF"
+			rewards: [
+				{
+					id: "3BBA1EDEFB11B208"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE83494D2AC34DF"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota a Frostmaw"			tasks: [
+				{
+					id: "6CBCF8D2439B5094"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:bounty_hunter_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E0A8E171C836267"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:bounty_hunter_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D3E81445E9E19C0"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:bounty_hunter_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5603837000F877AB"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:bounty_hunter_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cazadores de Recompensas"			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00FEB3EBDDF386B0"]
+			description: [
+				"Más fuerte y refinada, la armadura de Titán une la brecha entre el metal crudo y el poder controlado."				""
+				"Responde no solo a la fuerza, sino a la voluntad que la impulsa."			]
+			id: "3CB47C9CFBD2D58E"
+			rewards: [
+				{
+					id: "1A445BEC878EE168"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "5744FB193CB3FE34"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "29F096D159EAD486"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titan_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "723A609754978CB1"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titan_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DDC47D7B4DC5B41"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titan_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388F9A04558039CA"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:titan_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Titán"			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FB444B18B81E128"]
+			description: [
+				"El poder ya no necesita ser controlado, responde a ti."				""
+				"Esta armadura marca el punto donde la maestría se convierte en dominio."			]
+			id: "0FC0F44E4F7DACCA"
+			rewards: [
+				{
+					id: "4C325F5DEC89FDB5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67A739564CAAACC2"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "479663AE034B9B61"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "52971957F62F4BEF"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_lord_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "464889CE2B06B295"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_lord_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ABCA38EE7D95424"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_lord_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DD2A9809B35400"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dark_lord_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Señor Oscuro"			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68230B6132D2DA13"]
+			id: "7E6728739A8B63F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0214E7FF843F88C0"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D1BB0F74AC42688"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_halberd"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68230B6132D2DA13"]
+			id: "3045C1AC3874338C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64690E61449419C0"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65C6D5BE6FB53352"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68230B6132D2DA13"]
+			id: "5E20F48F00E262D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E530A86EC8C99DC"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "390F7FD545E7B7A7"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_glaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68230B6132D2DA13"]
+			id: "1175A6EDBC3A250D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35BF6671F8DD3C2E"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6ECA1345D9E587A9"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D24136F7FF75143"]
+			id: "52D97BA5264653E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1708C4EEA5A0BA00"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "529839AAD5BA81DA"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_sai"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D24136F7FF75143"]
+			id: "12CB3DBAB5546FCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BB0C0C5C4E82580"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DD45203F6ED52F4"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D24136F7FF75143"]
+			id: "4859488D7B5CD646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3719FFDA39F571A6"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00B6651FB43E85E6"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_cutlass"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D24136F7FF75143"]
+			id: "7AD31BF725579C5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0697EA6393F486F2"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43F43CD4040D40D7"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69254F4094AC7883"]
+			id: "1243D58C380244F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "596EB020F35D3D7E"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44730A9A74107B51"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69254F4094AC7883"]
+			id: "0CD7F4C36DC616B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EB206054BF8FF2"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E4E0660BCA6BC00"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_twinblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69254F4094AC7883"]
+			id: "2774A668ACB60AE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3EBC1A8B2D5B81"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DEF4EB26ED73C08"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_warglaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69254F4094AC7883"]
+			id: "78FBB192EA7B84EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7476572426E88212"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AE84C2F1F033CDD"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69254F4094AC7883"]
+			id: "5499776D7343201D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22C2ADFABF4EE43D"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "506AC1965B118250"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_chakram"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E6728739A8B63F1"]
+			id: "7EC175F34D8A7ACC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AD444A4DEA32DA6"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CCBF4F3489192C5"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_halberd"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3045C1AC3874338C"]
+			id: "2CE48371C8F3B90E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "142D8165985E3539"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "069FEC335BC0C195"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E20F48F00E262D2"]
+			id: "2604F30277A7DBF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E6E1A453ADC4C7"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "376CF3183553122D"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_glaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E9AFA7965706895"]
+			id: "4F1FB1CDA9EDE2F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B62D0B11028E71"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02BC8CB751044444"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1175A6EDBC3A250D"]
+			id: "29FED28D6E756174"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B3FECC0AA96BD7D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BF3FB940470FC4D"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52D97BA5264653E5"]
+			id: "0150D629BE2EAE9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F537ABAFA6B74D"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "014E75EB92176B0C"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_sai"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12CB3DBAB5546FCD"]
+			id: "008F4B0C9666AEFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1060FAE8D73127F0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "679C543A1708C9D9"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4859488D7B5CD646"]
+			id: "4802D657A6315BA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063024E85A96EA89"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16999082A2B7A7C1"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_cutlass"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EAA8AD5781B2A8B"]
+			id: "28767FA500FDC93C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BA71009DF0CE42E"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0373CB9B99A48186"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AD31BF725579C5C"]
+			id: "4A9B26E237BED59E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4C03E4BE5D7F41"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DD6FA193F4679E9"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5499776D7343201D"]
+			id: "333F68BB8E649ADF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3909956A8D1621E5"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51E3B285CE5144C8"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_chakram"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["78FBB192EA7B84EE"]
+			id: "08D2EE6F9FC81504"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7942186A5DDA58C3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "437A4B24B2ED4016"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1243D58C380244F9"]
+			id: "27E3B87ED2803F01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688F45A20DAD4450"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5868F4519859203B"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2774A668ACB60AE6"]
+			id: "1750C0907E342F44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063A37B8DD9FB9A0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00EA4E9B5C2D24FA"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_warglaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0CD7F4C36DC616B8"]
+			id: "74A830A623CCE44E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38DA65572FAF642A"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6285A4F6B73833A1"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_twinblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A9B26E237BED59E"]
+			id: "3E1ED4C2C29EF957"
+			rewards: [
+				{
+					id: "3DF0C08347D7CC78"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3350D216F62304DA"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una arma de largo alcance que mantiene a los enemigos a distancia."			tasks: [{
+				id: "172F314FA47D67A6"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2604F30277A7DBF2"]
+			id: "47C33EA0CBC4ED10"
+			rewards: [
+				{
+					id: "070E83938CC9F04C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55C2782F2A10371F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una arma de asta con una hoja de barrido hecha para golpes amplios y poderosos."			tasks: [{
+				id: "20146F329A689005"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_glaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0150D629BE2EAE9C"]
+			id: "77299990A2C12335"
+			rewards: [
+				{
+					id: "3FD955A7819444F3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53B9537D548A9964"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una rápida arma utilizada para bloquear ataques y golpear con precisión."			tasks: [{
+				id: "472F036B8DB73740"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_sai"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["008F4B0C9666AEFB"]
+			id: "445866DBF6544860"
+			rewards: [
+				{
+					id: "3C816F27E23E417F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F034D5B3917BCCD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja de duelista preciso, diseñada para la gracia terrible y estocadas mortales."			tasks: [{
+				id: "2AF3875AF8B95297"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74A830A623CCE44E"]
+			id: "65FF43CF5D44715F"
+			rewards: [
+				{
+					id: "0EE9F63C5A05F743"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37A857DA9E1436FA"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una arma de doble filo construida para golpes incesantes y fluidos."			tasks: [{
+				id: "2961F36427A87D2B"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_twinblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7EC175F34D8A7ACC"]
+			id: "65AD97B63676F0CE"
+			rewards: [
+				{
+					id: "40002E277F12B239"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "685576B1B8B0FC6D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un arma de asta versátil que combina alcance, poder y control."			tasks: [{
+				id: "7A973E559E63B0FC"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_halberd"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["28767FA500FDC93C"]
+			id: "693138EEA2D7D991"
+			rewards: [
+				{
+					id: "4421DCE8B1BC9CCD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9D569599A86A85"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja artesano, conocida por su gracia terrible y precisión."			tasks: [{
+				id: "0EEEF8764D0FFBB5"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4802D657A6315BA7"]
+			id: "094252AC34635A24"
+			rewards: [
+				{
+					id: "44236EBBADEC7A2C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62588B89B5CC31BC"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una rápida espada curva favorecida por valientes luchadores."			tasks: [{
+				id: "730BE69D88C566A3"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_cutlass"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29FED28D6E756174"]
+			id: "44382DAF6A47A89F"
+			rewards: [
+				{
+					id: "2BDA329691431F23"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13735EDA07A97695"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una enorme espada de dos manos que lanza devastadores balanceos."			tasks: [{
+				id: "3EC1232E31191D47"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68230B6132D2DA13"]
+			id: "6E9AFA7965706895"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EA188449DECF030"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "701D88C99547308B"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1750C0907E342F44"]
+			id: "6C283FB1B1C62CFA"
+			rewards: [
+				{
+					id: "34990A4845E7B6C3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4290ECF6D2040309"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja curva hecha para un combate ágil e implacable."			tasks: [{
+				id: "0485F66E7833583E"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_warglaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["333F68BB8E649ADF"]
+			id: "6097AC260E384989"
+			rewards: [
+				{
+					id: "0F3066CEA4AB50D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6821E8C85E7F7E60"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un anillo arrojadizo de filo a navaja que golpea con letal precisión."			tasks: [{
+				id: "1535B8DB4AF2C173"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_chakram"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2CE48371C8F3B90E"]
+			id: "6488BC1F99D375E1"
+			rewards: [
+				{
+					id: "517C2A9568463F25"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "690670A4DEC2A5F9"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hacha brutal capaz de cortar enemigos con fuerza bruta."			tasks: [{
+				id: "62AFB57821DA4F94"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_greataxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27E3B87ED2803F01"]
+			id: "3DF50D22E8C743C1"
+			rewards: [
+				{
+					id: "03EC38BD609F41DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EDD80288A7B139E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja equilibrada adecuada para golpes rápidos y poderosos."			tasks: [{
+				id: "20823D89ED38DEDB"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["08D2EE6F9FC81504"]
+			id: "46069F452B092E5E"
+			rewards: [
+				{
+					id: "0315220BFEBE1E6A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A02880AAD35FCB1"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una hoja curva capaz de cortar a múltiples enemigos a la vez."			tasks: [{
+				id: "1D34B5622C7D59F3"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4F1FB1CDA9EDE2F8"]
+			id: "0D35837977A72C3A"
+			rewards: [
+				{
+					id: "3E3B75C3C50A8DA1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2652AD2BF1434368"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Un enorme martillo construido para aplastar armaduras y hacer añicos defensas."			tasks: [{
+				id: "6799D3FFC291C10E"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_greathammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D24136F7FF75143"]
+			id: "5EAA8AD5781B2A8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09D300BBDF405200"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C8288186EBEF330"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A6309728B2644C2"]
+			description: [
+				"Construida para un combate implacable, esta armadura favorece la agresión más que la sutileza."				""
+				"Gracia Terrible permanece, pero ahora te impulsa directo a la pelea."			]
+			hide_until_deps_complete: false
+			id: "222D9035975F94D9"
+			rewards: [
+				{
+					id: "2C3331AE50206DD5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40F519AAAE8C3CF5"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D09E07193CD1CBB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5B218EEAA2453BBA"
+					item: {
+						Count: 1
+						id: "efn:ruinfighter_helmet"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FE3B79BA41904EB"
+					item: {
+						Count: 1
+						id: "efn:ruinfighter_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54031C101BCD2373"
+					item: {
+						Count: 1
+						id: "efn:ruinfighter_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FEB4067BBC0E0BE"
+					item: {
+						Count: 1
+						id: "efn:ruinfighter_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7Guerrero de las Ruinas"			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19225FB3BC0C62DF"]
+			description: [
+				"Extraída de las profundidades donde el ligero apenas alcanza, esta armadura lleva una presencia que no puede ser ignorada."				""
+				"Se siente pesado, no en peso, sino en poder."			]
+			id: "0240C48BD91CE6CB"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "43C7997623D552E0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21CA9E9E84C3722F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49349DA5C4749194"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3D862CD8F8B1FD76"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "124924C018049302"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0691B027C5617AF1"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC37417188B5053"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Warden"			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AA9A6F220C8DB9C"]
+			description: [
+				"En el End de todos los caminos, solo queda una verdad: el poder se toma, no se da."				""
+				"Esta armadura lleva el legado de Kamath, ahora tuyo para comandar."			]
+			id: "28C68C0D42D60FE2"
+			rewards: [
+				{
+					id: "2E7F3A2840FAC201"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70C4402686BFDE1D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FCC531831996E1E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4F6E64A889F700FF"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:kamath_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B4F27A55C7F6715"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:kamath_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F555906039404BC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:kamath_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41A518564F877A55"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:kamath_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Kamath"			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["28C68C0D42D60FE2"]
+			description: [
+				"Refinada del poder de Kamath en algo mucho más agresivo, esta armadura favorece la fuerza sobre la contención."				""
+				"Está destinado no solo a perdurar, sino a dominar."			]
+			id: "2B45F97796B5266F"
+			rewards: [
+				{
+					id: "63973AFF880AB952"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "109BACC806EBEC89"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1EA4745FE962833E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dark_metal_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E2DDA8BDD5449F6"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dark_metal_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7410D0AC1660A2D5"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dark_metal_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55FFCF294A8ECC1D"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:dark_metal_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Metal Oscuro"			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"5762D5584CD83DE4"
+				"1D660E9F39819EB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"La energía fluye sin esfuerzo a través de esta armadura, suave e ininterrumpido."				""
+				"Nada se desperdicia, nada está sin control."			]
+			id: "1872AFF9692D94BB"
+			rewards: [
+				{
+					id: "52E2F5C24468512B"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23A7BFD4EF97975F"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "06DFBCDE65F6BB82"
+					item: {
+						Count: 1
+						id: "dacxirons:ebony_wizard_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7207B8F30968E99C"
+					item: {
+						Count: 1
+						id: "dacxirons:ebony_wizard_robe"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72869622963569AE"
+					item: {
+						Count: 1
+						id: "dacxirons:ebony_wizard_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1113E80084D1B401"
+					item: {
+						Count: 1
+						id: "dacxirons:ebony_wizard_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&8Ébano"			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7D24136F7FF75143"
+			tasks: [{
+				id: "650C0E1F0B023443"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_until_deps_complete: true
+			id: "69254F4094AC7883"
+			tasks: [{
+				id: "3571A68928B4BDBA"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_until_deps_complete: true
+			id: "68230B6132D2DA13"
+			tasks: [{
+				id: "3D0D64A1A69A3502"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47131881E64DB8EA"]
+			description: [
+				"Forjada en presencia de abrasador ligero, esta armadura mantiene un fragmento del poder del Sol."				""
+				"Brilla, no por exhibición, sino con propósito."			]
+			id: "6744F898B61EA6DA"
+			rewards: [
+				{
+					id: "48627545EFE928E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F601CE89F1C7ABA"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF39280B6B23029"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Derrota a Sunleia"			tasks: [
+				{
+					id: "6100157AD5AE736E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sunleia_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58D27C1172703ACB"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sunleia_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AC514FE6BF7A654"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sunleia_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1281E4DE033CCA7D"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:sunleia_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sunleia"			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6744F898B61EA6DA"]
+			id: "4532787303D90A0F"
+			rewards: [
+				{
+					id: "396A835E6451F929"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B3303F8D9CCBD6F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0AF6725C29F1FA76"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_ingot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AAEB4BE6BE06DA8"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_ingot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52968F91D4E40E3F"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_ingot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14C4C60C79BB95AB"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_ingot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Alma Negra"			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4532787303D90A0F"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "2A6309728B2644C2"
+			rewards: [
+				{
+					id: "3E4E0B73239C03C2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A0A72E6CD177EE"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65558917F260B0D8"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2E0DBABB53C5254E"
+					item: {
+						Count: 1
+						id: "soulsweapons:forlorn_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "076CD44351EF10C7"
+					item: {
+						Count: 1
+						id: "soulsweapons:forlorn_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "319379694220DDCF"
+					item: {
+						Count: 1
+						id: "soulsweapons:forlorn_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E8B384E0C07981C"
+					item: {
+						Count: 1
+						id: "soulsweapons:forlorn_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Desolado"			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"66CAB783B8089329"
+				"222D9035975F94D9"
+				"05F03990E2168693"
+			]
+			dependency_requirement: "one_completed"
+			id: "00085C62C0867342"
+			rewards: [
+				{
+					id: "3A436FC9D8FE3D37"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F90AC4B2E5113A2"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0FC04414E81F6201"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_robes_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E31706EF1705C5"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_robes_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "258F3882DCDE060E"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_robes_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0410B8E184984AC9"
+					item: {
+						Count: 1
+						id: "soulsweapons:soul_robes_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&bDevorador de Almas"			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "61249F65B9562BFE"
+			rewards: [
+				{
+					id: "28D4464695CB1054"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "771A0E1A7B70D579"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "18E3C1615119B025"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_fire_helmet)"
+						}
+					}
+					title: "Cualquier Casco de Escama de Dragón de Fuego"					type: "item"
+				}
+				{
+					id: "7D1C94B4E76F117A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_fire_chestplate)"
+						}
+					}
+					title: "Cualquier Peto de Escama de Dragón de Fuego"					type: "item"
+				}
+				{
+					id: "4260041C917F53B4"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_fire_leggings)"
+						}
+					}
+					title: "Cualquiera Grebas de Escama de Dragón"					type: "item"
+				}
+				{
+					id: "270A95E70FE42EEA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_fire_boots)"
+						}
+					}
+					title: "Cualquiera Botas de Escama de Dragón de Fuego"					type: "item"
+				}
+			]
+			title: "Escama de Dragón de Fuego"			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["61249F65B9562BFE"]
+			id: "13D78BF68A4749BC"
+			rewards: [
+				{
+					id: "5B35E2DB0C8E9A31"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A9C6E925F2FBAC5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C9D15684D60675"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "02D69D91912C483C"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_fire_helmet)"
+						}
+					}
+					title: "Cualquier casco de Dragón de Fuego"					type: "item"
+				}
+				{
+					id: "519E77332649AF83"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_fire_chestplate)"
+						}
+					}
+					title: "Cualquier peto de Dragón de Fuego"					type: "item"
+				}
+				{
+					id: "500D493CEE7C6B99"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_fire_leggings)"
+						}
+					}
+					title: "Cualquier grebas de Dragón de Fuego"					type: "item"
+				}
+				{
+					id: "05E10658AC87F291"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_fire_boots)"
+						}
+					}
+					title: "Cualquier botas de Dragón de Fuego"					type: "item"
+				}
+			]
+			title: "Escama de Dragón de Fuego Pulida"			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13D78BF68A4749BC"]
+			id: "7EDA6CF8483292C0"
+			rewards: [
+				{
+					id: "5D7710F4442C61B3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A55B615C48F4608"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "713A6759004B7273"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3518867D7D7E8A50"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EF082554132EFE9"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E35F6F6563610A1"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero de Dragón de Fuego"			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7EDA6CF8483292C0"]
+			id: "61F47747EC0A21A7"
+			rewards: [
+				{
+					id: "45D2525BA449AC2B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62EA7ECE7D99E6F4"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76D954483F716541"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "309270A13FCD483B"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:fire_dragonsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16A9B3887DDE3823"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:fire_dragonsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721E77AFB7BBCA6F"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:fire_dragonsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E71A05B6E063E1E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:fire_dragonsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero de Dragón de Fuego Pulido"			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["61F47747EC0A21A7"]
+			id: "3B125E6BED4DA5E3"
+			rewards: [
+				{
+					id: "45C2D8B928F2DDFF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FBFA61E8543A8FB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05904156250D97EB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "345773820AFC975C"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cryolite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DC6382C60D0B79"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cryolite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E808472AA33018B"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cryolite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59B6F06872AA96F6"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cryolite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Criolita"			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3B125E6BED4DA5E3"]
+			id: "7955B37A0B3CD481"
+			rewards: [
+				{
+					id: "68A36FF0ABA87E51"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40D7B67D2EE678D0"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "750DBE4053B3FAE5"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_cryolite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77624E3F910F7478"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_cryolite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225FC9AA6649CE09"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_cryolite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E43166F1DF2FCAB"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_cryolite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&4Criolita Fundida"			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2AD9452DD4B1880E"
+			rewards: [
+				{
+					id: "3BA0DA6F49AAFADB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AF820D8F481FB0A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "401ABC7BAE0183AD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "69A0E7B058BE4477"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_lightning_helmet)"
+						}
+					}
+					title: "Cualquier Casco de Escama de Dragón de Dragón Relámpago"					type: "item"
+				}
+				{
+					id: "2D0FF8B9C61F4DAC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_lightning_chestplate)"
+						}
+					}
+					title: "Cualquier Peto de Escama de Dragón de Dragón Relámpago"					type: "item"
+				}
+				{
+					id: "1303BDB3EA80556B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_lightning_leggings)"
+						}
+					}
+					title: "Cualquiera Grebas de Escama de Dragón"					type: "item"
+				}
+				{
+					id: "5664C37A31CD9CF9"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_lightning_boots)"
+						}
+					}
+					title: "Cualquiera Botas de Escama de Dragón de Dragón Relámpago"					type: "item"
+				}
+			]
+			title: "Escama de Dragón Relámpago"			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AD9452DD4B1880E"]
+			id: "7C615967F02B4567"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5F26F7849144CE08"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_lightning_helmet)"
+						}
+					}
+					title: "Cualquier casco de Dragón Relámpago"					type: "item"
+				}
+				{
+					id: "7A442AFD10EF9717"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_lightning_chestplate)"
+						}
+					}
+					title: "Cualquier peto de Dragón Relámpago"					type: "item"
+				}
+				{
+					id: "00C37B7F75A695DD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_lightning_leggings)"
+						}
+					}
+					title: "Cualquiera Grebas Dragón Relámpago"					type: "item"
+				}
+				{
+					id: "078217B34DA92B98"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_lightning_boots)"
+						}
+					}
+					title: "Cualquier botas de Dragón Relámpago"					type: "item"
+				}
+			]
+			title: "Escama de Dragón Relámpago Pulida"			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C615967F02B4567"]
+			id: "6230441CA64FFB1C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7247050830227BA4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C570A2813E34F82"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71C263DDDA8E11B9"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29AFAE50ED1DE523"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Rayo Acero de Dragón"			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6230441CA64FFB1C"]
+			id: "05F03990E2168693"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F6F753D0CF2CB82"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:lightning_dragonsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6240C0FC84060704"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:lightning_dragonsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22DF4722E1BD12BB"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:lightning_dragonsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20ED714BD8C00191"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:lightning_dragonsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero de Dragón Relámpago Pulido"			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36BD809C80E765D4"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6BFF09221933AF9D"
+			rewards: [
+				{
+					id: "2ABBF9FE0A5F8598"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2588C02F42986EB5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53E7F3999FE32FCB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6EF4CCEB1AF43D2B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_ice_helmet)"
+						}
+					}
+					title: "Cualquier Peto de Escama de Dragón de Hielo"					type: "item"
+				}
+				{
+					id: "730B2AD0F952BB11"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_ice_chestplate)"
+						}
+					}
+					title: "Cualquier Peto de Escama de Dragón de Hielo"					type: "item"
+				}
+				{
+					id: "6F7A04A8EF2A9966"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_ice_leggings)"
+						}
+					}
+					title: "Cualquiera Grebas de Escama de Dragón"					type: "item"
+				}
+				{
+					id: "407C71E6D5AF81A5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:dragon_scale_ice_boots)"
+						}
+					}
+					title: "Cualquiera Botas de Escama de Dragón de Hielo"					type: "item"
+				}
+			]
+			title: "Escama de Dragón de Hielo"			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BFF09221933AF9D"]
+			id: "30CD532FE78F0FA5"
+			rewards: [
+				{
+					id: "36FAED6D35EE868E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D56B32901FE33AF"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12792C5154D3CB5B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_ice_helmet)"
+						}
+					}
+					title: "Cualquier casco de Dragón de Hielo"					type: "item"
+				}
+				{
+					id: "0D715A9C3FD8E202"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_ice_chestplate)"
+						}
+					}
+					title: "Cualquier peto de Dragón de Hielo"					type: "item"
+				}
+				{
+					id: "2DB5C3FE910C2C93"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_ice_leggings)"
+						}
+					}
+					title: "Cualquier grebas de Dragón de Hielo"					type: "item"
+				}
+				{
+					id: "5314BFFC1ED1551A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(my_tags:upgraded_dragon_scale_ice_boots)"
+						}
+					}
+					title: "Cualquier Botas de Dragón de Hielo"					type: "item"
+				}
+			]
+			title: "Escama de Dragón de Hielo Pulida"			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30CD532FE78F0FA5"]
+			id: "714A70DA00C91C5D"
+			rewards: [
+				{
+					id: "01CF99F63181293C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19280280EFC35A87"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03ED707A893203C7"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E983D1CF3EE4E60"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C1A7B3816624938"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54FADE0C18544769"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5B04A2B9AB2819"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero Dragónhielo"			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["714A70DA00C91C5D"]
+			id: "1D660E9F39819EB2"
+			rewards: [
+				{
+					id: "023B1F0E7874440E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "696A6596E8E7C4F9"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42B0F7DF84225D98"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6C2FC9611D715BA8"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ice_dragonsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04CED76A80498B0B"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ice_dragonsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E332805A26F0E54"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ice_dragonsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "340D3FFBBC6C8BBD"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:ice_dragonsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero Dragónhielo Pulido"			x: 9.5d
+			y: 7.0d
+		}
+	]
+	title: "&6&l El ascenso del Campeón"}

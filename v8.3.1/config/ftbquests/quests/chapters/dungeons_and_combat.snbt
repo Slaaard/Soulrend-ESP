@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dungeons_and_combat"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "dungeons_and_combat:kamath_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "580EC3D22E02ADBA"
+	images: [{
+		height: 5.0d
+		image: "dungeons_and_combat:item/crimson_hemofire_katana"
+		rotation: -45.0d
+		width: 5.0d
+		x: 0.0d
+		y: -1.0d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4121972D3C9F2595"]
+			description: [
+				"Espadas, hachas, lanzas... todas vienen con expectativas."				""
+				"¿Pero quién decide cómo debe usarse un arma? A través de ingeniosas modificaciones y experimentación, incluso las combinaciones más inusuales pueden volverse mortales en las manos correctas."				""
+				"No temas romper las reglas."			]
+			hide_until_deps_complete: true
+			id: "7ACD2F0434044BC8"
+			rewards: [{
+				id: "4952DA10BD1F25AB"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "¿Cuál se convertirá en parte de las tuyas?"			tasks: [{
+				id: "17B0823DEFE55002"
+				title: "Forja tu propio estilo"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ACD2F0434044BC8"]
+			description: [
+				"La moda siempre ha sido el verdadero objetivo final."				""
+				"Las Molduras de Armadura de Tohi te permiten personalizar tu armadura con una variedad de diseños únicos. Mejor aún, algunos de ellos hacen más que solo verse bien, proporcionando pequeños cambios al rendimiento de tu equipo."				""
+				"Los puntos de estilo son importantes... pero las estadísticas extra ciertamente ayudan."			]
+			id: "26299080CEB5DF2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B6FE590F119F293"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A854C9467AFB160"
+				item: "dungeons_and_combat:tohi_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7ACD2F0434044BC8"]
+			description: [
+				"La Plantilla de Forja Modificadora de Armas te permite alterar el manejo de armamentos compatibles, transformando &l&6De Dos Manos&r armas en &l&4variantes De una Mano&r y viceversa."				""
+				"Aunque sus efectos se aplican principalmente a las armas de Mazmorras y Combate, abre la puerta a incontables posibilidades nuevas y construcciones poco convencionales."			]
+			id: "03ABB6EB1FFF476B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A68BF25AD6ECFD8"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3919C6B347815790"
+				item: "dungeons_and_combat:light_smithing_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7ACD2F0434044BC8"]
+			description: ["Oscuro, elegante y notablemente resistente, el ébano es un material favorito de aquellos que valoran la precisión tanto como el poder."]			id: "0A66DFA15AEBEFBA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C1E077FFD18B3B4"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+				{
+					id: "22FF6DD84FCCE3CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7652B5ACEEC69B65"
+				item: "dungeons_and_combat:ebony_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7ACD2F0434044BC8"]
+			description: ["Lo que comienza como Ébano puede ser reforjado en algo mucho más formidable. Carmesí retiene la elegancia de su predecesor mientras abraza el poder bruto y la agresión. Es la culminación del dominio, transformando excepcionales armas en armamentos verdaderamente temibles."]			id: "27B68088FA7E666C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "637DF969C986ED41"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+				{
+					id: "1A7425A484361A55"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "431A1C93088C8E9E"
+				item: "dungeons_and_combat:crimson_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27B68088FA7E666C"]
+			id: "11194711643B9058"
+			rewards: [
+				{
+					id: "72C85DD29E886D54"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10DDCBB527A0A106"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "39949CAEB64F3AAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:crimson_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A66DFA15AEBEFBA"]
+			id: "52933CF2E135CA58"
+			rewards: [
+				{
+					id: "6E42F9DC0F23CA33"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "537F788BA316F8F2"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57333DC6277D156E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:ebony_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "&1Mazmorras y Combate"}

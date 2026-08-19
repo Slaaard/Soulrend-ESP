@@ -1,0 +1,387 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "duties"
+	group: "59FD824E9CBEF444"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:emblem_of_the_past"
+	id: "4D77B6F79148A623"
+	images: [
+		{
+			dependency: "5070B97D5C5C65F7"
+			height: 2.0d
+			image: "efn:textures/entity/blood_slash/3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependency: "5070B97D5C5C65F7"
+			height: 2.0d
+			image: "efn:textures/entity/blood_slash/3.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependency: "070A68D669CF5C42"
+			height: 2.0d
+			image: "efn:textures/entity/crimson_slash/4.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -7.767857142857139d
+		}
+		{
+			dependency: "070A68D669CF5C42"
+			height: 2.0d
+			image: "efn:textures/entity/crimson_slash/4.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -1.9642857142857153d
+			y: -8.339285714285708d
+		}
+		{
+			dependency: "1E89C6A37F3C67E1"
+			height: 4.0d
+			image: "efn:textures/particle/slash7.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			alpha: 150
+			dependency: "0C15D34EF68EA195"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 8.0d
+			image: "dungeons_and_combat:item/dragon_greatsword_fire_gif"
+			rotation: -45.0d
+			width: 8.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["06604C090A2C8016"]
+			id: "3716618B6BEC2C74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "037D2CE08CBADD54"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.2d
+			subtitle: "Los Lingotes de Pesadilla son forjados desde materiales contaminados por los horrores más profundos del Vacío. Su mera presencia es suficiente para desestabilizar incluso a los aventureros más experimentados."			tasks: [{
+				count: 4L
+				id: "182A71BC27442834"
+				item: { Count: 4, id: "astral_calamity_extras:nightmare_ingot" }
+				type: "item"
+			}]
+			title: "Forjado desde Pesadillas"			x: 1.0d
+			y: 0.2142857142857224d
+		}
+		{
+			dependencies: ["06604C090A2C8016"]
+			id: "15ECC78DDB78C136"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0010487758D8CE29"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.2d
+			subtitle: "El metal astral lleva el contenedor de estrellas distantes, otorgándole propiedades que desafían la comprensión convencional. Empuñar equipo forjado de él es mantener un fragmento de los cielos en tus manos."			tasks: [{
+				count: 4L
+				id: "2C0B9BB6103D863F"
+				item: { Count: 4, id: "astral_calamity_extras:astral_ingot" }
+				type: "item"
+			}]
+			title: "&l&3El Metal de las Estrellas"			x: -1.0d
+			y: 0.2142857142857224d
+		}
+		{
+			dependencies: ["63A3823CE53B3DEA"]
+			description: [
+				"&7&lTu mayor desafío comienza"				"&l&4ahora."			]
+			id: "7DAC338EE5CF1A0D"
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				dimension: "graveyard:past"
+				icon: "graveyard:corruption"
+				id: "5E7C6DD96F1D7ACA"
+				title: "Visita el &2&lPasado"				type: "dimension"
+			}]
+			title: "Visita el &2&lPasado"			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3716618B6BEC2C74"
+				"15ECC78DDB78C136"
+			]
+			id: "63A3823CE53B3DEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4247B075EACA009C"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "23DA6FCD887DCDF0"
+					item: "dungeons_and_combat:crimson_flask"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "53E6FD67BCBF1CE7"
+				item: "kubejs:emblem_of_the_past"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DAC338EE5CF1A0D"]
+			id: "5070B97D5C5C65F7"
+			rewards: [{
+				id: "589FB323749BD661"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				icon: "alexscaves:primal_magma"
+				id: "35BA461803E797CF"
+				structure: "nightfall_invade:gate_of_disaster"
+				title: "Entra por la Puerta del Desastre"				type: "structure"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DAC338EE5CF1A0D"]
+			id: "070A68D669CF5C42"
+			rewards: [{
+				id: "44FFB6DD73E59525"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				icon: "dungeons_and_combat:chalice_with_blood"
+				id: "0208C7B8503B4561"
+				structure: "nightfall_invade:ancient_church"
+				title: "Entrar a la Iglesia Antigua"				type: "structure"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["070A68D669CF5C42"]
+			id: "207F6B99EBB7D4BE"
+			rewards: [
+				{
+					id: "3115FBDE1A36F41A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5945B371BD717A45"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "13A78F2DC47123C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "efn:yamato_dmc_in_sheath"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "nightfall_invade:scarlet_hunter"
+				icon: "nightfall_invade:disaster_fragment_red"
+				id: "0BCB0AB1B82157EE"
+				title: "Derrota al &4Cazador Escarlata &lÓ Brolacháin"				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5070B97D5C5C65F7"]
+			id: "768483E97E697374"
+			rewards: [
+				{
+					id: "208BEF62D101AB1D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FE8295C41EA0C52"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "38B093AE0F3E6E35"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "efn:hf_murasama"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "nightfall_invade:arterius"
+				icon: "efn:duskfire_helmet"
+				id: "09DCB0672CA0A44B"
+				title: "Derrota a &6El último Ojeademonio &lArterius"				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"768483E97E697374"
+				"207F6B99EBB7D4BE"
+			]
+			icon: "endrem:undead_soul"
+			icon_scale: 2.0d
+			id: "1E89C6A37F3C67E1"
+			rewards: [
+				{
+					id: "35C2BE715794C4DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "cataclysm:zweiender"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08128D8B5BE35CF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "cataclysm:final_fractal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Mortusest vendrá a felicitarte. Ahora todo lo que puedes hacer es esperar."			tasks: [{
+				id: "64B06A53D5CC7ECD"
+				title: "Bendición de Mortusest"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DAC338EE5CF1A0D"]
+			description: ["Encuentra al Rey Decadente"]			id: "675050C79C731CCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A924DA6DF49DC45"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4540E49F6A6F01B2"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F87A531021AE340"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			shape: "none"
+			subtitle: "La última frontera."			tasks: [{
+				id: "4BBFADFAD7C9D693"
+				item: "apotheotic_additions:esoteric_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C15D34EF68EA195"]
+			description: [
+				"Has conquistado dragones, sobrevivido al Infierno y aventurado más allá de la realidad misma."				""
+				"Aún queda un viaje final. Más allá del velo yace un reino olvidado, donde horrores antiguos y campeones caídos aún perduran."			]
+			id: "06604C090A2C8016"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B06DE1A153BA112"
+				title: "Deberes"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "&l&1Acto V - Deberes"}

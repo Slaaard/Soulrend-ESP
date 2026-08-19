@@ -1,0 +1,19 @@
+{
+	id: "1025E595908DF601"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 8, item: "iceandfire:dragonscales_red" }
+		{ count: 8, item: "iceandfire:dragonscales_green" }
+		{ count: 8, item: "iceandfire:dragonscales_bronze" }
+		{ count: 8, item: "iceandfire:dragonscales_gray" }
+		{ count: 8, item: "iceandfire:dragonscales_blue" }
+		{ count: 8, item: "iceandfire:dragonscales_white" }
+		{ count: 8, item: "iceandfire:dragonscales_sapphire" }
+		{ count: 8, item: "iceandfire:dragonscales_silver" }
+		{ count: 8, item: "iceandfire:dragonscales_electric" }
+		{ count: 8, item: "iceandfire:dragonscales_amythest" }
+		{ count: 8, item: "iceandfire:dragonscales_copper" }
+		{ count: 8, item: "iceandfire:dragonscales_black" }
+	]
+	title: "Escama de dragón"}

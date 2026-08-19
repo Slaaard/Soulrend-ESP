@@ -1,0 +1,427 @@
+{
+	id: "68B09A2761CB0A9E"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:cast_time"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "fallen_gems_affixes:compat/power_eldritch"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:cooldown"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/ballast"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/breach"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/combatant"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/guardian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:curios/reinforced"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:curios/twisted"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:curios/vitalic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:evocation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:holy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:ice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:modded/armor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:modded/draconic_legacy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "fallen_gems_affixes:ragnarok"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "irons_spellbooks:spell_resist"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:geo"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:aqua"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:uncommon"
+					}
+					gem: "apotheosis:sound"
+				}
+			}
+		}
+	]
+	title: "Gemas Astilladas"}

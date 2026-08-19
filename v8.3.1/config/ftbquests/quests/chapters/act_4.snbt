@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_4"
+	group: "59FD824E9CBEF444"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:dragon_head"
+	id: "2B62590FFDC32E5B"
+	images: [
+		{
+			color: 5908359
+			dependency: "5741678330DEC1B9"
+			height: 2.5d
+			image: "wom:textures/gui/skills/dodge/time_travel.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependency: "5741678330DEC1B9"
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_bottom"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5741678330DEC1B9"
+			height: 1.0d
+			image: "waystones:block/end_stone_waystone_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 3.0d
+			image: "minecraft:item/ender_dragon_spawn_egg"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.2d
+			image: "minecraft:item/enderman_spawn_egg"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependency: "43410D56F5DC84D9"
+			height: 1.5d
+			image: "apotheosis:blocks/endshelf"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependency: "37A9B2F9DEF7BA4D"
+			height: 1.5d
+			image: "mowziesmobs:textures/mob_effect/suns_blessing.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.525d
+			y: -4.0d
+		}
+		{
+			alpha: 150
+			dependency: "59ECCFD50D677B50"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -2.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5741678330DEC1B9"]
+			id: "37C7604387C4166A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "424B9ED7FF0FFCB1"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5247614E9C7A90D8"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+				{
+					id: "2057A5E1CF36B544"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+				{
+					count: 2
+					id: "36A6BD267C87140B"
+					item: "astral_calamity_extras:universium_ingot"
+					type: "item"
+				}
+				{
+					id: "702FA5B6B46652AF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Un silencioso Centinela del Vacío, atado a sombras más antiguas que el tiempo. Enfrenta a The Nightwarden, y demuestra tu Fuerza contra la Muy Oscuridad final."			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: "traveloptics:pocket_black_hole"
+				id: "026D86ABF1D0BFDF"
+				title: "Derrota a &l&5The Nightwarden"				type: "kill"
+				value: 1L
+			}]
+			title: "&l&5Comienza tu prueba."			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["488446FCB0A2DED5"]
+			id: "5741678330DEC1B9"
+			rewards: [{
+				id: "42BC541FDECA627D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "none"
+			subtitle: "Útil en agujeros negros"			tasks: [{
+				id: "71356A198109EFCA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A9B2F9DEF7BA4D"]
+			id: "488446FCB0A2DED5"
+			rewards: [
+				{
+					id: "2E6A59A1EF4089DC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F627CBEFBE3408"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Una catedral olvidada que flota más allá de la realidad, donde el silencio reina eterno"			tasks: [{
+				icon: "alexsmobs:void_worm_eye"
+				id: "633FE3449E834897"
+				structure: "traveloptics:void_cathedral"
+				title: "Encuentra la Catedral del Vacío &l&5"				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59ECCFD50D677B50"]
+			description: [
+				"Las llamas del Infierno están detrás de ti."				""
+				"Más allá yace un reino no tocado por el tiempo, suspendido entre la existencia y el olvido. Innumerables Heroe han buscado las respuestas ocultas dentro del Vacío, pero pocos regresaron para narrar su leyenda."				""
+				"Más allá de la Realidad, poderosos enemigos custodian el camino adelante. El Dragón observa desde arriba, mientras algo mucho más antiguo se agita en las Muy Oscuridad."			]
+			id: "43410D56F5DC84D9"
+			rewards: [{
+				id: "413932DDFA209369"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5AE63D119DE0F654"
+				title: "Más allá de la realidad"				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37C7604387C4166A"]
+			icon: "kubejs:emblem_of_the_past"
+			id: "0C15D34EF68EA195"
+			rewards: [{
+				command: "/ftbquests open_book 06604C090A2C8016"
+				icon: "kubejs:emblem_of_the_past"
+				id: "7EB538A356C3808F"
+				title: "Moverse al Acto V"				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Acto IV - Completado"			tasks: [{
+				id: "45BB55B37B598DAC"
+				title: "Acto V - Deberes"				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43410D56F5DC84D9"]
+			icon: "cataclysm:void_infused_end_stone_bricks"
+			id: "185016ECD6698C63"
+			rewards: [{
+				command: "/ftbquests open_book 6CA4DCF4B8F4E34F"
+				icon: "cataclysm:void_infused_end_stone_bricks"
+				id: "599ED18AB92598D3"
+				title: "Mover a el End Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "024A1EF7C30B2C68"
+				title: "El End"				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43410D56F5DC84D9"]
+			description: [
+				"En el borde de la realidad, donde solo permanece la Muy Oscuridad, un antiguo Regla vigila el Vacío."				""
+				"El Enderman Dragón es más que una bestia; es una reliquia de una era olvidada, un guardián De Pie entre tú y la verdad oculta más allá."				""
+				"Enfréntate al dragón y demuestra que incluso las leyendas pueden caer."			]
+			hide_until_deps_complete: true
+			id: "79387757A8A5527F"
+			rewards: [
+				{
+					id: "12350F4CAEDA0C2C"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "315033CCCA8A0C72"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+				{
+					id: "596EF2338D3851BC"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Libera el End"			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "232C126F811F3C79"
+				title: "&l&5Derrota al Dragón Enderman"				type: "advancement"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79387757A8A5527F"]
+			hide_until_deps_complete: true
+			id: "37A9B2F9DEF7BA4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "445599C21C508F2C"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "2E4A05AF7F056CF8"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Preparaos antes de explorar las Tierras Altas del Fin, los monstruos allí pueden ser muy poderosos."			tasks: [{
+				biome: "minecraft:end_highlands"
+				icon: "minecraft:end_stone"
+				id: "57316815942E0E35"
+				type: "biome"
+			}]
+			title: "Fin de las Tierras Altas"			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43410D56F5DC84D9"]
+			hide_until_deps_complete: true
+			id: "28615A785B5AC114"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03193C9EDFFC5D06"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "5739B91F842AF7DC"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			subtitle: "Consigue algunos Aliento de Dragón para craftear las mejores estanterías"			tasks: [{
+				id: "1DD15D116388AD37"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43410D56F5DC84D9"]
+			hide_until_deps_complete: true
+			id: "063F2443F1417C9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43C54B6E9089CE67"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Se usó para craftear Universium"			tasks: [{
+				id: "0DB8108A1C8FD811"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37A9B2F9DEF7BA4D"]
+			id: "29236E836546E346"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A5456361090513"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.2d
+			subtitle: "Y los soldados marchan por todo de la eternidad."			tasks: [{
+				id: "124417C71EB1B8F3"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37C7604387C4166A"]
+			id: "1ACC95757373E532"
+			rewards: [{
+				id: "0A0714A5B4F5AA85"
+				item: "traveloptics:void_manuscript"
+				type: "item"
+			}]
+			tasks: [{
+				id: "744EDD7E91B10CFD"
+				item: "traveloptics:cradle_of_will"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["488446FCB0A2DED5"]
+			id: "144287A0870A605A"
+			rewards: [{
+				id: "4D07C5528DCA50C9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "¡Máximo PODER!"			tasks: [{
+				id: "6761A614A47D5147"
+				item: "traveloptics:obsidian_bookshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "&5&lActo IV - Más allá de la realidad"}

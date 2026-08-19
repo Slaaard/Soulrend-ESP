@@ -1,0 +1,11 @@
+{
+	icon: "apotheosis:gem_dust"
+	id: "061E6C5B34F68B7C"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 3, item: "apotheosis:gem_dust" }
+		{ count: 4, item: "apotheosis:gem_dust" }
+		{ count: 5, item: "apotheosis:gem_dust" }
+	]
+	title: "Polvo de Gema"}

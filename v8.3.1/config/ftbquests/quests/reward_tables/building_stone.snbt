@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:stone"
+	id: "58F5475BBC072FEE"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 256, item: "minecraft:cobblestone" }
+		{ count: 192, item: "minecraft:stone" }
+		{ count: 256, item: "minecraft:cobbled_deepslate" }
+		{ count: 192, item: "minecraft:deepslate" }
+		{ count: 128, item: "minecraft:sand" }
+		{ count: 64, item: "minecraft:sandstone" }
+	]
+	title: "Piedra de Construcción"}

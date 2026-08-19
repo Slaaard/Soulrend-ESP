@@ -1,0 +1,2990 @@
+{
+	autofocus_id: "2146188A3AD6CAF0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "youre_a_turtle_wizard"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "dacxirons:fairy_wand_staff"
+		tag: {
+			"irons_spellbooks:spell_container": {
+				data: [{
+					id: "dacxirons:fairys_wish_spell"
+					index: 0
+					level: 3
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "0CA96350C108059D"
+	images: [
+		{
+			height: 1.0d
+			image: "fantasy_armor:item/wandering_wizard_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -34.0d
+			y: -2.1785714285714306d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -32.14285714285715d
+			y: -2.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -29.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -27.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -24.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -35.5d
+			y: 0.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -35.21428571428572d
+			y: -1.500000000000007d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -34.0d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -32.25000000000001d
+			y: -1.142857142857146d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -24.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -23.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "medieval_paintings:painting/varner_the_keeper_of_erdae"
+			rotation: 0.0d
+			width: 2.0d
+			x: -21.0d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:painting/cavebird"
+			rotation: 0.0d
+			width: 2.0d
+			x: -39.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/boss_gems/infernal_overlord"
+			rotation: 0.0d
+			width: 1.0d
+			x: -28.5d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:textures/particle/lightning_storm_0.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -23.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "immersive_weathering:block/thin_ice_3"
+			rotation: 0.0d
+			width: 3.0d
+			x: -27.5d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -25.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -25.5d
+			y: -10.0d
+		}
+		{
+			height: 2.0d
+			image: "gtbcs_geomancy_plus:textures/gui/spell_icons/eroding_boulder.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -30.0d
+			y: -13.5d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:textures/particle/ender_slash_4.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -33.5d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "apotheosis:items/gems/compat/spell_nature"
+			rotation: 0.0d
+			width: 2.0d
+			x: -34.5d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/hither_thither_wand"
+			rotation: -15.0d
+			width: 4.0d
+			x: -29.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -31.0d
+			y: 5.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -31.0d
+			y: 5.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -31.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_soul_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -25.0d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "traveloptics:textures/particle/water_bubble_1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -23.10714285714287d
+			y: -2.589285714285751d
+		}
+		{
+			height: 2.5d
+			image: "mowziesmobs:textures/mob_effect/suns_blessing.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -23.0d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "supplementaries:textures/particle/sonic_boom_14.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "alexscaves:block/abyssmarine_pillar_top_glow"
+			rotation: 0.0d
+			width: 3.0d
+			x: -25.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/lightning_explosion_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -26.892857142857153d
+			y: 3.7678571428571246d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/particle/note_2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -29.17857142857143d
+			y: 3.7678571428571033d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/entity/vine_lasso.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -33.03571428571429d
+			y: 7.553571428571402d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:textures/particle/ender_slash_4.png"
+			rotation: 130.0d
+			width: 4.0d
+			x: -31.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/amethyst_cluster"
+			rotation: 0.0d
+			width: 3.0d
+			x: -36.0d
+			y: 3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A83047D85E293CD"]
+			description: ["La Magia es muy importante para un Mago y sigue siendo muy útil para aquellos que solo se aventuran en ella. La Magia es excelente para hechizos de daño o de utilidad, como Teletransportarse. Hay muchas clases de Magia para Aprender, tales como &6Fuego&f&r, &bHielo&f&r, &eIluminación&f&r, &2Veneno&f&r, &5Enderman&f&r, &7Invocación&f&r, &fSagrado, &4Sangre&f&r, &2Geomancia&r, &3Cian&r y una escuela especial llamada &0Arcano&f&r."]			hide_until_deps_complete: true
+			id: "6AD127305440E2A9"
+			subtitle: "El Retorno a la Academia"			tasks: [{
+				id: "79F1DB8A2D884D10"
+				type: "checkmark"
+			}]
+			title: "El Primer Hechizo del Mago"			x: -37.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["695A42F881C50703"]
+			description: ["Para craftear cualquier hechizo, necesitamos una &lForja de Pergaminos&r. Usándola y varios objetos, podemos craftear hechizos de diversas escuelas."]			id: "6BC37BD93B5935B0"
+			rewards: [
+				{
+					id: "526427C999611BD5"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "41777F314E8762A0"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+				{
+					id: "7231626744CA1FB5"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "41FCA6F9AFD5256A"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "5D6F60DC6FD3DBF1"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "472242D9F193B6C3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7CD4450A8F86222D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4AEE0E2C28665E05"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "547605ACB680B2FB"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			subtitle: "No se necesitan llamas aquí"			tasks: [{
+				id: "574018A1EC298BEC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AD127305440E2A9"]
+			description: ["Usando esta mesa, podemos colocar nuestros"]			id: "695A42F881C50703"
+			rewards: [{
+				id: "455ECBC64697C5CB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Nuestra Mesa de Estudio"			tasks: [{
+				id: "0F16C6939A1DD2D9"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02AB14B450AA7142"]
+			description: ["Un Libro de Hechizos muy sencillo, pero mejorado, para más ranuras o una ranura en este caso. Diferentes Lib"]			id: "2146188A3AD6CAF0"
+			rewards: [
+				{
+					id: "2DD89AEFF2B5528C"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:uncommon"
+							}
+							gem: "irons_spellbooks:cast_time"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F035DCDEBF3705"
+					item: "irons_spellbooks:hogskin"
+					type: "item"
+				}
+			]
+			subtitle: "Sencillo pero Irrompible"			tasks: [{
+				id: "36A93AF788220002"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20CECB4ABEB9EDE5"]
+			description: ["¿Aún no estás seguro de qué escuela quieres concentrarte? ¡Este libro es para ti! Tiene ranuras aumentadas y Maná Máximo, además de ser fácil de craftear."]			id: "06FDA0121F0FE697"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FAF3DFCB9F22BCB"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F973A8CDA91052"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Magia Básica"			tasks: [{
+				id: "75A5E8A397B8903F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["Aunque este libro tiene menos ranuras que el Libro de Hechizos Encantado, sí cuenta con un menor Tiempo de Lanzamiento."]			id: "20CECB4ABEB9EDE5"
+			rewards: [{
+				id: "7FA6C91BAC5B2D6C"
+				table_id: 858487407543727412L
+				type: "random"
+			}]
+			subtitle: "¿Aún algo básico?"			tasks: [{
+				id: "514F489518B7BB00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06FDA0121F0FE697"]
+			description: ["El catalizador para un gran cambio. A menudo encontrado dentro de &nAnicent Cities&r. Usando este libro como un material de crafteo, podemos hacer muchos libros de hechizos fuertes y también libros concentrados escolares."]			id: "17DE785FD80DFF0A"
+			rewards: [
+				{
+					id: "564B4A286C3C6A27"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "4F818456BF3E5013"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15E1C597031D36DE"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Las palabras están rotas"			tasks: [{
+				id: "0EDC17E36AABF5B5"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Un gran Libro de Hechizos para un Lanzamiento rápido, que presume de alta Reducción de Enfriamiento ¡y también más mana mágico!"]			id: "45332245ED4A43BA"
+			rewards: [
+				{
+					id: "1E3B203487F5FFCF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38D6C2542C530A8C"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Magia Avanzada Finalmente"			tasks: [{
+				id: "7C6D9E894ACAD6B4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Estoy seguro de que has recolectado muchas Pieles de Dragon a estas alturas. Usándolas junto con un Libro Arruinado, puedes craftear un Libro de Hechizos de Piel de Dragón. Este libro presume de alto mana y también fortalece la escuela de &5Enderman&f&r."]			id: "3F50B6B01FF0C679"
+			rewards: [
+				{
+					id: "6A92F2E9EA19619A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:teleport"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68F059639ADA9DA4"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Libro de Dargon"			tasks: [{
+				id: "07E3EEF035B1DCF5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Normalmente una obtención rara de Evocadores o Arche-Invocadores, pero también fabricable usando un libro arruinado. Este Libro de Hechizos cuenta con &7Invocación&f&r potenciación, más mana, ¡e incluso 3 hechizos pre-inscritos!"]			id: "32379A257B843BE2"
+			rewards: [
+				{
+					id: "51F1A42A2F85B10E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:chain_creeper"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BED65B9CBE9306D"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Evo-Evocación?"			tasks: [{
+				id: "70DCDCB2A7286BB4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Normalmente se obtiene comerciando con un Sacerdote un libro escrito que se encuentra dentro de Fortalezas Evocadoras y luego es traducido de un comerciante errante cautivo. ¡Alternativamente, también es fabricable aquí! Este libro cuenta con poder Sagrado aumentado, reducción de tiempo de conjuración, ¡y también más mana!"]			id: "11524D3B6089498E"
+			rewards: [
+				{
+					id: "0CFF492EC41571F2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD01D91B4924D1A"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "¡Gloria a Notch!"			tasks: [{
+				id: "671EEEBD284EE2A8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Este, como el Grimorio de Evocación, viene precargado con pocos hechizos, pero también aumenta el poder del hechizo Resucitar Muerto en 1 nivel. El libro en sí solo otorga más mana."]			id: "18A33BF5696D1B5A"
+			rewards: [
+				{
+					id: "17CF96A1316FBF92"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A8DD20E57E5FDDE"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "El Olor de la Muerte"			tasks: [{
+				id: "3E3DA5A21C3031E8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45332245ED4A43BA"]
+			description: ["Probablemente uno de los mejores libros de magia versátiles. ¡Cuenta con un Poder Mágico alto y también un Maná Máximo alto!"]			id: "429EB03FEC849096"
+			rewards: [
+				{
+					id: "0D592355A98452AC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A13F19A4AE58CAC"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+			]
+			subtitle: "¡Uau!"			tasks: [{
+				id: "0A6FEFB797034B42"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11524D3B6089498E"]
+			description: ["¡Solo una Biblia de Aldeano mejorada!"]			id: "051D128427C7C7C2"
+			rewards: [
+				{
+					id: "3A18E0E54B2FBC6B"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D21060ACF7AC1F"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+			]
+			subtitle: "Alabar al Señor"			tasks: [{
+				id: "422D2109EB1C151C"
+				item: {
+					Count: 1
+					id: "dacxirons:divine_manuscript_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "dacxirons:sunleia_beam"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["Muy fácil de fabricar y posee más ranuras de hechizos que un Libro de Hechizos de Hierro, pero reduce tu Resistencia Mágica."]			id: "3B6F08D5336932E5"
+			rewards: [{
+				id: "0F0410066E131F46"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "fallen_gems_affixes:compat/spell_nature"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Algo desesperado"			tasks: [{
+				id: "6A57EAB3238C4F79"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B6F08D5336932E5"]
+			description: ["Crecido de un libro de hechizos putrefacto. Este libro presume de un aumento a la magia de &aNaturaleza&f&r y también a Maná Máximo."]			id: "0F38FB238C5CF47C"
+			rewards: [
+				{
+					id: "3A6EE543B114C648"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "400BCF12EAD0BC8C"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "¡Huele a flores!"			tasks: [{
+				id: "4694EDB3C53E3A8E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BE47363A48262F9"]
+			description: [
+				"El personal de la base."				""
+				"¡Una vez que añades estrellas a un personal, no podrás mejorarlo más!"			]
+			hide_until_deps_complete: true
+			id: "76DDC87BFB14E45A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "659D99B760C9D11F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04914CCDBF9522FA"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			subtitle: "No se requiere barba"			tasks: [{
+				id: "4438240C7A9A491A"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			description: ["¡No olvides tus manoplas mientras usas este báculo! No tenemos un libro de &bHielo&f, así que este báculo es"]			hide_until_deps_complete: true
+			id: "25171A658D1EA602"
+			rewards: [
+				{
+					id: "47A0DD8F8FF17B4A"
+					item: "irons_spellbooks:permafrost_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ABBEE84E8EDDA18"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F43D47ED55FD4E6"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "¡Brrrrrr!"			tasks: [{
+				id: "063217DBE303E38D"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			description: ["Quizás quieras algunos guantes de goma para este bastón. ¡Cuidado con los golpes de rayo mientras sostienes este! ¡No tenemos un libro de &eIluminación&f, así que este bastón es imprescindible para potenciar tus hechizos de &eIluminación&f&r magia!"]			hide_until_deps_complete: true
+			id: "295610B5720844EE"
+			rewards: [
+				{
+					id: "6BE1C78396415D64"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CEB7D751F63BBD"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "078782C9014A9001"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Zzzzz"			tasks: [{
+				id: "6F503ACFBCC7E468"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03F3D173B225DC7F"]
+			description: ["Este báculo no es fabricable. Tendrás que encontrar al Rey No Muerto y arrancárselo de su cuerpo muerto después de una batalla feroz. Es el único báculo o libro para aumentar el daño de tus invocaciones o la magia de &4Sangre&f."]			id: "50DF48DA0D5D3D5C"
+			rewards: [
+				{
+					id: "04B81D3D20F7E1D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7465BE3BD51877CD"
+					table_id: 78867488366120478L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6C43358C0055C5A2"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20CECB4ABEB9EDE5"]
+			description: ["Encontrado aleatoriamente de los Blazes como una obtención rara al matarlos. Excelente para potenciar hechizos de magia de &6Fuego&f."]			id: "366AF842A47969FE"
+			rewards: [
+				{
+					id: "114C30CBB32B0888"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blaze_storm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013E3E0E1DD9F782"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Ardiente, ardiente, ardiente"			tasks: [{
+				id: "53ACB844860C3536"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["695A42F881C50703"]
+			description: ["Al usar este yunque, pueden imbuir hechizos en ciertos equipos que lo permiten, haciendo que ustedes posean un hechizo extra cada vez que utilicen esa pieza de equipo. También les permite añadir orbes de mejora a su armadura, aumentando aún más el poder de su equipo."]			id: "04078FD6FBD598BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "552B5DC984280D2B"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "242FDC7D38F966A8"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "Yunque Más Hermoso"			tasks: [{
+				id: "6BE070D00B32D1BC"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65CCA2EA9241CD8D"]
+			description: ["Usando Fragmentos de Conocimiento Ancestral encontrados en Ciudades Antiguas y un fragmento Eco del Warden. Puedes empezar a desbloquear hechizos Arcanos para craftear. El crafteo de estos es la única manera de obtener estos hechizos."]			id: "1AA6417B84E912E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "617611A6C10CD930"
+					table_id: 3181997575744570686L
+					type: "random"
+				}
+				{
+					id: "11C6B6AB68AD2BEB"
+					item: {
+						Count: 1
+						id: "traveloptics:eldritch_upgrade_orb"
+						tag: {
+							"irons_spellbooks:upgrade_orb_type": "traveloptics:eldritch_power"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "La Escuela Final"			tasks: [{
+				id: "5961B5C4DE95BD1D"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A33BF5696D1B5A"]
+			id: "6F34E55E7826CEFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ABE5400A5057E4"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "629573D86BBC3B8A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cursed_doll_spell_book"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"irons_spellbooks:blood_slash": 1
+								"irons_spellbooks:blood_step": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "7CA02FDAB619EA44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48F157AD47DF3C0A"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61852CCFFBDE0DD3"
+				item: {
+					Count: 1
+					id: "traveloptics:the_diamantic_archive"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"17DE785FD80DFF0A"
+				"0F38FB238C5CF47C"
+			]
+			id: "47216B361B2FA32C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30F569002080949A"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "680A3CC93C5C93D7"
+				item: {
+					Count: 1
+					id: "traveloptics:tome_of_abyssal_flora"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"17DE785FD80DFF0A"
+				"366AF842A47969FE"
+			]
+			id: "27BFC57B79CD70A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0461D87B78DDB30B"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FA6674329539169"
+				item: {
+					Count: 1
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"traveloptics:burning_judgment": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 6
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["728D2AF43498B3AF"]
+			id: "5CD3B743CA102024"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0564E46016BFE168"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25E4A44C5632E19E"
+				item: {
+					Count: 1
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"traveloptics:despair": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F50B6B01FF0C679"]
+			id: "2110182CB259FA67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65133F21D5935260"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E07078522B661B5"
+				item: {
+					Count: 1
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"traveloptics:cursed_minefield": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "traveloptics:orbital_void"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C7DF767F45380F3"]
+			id: "6808027B356E48B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D96306D0DAA3367"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FD4A3A3B1214E18"
+				item: {
+					Count: 1
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"traveloptics:vortex_of_the_deep": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "2C7DF767F45380F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FE07D368180D067"
+				table_id: 858487407543727412L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "56377ACB2064594E"
+				item: {
+					Count: 1
+					id: "traveloptics:guide_to_watery_whispers"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "1B8905476EFF9C02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1008661F7FDE400B"
+				table_id: 858487407543727412L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "07B9808495BB7DC2"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:sound_spell_book"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F2A7F024FEA93EC"]
+			id: "0C87C165A719D4F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78461506445498EE"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34202F056E3BD4CF"
+				item: {
+					Count: 1
+					id: "gtbcs_geomancy_plus:codex_of_shattered_horizons"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"gtbcs_geomancy_plus:pillar_of_the_resounding_earth": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "gtbcs_geomancy_plus:geo_conductor"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "0F2A7F024FEA93EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32FA123F3BA8C235"
+				table_id: 858487407543727412L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "10C2B468FB88A6BD"
+				item: {
+					Count: 1
+					id: "gtbcs_geomancy_plus:bluff_instruction_manual"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "728D2AF43498B3AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78DD084AD1C5B504"
+				table_id: 858487407543727412L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "65405326AE24E978"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ice_spell_book"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AD127305440E2A9"]
+			id: "2081C1F2CA5DF91A"
+			rewards: [{
+				id: "347D8B9B8B89BB60"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB36DC17C9B7C92"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: -37.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2081C1F2CA5DF91A"]
+			id: "02AB14B450AA7142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197ABC6923C910AC"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0B89A53E802D2AE8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -35.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			id: "65CCA2EA9241CD8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1E5143AF4FACF6"
+				table_id: 3181997575744570686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42F7694E8E6C7BEF"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3096319A30A0B7CD"]
+			id: "55BBE99B2C67FBB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B597BBE0FD75D64"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54B04C768B94365C"
+				item: "ice_and_fire_spellbooks:crimson_dragon_priest_staff"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["25171A658D1EA602"]
+			id: "0E888A18DD1626E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15AFE2CFD980A2A0"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "24A804EE8EC33C46"
+				item: "ice_and_fire_spellbooks:silver_dragon_priest_staff"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["295610B5720844EE"]
+			id: "44D3852BA78CDF32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "415D589CFE250FA0"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "722670A93585D358"
+				item: "ice_and_fire_spellbooks:thunderous_dragon_priest_staff"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["382748C652E4809C"]
+			id: "3BC579DA60E975E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26446557C2176126"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7642AC5038F1E77C"
+				item: "irons_spellbooks:pyrium_staff"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			hide_until_deps_complete: true
+			id: "382748C652E4809C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4EB9648981CF27"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "081DDB6B109D3A85"
+				item: {
+					Count: 1
+					id: "dacxirons:pyromancer_staff"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "dacxirons:triple_fireball_spell"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			hide_until_deps_complete: true
+			id: "0C1516C910AEA250"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28ED5663B7409931"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "697399EAB2004C10"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41FD65808515402E"
+				item: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -30.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			hide_until_deps_complete: true
+			id: "7C2508C16D184063"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AB88218D24E7A15"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "074BCA5991950973"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44C4C736A2934E69"
+				item: {
+					Count: 1
+					id: "dacxirons:fairy_wand_staff"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "dacxirons:fairys_wish_spell"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5C4B29DE6C4B582D"]
+			id: "5F8E410A0BA24F64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "118DE07B33A488D9"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E15F4965B972422"
+				item: {
+					Count: 1
+					id: "traveloptics:wand_of_final_light"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:supernova"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -32.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7ACE6A2438F0F202"]
+			hide_until_deps_complete: true
+			id: "6AC6C0E945B7046C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16485BDB15EAFFA3"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2624AB25B0EB60F2"
+				item: {
+					Count: 1
+					id: "traveloptics:staff_of_the_storm_empress"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["014EB25F8497B4F1"]
+			hide_until_deps_complete: true
+			id: "25BFFDE8F6700C03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BAC959DFBEE054A"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5FD1436FB422E96F"
+				item: "traveloptics:titanlord_scepter_retro"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7C2508C16D184063"]
+			id: "13FAB09E8FEA20FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ECDFAD0113DB0BC"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6ECB7B259DF18FBF"
+				item: "traveloptics:titanlord_scepter"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["382748C652E4809C"]
+			id: "3096319A30A0B7CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0640035CE352E351"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4755A6B7B47B07AC"
+				item: "traveloptics:titanlord_scepter_tectonic"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["677F08B1037DB728"]
+			id: "6EF6957CD88F1314"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BE5CF06FB97CB4B"
+				table_id: 5740687291917975057L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B73E6A8C92A2363"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:stellothorn"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6AC6C0E945B7046C"]
+			id: "3405EA570645C401"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3059F9BA9DB0CCAC"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "377A9FA978B30AEF"
+				item: {
+					Count: 1
+					id: "traveloptics:trident_of_the_eternal_maelstrom"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:skypiercer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3BC579DA60E975E3"]
+			id: "7BB0C49BCC88192A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DFA704603076DD5"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65D82A4944D3E6A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["25BFFDE8F6700C03"]
+			id: "677F08B1037DB728"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7686574FE209BF76"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B9F29CAFA8409DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["677F08B1037DB728"]
+			id: "21944135B36F9EEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EB5A108D8B3AC62"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18104A42F8501B8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:the_obliterator"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0E888A18DD1626E8"]
+			id: "38CB8E172C81BDED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "798A027C7E13E0B1"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B7612A67CFA3CCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:apex_harvest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44D3852BA78CDF32"]
+			id: "39A807AEC0B01C16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FE94951E05926BC"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AED1C0EDFDAAA87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:mechanized_wraithblade"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BC579DA60E975E3"]
+			id: "586D497B3B994566"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F7B7C09DB6CBE38"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6656AF0E55D3EFA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44D3852BA78CDF32"]
+			id: "43D251C26E00E4FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E15DC2D819187CB"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40B7AA1FD6C85DD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			id: "52993E01C1EBDC91"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08BE1271FE44A8C7"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC12A74AEDEB25D"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "240C69C426273445"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["13FAB09E8FEA20FD"]
+			id: "6ED11C1B330FF9FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FFC02E71BDD3A09"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01914D241BFEDF0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25BFFDE8F6700C03"]
+			id: "5C4B29DE6C4B582D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "500D3C99E626752D"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73F330FCDB5BAE4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -32.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3BC579DA60E975E3"]
+			id: "594D3D506A74B8EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AB9296D54D5E36A"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5922C921AA3FFF3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:infernal_devastator"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44D3852BA78CDF32"]
+			id: "2BA8CB840BEC6C7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B3F00CA07A5661"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61F8D833D183A536"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:galenic_polarizer"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:galena_shatter"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52993E01C1EBDC91"]
+			hide_until_deps_complete: true
+			id: "0CF232ED664D7E25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E0E6AB7827404A"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5B683F74DF15C41E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "traveloptics:charged_sands"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["50DF48DA0D5D3D5C"]
+			hide_until_deps_complete: true
+			id: "74C738C6CB63FBFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23E8E544245A80C1"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B3A46EB98B154D6"
+				item: {
+					Count: 1
+					id: "dacxirons:sanguine_scepter_staff"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "dacxirons:bloody_arrow"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0C1516C910AEA250"]
+			id: "7F22DAEA3A7BC036"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57EF175C8D975BA6"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26A235D17BA79A1B"
+				item: "gtbcs_geomancy_plus:the_stonecaller"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			id: "387D974929C0B4E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69BF6A4AC205BE63"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46905F896DD016A3"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02775DFF5FD9818B"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["695A42F881C50703"]
+			hide_dependency_lines: false
+			id: "51C0C81C5C3D8E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "649E88F1F8519A7B"
+					table_id: 2828375451628247926L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2154C81860B1199C"
+					table_id: 2828375451628247926L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "11A63D5215A74AA8"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: -34.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			id: "014EB25F8497B4F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DD5884F2D094140"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19E9877CDB4D9996"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5975FAAE32F18C92"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hither_thither_wand"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			id: "7ACE6A2438F0F202"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BEA66ECC39A2028"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "467B3C70B0966FA8"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "66BE6B6FED560322"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["76DDC87BFB14E45A"]
+			id: "03F3D173B225DC7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "425524E92CFA740B"
+					table_id: 7346661832890300010L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BDE32BF49334057"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "597D26EA4F3D93A3"
+				item: {
+					Count: 1
+					id: "iceandfire:lich_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6AD127305440E2A9"]
+			id: "1BE47363A48262F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33CF003D6F34301B"
+				table_id: 1174104366176383878L
+				type: "loot"
+			}]
+			subtitle: "¿Es una varita...?"			tasks: [{
+				id: "7F484ACE42DFA133"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.5d
+			y: -6.0d
+		}
+	]
+	title: "Academia de Magia"}

@@ -1,0 +1,2658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_2"
+	group: "59FD824E9CBEF444"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:crying_obsidian"
+	id: "0D4AB8478C136DAB"
+	images: [
+		{
+			dependency: "0D10379C34744E15"
+			height: 1.7d
+			image: "cataclysm:textures/particle/custom_explosion_1.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependency: "7B89EAE7EE5671F9"
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependency: "0D10379C34744E15"
+			height: 2.2d
+			image: "cataclysm:textures/particle/lightning_explosion_1.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependency: "7B89EAE7EE5671F9"
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependency: "7B89EAE7EE5671F9"
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependency: "0D10379C34744E15"
+			height: 1.0d
+			image: "waystones:block/andesite_wayston_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependency: "0D10379C34744E15"
+			height: 1.0d
+			image: "waystones:block/andesite_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependency: "0D10379C34744E15"
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependency: "0D10379C34744E15"
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			click: "#74AD3A93D99A930B"
+			dependency: "5835B65D1A609F53"
+			height: 5.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: -0.10000000000000009d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 2.3d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.3d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.5d
+			y: 2.3d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.4d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.3999999999999999d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -0.6000000000000001d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -1.6d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -1.6d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -0.6000000000000001d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.3999999999999999d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.4d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/advancements/backgrounds/obsidian.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.5d
+			y: 2.3d
+		}
+		{
+			dependency: "57D4EDACE2FE79D4"
+			height: 3.0d
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependency: "3D1FBA2BB417CA2F"
+			height: 2.0d
+			image: "cataclysm:textures/particle/desert_glyph_6.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependency: "450967F6E7FC92CA"
+			height: 1.5d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependency: "450967F6E7FC92CA"
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependency: "450967F6E7FC92CA"
+			height: 1.0d
+			image: "waystones:block/deepslate_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependency: "3D1FBA2BB417CA2F"
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependency: "3D1FBA2BB417CA2F"
+			height: 1.0d
+			image: "waystones:block/chiseled_sandstone_waystone_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependency: "751BD6FBB1BFE56B"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "1CEE41A2AA427D15"
+			height: 1.25d
+			image: "simplyswords:item/gold_chakram"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependency: "1AE78AFF455F7029"
+			height: 1.25d
+			image: "simplyswords:item/gold_chakram"
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependency: "33FF1683A8E771C4"
+			height: 1.25d
+			image: "simplyswords:item/gold_chakram"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A2DFE5A5BD56ECC"]
+			description: [
+				"Así que, has demostrado que eres capaz de sobrevivir."				""
+				"Los No Muertos fueron solo el comienzo. Más allá de estas primeras pruebas yace un vasto entorno esperando ser explorado, lleno de oportunidad, peligro y aventura."				""
+				"Es hora de dar tus primeros pasos verdaderos hacia los Reinos de &cSoulrendia&r."				""
+				"Para &ldesbloquear&r los fragmentos ocultos necesarios para acceder a El Nether, debes completar misiones de dependencias en el Acto 2"			]
+			hide_until_deps_complete: true
+			id: "751BD6FBB1BFE56B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "395B82A9E218B90B"
+				title: "El verdadero viaje comienza"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			description: [
+				"Mientras explorando la Tierra de Nadie, puede que tropiece con los restos de una criatura que se creyó imposible."				""
+				"Estos huesos enormes pertenecieron a un dragón, una bestia tan poderosa que pudo dejar su marca en los Reinos de Soulrendia incluso en la muerte. Aunque la criatura misma haya desaparecido, sus restos aún pueden resultar valiosos."			]
+			hide_until_deps_complete: true
+			id: "1ED285DCDC2BE615"
+			rewards: [
+				{
+					id: "29837C1F4CBFEDC9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					command: "/ftbquests open_book 2F5199D884ED321D"
+					icon: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4243EEA92211D014"
+					title: "Mover a Capítulo Matadragones"					type: "command"
+				}
+			]
+			tasks: [{
+				id: "32F343A6110D7778"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A137B90FC6EB82B"]
+			description: [
+				"Fuego y destrucción siguen dondequiera que esta bestia deambule."				""
+				"El Dragón Infernal es una catástrofe viviente, envuelto en llamas y alimentado por una ira sin fin. Pocas criaturas pueden rivalizar con su poder, y menos aún han sobrevivido para contar la historia."			]
+			icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			id: "6BC86453F75F8D99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E28AB68CD9C5CB5"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "4DF7685DE6D1447B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "7DC8A9C6574C6B36"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+				id: "500CB58715148AD7"
+				title: "Derrota Al Dragón Infernal"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota a &l&cEl Dragón Infernal"			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1ED285DCDC2BE615"]
+			description: ["Combinados con Huesos de Dragón, pueden usarse para Crear un Pico de Hueso de Dragón Poderoso."]			icon: "iceandfire:witherbone"
+			id: "7EB17FE0A305F0E2"
+			rewards: [{
+				count: 2
+				id: "51863683BDA1C53B"
+				item: "iceandfire:witherbone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A41F6673EB80A8"
+				title: "Hueso de Wither"				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			description: ["El Frasco de Éxtasis lleva un fragmento de esa esperanza, curando heridas y permitiendo a los viajeros exhaustos continuar su viaje."]			hide_until_deps_complete: true
+			icon: "dungeons_and_combat:estus_flask"
+			id: "37865BAA1CC25C44"
+			rewards: [{
+				count: 3
+				id: "416DFC0B46A84B77"
+				item: "dungeons_and_combat:estus_flask"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC41F0BE7C2B63F"
+				title: "Frasco de Éxtasis"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["37865BAA1CC25C44"]
+			id: "5A137B90FC6EB82B"
+			rewards: [{
+				id: "0DA07C2081A52C20"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "quark:cobblestone_bricks"
+				id: "606ACF161E6796D6"
+				structure: "block_factorys_bosses:dragon_tower"
+				title: "Encuentra Estructura: Torre de Dragón"				type: "structure"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B89EAE7EE5671F9"]
+			description: [
+				"Bajo las arenas interminables acecha un predador más antiguo que la memoria misma."				""
+				"La Lombriz de Arena espera pacientemente bajo las dunas, atacando sin advertencia y arrastrando a su presa hacia las profundidades. Para cuando lo veas, puede que ya sea demasiado tarde."			]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			id: "0B2DB355DA815307"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "431C519EBBB9CA7F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "01B8EE7BEA1ED95F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "6E74AE5A2CC7B957"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: "block_factorys_bosses:sandworm_spawn_egg"
+				id: "5FF05F71BFA6A85A"
+				title: "Derrota Al Gusano De Arena"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota a &l&eEl Gusano de Arena"			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0D10379C34744E15"]
+			description: [
+				"Entre los altos picos congelados habita una criatura de la que solo se susurra en temerosas voces."				""
+				"El Yeti es una bestia enorme perfectamente adaptada al frío implacable. Su inmensa fuerza y agresividad implacable lo convierten en un oponente formidable para cualquier aventurero lo suficientemente valiente para desafiarlo."			]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			id: "72916D6EE782D819"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EA441C6798E3CA3"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "669AAF1AC820E013"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "4A743FACA77D824D"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				icon: "block_factorys_bosses:yeti_spawn_egg"
+				id: "5D9FFADAC0370444"
+				title: "Derrota a los Yeti"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota al Yeti &l&b"			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0B2DB355DA815307"]
+			hide_until_deps_complete: true
+			id: "7A0F470014C5008F"
+			rewards: [
+				{
+					id: "48CC0E523F5C01A7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56A4E3D388781DF8"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "¡La Armadura T3 (camino verde) requiere esto!"			tasks: [{
+				id: "0015C425D8EA6D69"
+				item: "astral_calamity_extras:sandworm_scale"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6BC86453F75F8D99"]
+			hide_until_deps_complete: true
+			id: "3520D2A516975F45"
+			rewards: [
+				{
+					id: "4EAD533199EF08C0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "187032512996BC95"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "¡La Armadura T4 (camino rojo) requiere esto!"			tasks: [{
+				id: "500CF8A692E40ABD"
+				item: "block_factorys_bosses:dragon_bone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["72916D6EE782D819"]
+			hide_until_deps_complete: true
+			id: "30EA0942E259A272"
+			rewards: [
+				{
+					id: "7DF94D6E35149C8F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75BEC3AA2B09EB65"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16BD19FB5F81363F"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:frozen_fist"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6BC86453F75F8D99"]
+			description: ["El titanio es un metal raro y valioso, conocido por su excepcional durabilidad. Funde el metal en lingotes y úsalo para forjar equipo digno de las pruebas que aguardan."]			id: "72DAACC07B57597B"
+			rewards: [{
+				id: "4A853D4CBCA50AF9"
+				item: "dungeons_and_combat:titanium_deepslate_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "668A33A8D671E195"
+				title: "Barra de Titanio"				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["37865BAA1CC25C44"]
+			id: "7B89EAE7EE5671F9"
+			rewards: [{
+				id: "61F75F70A769F5CB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "immersive_weathering:vitrified_sand"
+				id: "35CA3E950F74900D"
+				structure: "block_factorys_bosses:sandworm_nest"
+				title: "Encuentra Estructura: Nido de Gusano de Arena"				type: "structure"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37865BAA1CC25C44"]
+			id: "0D10379C34744E15"
+			rewards: [{
+				id: "2EB4B587750B3387"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "3979B3DE0072325F"
+				structure: "block_factorys_bosses:yeti_hideout"
+				title: "Encuentra Estructura: Escondite de Yeti"				type: "structure"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			description: [
+				"El obsidiana llorón es nuestro primer Paso para ayudarnos a entrar en el &5Nether&f."				"Podrás encontrarlo en algunos estructuras o cerca de los ruinosos &5Portales Nether&f."			]
+			id: "7BEB82986C6B82E4"
+			rewards: [
+				{
+					id: "22377419952B2890"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "3C4F13F058C95131"
+					type: "xp"
+					xp: 3
+				}
+				{
+					count: 2
+					id: "7A97345FD1D424EC"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+			]
+			subtitle: "¿Quién está cortando cebollas?"			tasks: [{
+				count: 2L
+				id: "7AC59D1F918B9AEA"
+				item: { Count: 6, id: "minecraft:crying_obsidian" }
+				type: "item"
+			}]
+			title: "Obsidiana Llorona"			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BEB82986C6B82E4"]
+			description: ["Estas botellas no sirven para ninguna cosa por sí solas, ¡así que tenemos que cargarlas y hacerlas útiles!"]			hide_until_deps_complete: true
+			id: "689578331193459C"
+			rewards: [{
+				id: "29C972C465FE5581"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "¡No los dejes caer!"			tasks: [{
+				count: 4L
+				id: "0B74D2737FB6862F"
+				item: "nether_remastered:obsidian_infused_bottle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["689578331193459C"]
+			description: ["Mantener una &5Botella Infundida con Obsidiana&r en tu &nmano libre&r mientras matas a Zombis, Esqueletos, y Arañas&r para recolectar &l&dEsencia del Nether Embotellada&r."]			hide_until_deps_complete: true
+			id: "749F70DB510075A1"
+			rewards: [
+				{
+					id: "2595F0A79FF5A114"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26675F299C74EA67"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Espeluznante"			tasks: [{
+				count: 4L
+				id: "7DDEC36AB513BB8A"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			title: "Esencia del Nether Embotellada"			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"3A2DFE5A5BD56ECC"
+				"160D05447987DF9E"
+			]
+			description: ["Puede obtenerse al derrotar al &bFrostmaw&r (ver el capítulo de la misión &l&6Mitos Caídos&r), o una obtención rara de &2Brujas&r; derrota y busca botín para encontrar uno."]			hide_dependency_lines: true
+			id: "7009234A207200B3"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "3432B197AE45AC1F"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66AF8FE1766D53EB"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Superior Derecho"			tasks: [{
+				id: "67B512B132C0DB40"
+				item: "nether_remastered:seal_piece_2"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.6d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"3A2DFE5A5BD56ECC"
+				"5AC7DC7295BD19AD"
+			]
+			description: ["Se puede obtener después de completar &b&lAntiguo Zafiro&r misión (se puede encontrar en la ciudadela del pavor) o encontrado dentro de &l&eminas abandonadas&r dispersas por todo el reino. Sí, estas son las minas abandonadas base, y sí, es muy raro."]			hide_dependency_lines: true
+			id: "3CFDE14D3ED3D745"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "27915021C9810C79"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "500AC6C135C565DE"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Superior Izquierdo"			tasks: [{
+				id: "4B81C72A450DBAF9"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.6d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"3A2DFE5A5BD56ECC"
+				"450967F6E7FC92CA"
+				"3D1FBA2BB417CA2F"
+			]
+			description: ["Puede obtenerse al completar &e&lSunleia&r y &3&lKamath&r misiones o custodiado por los Illagers, puede caer raramente de &dEvokers&r."]			hide_dependency_lines: true
+			id: "3A14A98A0EDAEBD6"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0CE3E73845F88282"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B407FB517B7402"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Abajo-Izquierda"			tasks: [{
+				id: "2A817C8126FE6AD9"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.4d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"3A2DFE5A5BD56ECC"
+				"7B89EAE7EE5671F9"
+				"5A137B90FC6EB82B"
+				"0D10379C34744E15"
+			]
+			description: ["Se puede obtener completando &c&lDragón Infernal&r, &e&lGusano de Arena&r y &3&lYeti&r misiones (debes matar al menos &l2 Jefes&r y completar el fragmento de misión) o encontrado dentro de &lPuestos de Saqueadores&r, custodiado por los Saqueadores."]			hide_dependency_lines: true
+			id: "5296557EC6FA57EC"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "235018C7BBCF1224"
+					item: "dungeons_and_combat:blessed_gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "214C6FBF317ADA2A"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Fragmento Abajo-Derecha"			tasks: [{
+				id: "7AFAC0CC88A4CA4B"
+				item: "nether_remastered:seal_piece_4"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.4d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"689578331193459C"
+				"57D4EDACE2FE79D4"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&l&5El Cristal del Nether&r se puede obtener al derrotar al &3&lWarden&r (30% de probabilidad)."]			hide_until_deps_complete: true
+			id: "0C566627851D571C"
+			rewards: [
+				{
+					id: "03BF9642E37D5ACE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB46F768A201157"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AB1F9A040C4329C"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "La Pieza Final"			tasks: [{
+				id: "5F83A09517932AA4"
+				item: "nether_remastered:seal_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C566627851D571C"
+				"5296557EC6FA57EC"
+				"7009234A207200B3"
+				"3CFDE14D3ED3D745"
+				"3A14A98A0EDAEBD6"
+			]
+			description: [
+				"Ustedes son ahora dignos de entrar al inframundo. Aventurero, come la foca y desbloquea el transporte a &l&4El Nether&r."				""
+				"Haz Clic Derecho 5 seg para usar ese sigilo"			]
+			hide_until_deps_complete: true
+			id: "5835B65D1A609F53"
+			rewards: [
+				{
+					id: "4539604C3EDF28E7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2388A80A884F44A6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Ustedes son dignos"			tasks: [{
+				id: "448BB6B36901BD23"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			title: "&l&5Sello del Inframundo"			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5835B65D1A609F53"]
+			icon: "dungeons_and_combat:monarch_table"
+			id: "0EC6D498A3663E19"
+			rewards: [{
+				command: "/ftbquests open_book 4218E721A2FABF4D"
+				icon: "dungeons_and_combat:monarch_table"
+				id: "2DA0287F5FEC1765"
+				title: "Moverse al Acto III"				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Acto II - Completado"			tasks: [{
+				id: "2C503F9B233CB45A"
+				title: "Acto III - Hacia las Llamas"				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -0.10000000000000009d
+		}
+		{
+			dependencies: ["7BEB82986C6B82E4"]
+			description: ["&1El Warden&f es el guardián de la &1Deep Dark&f. Un lugar espeluznante y horrible lleno de todo tipo de bloques y mobs."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "57D4EDACE2FE79D4"
+			rewards: [
+				{
+					id: "4BA1CC365427334E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "737E5738252E6028"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3519B8DF238AF31A"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A3379D68A4B1A35"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			subtitle: "Puede percibir su presencia."			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "5A3D5BEB758B93DC"
+				title: "Derrota a &7&lEl Warden"				type: "kill"
+				value: 1L
+			}]
+			title: "&l&7El Warden"			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"57D4EDACE2FE79D4"
+				"3ABAD7A27BD7C960"
+			]
+			description: [
+				"&lCorazón se puede fabricar ahora"				""
+				"Antes de iluminar el Portal, debes primero remover TODAS las &3Sculk Veins &r del marco interior. Después de que el marco esté despejado, puedes hacer clic derecho sobre él con el &bHeart of The Deep &r"				""
+				"&9Acto III - Más profundo y oscuro"				"&9&les opcional"				""
+				"Si deseas continuar tu viaje, sigue siguiendo &l\"Nether\""			]
+			hide_until_deps_complete: true
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "57F46262D879BF01"
+			rewards: [
+				{
+					id: "3F5F9C06476570FF"
+					item: "deeperdarker:ancient_vase"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55B8A2E469347B11"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					command: "/ftbquests open_book 591A7010D78B40B8"
+					icon: "minecraft:sculk_shrieker"
+					id: "37E681BBCA8751AD"
+					title: "Mover a Capítulo Profundo y Oscuro"					type: "command"
+				}
+			]
+			size: 1.0d
+			subtitle: "¿Es ese mi corazón latiendo?"			tasks: [{
+				id: "5B3196CECD094982"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "&8&lOtro Lado"			x: 6.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["57D4EDACE2FE79D4"]
+			id: "2FB0498B38E875BA"
+			rewards: [{
+				count: 8
+				id: "09D4FEA25F988017"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "52D498559EDDC594"
+				item: { Count: 4, id: "efn:deepdark_heart" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D1FBA2BB417CA2F"]
+			description: ["Nivel &6&l30"]			icon: "dungeons_and_combat:divine_blood_vial"
+			id: "112AA23E1F9E3239"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "005652757979344E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "6F556001E99CF106"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "55650F372F031137"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "184EBE349643A4D5"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			shape: "none"
+			subtitle: "Derrota a Sunleia, un ser radiante de inmenso poder divino, y demuestra tu fuerza contra la luz misma."			tasks: [{
+				entity: "dungeons_and_combat:sunleia"
+				icon: "dungeons_and_combat:divine_blood_vial"
+				id: "27F52353C8A4F052"
+				title: "Derrota a Sunleia"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota a &l&6Sunleia"			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["450967F6E7FC92CA"]
+			description: ["Nivel &3&l30"]			icon: "dungeons_and_combat:essence_of_kamath"
+			id: "5CB246E409ADD352"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62CFE999F2589CAD"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "170AD406D9EF5254"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "5763A69B06AEEFDD"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC29E0C30B76E89"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				entity: "dungeons_and_combat:kamath"
+				icon: "dungeons_and_combat:essence_of_kamath"
+				id: "002343B85C540498"
+				title: "Derrota a los Kamath"				type: "kill"
+				value: 1L
+			}]
+			title: "Derrota a los &l&3Kamath"			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D1FBA2BB417CA2F"]
+			description: ["Qué estructura tan agradable, si quieres resummon a Sunleia y craftear algo de equipo mágico."]			icon: "dungeons_and_combat:blessed_dust"
+			id: "4B8BA1E011B15DE2"
+			rewards: [
+				{
+					id: "49A4DF2B0382CB8D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					command: "/ftbquests open_book 201EF186A4DAE5E7"
+					icon: "dungeons_and_combat:sandstone_light"
+					id: "0BDCCBEF5D82BD44"
+					title: "Si eres mago, ¡mira esto!"					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11DBFC8725CCD18E"
+					table_id: 5128171968123470818L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "dungeons_and_combat:blessed_dust"
+				id: "6328DCA544ED8A55"
+				structure: "dungeons_and_combat:the_forgotten_sands"
+				title: "Encuentra Estructura: Las Arenas Olvidadas"				type: "structure"
+			}]
+			title: "Encuentra Estructura: Las Arenas Olvidadas"			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4121972D3C9F2595"]
+			description: ["Para resummon &l&6Sunleia&r, necesitas un Escarabajo Bendecido. Los objetos necesarios están en la siguiente misión."]			icon: "dungeons_and_combat:sunleia_light"
+			id: "3D1FBA2BB417CA2F"
+			rewards: [
+				{
+					id: "777A6737AEE08F02"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B7E8AD79A936CCC"
+					table_id: 6124952976838404355L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "dungeons_and_combat:sunleia_light"
+				id: "3A3D5FD6364B1D9C"
+				structure: "dungeons_and_combat:the_pantheon_of_sunleia"
+				title: "El Panteón de Sunleia"				type: "structure"
+			}]
+			title: "Encuentra Estructura: El Panteón de Sunleia"			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["078F10B5F1490935"]
+			id: "4CF2D757ACE27507"
+			rewards: [
+				{
+					id: "36CED98C1CB0717B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "503F1652873E1CB8"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78C65037F1CD6F4B"
+				item: "dungeons_and_combat:sunleia_hand"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["078F10B5F1490935"]
+			id: "2AB6BE4F9C94F529"
+			rewards: [
+				{
+					id: "45A71D94BFAAC2DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C06BC6BCDE4D920"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7BADE64FB76E7DBE"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:klauen_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["078F10B5F1490935"]
+			id: "60E59883675C2687"
+			rewards: [
+				{
+					id: "0103C0D201E944A5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FF94F045BF557E3"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2A13CD8E0DEB4DA9"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:fang_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["112AA23E1F9E3239"]
+			hide_until_deps_complete: true
+			id: "078F10B5F1490935"
+			rewards: [{
+				id: "49834B21099395C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Una esencia radiante dejada por Sunleia, que contiene un fragmento de su poder divino."			tasks: [{
+				id: "139C0796E083D047"
+				item: "dungeons_and_combat:essence_of_sunleia"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5CB246E409ADD352"]
+			hide_until_deps_complete: true
+			id: "7AF4BD9D4B643909"
+			rewards: [
+				{
+					id: "1AA2298575A578AF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26CE93ABFCAB5E1F"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "756394E83B214574"
+				item: "dungeons_and_combat:champion_belt"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CB246E409ADD352"]
+			hide_until_deps_complete: true
+			id: "1F51CDDCEE9BB53B"
+			rewards: [{
+				id: "501D67147326B928"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¡La Armadura T3 (camino rojo) requiere esto!"			tasks: [{
+				id: "2FA01AFC3E1C9ECB"
+				item: "dungeons_and_combat:armor_plate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F51CDDCEE9BB53B"]
+			id: "4EC77767F93B3845"
+			rewards: [
+				{
+					id: "1E83D3DBDA343588"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E438285CC3B4A2D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "¡Más defensa!"			tasks: [{
+				id: "39CC0FDFFA1E6EBE"
+				item: "dungeons_and_combat:steel_shoulder"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4121972D3C9F2595"]
+			icon: "dungeons_and_combat:champion_brazier"
+			id: "450967F6E7FC92CA"
+			rewards: [
+				{
+					id: "633258AFD6B74280"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C90DB8168878586"
+					table_id: 5128171968123470818L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "dungeons_and_combat:champion_brazier"
+				id: "1E33999FC47C3505"
+				structure: "dungeons_and_combat:the_ruins_of_kamath"
+				title: "Encuentra Estructura: Las Ruinas de Kamath"				type: "structure"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BE683938E51F989"]
+			icon: "soulsweapons:iron_skull"
+			id: "1FF2991FCD3B3CEB"
+			rewards: [
+				{
+					command: "/ftbquests open_book 5B792E5AA521B5F2"
+					icon: "soulsweapons:iron_skull"
+					id: "79E62EF3500666D4"
+					title: "Mover a Campeones de Estilo Soulslike Capítulo"					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 5DFDAAA27B3775A3"
+					icon: "quark:soul_sandstone"
+					id: "34A2CE7F122C5A5A"
+					title: "Mover al Capítulo de Armamento Estilo Almas"					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7206AA2853CADB51"
+				type: "checkmark"
+			}]
+			title: "Campeones de Alma"			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4121972D3C9F2595"]
+			icon: "mowziesmobs:gong"
+			id: "4BE683938E51F989"
+			rewards: [{
+				command: "/ftbquests open_book 160D05447987DF9E"
+				icon: "mowziesmobs:gong"
+				id: "49E383F7E3B9DC50"
+				title: "Mover a Capítulo Mito Caído"				type: "command"
+			}]
+			tasks: [{
+				id: "1558E5879905F193"
+				type: "checkmark"
+			}]
+			title: "Mitos Caídos"			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FF2991FCD3B3CEB"]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "162800558EB6223A"
+			rewards: [{
+				command: "/ftbquests open_book 32AF4EECE617D5F4"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "254F91F6F7A3E837"
+				title: "Mover a Aquamirae Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "2A4B4F840C83B14B"
+				type: "checkmark"
+			}]
+			title: "Aquamirae"			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57D4EDACE2FE79D4"]
+			icon: "skyarena:altar_battle"
+			id: "33A3E880A4425B55"
+			rewards: [{
+				command: "/ftbquests open_book 2A01139A2F791579"
+				icon: "skyarena:altar_battle"
+				id: "31E7395D27C572B0"
+				title: "Mover a la Arena Celestial Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "408196B877293E12"
+				title: "Arena Celestial"				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			description: [
+				"¿Curioso acerca de esos extraños Ojos del Enderman?"				""
+				"Dicen que apuntan el camino hacia un lugar como ningún otro. Desafortunadamente, te estás adelantando un poco."				""
+				"&lActo IV&r, todavía está muy lejos de tu alcance. Concéntrate en tus actuales aventuras por ahora... a menos que estés haciendo un speedrun, por supuesto."			]
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E143FB4B34F7DA0"
+			rewards: [{
+				command: "/ftbquests open_book 1E4AD9E1009D881C"
+				icon: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43E1D2C9CE8A0704"
+				title: "Mover a Viaje Hacia el Fin Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "20DF0F9F47B8784D"
+				title: "Ojos Mágicos"				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4121972D3C9F2595"]
+			description: ["En lo profundo de la Muy Oscuridad de cuevas Olvadas habitan criaturas mucho más antiguas de lo que La Mayoría creería."]			id: "3BC078D1E0007772"
+			rewards: [
+				{
+					count: 2
+					id: "7B3BF931DA19AA83"
+					item: "dungeons_and_combat:ernos_fur"
+					type: "item"
+				}
+				{
+					id: "666D4B2E4ACE707A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1899E316741492E0"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			subtitle: "(Opcional)"			tasks: [{
+				entity: "dungeons_and_combat:ernos"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:bear_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6B011E9820208FC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BC078D1E0007772"]
+			id: "47CDD4C451EE6897"
+			rewards: [
+				{
+					id: "6D5DE469B357CC3C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "457F80E98D7C7BF0"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "555CB0E16412ACD8"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:hunter_cape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BC078D1E0007772"]
+			id: "21E3D2BC44E5D322"
+			rewards: [
+				{
+					id: "4A677234BC84543B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DD149C88CB8F72A"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6D58499247D3511C"
+				item: "dungeons_and_combat:hunter_boots"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			description: ["Navegantes y pescadores han compartido durante mucho tiempo historias de formas monstruosas que se mueven bajo las olas."]			id: "0DEFD16068A38756"
+			rewards: [
+				{
+					id: "7136BD18DCAD1B74"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41B0945B5B40B076"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "0996D27FE59B65E3"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			subtitle: "(Opcional)"			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:sea_serpent_fang"
+				id: "0687BBB2E43DF612"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			description: ["Las leyendas hablan de un gigante con un único ojo, capaz de realizar trituraciones a guerreros acorazados con facilidad."]			id: "1960B60AEF139B77"
+			rewards: [
+				{
+					id: "26317E9293DCA80A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663C4FBCA9784B0D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "4840AD604C18A8A1"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			subtitle: "(Opcional)"			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: "iceandfire:cyclops_skull"
+				id: "1DC838CCBF8D444D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			description: ["Pocas criaturas inspiran tanto miedo como las Hydra."]			id: "79614D504A846FCA"
+			rewards: [
+				{
+					id: "24261185B770B038"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30F0715D7B9FAB49"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "2F88D87194046691"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			subtitle: "(Opcional)"			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_fang"
+				id: "41C13674D115A927"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4121972D3C9F2595"]
+			id: "154F18ED6DF11311"
+			rewards: [
+				{
+					id: "0A226AE6455289A6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E7B29DA60D73F28"
+					table_id: 5128171968123470818L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "graveyard:cobblestone_gravestone"
+				id: "3A27E21D2C36B9CC"
+				structure: "dungeons_and_combat:the_field_of_the_fallen"
+				title: "Encuentra Estructura: El Campo de los Caídos"				type: "structure"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["154F18ED6DF11311"]
+			description: [
+				"Olvidado por los vivientes, recordado solo por los muertos."				""
+				"El vigía de la tumba vaga entre tumbas Antiguo, atado a un deber mucho después de que su significado se haya desvanecido. No habla ni descansa, derribando a cualquiera que perturbe el silencio de"			]
+			id: "3D628C1264847FDC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52B069E66E80D671"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "1EDB718997ADEA14"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "4C3D5635DF3E09AB"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "dungeons_and_combat:the_grave_watcher"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:tombwarden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7451383232472457"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6CA429E10DFD7E38"
+				"5CB246E409ADD352"
+			]
+			description: [
+				"Una arma empapada en muerte."				""
+				"Al consumir Almas Malditas, el Excavador de Tumbas puede invocar guerreros caídos para luchar al lado de su portador. Un sombrío recordatorio de que incluso la muerte no es siempre el Fin."			]
+			id: "5C70ABA83E91C6B8"
+			rewards: [{
+				id: "0DF5A22B1B2EBB6C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6BF24DC42A5C0DDB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:the_gravedigger_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D628C1264847FDC"]
+			description: [""]
+			id: "6CA429E10DFD7E38"
+			rewards: [{
+				id: "5272DA0730551570"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "¿Necesitas cuerdas?"			tasks: [{
+				id: "78DBCDC675A25D59"
+				item: "dungeons_and_combat:cursed_silk"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"72916D6EE782D819"
+				"6BC86453F75F8D99"
+				"0B2DB355DA815307"
+			]
+			hide_until_deps_complete: true
+			icon: "nether_remastered:seal_piece_4"
+			id: "1CEE41A2AA427D15"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "4B360035041B277F"
+					item: "nether_remastered:seal_piece_4"
+					type: "item"
+				}
+				{
+					id: "6DEC9B22C0592354"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32F72ECC64BF8F8F"
+				type: "checkmark"
+			}]
+			title: "&6Fragmento Abajo-Derecha"			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"112AA23E1F9E3239"
+				"5CB246E409ADD352"
+			]
+			hide_until_deps_complete: true
+			icon: "nether_remastered:seal_piece_3"
+			id: "1AE78AFF455F7029"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "41CD7C67364921B1"
+					item: "nether_remastered:seal_piece_3"
+					type: "item"
+				}
+				{
+					id: "3D3D5F1E8F2C53BF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "527C4E76CE53477F"
+				type: "checkmark"
+			}]
+			title: "&6Fragmento Abajo-Izquierda"			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CA429E10DFD7E38"]
+			id: "7320832049C9B79E"
+			rewards: [{
+				id: "2BF6BBBB7A75EE20"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1D030691A20B9D29"
+				item: "dungeons_and_combat:cursed_lamp"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37865BAA1CC25C44"]
+			id: "0CA5E1712B5CDE2A"
+			rewards: [{
+				id: "3A08DC690D69769D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Muchas muertos vivientes..."			tasks: [{
+				icon: "minecraft:polished_andesite"
+				id: "3E4A91025AE0A18A"
+				structure: "irons_spellbooks:catacombs"
+				title: "Encuentra Estructura: Catacumbas"				type: "structure"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0CA5E1712B5CDE2A"]
+			description: ["Antaño un gran líder, &cEl Rey Muerto&r descendió a la locura junto con miles de su gente..."]			id: "6E8AD2B87E30C7C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E222A04076B98B0"
+				table_id: 2828375451628247926L
+				type: "random"
+			}]
+			size: 1.25d
+			subtitle: "El trono no hace al rey..."			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "064980FC0EF944C0"
+				title: "Derrota a &cEl Rey Muerto"				type: "kill"
+				value: 1L
+			}]
+			x: -6.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E8AD2B87E30C7C3"]
+			description: ["¡Ay! El &4enloquecido&r sirviente de Mortusest ha regresado..."]			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:call_forth_the_dead_king"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "61DA5800B574AB61"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D62E04870960ED5"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5586860D9EE51462"
+					table_id: 78867488366120478L
+					type: "choice"
+				}
+			]
+			size: 1.5d
+			subtitle: "...el rey forja el trono."			tasks: [
+				{
+					id: "67FE3C85C4DA02AA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:call_forth_the_dead_king"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "traveloptics:enraged_dead_king"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:call_forth_the_dead_king"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					id: "5E6098E3C0A660FB"
+					title: "Derrota a &l&cEl Rey Muerto Enfadado"					type: "kill"
+					value: 1L
+				}
+			]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			id: "4192BF3E5C266F13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0471BEB69607247C"
+				table_id: 5128171968123470818L
+				type: "random"
+			}]
+			subtitle: "La mazmorra más icónica para empezar (recomendada para &lnuevos jugadores!"			tasks: [{
+				icon: "minecraft:cobbled_deepslate"
+				id: "21D427ADD13A5668"
+				structure: "dungeoncrawl:dungeon"
+				title: "Exploración de Mazmorras"				type: "structure"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4192BF3E5C266F13"]
+			icon: "paraglider:goddess_statue"
+			id: "2D4CEF4B40CA0A82"
+			rewards: [{
+				id: "7E1BD339638DD13D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Encuentra la Estatuilla de la Diosa"			tasks: [{
+				id: "5D7FDCEC6EC8DF2D"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:kamath_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4121972D3C9F2595"
+			rewards: [{
+				command: "/ftbquests open_book 7ACD2F0434044BC8"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:kamath_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5FF28C733912EFEE"
+				title: "Mover a Capítulo de Mazmorras y Combate"				type: "command"
+			}]
+			tasks: [{
+				id: "411045D83CBFC67C"
+				title: "Mazmorras y combate"				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			id: "758049F222D8965F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38012C1F92EFF3B4"
+				table_id: 8748162718720558329L
+				type: "random"
+			}]
+			subtitle: "Prepárate antes de la visita..."			tasks: [{
+				icon: "minecraft:warped_wart_block"
+				id: "3C12827B14FB4F48"
+				structure: "idas:iceandfire/dread_citadel"
+				title: "Ciudadela de Pavor"				type: "structure"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			id: "1AA5531000682427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14741A8998567C4F"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			subtitle: "Estructura dura, te ayudará con la Forja del Dragón."			tasks: [{
+				icon: "iceandfire:dread_stone_bricks"
+				id: "7CF9920FD0C4ACBA"
+				structure: "iceandfire:mausoleum"
+				title: "Mausoleo"				type: "structure"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			id: "5EEE58A00CA66DB9"
+			rewards: [{
+				id: "783F3D875B720B0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "No abras el COFRE"			tasks: [{
+				icon: "minecraft:iron_bars"
+				id: "445F861546EE8907"
+				structure: "iceandfire:graveyard"
+				title: "Cementerio"				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5EEE58A00CA66DB9"]
+			id: "6B78D3FA3218C11F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F4F9E677E84F44E"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					id: "0912CFD031CB9EC3"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			subtitle: "Boooo..."			tasks: [{
+				entity: "iceandfire:ghost"
+				icon: "cinderscapes:ghastly_ectoplasm"
+				id: "13F1B1547EAD6536"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["751BD6FBB1BFE56B"]
+			icon: "iceandfire:dragon_skull_lightning"
+			id: "5AC7DC7295BD19AD"
+			tasks: [{
+				id: "3E133F98FC81663C"
+				title: "Hielo y fuego"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			id: "2D11DE58A75CCF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DD64D05AFAE41A1"
+				table_id: 5128171968123470818L
+				type: "random"
+			}]
+			subtitle: "(Opcional)"			tasks: [{
+				icon: "iceandfire:siren_tear"
+				id: "6AD506B955990699"
+				structure: "idas:iceandfire/sirens_cove"
+				title: "Cala de Sirenas"				type: "structure"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D11DE58A75CCF29"]
+			id: "366408DF613752C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "752A4341E9638BE1"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "7F24974B9594D6C8"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:siren"
+				icon: "iceandfire:shiny_scales"
+				id: "7762C708812E06CA"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5AC7DC7295BD19AD"]
+			id: "192D7B4B209359C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794051BD7CA66B33"
+				table_id: 5128171968123470818L
+				type: "random"
+			}]
+			subtitle: "(Opcional)"			tasks: [{
+				icon: "quark:mossy_cobblestone_bricks"
+				id: "43CBD9F7C979FCAE"
+				structure: "iceandfire:gorgon_temple"
+				title: "Templo de las Gorgonas"				type: "structure"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["192D7B4B209359C8"]
+			id: "61A7B2E4425D3F55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CF6C0C81B726EE4"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2494FE282610E33C"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "752BAF5D490D7986"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["758049F222D8965F"]
+			id: "6478066C589133B2"
+			rewards: [{
+				id: "3AC50BA070B7FD42"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "05FF26CC013A5F66"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6478066C589133B2"]
+			id: "75112A129943554C"
+			rewards: [{
+				id: "3E45B15CB0B6A742"
+				item: "iceandfire:fire_dragon_blood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717FC794F772F934"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6478066C589133B2"]
+			id: "27A372B7D683BD70"
+			rewards: [{
+				id: "76F267420EC4DCF9"
+				item: "iceandfire:ice_dragon_blood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761C9619C813F44A"
+				item: "iceandfire:summoning_crystal_ice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6478066C589133B2"]
+			id: "2C9803A9AAAE7334"
+			rewards: [{
+				id: "3B36E7BB03828513"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1305A7C3743CDB28"
+				item: "iceandfire:summoning_crystal_lightning"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["37865BAA1CC25C44"]
+			id: "6D00E9B0C70D25BB"
+			rewards: [{
+				id: "26DCA255FCA49E6F"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "319E7ADB1218C934"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D00E9B0C70D25BB"]
+			id: "63809772233D8B65"
+			rewards: [{
+				count: 2
+				id: "7C88F890335D36A5"
+				item: "dungeons_and_combat:crimson_flask"
+				type: "item"
+			}]
+			subtitle: "Versión mejorada del Frasco de Éxtasis"			tasks: [{
+				id: "378BF59F3EC20EBA"
+				item: "dungeons_and_combat:crimson_flask"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4192BF3E5C266F13"]
+			id: "34FA90BD1FD83BAC"
+			rewards: [{
+				id: "3DEE4CF566147E5C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "¿Sigues muriendo y no quieres perder experiencia? ¡Usa esto!"			tasks: [{
+				id: "4421208707D66465"
+				item: {
+					Count: 1
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4192BF3E5C266F13"]
+			id: "30BDF72118347464"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB7697B24CF61FA"
+				table_id: 5128171968123470818L
+				type: "random"
+			}]
+			subtitle: "La Corrupción puede usarse para comerciar... bajo el Árbol Muerto."			tasks: [{
+				icon: "graveyard:leaning_skeleton"
+				id: "1C779681B785038E"
+				structure: "graveyard:crypt"
+				title: "Cripta"				type: "structure"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30BDF72118347464"]
+			id: "3ABAD7A27BD7C960"
+			rewards: [{
+				id: "66F9207C60135B0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Utilizado para Agonías o Tormentos"			tasks: [{
+				id: "2DFFBFBFC2959AA0"
+				item: "graveyard:dark_iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4192BF3E5C266F13"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "cataclysm:black_steel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C10832146F21E6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53DDB9393E6808E9"
+				table_id: 814616266622083574L
+				type: "choice"
+			}]
+			subtitle: "¡Agarra uno gratis!"			tasks: [{
+				id: "2F01320697834A6D"
+				title: "¿Aún sin arma?"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C10832146F21E6E"]
+			id: "158B3E7E716B0156"
+			rewards: [{
+				count: 16
+				id: "0029F686A2A0888D"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "Buena fuente de ligeros... usar en la ranura de adornos"			tasks: [{
+				id: "3F028DE67FECCC35"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6478066C589133B2"]
+			description: [""]
+			icon: "nether_remastered:seal_piece_1"
+			id: "33FF1683A8E771C4"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "1ACE0EAF0D9162D5"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4274FD321815EBE7"
+				type: "checkmark"
+			}]
+			title: "&6Fragmento Superior Izquierdo"			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B8BA1E011B15DE2"]
+			description: ["Invocar a Sunleia"]			id: "0D3BCF9E742B5123"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F8ED80E47BCE3E"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BFFF674883E008F"
+				item: "dungeons_and_combat:blessed_beetle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+	]
+	title: "&2&l Acto II - Primeros Pasos"}

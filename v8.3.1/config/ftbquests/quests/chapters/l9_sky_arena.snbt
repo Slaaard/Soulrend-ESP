@@ -1,0 +1,862 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l9_sky_arena"
+	group: "519DE62D7CDBD327"
+	icon: "skyarena:altar_battle"
+	id: "5CAFB0CC5F8D98C4"
+	images: [
+		{
+			height: 3.0d
+			image: "deeperdarker:item/warden_sword"
+			order: -1
+			rotation: -45.0d
+			width: 3.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "endlessbiomes:block/endaltaritem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "soulsweapons:item/essence_of_eventide"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A01139A2F791579"]
+			id: "66609CBEEFE57F35"
+			rewards: [{
+				id: "74FB96F3F2966C54"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un campo de batalla congelado donde solo los guerreros más resistentes soportan el frío mordiente. Derrota sus desafíos para ganar valiosas llaves y demostrar tu fuerza."			tasks: [{
+				icon: "minecraft:packed_ice"
+				id: "6C7897F45609695D"
+				structure: "skyarena:ice_arena"
+				title: "Encuentra la Arena de Hielo &l&3"				type: "structure"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A01139A2F791579"]
+			id: "7689CD2FBDB1E085"
+			rewards: [{
+				id: "175E8FC3080BD64C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Un campo de batalla abrasador lleno de enemigos implacables y calor abrasador. Derrótalos para ganar llaves y reclamar tus recompensas."			tasks: [{
+				icon: "minecraft:polished_blackstone"
+				id: "6321E6163E032894"
+				structure: "skyarena:sky_arena"
+				title: "Encuentra la Arena Celestial &l&c"				type: "structure"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33A3E880A4425B55"]
+			description: [
+				"Todas las arenas disponibles sueltan solo Llaves de Hielo."				"(No uses llaves en el cofre)"			]
+			hide_until_deps_complete: true
+			id: "2A01139A2F791579"
+			rewards: [{
+				id: "00F3255DB7445A56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Derrota a los enemigos en las &l&3Arenas de Hielo&r y las &l&cArenas Celestiales&r para obtener llaves. Comciércialas en la tienda de arriba"			tasks: [{
+				id: "1E67A14647EBBD8A"
+				type: "checkmark"
+			}]
+			title: "¡Desafía tus habilidades en SkyArena!"			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A01139A2F791579"]
+			id: "6E2FB604BFC7321D"
+			rewards: [{
+				id: "07DA3A620F100DDD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Otorgado a aquellos que conquistan la arena en la mayoría de dificultad básica."			tasks: [{
+				id: "4B2887F52CD6DF1E"
+				item: "skyarena:oak_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E2FB604BFC7321D"]
+			id: "06A7AB6075FDCCCD"
+			rewards: [
+				{
+					id: "7F01759ED321226D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4181949206237843"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Una marca de fuerzas ganada al superar un Poder Rúnico Mayor."			tasks: [{
+				id: "1806ADA23EC4B197"
+				item: "skyarena:stone_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06A7AB6075FDCCCD"]
+			id: "596D9742F0896E0A"
+			rewards: [
+				{
+					id: "784866EE5CE9E531"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E8179A6A1134798"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684A73131BCDED47"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Prueba de Determinación y Habilidad dentro de la arena."			tasks: [{
+				id: "14EA224AC0F4B691"
+				item: "skyarena:iron_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["596D9742F0896E0A"]
+			id: "2B505134526A87D5"
+			rewards: [
+				{
+					id: "5E9BCBB452E6A3EA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4653E9404A1614"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Una recompensa para guerreros que triunfan sobre formidables pruebas."			tasks: [{
+				id: "1CD9F1EF612130DD"
+				item: "skyarena:gold_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B505134526A87D5"]
+			id: "0A52B56FE9B9DC65"
+			rewards: [
+				{
+					id: "3EA0A401CA1CB981"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1213611CE5047E93"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "759295A59585095A"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+			]
+			subtitle: "Un símbolo de maestría obtenido al vencer los desafíos más arduos de la arena."			tasks: [{
+				id: "2DCB366C38973C68"
+				item: "skyarena:diamond_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A52B56FE9B9DC65"]
+			id: "404AD60CD3981C35"
+			rewards: [
+				{
+					id: "5E299F2702ECA0E8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70047AEA8162EBA8"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+			]
+			subtitle: "El trofeo definitivo, reservado para aquellos que conquisten la arena en su máxima dificultad."			tasks: [{
+				id: "009964B95F4F2019"
+				item: "skyarena:netherite_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13EE8BA2480013CF"
+				"2A01139A2F791579"
+			]
+			description: ["Desbloqueado después de la Misión de Yunque de Fusión Mecánica"]			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "simplyswords:slumbering_lichblade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3C0A5A2E84B9673F"
+			min_required_dependencies: 2
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "752E798B61FCA06C"
+				table_id: 5855199985956072846L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 64L
+				icon: "skyarena:ice_key"
+				id: "025F845862A8626F"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Desenvaina tu &6Espadas"			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+			id: "66672B450DBDA9B6"
+			rewards: [{
+				id: "6B7313FEACD46690"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3E9F81A8F069A303"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Gemas &8Roto&r"			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:boss_gems/infernal_overlord"
+				}
+			}
+			id: "5FC1ACABFA0BAF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43522F419C28DFA9"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "62D71BD93538E151"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Gemas &aChipped&r"			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:compat/spell_eldritch"
+				}
+			}
+			id: "37840DFCDAECED68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C77078AEB444B5"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "4489E704FF0E7CC4"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Gemas &9Defectuosas&r"			x: -1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:emerald"
+			id: "5D1BB93EC0C18845"
+			rewards: [{
+				count: 8
+				id: "00B3D1D1DA456B43"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7BC69134DAD24A96"
+				item: { Count: 2, id: "skyarena:ice_key" }
+				type: "item"
+			}]
+			title: "8 &2Esmeraldas"			x: 1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:diamond"
+			id: "1ED58CD2900E855E"
+			rewards: [{
+				count: 4
+				id: "18F3BA08AD95ABE8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "41FDD558186F22D6"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "4 &9Diamantes"			x: 1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13EE8BA2480013CF"
+				"2A01139A2F791579"
+			]
+			description: ["Desbloqueado después de la Misión de Yunque de Infusión Mecánico"]			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "simplyswords:awakened_lichblade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "789163DA20F496A4"
+			min_required_dependencies: 2
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75F4220B010DE633"
+				table_id: 5855199985956072846L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "04EFC2F491B02229"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Elige tu &6Espada Simple"			x: -4.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:ancient_knowledge_fragment"
+			id: "730DA955DA741C20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "158379928E54CAFC"
+				table_id: 3181997575744570686L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7957134F25D8660D"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&6Fragmento de Conocimiento Ancestral"			x: -4.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:bread"
+			id: "30617B32D8194FCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF5556CA9E50058"
+				table_id: 3707908902404772314L
+				type: "loot"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "320520868A190135"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&fComida"			x: 4.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "7856D61C4137350D"
+			rewards: [{
+				count: 16
+				exclude_from_claim_all: true
+				id: "14CCC4F36D6C5F3D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "27B6D67847863279"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "16 Lingote de Hierro &7"			x: 3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "gtbcs_geomancy_plus:geo_rune"
+			id: "6C3EEC7E848DB2FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "289428F5D2D15A39"
+				table_id: 78867488366120478L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1A336E51491DC0C1"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&3Runas de Magia"			x: 3.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "traveloptics:eldritch_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "traveloptics:eldritch_power"
+				}
+			}
+			id: "79011FB8D70BECB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E73EE962601A3C"
+				table_id: 858487407543727412L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "03CC08B46786E5FC"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&7Mejorar Orbe"			x: 4.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "7F2F48EDAA5D3975"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69209563D05B1F26"
+				table_id: 2828375451628247926L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "072343EDF2862AF7"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Tinta para Hechizos"			x: 1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "6A6C966AC2DA778E"
+			rewards: [{
+				count: 64
+				id: "5922E4C9153ABAD7"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "149572D852B2F40A"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "64 &8Carbón"			x: 4.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "iceandfire:dragonscales_red"
+			id: "6E1210EC0E17EEA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D504922B912A54"
+				table_id: 1163588509283251713L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6CB49B8B5708C35C"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&cEscamas de Dragón"			x: -4.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:magic_cloth"
+			id: "621D0A769C37EA3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B6DFD31A129AFA8"
+				table_id: 1174104366176383878L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "7129345F4B596331"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&9Materiales Mágicos"			x: -4.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "origins:water_protection"
+						lvl: 11s
+					}]
+				}
+			}
+			id: "60DFD19361E8AAE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21DBAADD14B3B324"
+				table_id: 7938273166641392587L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "5735C9C61F306899"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&bLibros Encantados"			x: -3.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "fallen_gems_affixes:boss_gems/void_guardian"
+				}
+			}
+			id: "6E320520C51509B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B25D2BC5DF94311"
+				table_id: 2238362529489443161L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "3C15D7558FD02C25"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&cP&6e&er&af&3e&9c&5t&r Gemas"			x: -1.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:gold_ingot"
+			id: "087D614B84F4FCE5"
+			rewards: [{
+				count: 8
+				exclude_from_claim_all: true
+				id: "708235CAE6AC8460"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "524CDE0AAF3514F3"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "8 &6Lingote Dorado"			x: 3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			description: ["¿No lo encuentras? ¡No hay problema! ¡Simplemente cómpralo!"]			hide_dependency_lines: true
+			icon: "simplyswords:runic_tablet"
+			id: "3B6A8BBE19A591ED"
+			rewards: [{
+				id: "5FC2ACC29CFECE09"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "2D9CC7206DD8D6B9"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "1 &9Tableta Rúnica"			x: 1.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "apotheosis:gem_dust"
+			id: "352F01A69E1DB5F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F90CF1BD90817A"
+				table_id: 440908952515283836L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4F40F54BCF729371"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Polvo de Gema"			x: -3.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "469A9D9B3F3BBAAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4074FC46BB6E58C6"
+				table_id: 8946409018183923527L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "22AF12B90BF00FBE"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "Madera"			x: 3.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			icon: "minecraft:stone"
+			id: "39AD6612DC4B1F0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AD887A157CDC19F"
+				table_id: 6410108103953952750L
+				type: "choice"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				id: "23C926460C94ED5C"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&8Piedra&r/Arena"			x: 4.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2A01139A2F791579"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:boss_gems/howling_storm"
+				}
+			}
+			id: "00D418E5D7BC86A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B7951348D93335D"
+				table_id: 7346661832890300010L
+				type: "random"
+			}]
+			subtitle: "¡Haz Clic! en las llaves para canjไงarlas por tu recompensa."			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "6153988D7C5A0168"
+				item: "skyarena:ice_key"
+				type: "item"
+			}]
+			title: "&aMagia Astillada&r Gemas"			x: -3.0d
+			y: -5.0d
+		}
+	]
+	title: "&l&9 Arena Celestial"}

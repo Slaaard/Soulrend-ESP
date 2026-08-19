@@ -1,0 +1,787 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_1"
+	group: "59FD824E9CBEF444"
+	icon: "alexsmobs:mungal_spores"
+	id: "03C21A9BB8B94BD9"
+	images: [
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 2.5d
+			image: "magistuarmory:item/medieval_bag"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			alpha: 170
+			color: 7696760
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "alshanex_familiars:textures/particle/sleeping_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			alpha: 170
+			color: 7696760
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "alshanex_familiars:textures/particle/sleeping_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			alpha: 170
+			color: 7696760
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "alshanex_familiars:textures/particle/sleeping_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			alpha: 170
+			color: 7696760
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "alshanex_familiars:textures/particle/sleeping_particle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "minecraft:item/campfire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.5d
+			image: "merchantmarkers:textures/entity/villager/markers/armorer.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependency: "2B25465C93B85F9F"
+			height: 1.5d
+			image: "merchantmarkers:textures/entity/villager/markers/hunter.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependency: "56711B413C7656D4"
+			height: 1.0d
+			image: "merchantmarkers:textures/entity/villager/markers/miner.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "56711B413C7656D4"
+			height: 0.5d
+			image: "merchantmarkers:textures/entity/villager/arrow.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "epicfight:textures/gui/skills/passive/swordmaster.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependency: "3FA91CAE48FB1208"
+			height: 1.0d
+			image: "fallen_gems_affixes:items/augments/gem_power"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependency: "56711B413C7656D4"
+			height: 1.0d
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependency: "3FA91CAE48FB1208"
+			height: 1.0d
+			image: "waystones:item/return_scroll"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependency: "7E5FDBAF23257C23"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"Te has encontrado en &lLos Reinos&r de &cSoulrendia&r. ¡Lleno de muchos tesoros y aventuras!"				""
+				"Pero, primero que nada, asegúrense de tener un hogar al que volver después de un largo Día de Aventura. O conviértanse en un errante que viaja sin un lugar permanente al que llamar hogar."			]
+			hide_until_deps_complete: true
+			id: "7E5FDBAF23257C23"
+			rewards: [
+				{
+					id: "3069962F9F4C5E12"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BEA7176FDC91B25"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "658FE443F8531985"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "La Vida de un Nómada"			tasks: [{
+				id: "4B285BCD16FCC8D4"
+				title: "Despertado Pero Perdido"				type: "checkmark"
+			}]
+			title: "Encuentra un lugar para llamar hogar"			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E5FDBAF23257C23"]
+			description: [
+				"Necesitarás más espacio de almacenamiento durante una expedición de minería o mientras atraviesas estructuras."				"No te preocupes, pues podemos construir y mejorar una mochila para que nos ayude a llevar toda esa chatarra extra."			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "travelersbackpack:standard"
+				tag: {
+					RenderInfo: { }
+					StorageSlots: 27
+					Tier: 0
+					ToolSlots: 2
+					UpgradeSlots: 2
+				}
+			}
+			id: "56711B413C7656D4"
+			rewards: [{
+				command: "/ftbquests open_book 4F60E0510A23B1A3"
+				icon: {
+					Count: 1
+					id: "travelersbackpack:bee"
+					tag: {
+						RenderInfo: { }
+						StorageSlots: 27
+						Tier: 0
+						ToolSlots: 2
+						UpgradeSlots: 2
+					}
+				}
+				id: "671A78ACF9D81189"
+				title: "Mover a Mochila Capítulo"				type: "command"
+			}]
+			subtitle: "¡Más bolsillos para mis rocas!"			tasks: [
+				{
+					count: 4L
+					id: "4C83CC84D8651BD1"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "6A9DF9014935DFE0"
+					item: { Count: 4, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			title: "¡Tu primera mochila!"			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E5FDBAF23257C23"]
+			description: [
+				"Los Reinos de &cSoulrendia&r son implacables, y pocos sobreviven por mucho tiempo sin el descanso adecuado."				""
+				"Un saco de dormir te permite recuperarte durante tus viajes sin establecerte. El camino por delante es peligroso, así que asegúrate de estar listo para lo que En Espera más allá de la Muy Oscuridad."			]
+			hide_until_deps_complete: true
+			id: "33BF020C32947F67"
+			rewards: [{
+				id: "089BB5770F595B5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Primera Noche..."			tasks: [{
+				advancement: "travelersbackpack:sleeping_bag"
+				criterion: ""
+				id: "3F1AE5E0E65547A4"
+				title: "Saco de dormir"				type: "advancement"
+			}]
+			title: "Saco de dormir"			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E5FDBAF23257C23"]
+			description: [
+				"Un sencillo viajero solo puede llegar hasta cierto punto. Tarde o temprano, cada aventurero debe afilar su hoja y fortalecer sus defensas."				""
+				"Los desafíos que se avecinan pondrán a prueba tanto su habilidad como su equipo. Asegúrese de estar preparado."			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "fantasy_armor:hero_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F32E6759F7E1AB0"
+			rewards: [
+				{
+					command: "/ftbquests open_book 36BD809C80E765D4"
+					icon: {
+						Count: 1
+						id: "fantasy_armor:hero_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5E458CCC6F76045A"
+					title: "Mover al Capítulo del Ascenso del Campeón"					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 6B086EB4C1B336F4"
+					icon: "minecraft:bookshelf"
+					id: "35A285F7CC956297"
+					title: "Mover al Capítulo del Módulo Encantador"					type: "command"
+				}
+			]
+			tasks: [{
+				id: "466024B4F48C2ED5"
+				title: "Forjando tu camino"				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B25465C93B85F9F"]
+			description: ["Nunca has visto una criatura como esta. Camina como un humano, sin embargo, no hay vida en sus ojos. Cualquiera que sea la maldición que afectó a estas pobres almas..."]			hide_until_deps_complete: true
+			id: "3FA91CAE48FB1208"
+			rewards: [
+				{
+					id: "51092E5752CAF567"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4884478D80FACB1E"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "¿Qué cosa es esa?"			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5961BFC29B572F1F"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56711B413C7656D4"]
+			description: ["Por supuesto que terminarás necesitando un &bPico de Diamante&f. ¿De qué otra manera vas a minar obsidiana para tu &5Portal de Nether&f? ¡Sin embargo, tendrás que ganarte"]			hide_until_deps_complete: true
+			id: "3F89CA4C4696E582"
+			rewards: [
+				{
+					count: 2
+					id: "0CCE9E362C315A3A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3CD76E23C0670E08"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Una confiable herramienta"			tasks: [{
+				id: "12075E8E55A5FFCD"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pico de Diamante"			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F89CA4C4696E582"]
+			description: ["Esta brújula será una gran ayuda para encontrar estructuras. Perfecta para la aventura y perfecta para ayudarnos a encontrar secretos ocultos."]			id: "24769EF8C9AB848C"
+			rewards: [{
+				id: "672C40D56AA31D00"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "¡Nunca más te pierdas!"			tasks: [{
+				id: "7139D647DB1E31B1"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E5FDBAF23257C23"]
+			description: [
+				"Los Reinos de Soulrendia están lejos de vacío. Más allá de la Tierra de Nadie yacen asentamientos, viajeros, personas... y monstruos peligrosos..."				""
+				"Establece tu"			]
+			hide_until_deps_complete: true
+			icon: "furnish:oak_chair"
+			id: "2B25465C93B85F9F"
+			rewards: [
+				{
+					command: "/ftbquests open_book 3E89EBD6C01E2F99"
+					icon: {
+						Count: 1
+						id: "valarian_conquest:caladrian_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "69C167307E94E943"
+					title: "Mover a Capítulo de Facciones"					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0F7A087CC11FB122"
+					icon: "minecraft:grass_block"
+					id: "2E2D8D5A2071F873"
+					title: "Mover al Overworld Capítulo"					type: "command"
+				}
+			]
+			tasks: [{
+				id: "50AA0F0E5B277515"
+				title: "Nuevos Rostros, Nuevas Historias"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F32E6759F7E1AB0"]
+			description: [
+				"Si la vida de un guerrero no te atrae, hay otros caminos para volverte más fuerte."				""
+				"La Magia es una fuerza tejida en el tejido mismo de los Reinos de &cSoulrendia&r. Aquellos dispuestos a estudiar sus Secretos pueden empuñar Poderes mucho mayores de lo que cualquier Espada podría ofrecer. La elección es tuya."			]
+			hide_until_deps_complete: true
+			icon: "traveloptics:abyssal_hide_armor_hat"
+			id: "1A83047D85E293CD"
+			rewards: [
+				{
+					command: "/ftbquests open_book 6AD127305440E2A9"
+					icon: "irons_spellbooks:pyrium_staff"
+					id: "64DE3547DE7A1D7E"
+					title: "Mover a Escuelas de Magia Capítulo"					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 7370A599A59F3188"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7A33A4E8673F170E"
+					title: "Mover al Capítulo de Equipo de Magia"					type: "command"
+				}
+			]
+			tasks: [{
+				id: "471A991D9F6C2D64"
+				title: "El Sendero Arcano"				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FA91CAE48FB1208"]
+			description: [
+				"Mientras buscando entre los restos de los No Muertos, descubriste algo inusual."				""
+				"Esta extraña gema parece estar infundida con energía mágica. Su propósito es incierto, pero una cosa es segura: un objeto así no debería existir de forma natural. Quizás las criaturas de los Reinos de &cSoulrendia&r portan más que solo carne podrida."			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+			id: "4AE541D884741AB1"
+			rewards: [{
+				command: "/ftbquests open_book 5258930F6B77FFFC"
+				icon: "apotheosis:gem_cutting_table"
+				id: "58126D8F86DD7006"
+				title: "Mover a Capítulo de Reforja"				type: "command"
+			}]
+			tasks: [{
+				id: "0365E918EAE67C5C"
+				title: "Una Piedra Imbuida de Magia"				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F32E6759F7E1AB0"]
+			description: [
+				"¿Por qué arriesgar tu vida en combate cercano cuando tus enemigos pueden ser derrotados desde la distancia?"				""
+				"El arco recompensa a aquellos con una mano firme y un ojo agudo. En los Reinos de &cSoulrendia&r, una flecha bien colocada puede significar la diferencia entre la vida y la muerte."			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D910C57A9545E93"
+			rewards: [{
+				command: "/ftbquests open_book 479519EE08211C9B"
+				icon: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "mowziesmobs:poison_resist"
+					}
+				}
+				id: "71FF1A835F9FA6A4"
+				title: "Mover a Demasiados Arcos Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "7DAF6C1665F90DE6"
+				title: "El Camino del Explorador"				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FA91CAE48FB1208"]
+			description: [""]
+			icon: "minecraft:crying_obsidian"
+			id: "3A2DFE5A5BD56ECC"
+			rewards: [
+				{
+					command: "/ftbquests open_book 751BD6FBB1BFE56B"
+					icon: "minecraft:crying_obsidian"
+					id: "5AB4B6598E6CEF55"
+					title: "Moverse al Acto II"					type: "command"
+				}
+				{
+					id: "66233F149500CE03"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Acto I Completo"			tasks: [{
+				id: "76784906F5AE3F20"
+				title: "Acto II - Primeros Pasos"				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F32E6759F7E1AB0"]
+			description: ["Los Libros de Habilidades te permiten desarrollar tus habilidades y convertirte en más que un aventurero ordinario. Elige tus fuerzas sabiamente, pues cada decisión moldeará tu viaje."]			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "epicfight:skillbook"
+				tag: {
+					skill: "cdmoveset:bloodwolf"
+				}
+			}
+			id: "27BF4257316C637A"
+			rewards: [{
+				command: "/ftbquests open_book 48AC04F7294E1EA1"
+				icon: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:bloodwolf"
+					}
+				}
+				id: "572A603909D43184"
+				title: "Mover a Capítulo de Batalla Épica"				type: "command"
+			}]
+			tasks: [{
+				id: "197FF0A9AF9C9128"
+				title: "Libros de Habilidad"				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FA91CAE48FB1208"]
+			description: [
+				"Nadie se convierte en un cazador legendario de monstruos de la noche a la mañana."				""
+				"Cada enemigo derrotado trae valiosa experiencia. Sigue luchando, sigue aprendiendo, y tu nombre puede ser recordado algún día entre los más grandes."			]
+			icon: "dungeons_and_combat:bloody_dye"
+			id: "577C8CF5A461D6EA"
+			rewards: [{
+				command: "/ftbquests open_book 77522B561C5393B5"
+				icon: "dungeons_and_combat:bloody_dye"
+				id: "6DF282D9867D19F9"
+				title: "Mover a Capítulo de Reforja"				type: "command"
+			}]
+			tasks: [{
+				id: "7374FF53DCA4FCCF"
+				title: "El Comienzo de un Cazador"				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F32E6759F7E1AB0"]
+			description: [
+				"Para aquellos que no se ocultan en las sombras, ni confían en la magia inestable. La verdadera prueba de un guerrero reside en el peso del acero y el frío abrazo de la pesada armadura."				""
+				"Si buscas dominar el arte de la guerra medieval, forjar armaduras indestructibles y empuñar armas legendarias, tu viaje comienza aquí."			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "magistuarmory:armet"
+				tag: {
+					ArmorDecoration: {
+						Items: [{
+							color: -10092544
+							dyeable: 1b
+							name: "magistuarmory:big_plume"
+						}]
+					}
+					Damage: 0
+					display: {
+						Name: "{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Armet\"]}"
+					}
+				}
+			}
+			id: "52B0F602FCB04A5A"
+			rewards: [{
+				command: "/ftbquests open_book 7E874C7C6B0FECB0"
+				icon: {
+					Count: 1
+					id: "magistuarmory:armet"
+					tag: {
+						ArmorDecoration: {
+							Items: [{
+								color: -10092544
+								dyeable: 1b
+								name: "magistuarmory:big_plume"
+							}]
+						}
+						Damage: 0
+						display: {
+							Name: "{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Armet\"]}"
+						}
+					}
+				}
+				id: "1C2E1C6B0F037E13"
+				title: "Mover a Épico Caballero Capítulo"				type: "command"
+			}]
+			tasks: [{
+				id: "41A501558319542A"
+				title: "Cabaleros Épicos"				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+	]
+	title: "&3&l Acto I - Despertar"}

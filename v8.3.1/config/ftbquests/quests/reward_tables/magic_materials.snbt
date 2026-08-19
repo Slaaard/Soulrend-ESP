@@ -1,0 +1,14 @@
+{
+	id: "104B41B34B2DB386"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 2, item: "irons_spellbooks:mithril_ingot", weight: 0.5f }
+		{ item: "irons_spellbooks:mithril_ingot", weight: 0.75f }
+		{ count: 2, item: "irons_spellbooks:mithril_scrap", weight: 0.9f }
+		{ item: "irons_spellbooks:mithril_scrap", weight: 0.95f }
+		{ count: 16, item: "irons_spellbooks:magic_cloth" }
+		{ count: 4, item: "irons_spellbooks:arcane_ingot" }
+		{ count: 64, item: "irons_spellbooks:arcane_essence" }
+	]
+	title: "Materiales mágicos"}

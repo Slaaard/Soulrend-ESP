@@ -1,0 +1,522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_realms"
+	group: ""
+	icon: "waystones:waystone"
+	id: "08297027A1F40820"
+	images: [
+		{
+			height: 10.0d
+			image: "deeperdarker:item/warden_sword"
+			rotation: 135.0d
+			width: 10.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.3d
+			image: "supplementaries:block/pedestal_side_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "55A21D1598641602"
+			height: 3.0d
+			image: "lootr:block/barrel_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			click: "#48AC04F7294E1EA1"
+			dependency: "321216AE82C1B92C"
+			height: 2.2d
+			image: "wom:textures/gui/skills/weapon_innate/plunder_perdition.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 0.0d
+			y: -4.9d
+		}
+		{
+			dependency: "55A21D1598641602"
+			height: 1.7d
+			image: "justlevelingfork:item/leveling_book"
+			rotation: 0.0d
+			width: 1.7d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependency: "55A21D1598641602"
+			height: 1.7d
+			image: "justlevelingfork:item/leveling_book"
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			alpha: 150
+			dependency: "55A21D1598641602"
+			height: 2.0d
+			image: "waystones:block/andesite_wayston_top"
+			rotation: -90.0d
+			width: 2.0d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			alpha: 150
+			dependency: "55A21D1598641602"
+			height: 2.0d
+			image: "waystones:block/andesite_waystone_bottom"
+			rotation: -90.0d
+			width: 2.0d
+			x: -3.3d
+			y: -3.5d
+		}
+		{
+			click: "https://discord.gg/xREP8pjNzs"
+			dependency: "55A21D1598641602"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&7Estas tierras tienen incontables por conquistar, forja tu camino a través de &l&4Soulrend&r &7con&r &lmiles&r &7de misiones por desbloquear.&r"]			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+			id: "55A21D1598641602"
+			shape: "none"
+			size: 2.5d
+			subtitle: "Los Reinos Necesitan Un Héroe"			tasks: [{
+				id: "399DFC00AEB4AD93"
+				title: "Los Reinos"				type: "checkmark"
+			}]
+			title: "&lBienvenido a Soulrend"			x: 0.0d
+			y: -1.3d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"Pulsa &d[&lBotón Central&r&d]&r (ratón) para fijar a los enemigos"				""
+				"Pulsa &d[&lIzquierda-Alt&r&d]&r para realizar un esquivar rodar o paso"				""
+				"Pulsa &d[&lHaz Clic Derecho&r&d]&r (ratón) para protegerte de un ataque"				""
+				"Con el modo de combate especial, desatarás habilidades de arma especiales y usarás conjuntos de movimientos de combate épicos únicos para el equipo, además de poder minar."			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "epicfight:diamond_dagger"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "321216AE82C1B92C"
+			rewards: [
+				{
+					id: "6D576462C3CDC073"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "efn:efn_parry"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6577C94AA32DA638"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "epicfight:guard"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F60292A45E51D3"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "efn:efn_dodge"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B67F75D8B806D85"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "epicfight:step"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "2B4BE9C492AA0DA5"
+				title: "Modo Combate [R]"				type: "checkmark"
+			}]
+			title: "&lÉpico Combate"			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["Pueden acceder a la pantalla de nivelación a través de una &l&dpestaña en su menú de inventario&r; allí encontrarán diferentes atributos que pueden subir de nivel. Tienen que superar un umbral de daño para &l&6Nivel Superior&r&r."]			hide_until_deps_complete: true
+			icon: "furnish:book_pile"
+			id: "79E68DB1D1C62243"
+			rewards: [{
+				id: "1F369C9016D48B91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Crece en Poder"			tasks: [{
+				id: "054FD66B26DFB298"
+				title: "Subiendo de Nivel"				type: "checkmark"
+			}]
+			title: "&l&bSubiendo de Nivel"			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79E68DB1D1C62243"]
+			description: [
+				"El segundo sistema de progresión son los &lÁrboles de Habilidades&r; puedes acceder a los &lÁrboles de Habilidades&r presionando &l&d[O]&r (predeterminado) o con la pestaña en tu menú de &linventario&r. Allí, encontrarás &dcientos de habilidades&r y &dventajas&r por desbloquear."				""
+				"Para ganar puntos de habilidad debes infligir daño, rastreado en el &lmenú de nivelación&r. Cuando haces &l&6Nivel Superior&r ganas &l1 habilidad&r y &l1 punto de atributo&r."			]
+			hide_until_deps_complete: true
+			icon: "skilltree:wisdom_scroll"
+			id: "5E635B38BD4C9FEE"
+			rewards: [{
+				id: "668A6BDE8CF2EBE8"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			subtitle: "Desbloquea Ventajas Únicas"			tasks: [{
+				id: "664B1E074945F8F8"
+				title: "El Árbol de Habilidades"				type: "checkmark"
+			}]
+			title: "&bEl Árbol de Habilidades"			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"El menú &d&lJ e I&r&r está en el lado &lDerecha&r del menú de inventario, con una barra de búsqueda para él debajo del inventario del jugador."				""
+				"&d&lJ e I&r&r te ayudará a navegar por las vastas cantidades de bloques y objetos, simplemente &l¡Haz Clic!&r en un objeto para ver la receta de crafteo (si la hay), y &l¡Haz Clic!&r para ver para qué se puede usar el objeto para craftear."				""
+				"En el menú de objetos individuales también puedes ver qué criaturas sueltan el objeto dado, y qué otras mecánicas craftear dicho objeto."			]
+			hide_until_deps_complete: true
+			icon: "waystones:return_scroll"
+			id: "066E846D6D497AFF"
+			rewards: [{
+				id: "5E4B6CB72A491363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Manifiesto"			tasks: [{
+				id: "0F69D3D67D59486C"
+				title: "EMI y Menús"				type: "checkmark"
+			}]
+			title: "&l&dJ e I Menú"			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["066E846D6D497AFF"]
+			description: [
+				"En &4&lSoulrend&r utilizarás misiones para el progreso de tu aventura. Desde ganar recompensas hasta derrotar poderosos jefes, y aprender a usar mecánicas en el juego, el &dLibro de Misiones&r será el compañero de tu jugador."				""
+				"- &7&lEl Sendero Exaltado&r El Sendero Exaltado es la trama principal de Soulrend, guiándote a través de cada gran Game Stage de tu aventura."				"- &6&lAscenso del Campeón&r te guiará a través de la progresión de equipo básico."				"- &c&lHistorias de Soulrend&r contiene las muchas historias, leyendas y desafíos dispersos por todo el Entorno."				"- La &l&6Armería Legendaria&r tiene información sobre equipo especializado que te asistirá en tu sendero."				"- &l&dLos Reinos Leyenda&r te enseñarán acerca de los reinos de &cSoulrend&r, y te ayudarán a asentar estas tierras hostiles."			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "461C5DF122F6FDBC"
+			rewards: [{
+				id: "3B2E00A8555E5DC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Usando el Libro de Misiones"			tasks: [{
+				id: "15AA2E14C47F56C4"
+				title: "&dBúsqueda de Misiones"				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["&lTom's Simple Storage&r te permite crear sencillos &9redes de almacenamiento&r, conectando cofres y otros inventarios en un único terminal para un acceso fácil."]			hide_until_deps_complete: true
+			icon: "toms_storage:ts.wireless_terminal"
+			id: "48DB883D12A51051"
+			rewards: [
+				{
+					count: 3
+					id: "6121083FEF490081"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D75489DDFA5BAF7"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			subtitle: "Una Solución de Almacenamiento Super Sencilla"			tasks: [{
+				id: "65AB2924574E18A7"
+				title: "&lTom's Simple Storage"				type: "checkmark"
+			}]
+			title: "&lTom's Simple Storage"			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48DB883D12A51051"]
+			description: [
+				"Un &lConector de Inventario&r hace lo que suena, conecta cofres, barriles, etc. juntos para formar una red de almacenamiento. Simplemente ubica el &lConector de Inventario&r donde esté tocando una unidad de almacenamiento y conectará todos los inventarios adyacentes."				""
+				"Puedes craftear uno con &l4 tablones&r, &l2 cofres&r, &l1 perla enderman&r,"			]
+			id: "7742E2A97ED2CE1C"
+			rewards: [
+				{
+					id: "128E14DCB55AB243"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "75BCDAECE59EDCDC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Conecta Inventarios Juntos"			tasks: [{
+				id: "5C9A66C085DB2DCB"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48DB883D12A51051"]
+			description: [
+				"Un &lTerminal de Almacenamiento&r te permite acceder a tu &lred de almacenamiento&r en una única interfaz. Ubica el &lTerminal de Almacenamiento&r sobre el &lConector de Inventario&r para acceder a tu &lred de almacenamiento&r."				""
+				"Para craftear uno, necesitarás, &l4 tablones&r, &l1 cofre&r, &l1 Bloque de vidrio&r, &l&e1 Bloque de piedra luminosa&r, y &l2 Comparadores de redstone&r. Revisa tu menú &l&dEMI&r para la receta."			]
+			id: "45CB2435B6BC27ED"
+			rewards: [
+				{
+					count: 2
+					id: "5BBF34625A2F3E6E"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "316A568282C8176A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Interactúa con la Red"			tasks: [{
+				id: "0A2171D152555F9C"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A998F65024DD508"]
+			description: [
+				"La mecánica de Recolección ha sido"				""
+				"Alternativamente, puedes &lrecoger todas las obtenciónes a tu alrededor&r como Base mediante &l&dAgachado&r, &lútil para objetos entre la hierba&r."			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "seadwellers:item/collector_loot_crate"
+				}
+			}
+			id: "7FDD515A9A61FC09"
+			rewards: [{
+				id: "4A13EF168A69C0E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Manifiesto"			tasks: [{
+				id: "1F84774527CFB946"
+				title: "Completar"				type: "checkmark"
+			}]
+			title: "Mecánicas de Botín y Recolección"			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"¡Felicidades! Has comenzado tu viaje con un &lRaza y Clase&r seleccionado, pero ¿qué pasa si en realidad no quieres lo que elegiste?"				""
+				"Usa este &bOrbe de orígenes&r para reseleccionar, pero ten cuidado, &l&7you can only use it once&r&r."			]
+			hide_until_deps_complete: true
+			icon: "origins:orb_of_origin"
+			id: "0A998F65024DD508"
+			rewards: [{
+				id: "7C06B35B98923087"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "Manifiesto"			tasks: [{
+				id: "6F24F75019182284"
+				title: "Orígenes y Clases"				type: "checkmark"
+			}]
+			title: "&lOrigen y Clase&b"			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["Una &l&dPiedra de Salto&r te permite teletransportarte a cualquier piedra de viaje descubierta con un enfriamiento de 5 minutos&r."]			hide_until_deps_complete: true
+			id: "03156CCE4B7A5863"
+			rewards: [
+				{
+					id: "0260C436FB3A4E57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "380FC935B1890DCA"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Teletransportación de Bolsillo"			tasks: [{
+				id: "2F7B600FA3FD5243"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dPiedra de Salto"			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["Un &l&7Pergamino de Salto&r permite la teletransportación a cualquier piedra de viaje antes de ser destruido."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6DEDDD798398D437"
+			rewards: [{
+				id: "2DA2B9380C74E229"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			size: 1.2d
+			subtitle: "Transporte Único Uso"			tasks: [{
+				id: "246E5BA4FD44AFD2"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "&dPergamino de Salto"			x: -4.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["Ubica y activa una &l&7Piedra de viaje&r para usar como un conducto de teletransportación desde otros &lPiedras de Portal, Pergaminos de Salto y Piedras de Salto&r."]			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "03A297F45C588785"
+			rewards: [
+				{
+					count: 2
+					id: "22B99C0629B67D56"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+				{
+					id: "69B44BB9471372F2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Solución de Transporte Permanente"			tasks: [{
+				id: "7DFD34DD20BC8DB6"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "&l&7Piedra de viaje"			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"45CB2435B6BC27ED"
+				"7742E2A97ED2CE1C"
+			]
+			id: "6B8493B059631998"
+			subtitle: "¡Las Bóvedas de Objetos de Crear permiten un almacenamiento de objetos de alto rendimiento! Además, son económicas."			tasks: [{
+				count: 36L
+				id: "6D46C2347A4293BB"
+				item: { Count: 36, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["066E846D6D497AFF"]
+			description: ["Algunas recetas más simples usan mesas de herrería para mejorar equipo. Otras usan tablas de crafteo. ¡No teman! &lSus Gemas, Encantamientos, afijos, y demás no serán Eliminados&r y en su lugar se transferirán al equipo artesano."]			hide_until_deps_complete: true
+			id: "007BEE9AD2126881"
+			subtitle: "Mejorar el equipo ha nunca sido tan fácil."			tasks: [{
+				id: "5FCE05F8CC5A6424"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Mejorando Equipo"			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["066E846D6D497AFF"]
+			description: [
+				"Soulrend viene con un &6&lPersonalizado Misión UI&r, diseñado para que tu aventura se sienta más inmersiva y gratificante."				""
+				"Aunque el menú de Misiones FTB Estándar sigue disponible, presionar &c&lJ&r abrirá una interfaz de misión completamente rediseñada, ofreciendo una forma fresca de seguir tu viaje a través del entorno."			]
+			icon: "irons_spellbooks:book_stack"
+			id: "213212B84FD10E82"
+			tasks: [{
+				id: "355A005FCA53196F"
+				title: "Interfaz de Usuario de Nueva Misión &6"				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	title: "&l Prólogo"}

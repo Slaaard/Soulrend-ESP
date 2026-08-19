@@ -1,0 +1,1311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soulslike_weaponry"
+	group: "578CEED7CC7D235C"
+	icon: "soulsweapons:lost_soul"
+	id: "580F3D6E25D65E2C"
+	images: [{
+		height: 10.0d
+		image: "soulsweapons:item/frostmourne"
+		rotation: 134.5d
+		width: 10.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DFDAAA27B3775A3"]
+			disable_toast: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "26C8BD551FCBAF73"
+			rewards: [{
+				id: "6F50F18CBB5EB01F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Estas dos piedras serán cruciales para la creación de tu equipo del alma; recuerda cosechar muchas."			tasks: [
+				{
+					id: "3ECB3F6B6447E99A"
+					item: "soulsweapons:moonstone"
+					type: "item"
+				}
+				{
+					id: "1351A284A06C68CF"
+					item: "soulsweapons:verglas"
+					type: "item"
+				}
+			]
+			title: "Fuente Lunar"			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "38071F25062C6A80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36D83D213A9AD80B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Baratos imitaciones de lo que un verdadero equipo de alma es, utilizados por luchadores caídos tales como Remanentes."			tasks: [
+				{
+					id: "43A7A694636F3248"
+					item: {
+						Count: 1
+						id: "soulsweapons:translucent_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "347FCE8A574D7164"
+					item: {
+						Count: 1
+						id: "soulsweapons:translucent_glaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29F5B7F9F9600D55"
+					item: {
+						Count: 1
+						id: "soulsweapons:translucent_double_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armas Transparente"			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6FFB1706571FEA29"]
+			id: "3B71FB3AE821FA02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DD2C13295869BC1"
+				table_id: 5740687291917975057L
+				type: "loot"
+			}]
+			subtitle: "El Anillo Lunar otorga al portador la habilidad de lanzar olas mágicas por un corto tiempo, permitiéndole incluso disparar desde la distancia solo con sus manos."			tasks: [{
+				id: "0E4427FFDCF83625"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonstone_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caminante Lunar"			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "50A5E551E0CD8765"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A299885BDDA52A1"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Haciendo uso de la Piedra Lunar que encontraron, ustedes decidieron ver si son capaces de crear un arma poderosa."			tasks: [
+				{
+					id: "591AB2A0E90CB276"
+					item: {
+						Count: 1
+						id: "soulsweapons:bluemoon_shortsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE931C23BD724AA"
+					item: {
+						Count: 1
+						id: "soulsweapons:bluemoon_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Luna de Imitación"			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50A5E551E0CD8765"]
+			id: "6FFB1706571FEA29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E8287EF7021D152"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Después de insertar un alma poderosa en las espadas, estas ahora parecen haber despertado con el poder de la Luna."			tasks: [
+				{
+					id: "48DCD09A0A871EE1"
+					item: {
+						Count: 1
+						id: "soulsweapons:moonlight_shortsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31E88B4250AF1603"
+					item: {
+						Count: 1
+						id: "soulsweapons:moonlight_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Algo le falta..."			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6FFB1706571FEA29"]
+			id: "21911ABACED7FFA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CD7474DB34EE2A5"
+				table_id: 2238362529489443161L
+				type: "random"
+			}]
+			subtitle: "Has adquirido el arma personal del Caballero y su peto, y ahora tienes la capacidad de invocar el poder de la Luna como propio."			tasks: [{
+				id: "0EE46D035D5886AF"
+				item: {
+					Count: 1
+					id: "soulsweapons:pure_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Herencia del Caballero"			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "7CF8A1A229D73A92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C31753E58F9CBB3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Esta espada es interesante, permite al portador sentir hostiles cercanos, ¿quizás puede ser útil en una incursión?"			tasks: [{
+				id: "3330062EEDC11DBF"
+				item: {
+					Count: 1
+					id: "soulsweapons:sting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "¡Alerta!"			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "643F26D2104DE762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB818394A2D611B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una poderosa guadaña, artesana de usar poderoso metal de alma para crear un arma que representa la muerte. Invoca a los muertos para que hagan tu voluntad."			tasks: [{
+				id: "12FCE823DC1B9709"
+				item: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Nadie puede detener a la Muerte..."			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fallen_gems_affixes:augment_capability": {
+						Augments: [{
+							Test: "test"
+						}]
+					}
+				}
+				id: "soulsweapons:forlorn_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C8E7652FA14ED8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "721E53C9C79EF164"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una guadaña únicamente encontrada al matar Desolados Malvados, ponlos a descansar y que sean recordados."			tasks: [{
+				id: "130983AA27EBCBA4"
+				item: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Uno de los Olvidados"			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "0BF11218B309BCF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1764D8A5ABC9A7B3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Un arma que inflige daño mágico verdadero basado en cada golpe y nivel de aspecto de fuego, pero solo por encima de un tercio de la salud de la diana."			tasks: [{
+				id: "3C3EA4799654A7C5"
+				item: {
+					Count: 1
+					id: "soulsweapons:lich_bane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Es Hora de Purificar"			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "5939BE272DC09B1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37B976942FD25197"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una lanza con el poder de un cometa acelerado, lista para estrellarse contra cualquier diana."			tasks: [{
+				id: "26236BC9E760C601"
+				item: {
+					Count: 1
+					id: "soulsweapons:comet_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Estrella Fugaz"			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "08CA92A3CDF42F15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5932575E9FAC74CB"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Un buen arco que puede aumentar la gracia terrible de un portador cuanto más se tira su cuerda con su mano no dominante."			tasks: [{
+				id: "0BB2566384B8CB65"
+				item: {
+					Count: 1
+					id: "soulsweapons:galeforce"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Escapa como el Viento"			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "245F218AF09E2AC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD9C16C44B1A31B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una arma sencilla pero efectiva que se fortalece cuando cae la noche."			tasks: [{
+				id: "1FBB3E61F002F6EF"
+				item: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "La Noche es mi Poder"			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "15C10A8693E3DE56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28DFBAC43E36347A"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una arma que contiene energía demoníaca. Su único propósito es sanar al portador a cambio de la sangre de sus dianas."			tasks: [{
+				id: "1AAE21BC4558A2E2"
+				item: {
+					Count: 1
+					id: "soulsweapons:bloodthirster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sed de Sangre"			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "2475FA2D5A0C8854"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BF98965871326FC"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una arma de alma que alberga el poder de un verdadero demonio."			tasks: [{
+				id: "2A92003A9D6C3D9E"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Paga con tu sangre"			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			description: ["¿Buscas Hierro Carmesí? Mata a algunos Desolados para obtener Corazón de Demonio Fundido."]			id: "56006B58B4352E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71FB3F1B0A9EF136"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una guadaña no evolucionada que está lista para cosechar almas, pero ¿qué almas deseas cosechar?"			tasks: [{
+				id: "159C32B1CD284732"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe_pre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El Alma (Renderizado)"			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "41201D91E5306FCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1010F31D1ACC28A0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una hacha devastadora que congela a los enemigos y los hace explotar con trozos de hielo al morir."			tasks: [{
+				id: "441B3B29B090F522"
+				item: {
+					Count: 1
+					id: "soulsweapons:leviathan_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Congelar los Entornos"			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "779BDC14D8FF6F70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "169952251BD7322B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Un bastón muy peculiar que obliga al portador a apostar por efectos que pueden o no ser beneficiosos para las batallas del portador."			tasks: [{
+				id: "2D0F143F09693BD0"
+				item: {
+					Count: 1
+					id: "soulsweapons:withered_wabbajack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Apuesta tu vida"			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "7B03C1492C12657E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F564EFBAD0AD807"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "El Arma Personal de Thor: el martillo es un arma devastadora capaz de invocar iluminación."			tasks: [{
+				id: "693BD128F78FBEE5"
+				item: {
+					Count: 1
+					id: "soulsweapons:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			hide_text_until_complete: false
+			id: "25CBEA200061244E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30115124797F6784"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Un mazo devastador empuñado por un Caído Caballero, utilizado para Invocar las almas de Soldados Caídos."			tasks: [{
+				id: "264B1D976D37ADF7"
+				item: {
+					Count: 1
+					id: "soulsweapons:nightfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Despertad, almas mancilladas"			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "33D74677733BD8CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B39A189D363CA53"
+				table_id: 7543698869780679326L
+				type: "loot"
+			}]
+			subtitle: "Una espada legendaria con mente propia y que puede luchar por ti sin que la sujetes."			tasks: [{
+				id: "2382683DB44BBBD8"
+				item: {
+					Count: 1
+					id: "soulsweapons:freyr_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Por Tu Voluntad"			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["56006B58B4352E97"]
+			id: "532AEC1657945F45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D064D0F51D2BD2A"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Una guadaña evolucionó al absorber almas rojas, y permite al portador sanar cuanto más ataca a las criaturas cuando la habilidad no está en enfriamiento."			tasks: [{
+				id: "4F1CB2F7656D15FF"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Danzarín de Sangre"			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56006B58B4352E97"]
+			id: "07C02F8158472D7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F09EFC760BF28ED"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "Una guadaña evolucionó desde absorber almas azules, y permite al portador tener gracia terrible y daño durante los primeros pocos segundos tras el combate."			tasks: [{
+				id: "56FE853A6653238B"
+				item: {
+					Count: 1
+					id: "soulsweapons:shadow_assassin_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Entre las Sombras"			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1FF2991FCD3B3CEB"]
+			hide_until_deps_complete: true
+			id: "5DFDAAA27B3775A3"
+			rewards: [{
+				id: "1C11B17AADC781E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Todo comienza con una arena de alma"			tasks: [{
+				id: "0597F8507AAD83E8"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "El Comienzo"			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "5FE0679FED8602F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B0FFC7D5E6FB36A"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Un artefacto de la Luna Llena, frío y plomizo, que golpea a los enemigos con su toque escalofriante."			tasks: [{
+				id: "0375EDD903403E91"
+				item: {
+					Count: 1
+					id: "soulsweapons:dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "5CCE5A8E198B203A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "241EF04D03D4CED0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "El glaive de un poderoso guerrero, que gana poder aumentado por cada golpe que asestas."			tasks: [{
+				id: "3326930D7B25A143"
+				item: {
+					Count: 1
+					id: "soulsweapons:glaive_of_hodir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "64E620AC64BB1EB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "304BFE67949AC5FD"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una katana maestra que canaliza el poder de la Luna para desatar olas de energía y rápidos cortes."			tasks: [{
+				id: "394214EF98684E87"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonveil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "5D06E8741A3646AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22038B5B90EBAFD0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Esta arma es un poco peculiar; puede transformarse en otra arma diferente con una habilidad distinta cuando se desea."			tasks: [{
+				id: "43E36C304BA06993"
+				item: {
+					Count: 1
+					id: "soulsweapons:simons_bowblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "La Hoja de Arco"			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DFDAAA27B3775A3"]
+			description: ["Si no deseas seguir la progresión de Espadas Simples, o Armas de Milagro, o Armas, elige de una variedad de Otro armas interesantes en su lugar."]			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "474D98A256F85C9D"
+			shape: "octagon"
+			tasks: [{
+				id: "2EDF93E22CD7EF7E"
+				title: "¡Más armas al estilo soulslike!"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "45357E383D6E8728"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EDC363C87A35CBF"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Una guadaña únicamente encontrada al matar Desolados Malvados, ponlos a descansar y que sean recordados."			tasks: [{
+				id: "3056ABA39D176BD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:guts_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "66D06452CCAFBC5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "627FE99DFC4FBE55"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55989498B88B1A4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:oath_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "56FD1105257A279F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08807D398F673DE3"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "130C2018175BA444"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "dungeons_and_combat:sunrise_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "45956EB233379D56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13178FE57EDFE88C"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72DDDC9A5BC33C1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:rageblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "2E155BB9467802AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "145441F2FED66344"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AD04FE8C65760AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:dragonslayer_swordspear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "0A5996BA178C4111"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B0E699E93CC7BDD"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D033584C4877078"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:whirligig_sawblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["474D98A256F85C9D"]
+			id: "2ACBDAAB53B2CA00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E08FEB0092CF3E0"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E337DAB12834CCF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "698424F5B5F8F26D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E2B45F4F70556E4"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61C82AEDAB92E997"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:featherlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "3953B2C6FEBA8A2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493222A381B74F42"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "126EAECFA2FD12B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:crucible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "38BBDCC39BBC9E0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78E2304D5FCE49C4"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "312427484280C4B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:kirkhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "62B861CFB63B9BC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F7E4BFF004BC4E"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EF387E326467D77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:holy_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "4051C581028AA419"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "343F985F788D1844"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C7931838C76E12D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:draupnir_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "663716FE34E60CB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31F25F85A88A64BF"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51F10B4052C4547A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:holy_moonlight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "01AF85F51552062F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E1EE17388E88510"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F0A888288A97FFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "1876C4EC083DD882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6FAE170D2AC762"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DA4D5BDE088F32C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:master_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "4801AFF695B61FEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6031148BCA78ABCA"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78121540C8924607"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:nights_edge_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2ACBDAAB53B2CA00"]
+			id: "107A1CEFCFEA48E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "156B615AD428490B"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C6A0363977DF0DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:empowered_dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "2A4AB8313B19D9FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47D5353ABA4D6C97"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BCC999137A54C1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:dragonbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["26C8BD551FCBAF73"]
+			id: "3F31323C9B9F87AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F0E01FF4002626"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44B7173B86DB9D21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "soulsweapons:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+	]
+	title: "&bArmamento Estilo Almas"}

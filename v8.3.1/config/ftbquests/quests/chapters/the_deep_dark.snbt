@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_deep_dark"
+	group: "7C77405D74600A5D"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:sculk_catalyst"
+	id: "5D0C3993CA025D16"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 6.0d
+			image: "deeperdarker:item/soul_elytra"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependency: "704CCA2CEAB23B4D"
+			height: 1.3d
+			image: "deeperdarker:item/heart_of_the_deep"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			hide_until_deps_complete: true
+			id: "6E7D3242496F4501"
+			rewards: [{
+				id: "64D2CD3086F0814E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:sculk_bone"
+				id: "5B9501581479A2EC"
+				title: "Mata a un Destrozado"				type: "kill"
+				value: 1L
+			}]
+			title: "Mata a un &3Destrozado"			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			hide_until_deps_complete: true
+			id: "192EE909C57F390A"
+			rewards: [
+				{
+					id: "32D7431007C483AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3CA307FCFE64A7F0"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+			]
+			subtitle: "Rara probabilidad de generar después de romper un &8Jarrón Antiguo&r."			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "1D807C8DC05EF208"
+				title: "Mata a un Acechador"				type: "kill"
+				value: 1L
+			}]
+			title: "Mata a un &3Acechador"			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			hide_until_deps_complete: true
+			icon: "deeperdarker:soul_dust"
+			id: "3CBDB45D65737212"
+			rewards: [{
+				id: "65BC1997E31DF6FD"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Encontrado al pisar Sculk Infestado"			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:sculk_bone"
+				id: "3D7BD985875AFF57"
+				title: "Mata a un Gusano Chillador"				type: "kill"
+				value: 1L
+			}]
+			title: "Mata a un &7Gusano Chillador"			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57F46262D879BF01"]
+			id: "704CCA2CEAB23B4D"
+			rewards: [{
+				id: "336DFFDBA2B4F736"
+				item: "deeperdarker:ancient_vase"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Se siente vivo..."			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "474D2D76F2256297"
+				title: "Entra al Otro Lado"				type: "dimension"
+			}]
+			title: "&8&lEntra al Otro Lado"			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			hide_until_deps_complete: true
+			id: "7603F095004B4EE1"
+			tasks: [{
+				id: "786D5CA4A664CC01"
+				item: "deeperdarker:resonarium_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6E7D3242496F4501"
+				"3CBDB45D65737212"
+				"192EE909C57F390A"
+			]
+			id: "05FC334421854DB3"
+			rewards: [{
+				id: "155725306F77CAA4"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51C3176B789D066C"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			hide_until_deps_complete: true
+			id: "3B2172A0730F8CC6"
+			tasks: [{
+				id: "18D67676D6BD40DF"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "&3El Otro Lado"}

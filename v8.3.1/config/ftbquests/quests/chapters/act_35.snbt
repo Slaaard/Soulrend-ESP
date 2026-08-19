@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_35"
+	group: "59FD824E9CBEF444"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:sculk_shrieker"
+	id: "679E301B7643E1ED"
+	images: [
+		{
+			height: 10.0d
+			image: "dungeons_and_combat:item/dragonsteel_ice_greatsword"
+			rotation: 135.0d
+			width: 10.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			dependency: "57F46262D879BF01"
+			height: 3.0d
+			image: "mowziesmobs:textures/particle/burst_messy.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57F46262D879BF01"]
+			description: [
+				"La curiosidad ha llevado a muchos aventureros subterráneos en busca de respuestas."				""
+				"Más allá del antiguo portal yace un entorno de penumbra sin fin, ecos misteriosos y horrores acechando justo más allá de la vista. Las profundidades ocultan reliquias poderosas y enemigos aterradores por igual."				""
+				"Si buscas la verdad oculta bajo el entorno, prepárate para abrazar la Muy Oscuridad."			]
+			id: "591A7010D78B40B8"
+			rewards: [{
+				id: "43BE3AF38EBF14D9"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Este acto es opcional"			tasks: [{
+				id: "4316171A4BA7313E"
+				title: "Más profundo y oscuro"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39B83431BA6CE911"]
+			description: ["La Prisión del Lich se alza como un sombrío recordatorio de una era olvidada, sus pasillos resuenan con los remanentes de aquellos condenados al confinamiento eterno. Cualquier maldad que fue sellada aquí ha escapado desde hace mucho tiempo de sus cadenas."]			id: "53D856916741FBF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4F2BF59521FB96"
+				table_id: 6124952976838404355L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:bone_block"
+				id: "3F70572BAA5E026E"
+				structure: "graveyard:lich_prison"
+				title: "Prisión del Lich"				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53D856916741FBF8"]
+			description: [
+				"Las leyendas hablan de un campeón que se alzó por encima de todos los demás."				""
+				"Ahora, solo queda un caparazón corrompido. Impulsado por la locura e imbuido por la oscuridad, el guerrero caído comanda una marea interminable de enemigos menores para que luchen en su lugar."				""
+				"Corta a través de la horda, mantén tu posición, y pon fin al tormento del Campeón."			]
+			id: "568DCA96856B1EFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "119108EA45D3ACF4"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "67708A39EF583A5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67DE8C9576392B54"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "minecraft:skeleton_skull"
+				id: "336C67A56F25381D"
+				title: "Derrota al Campeón Corrupto &8&l"				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["49D346CBD24ADC6C"]
+			id: "39B83431BA6CE911"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DFDC551CDABE9FB"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E4C927FD12AF552"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "Sirvió para invocar..."			tasks: [{
+				id: "41092EB1DB94E4D0"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["591A7010D78B40B8"]
+			description: [
+				"Bajo la Muy Oscuridad de la Profundidad se alza un Monumento Oceánico a una civilización hace mucho tiempo Olvidada."				""
+				"Aunque el tiempo ha desvanecido su grandeza, el Templo Antiguo aún guarda los secretos de quienes vinieron antes. Sus salones están llenos de peligros ocultos, reliquias valiosas y misterios esperando ser descubiertos."				""
+				"Pisa con cautela. Algunos saberes fueron enterrados por una razón."			]
+			id: "49D346CBD24ADC6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128800B2A1E36CC2"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "immersive_weathering:soul_fire"
+				id: "117FD6EB2E61E567"
+				structure: "deeperdarker:ancient_temple"
+				title: "Templo Antiguo"				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			id: "085C70089ED0ABCF"
+			rewards: [{
+				id: "4B6151841B5686F2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "3BB95A945CEDD328"
+				item: "graveyard:white_bone_staff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.4d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			id: "120006A0A6C67668"
+			rewards: [{
+				id: "013A8FA4063FFE18"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "41BB19D7767E6385"
+				item: "graveyard:black_bone_staff"
+				type: "item"
+			}]
+			x: -2.4d
+			y: 10.799999999999999d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			id: "2E3597E0910CF21D"
+			rewards: [{
+				id: "611F195194983F63"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "0E7170B429864CD2"
+				item: "graveyard:red_bone_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			id: "09140B8E81D10925"
+			rewards: [{
+				id: "2AE3B112FEDCCB66"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "4C729613E896C101"
+				item: "graveyard:cyan_bone_staff"
+				type: "item"
+			}]
+			x: 2.4d
+			y: 10.799999999999999d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			id: "059B1F92EA7FF52E"
+			rewards: [{
+				id: "43A84F66BD2E56E7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "4DD1071C64C06FB9"
+				item: "graveyard:purple_bone_staff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.4d
+		}
+		{
+			dependencies: ["568DCA96856B1EFE"]
+			icon: "minecraft:sculk_shrieker"
+			id: "48EEB120E7BD8E85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CE9A5D5483D7A74"
+				table_id: 2238362529489443161L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "Si deseas continuar tu viaje, completa el Acto III - Hacia las Llamas"			tasks: [{
+				id: "6AB6C4E83F26B13A"
+				title: "Act III Más profundo y oscuro - Completado"				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+	]
+	title: "&l&9Acto III - Más profundo y oscuro"}

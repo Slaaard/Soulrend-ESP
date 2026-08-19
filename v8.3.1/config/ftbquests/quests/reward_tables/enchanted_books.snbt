@@ -1,0 +1,131 @@
+{
+	id: "6E2A6962E3ACEBCB"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:book" }
+		{ count: 16, item: "minecraft:book" }
+	]
+	title: "Libros Encantados"}

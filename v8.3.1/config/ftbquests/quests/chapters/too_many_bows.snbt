@@ -1,0 +1,1447 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "too_many_bows"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "too_many_bows:ancient_sage_bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1962E6CE9C573B9D"
+	images: [
+		{
+			height: 4.0d
+			image: "medieval_paintings:painting/alleria_the_archer"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.230769230769248d
+			y: -4.907723421944084d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:item/cit/bow/infinity_pulling_0"
+			rotation: -90.0d
+			width: 8.0d
+			x: 15.5d
+			y: -11.0d
+		}
+		{
+			height: 5.0d
+			image: "supplementaries:item/quiver_full"
+			rotation: -45.0d
+			width: 5.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "skilltree:icons/arrow_bronze"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "skilltree:icons/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "skilltree:icons/arrow_emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "cataclysm:textures/entity/deepling/deepling_warlock_mark1.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.5d
+			y: -13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			height: 2.0d
+			image: "amendments:item/dragon_charge"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "furnish:block/cobweb_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2857142857142918d
+			y: -10.196428571428577d
+		}
+		{
+			height: 1.0d
+			image: "furnish:block/cobweb_bottom"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.8214285714285836d
+			y: -10.196428571428577d
+		}
+		{
+			height: 1.0d
+			image: "furnish:block/cobweb_bottom"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.2857142857142918d
+			y: -10.785714285714299d
+		}
+		{
+			height: 1.0d
+			image: "furnish:block/cobweb_bottom"
+			rotation: 179.99d
+			width: 1.0d
+			x: 0.7857142857142989d
+			y: -10.750000000000014d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			height: 3.0d
+			image: "soulsweapons:item/essence_of_eventide"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			height: 1.5d
+			image: "supplementaries:textures/particle/sonic_boom_13.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/sheep_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/jungle_sapling"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/target_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/raw_gold"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D910C57A9545E93"]
+			hide_until_deps_complete: true
+			id: "479519EE08211C9B"
+			rewards: [{
+				id: "2304B54359F01721"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Una línea de misiones para verdaderos arqueros, ¡expandiendo tu arsenal con más de 30 arcos legendarios!"			tasks: [{
+				id: "0A8F19B7B07A9356"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "¡Demasiados Arcos!"			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B9E87EB9DCB1FD8"]
+			id: "2E57960B5CCF1C9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "018393DCDE9C6D19"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "174E7CB0B158C6FF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "502710F44E864BA5"
+				item: {
+					Count: 1
+					id: "too_many_bows:aethers_call"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E57960B5CCF1C9F"]
+			id: "57A18E99CF22B68C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B07B6FC2964E263"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC7C3A2BCA5665E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "38A6D952AB62B15F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Cuando vuelas demasiado cerca del sol."			tasks: [{
+				id: "73AB736E9E4614EE"
+				item: {
+					Count: 1
+					id: "too_many_bows:burnt_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B9E87EB9DCB1FD8"]
+			id: "2519DD213A7ED5A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6461CC6CD316641E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "09319A6B77638CA2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "17145EA85B0CA90C"
+				item: {
+					Count: 1
+					id: "too_many_bows:emerald_sage_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			id: "6B9E87EB9DCB1FD8"
+			rewards: [
+				{
+					id: "6D1CD906EA675D71"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D294AB31692101D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BA1A500899E50A4"
+				item: {
+					Count: 1
+					id: "too_many_bows:hunter_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2519DD213A7ED5A2"]
+			id: "016E0F57FCFF09C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "352B18570B1AFCBD"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BB5EE67B4D456EB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "6D62E743D3A99A63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4CA211D13A510779"
+				item: {
+					Count: 1
+					id: "too_many_bows:demons_grasp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E627811B651E982"]
+			id: "127DE0855B22E2AA"
+			rewards: [
+				{
+					id: "71CE62A756BAE0A8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "201ABC72D714A8A7"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1005514C1F58362B"
+				item: {
+					Count: 1
+					id: "too_many_bows:arc_heavens"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&9Arco de los Cielos"				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			hide_dependency_lines: true
+			id: "431FBDD259519A11"
+			rewards: [
+				{
+					id: "0643618596CBA4F0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0482F8BB64686E77"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2712F41F2EAE6426"
+				item: {
+					Count: 1
+					id: "too_many_bows:frostbite"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&bMordedura Glacial"				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			hide_dependent_lines: true
+			id: "21D884122EFEC32F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A703198EBB535FA"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					id: "10931D5E15A68C29"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5F3AE9B50CB4214B"
+				item: "too_many_bows:cursed_stone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CB7A1C5054C6899"]
+			id: "734735DEA5673219"
+			rewards: [
+				{
+					id: "3728EA13FB73751B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30973A0B15AA79B2"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "39631A18C658A892"
+				item: {
+					Count: 1
+					id: "too_many_bows:verdant_viper"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&2Víbora Verdeante"				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"21D884122EFEC32F"
+				"7142DAAC57C0888C"
+			]
+			id: "1B72CF7903D1E470"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ADE8AD768374B26"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "7AA7C9F22D0231C9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "17236719008D7EAD"
+				item: {
+					Count: 1
+					id: "too_many_bows:dark_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["431FBDD259519A11"]
+			id: "085AD8E5C6737013"
+			rewards: [
+				{
+					id: "28FA8E247EF03036"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D4A51799933161A"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B6CA620246753E1"
+				item: {
+					Count: 1
+					id: "too_many_bows:cyroheart_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Arco Corazón Cyro"				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["016E0F57FCFF09C0"]
+			id: "1D1328C4AB504D09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CEAB6C92BB111EE"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "7C8F3755A02F69A7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "731479F24F6E26BB"
+				item: {
+					Count: 1
+					id: "too_many_bows:astral_bound"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			hide_dependency_lines: true
+			id: "4E627811B651E982"
+			rewards: [
+				{
+					id: "4A0435F5D6949CE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D15A9957C86587"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "722AA6A5CF494565"
+				item: {
+					Count: 1
+					id: "too_many_bows:wind_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&9Arco de Viento"				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DCB6CA9401D6E96"]
+			id: "10D27BCB8EFA01C6"
+			rewards: [
+				{
+					id: "355CAB54C1F53EC9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29CC7687CAECD636"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B5EBF6D9D95948E"
+				item: {
+					Count: 1
+					id: "too_many_bows:flame_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&cAbrazo de la Pira"				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"21D884122EFEC32F"
+				"7142DAAC57C0888C"
+			]
+			id: "2DEAF8B410E23AE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33872AE98CEC3A68"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+				{
+					id: "1B9F967D57EFB090"
+					type: "xp_levels"
+					xp_levels: 55
+				}
+			]
+			tasks: [{
+				id: "40B4671F8C3CC021"
+				item: {
+					Count: 1
+					id: "too_many_bows:arcane_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6B42F5D5CB88B35F"]
+			id: "4DA5426C1BDFAF72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4689EEC814BCA151"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23A0210BB607FC76"
+					table_id: 5740687291917975057L
+					type: "choice"
+				}
+				{
+					id: "1C3A4165D30D5DA6"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [{
+				id: "18F70EB22730BE0A"
+				item: {
+					Count: 1
+					id: "too_many_bows:dragons_breath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["57A18E99CF22B68C"]
+			id: "6B42F5D5CB88B35F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02DA60334A99AADB"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "57A27AA85B67EBD2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "21699F74967931C8"
+				item: {
+					Count: 1
+					id: "too_many_bows:shulker_blast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"0F0918B0DD8925A1"
+				"1A5D1C5C2284A72D"
+				"085AD8E5C6737013"
+				"734735DEA5673219"
+			]
+			id: "6C8EB4459E73C64D"
+			rewards: [
+				{
+					id: "43F8824EA66B16AC"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E07F98CB77D5698"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70ED0D10C917FCB7"
+				item: {
+					Count: 1
+					id: "too_many_bows:auroras_grace"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&cAur&9ora&bde Gr&2acia"				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57A18E99CF22B68C"]
+			id: "14E4A0589DAB5D78"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D4838E024E0024E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "60039530C3BF9CB4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "4EEFDA94437FFE9D"
+				item: {
+					Count: 1
+					id: "too_many_bows:twin_shadows"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14E4A0589DAB5D78"]
+			id: "0AC4852AF2E70364"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F1C4DD6C97F1108"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B24E87C40F70974"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "4272A6803722115C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "5C2253828500BBFA"
+				item: {
+					Count: 1
+					id: "too_many_bows:webstring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["10D27BCB8EFA01C6"]
+			id: "0F0918B0DD8925A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FE7E08FAD6E573B"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46E76A20169A961D"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2E960EAEF2112EC5"
+				item: {
+					Count: 1
+					id: "too_many_bows:solar_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&cDescarga Solar"				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["572E2C32ED08C65F"]
+			id: "5A2E36398F1CE2F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78DF08D13B8B1C90"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "16ECAB3B16FEDC5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "397FFE9EE15A9E3F"
+				item: {
+					Count: 1
+					id: "too_many_bows:sentinels_wrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			hide_dependency_lines: true
+			id: "2DCB6CA9401D6E96"
+			rewards: [
+				{
+					id: "3F6B2641D0A99AE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "084195ACE31A8B2D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "689ED36B321C6D57"
+				item: {
+					Count: 1
+					id: "too_many_bows:necro_flame_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Arco de Llama Necro"				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A2E36398F1CE2F7"]
+			id: "01738499463564B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38AE95F9B33B4E2F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "7C357D52BE422D3F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "0106A64193B3D06C"
+				item: {
+					Count: 1
+					id: "too_many_bows:ancient_sage_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1D1328C4AB504D09"]
+			id: "47776788756808B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0482E408D87BDE91"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "76816EEDCDC9E088"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "3B752013C18C86D3"
+				item: {
+					Count: 1
+					id: "too_many_bows:spectral_whisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			hide_dependency_lines: true
+			id: "2CB7A1C5054C6899"
+			rewards: [
+				{
+					id: "0DDF25439D0AA048"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A1CA97CADA17986"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E8EDAAA98180B51"
+				item: {
+					Count: 1
+					id: "too_many_bows:verdant_vigor"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&2Vigor Verdeante"				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2246C82C0DBF47FB"]
+			id: "3DEB3E378696E6F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B541824CBE8CDE2"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "4A95588E6F6000AF"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			tasks: [{
+				id: "2CD51EEEB9EA0FD4"
+				item: {
+					Count: 1
+					id: "too_many_bows:ethereal_hunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2DCAEA54CC4F0317"]
+			id: "7142DAAC57C0888C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC5704300A4C2E4"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "138F0BC0E201B155"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "7820D5868C546D51"
+				item: {
+					Count: 1
+					id: "too_many_bows:dusk_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D1328C4AB504D09"]
+			id: "2DCAEA54CC4F0317"
+			rewards: [{
+				id: "01EB086ED9773ADD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3A32C1628E4696B1"
+				item: "too_many_bows:soul_fragment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6C8EB4459E73C64D"]
+			description: ["Agarra algunos para prueba!"]			icon: "too_many_bows:rift_shard"
+			id: "23BF2A69FA5241D1"
+			rewards: [{
+				count: 8
+				id: "06AEA3969311DC73"
+				item: "too_many_bows:rift_shard"
+				type: "item"
+			}]
+			subtitle: "Gracia de Aurora requiere estos fragmentos."			tasks: [{
+				id: "78C7A5B53BE176CC"
+				type: "checkmark"
+			}]
+			title: "Fragmentos de Grieta"			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			id: "1CEE7030EC87F544"
+			rewards: [
+				{
+					id: "2C279C7FD648A670"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1189B1961387B545"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2076C1376256C71B"
+				item: "too_many_bows:wind_glove"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			id: "10A5A5EBE172532B"
+			rewards: [
+				{
+					id: "40640C7233DFA27C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CBFA8DAB0DF0AE"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5791255504539B8D"
+				item: "too_many_bows:sharpshot_ring"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10A5A5EBE172532B"]
+			id: "354FA1535043F453"
+			rewards: [
+				{
+					id: "4BD01D70ED40EF06"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37F3B69768CE3655"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "426669DDC128E21A"
+				item: "too_many_bows:stormbound_signet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479519EE08211C9B"]
+			id: "6078921CC903650D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BB19081C7391578"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63A919C9A1ADC04E"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14621C19B17E4407"
+				item: "too_many_bows:dead_eyes_pendant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14E4A0589DAB5D78"]
+			id: "65F2F653EF24E71F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EA72541C8D48EF1"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "3BDCB007AF9D446C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "47876F82D70EB485"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65F2F653EF24E71F"]
+			id: "00328D4EB4E689C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B2B5DBE328A4EB2"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "42C6FD1C6E9A8D33"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "24D86C0BA4D9E804"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01738499463564B0"]
+			id: "6F2DEB80EF1AA15F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FE8B59BB202563C"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "499C40FE4B70E491"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			tasks: [{
+				id: "7DDEC44F11F6C5B3"
+				item: {
+					Count: 1
+					id: "soulsweapons:kraken_slayer_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["127DE0855B22E2AA"]
+			id: "1A5D1C5C2284A72D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76AC27F3F63E6427"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BEE43ABF18E0E74"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2DE5E23E9E850F7D"
+				item: {
+					Count: 1
+					id: "soulsweapons:galeforce"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&9Fuerza del Viento"				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47776788756808B9"]
+			id: "0AF7C291054BE62F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BB19971478B3042"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "31A79452CA7D5E1C"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			subtitle: "El mejor arco del juego. Aún puedes alcanzar el máximo de velocidad de tensado con él."			tasks: [{
+				id: "542F6FAD11DFA259"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkmoon_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&l&9Arco Largo de Luna Oscura"				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["016E0F57FCFF09C0"]
+			id: "572E2C32ED08C65F"
+			rewards: [{
+				id: "303ED90A0346309D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "616D11BEB2E83661"
+				item: "too_many_bows:power_crystal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01738499463564B0"]
+			id: "5575EA04E8F19179"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CD32296F9CF3A0B"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+				{
+					id: "0DBB2BD2178BF6F5"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			tasks: [{
+				id: "5BD033285C9E3176"
+				item: {
+					Count: 1
+					id: "soulsweapons:kraken_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5A2E36398F1CE2F7"]
+			id: "2246C82C0DBF47FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A64F7DC669627BF"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					id: "37AEAD0087B33FA7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "6798BA2F5CD3FA17"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+	]
+	title: "&2 Demasiados Arcos"}

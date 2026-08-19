@@ -1,0 +1,12 @@
+{
+	id: "2C28B9EFAA68C53E"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "irons_spellbooks:ancient_knowledge_fragment" }
+		{ count: 2, item: "irons_spellbooks:ancient_knowledge_fragment" }
+		{ count: 3, item: "irons_spellbooks:ancient_knowledge_fragment" }
+		{ count: 4, item: "irons_spellbooks:ancient_knowledge_fragment" }
+		{ count: 5, item: "irons_spellbooks:ancient_knowledge_fragment" }
+	]
+	title: "Antiguo"}

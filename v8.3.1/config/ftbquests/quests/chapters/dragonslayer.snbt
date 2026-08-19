@@ -1,0 +1,886 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragonslayer"
+	group: "519DE62D7CDBD327"
+	icon: "iceandfire:dragon_skull_fire"
+	id: "3C02EA1EE73558A6"
+	images: [
+		{
+			height: 3.0d
+			image: "iceandfire:block/dragonforge_fire_core"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			height: 4.0d
+			image: "iceandfire:textures/gui/main_menu/drawing_0.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_ice_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_lightning_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonsteel_fire_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			alpha: 100
+			height: 6.0d
+			image: "efn:textures/trail/exsilium2.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			alpha: 100
+			height: 6.0d
+			image: "efn:textures/trail/exsilium2.png"
+			rotation: 180.0d
+			width: 6.0d
+			x: 3.5d
+			y: 1.34d
+		}
+		{
+			alpha: 100
+			dependency: "24AE41FAB820180D"
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_fire_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_ice_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_brick_grill"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_input_active"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragon_bone_block_side"
+			rotation: 0.0d
+			width: 1.155d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.155d
+			image: "iceandfire:block/dragonforge_lightning_core"
+			rotation: 0.0d
+			width: 1.155d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			color: 3565737
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 5.0d
+			y: -10.3d
+		}
+		{
+			alpha: 100
+			color: 10309959
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 6.0d
+			y: -6.6d
+		}
+		{
+			alpha: 100
+			height: 2.5d
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 7.0d
+			width: 2.5d
+			x: 5.0d
+			y: -2.2d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.0d
+			y: -6.6d
+		}
+		{
+			height: 0.6d
+			image: "irons_spellbooks:textures/particle/dragon_fire_2.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: 7.5d
+			y: -6.2d
+		}
+		{
+			color: 9034751
+			height: 1.5d
+			image: "simplyswords:item/icewhisper_layer"
+			rotation: -45.0d
+			width: 1.5d
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "simplyswords:item/thunderbrand_layer_e"
+			rotation: -90.0d
+			width: 2.0d
+			x: 6.2d
+			y: -2.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1ED285DCDC2BE615"]
+			description: [
+				"&lDragones&r se arrastran por las tierras, &delementales feroces&r con &llinaje antiguo&r. Encontrarás numerosos durante tus viajes; derrótalos para obtener &drecompensas&r y crecer en &lpoder inmenso&r."				""
+				"Para &lempezar&r la línea de misión, encuentra hueso de dragón de dragones muertos"			]
+			hide_dependent_lines: true
+			icon: "iceandfire:dragon_skull_fire"
+			id: "2F5199D884ED321D"
+			rewards: [{
+				id: "15CD79E1C43725C0"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			shape: "none"
+			size: 3.0d
+			subtitle: "Legendarios Lagartos"			tasks: [{
+				id: "37BDD67141730DB9"
+				title: "¡Haz Clic!"				type: "checkmark"
+			}]
+			title: "&l&4Dragones"			x: 0.0d
+			y: 1.1d
+		}
+		{
+			dependencies: ["2F5199D884ED321D"]
+			hide_until_deps_complete: true
+			id: "6159A707681CE89C"
+			rewards: [
+				{
+					id: "583B07ED7DEBC684"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/solar"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49B573962EF1F962"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern de Llama"			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "2DFC03E805D647A4"
+				title: "Dragón de Fuego"				type: "kill"
+				value: 1L
+			}]
+			title: "&4Dragón de Fuego&l"			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F5199D884ED321D"]
+			hide_until_deps_complete: true
+			id: "33BD3E0846354517"
+			rewards: [
+				{
+					id: "1C1668AD085924EB"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/lightning"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F2D6EC27F193F8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern del Trueno"			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "7AC7B2DC4D8A020C"
+				title: "Dragón Relámpago"				type: "kill"
+				value: 1L
+			}]
+			title: "&9&lDragón Relámpago"			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F5199D884ED321D"]
+			hide_until_deps_complete: true
+			id: "7C4B8B01D32CD20D"
+			rewards: [
+				{
+					id: "023886BCA9B13CB8"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/lunar"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14C69F45D14E847C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Derrota a un Wyvern de Escarcha"			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "23113603236B95CE"
+				title: "Dragón de Hielo"				type: "kill"
+				value: 1L
+			}]
+			title: "&b&lDragón de Hielo"			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6159A707681CE89C"
+				"33BD3E0846354517"
+				"7C4B8B01D32CD20D"
+			]
+			hide_until_deps_complete: true
+			id: "24AE41FAB820180D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D4E7E243C472922"
+					table_id: 7543698869780679326L
+					type: "choice"
+				}
+				{
+					id: "04C02C1A3AD4294F"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: "iceandfire:dragon_skull_fire"
+				id: "63BB2CE0AE6F0654"
+				title: "&l&4Asesino de Dragones"				type: "advancement"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33BD3E0846354517"]
+			description: ["Craftea el &l&9Radar de Dragón Relámpago&r&r para encontrar la ubicación de los &9Dragones Relámpago&r."]			hide_until_deps_complete: true
+			id: "0D605CCB5D0CDCB2"
+			rewards: [
+				{
+					id: "3CADB487981C0A78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "37FF9F65479D49DD"
+					item: "iceandfire:dragonscales_electric"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "130A1BC8905612F3"
+				item: "dragonradarmod:lightning_radar"
+				type: "item"
+			}]
+			title: "&9Radar de Iluminación"			x: -2.4d
+			y: -4.8d
+		}
+		{
+			dependencies: ["7C4B8B01D32CD20D"]
+			description: ["Craftea el &l&bRadar de Dragón de Hielo&r&r para encontrar la ubicación de los &bDragones de Hielo&r."]			hide_until_deps_complete: true
+			id: "5F6DB646D88B6F46"
+			rewards: [
+				{
+					id: "51EE3AC34CD46F03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3664AA5D4A95DF51"
+					item: "iceandfire:dragonscales_blue"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "028676A50C12F9B8"
+				item: "dragonradarmod:ice_radar"
+				type: "item"
+			}]
+			title: "&bRadar de Hielo"			x: -2.4d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: ["6159A707681CE89C"]
+			description: ["Craftea el &l&4Radar de Dragón de Fuego&r&r para encontrar la ubicación de los &4Dragones de Fuego&r."]			hide_until_deps_complete: true
+			id: "5B9EFD98F6436F84"
+			rewards: [
+				{
+					id: "6020F4CDB30F4884"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5CB0A0D20BC9A2B2"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				id: "573B93D849DED11A"
+				item: "dragonradarmod:fire_radar"
+				type: "item"
+			}]
+			title: "&4Radar de Fuego"			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5F6DB646D88B6F46"
+				"5B9EFD98F6436F84"
+				"0D605CCB5D0CDCB2"
+				"38498B18DE3B8C49"
+			]
+			description: ["Craftea el &l&aRadar Maestro de Dragón&r&r para encontrar la ubicación de cualquier tipo de &lDragón&r."]			hide_until_deps_complete: true
+			id: "4F3D6A96D2F3F7A8"
+			rewards: [
+				{
+					id: "2A5C23DA18AB3BEB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1CC0397BC5D1E241"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "5E585FDB49706F1C"
+				item: "dragonradarmod:master_radar"
+				type: "item"
+			}]
+			title: "&a&lRadar Maestro"			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59F3BDEAAE1F1C0F"]
+			description: [
+				"{image:soulrend:textures/quests/ice_and_fire_dragon_egg.png width:200 height:140 align:center}"				"Izquierda: Un huevo de Dragón de Fuego eclosionando Derecha: Un huevo de Dragón de Hielo eclosionando"				"{image:soulrend:textures/quests/lightning_dragon_egg.png width:200 height:140 align:center}"				"{\"text\":\"Eclosión de un huevo de dragón de iluminación.\",\"align\":\"center\"}"			]
+			hide_until_deps_complete: true
+			id: "6D4E46958716B057"
+			rewards: [
+				{
+					id: "4FB30C4FA3908A9F"
+					item: "iceandfire:fire_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "1336A03B6556CC49"
+					item: "iceandfire:ice_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "49FFA5E2A4EE338C"
+					item: "iceandfire:lightning_dragon_blood"
+					type: "item"
+				}
+			]
+			subtitle: "El jugador puede elevar el nivel de un dragón usando la Comida de Dragón o estando cerca de él mientras este sube de nivel pasivamente. Una vez que un dragón alcanza el Game Stage 3 (lo cual se puede verificar interactuando con el dragón en sigilo), este puede ser montado por un jugador."			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				icon: "iceandfire:dragonegg_red"
+				id: "7C226084A6E0A16A"
+				title: "Huevo de Dragón"				type: "advancement"
+			}]
+			title: "Eclosión de Huevo de Dragón"			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6159A707681CE89C"
+				"7C4B8B01D32CD20D"
+				"33BD3E0846354517"
+			]
+			description: [
+				"Para obtener un huevo de dragón, uno debe buscar un dragón hembra de etapa &l&4de 4+ años,"				"que se puede encontrar durmiendo en cavernas llenas de tesoro en lo Profundo Subterráneo. Una vez que lo hayas Encontrado, mátalo y haz clic derecho en el Torso con una Mano vacío para recolectar Botín, y soltará un Huevo de Dragón de Color aleatorio dependiendo de la especie."				"{image:soulrend:textures/quests/dragon_nest.png width:200 height:130 align:center}"			]
+			hide_until_deps_complete: true
+			id: "59F3BDEAAE1F1C0F"
+			rewards: [{
+				id: "5B98D9E6A638D96B"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "588278FFACCC3764"
+				title: "Tu Primer Huevo de Dragón"				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_ice_ingot"
+			id: "4432DEBAD053DCB6"
+			rewards: [
+				{
+					id: "4F86CCBE35758350"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "41D131AFCB3F8889"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón de Hielo"			tasks: [
+				{
+					count: 17L
+					id: "58A3ACC519D1D665"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63E9AA18ED47FBA2"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "2A613A13C36F6B87"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					id: "5DECA7746569BC00"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&bLingote de Acero Dragónhielo"			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "4CB8F9DF906CAF06"
+			rewards: [
+				{
+					id: "0CD55D162E15608B"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "26265AC1E556101A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón de Fuego"			tasks: [
+				{
+					count: 17L
+					id: "624C99454CA74E16"
+					item: { Count: 17, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5E824B64C923D377"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					id: "4D364BDB3A0370C7"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "5636E614256AAECF"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&4Lingote de Acero Dragónfuego"			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59F3BDEAAE1F1C0F"]
+			description: [
+				"{image:soulrend:textures/quests/dragon_forge_1.png width:150 height:150 align:center}"				"{image:soulrend:textures/quests/dragon_forge_2.png width:150 height:150 align:center}"			]
+			hide_until_deps_complete: true
+			id: "470D81ADBE048185"
+			rewards: [{
+				id: "0A92B8D48743052B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Es importante notar que una Forja de Dragón no es solo un bloque fabricable, sino un cubo de bloques de 3x3x3. Los bloques requeridos son los siguientes: 1 Núcleo de Forja de Dragón, 1 Entrada de Forja de Dragón (Abertura de Forja de Dragón), 8 bloques de hueso de dragón, y 17 ladrillos de Forja de Dragón."			tasks: [{
+				id: "63FEB9F5E33F83FD"
+				title: "Tu Primera Forja del Dragón"				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2F5199D884ED321D"]
+			hide_until_deps_complete: true
+			id: "38498B18DE3B8C49"
+			tasks: [{
+				id: "353039EDEEE8C9AC"
+				item: "dragonradarmod:dormant_radar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D4E46958716B057"]
+			icon: "iceandfire:dragonsteel_lightning_ingot"
+			id: "6488FA23E90240F9"
+			rewards: [
+				{
+					id: "5DDA6BC0C8F7E976"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "2AB3396ECE740C50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Forja del Dragón Relámpago"			tasks: [
+				{
+					count: 17L
+					id: "5BC75B433A204A07"
+					item: { Count: 17, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7170A36FBA0631F5"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "03CF8D9E3B575976"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					id: "3639DB7DF29B9124"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&9Ingot de Acero Dragón Iluminación"			x: 7.5d
+			y: -2.0d
+		}
+	]
+	title: "&lAsesino de Dragones&4"}

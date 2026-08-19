@@ -29,6 +29,7 @@ Esta traducción ha sido **probada y funciona correctamente** en las siguientes 
 
 - `v7.7`
 - `v7.7.1`
+- `v8.3.1 WIP - Trabajo en Progreso`
 
 No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
 
@@ -49,6 +50,8 @@ Si no planeas regresar a la versión en inglés o respaldar archivos:
 1. Copia las carpetas **`config`** del repositorio.
 2. Pégalas en tu directorio raíz de **Soulrend - Dark Fantasy RPG Soulslike**.
 3. Cuando te pida reemplazar archivos, selecciona **Reemplazar todo**.
+
+🔗 [EJEMPLO DE INSTALACIÓN](https://youtube.com/shorts/hIoYNGEiPWQ?si=Rd1BhYZeWXkdWDjD)
 
 ### 🧩 Paso Extra Recomendado: Traducción Extendida de Mods y otros Recursos
 Si deseas una **traducción aún más completa**, incluyendo mods, recursos adicionales del ModPack, descarga mi mod desde curseforge.

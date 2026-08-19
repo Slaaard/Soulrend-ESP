@@ -1,0 +1,693 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hunters_journal"
+	group: "519DE62D7CDBD327"
+	hide_quest_until_deps_complete: true
+	icon: "dungeons_and_combat:bloody_dye"
+	id: "2D2E47C1C973EEE4"
+	images: [
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "merchantmarkers:textures/entity/villager/markers/leatherworker.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "merchantmarkers:textures/entity/villager/markers/fletcher.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "merchantmarkers:textures/entity/villager/markers/hunter.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 1.0d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependency: "77522B561C5393B5"
+			height: 0.5d
+			image: "particle_effects:textures/particle/haste/1.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["577C8CF5A461D6EA"]
+			description: [
+				"Cada gran aventurero comienza en algún lugar."				""
+				"Las criaturas que derrotas y las batallas que sobrevives se convierten en parte de tu historia. Esta es solo la primera entrada en una crónica mucho más vasta."			]
+			id: "77522B561C5393B5"
+			rewards: [{
+				id: "1B4FC3D3D607E570"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DD2342BBCFE9178"
+				title: "El Diario de los Cazadores"				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "41B88925101F00D7"
+			rewards: [{
+				count: 24
+				id: "76C81B9FC00F8BAD"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "5823E8908CDB0F7C"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41B88925101F00D7"]
+			id: "4349A5A06A7F0433"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "284AA2E1352D68FB"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "495AC8631603A747"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "642648A6FDA868D1"
+				type: "kill"
+				value: 200L
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4349A5A06A7F0433"]
+			id: "052E9EFF57725F1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "307DD25AD5F6A0F0"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "1A3E6FD1A050B327"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "00C6DF287BAE4D3D"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["052E9EFF57725F1D"]
+			id: "5F05AFF87D83DD5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57F13E0B43443527"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C5C2D95D2C0F74E"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "703C5EAC89052891"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "1CBE3E52B46E6C1F"
+			rewards: [{
+				count: 24
+				id: "527141107C714D85"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "17AAA0F48610CE23"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CBE3E52B46E6C1F"]
+			id: "1012E679933E82D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58723C62EF8861CF"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620DD71490246E93"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "287FCF546D981F66"
+				type: "kill"
+				value: 200L
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1012E679933E82D1"]
+			id: "70848FE83EF56DBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2483B9ECCA35FE50"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "6A27A35CBF36B8DF"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "3591BBC72F8A6196"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70848FE83EF56DBD"]
+			id: "6FDF2E7C1103D2D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D8B5F11E39827B"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E4282698BA59855"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "131CA336647213C1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "5B0BA01CCD0080E2"
+			rewards: [{
+				count: 24
+				id: "3D660E9668094EBC"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "2BE999A4D936C8B0"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B0BA01CCD0080E2"]
+			id: "76699D4D2DAE3A4F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C1C16C0216F557D"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB79A084A741C54"
+					table_id: 8748162718720558329L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "5BB384FC1960C386"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76699D4D2DAE3A4F"]
+			id: "76C5E3484895614F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "657B172EF54627AA"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "01E4FCDF37C51233"
+					item: "dungeons_and_combat:estus_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "68CF36D49DC5EF01"
+				type: "kill"
+				value: 500L
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76C5E3484895614F"]
+			id: "236DC5A0A1DEBB23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C939DB5F8BCF67F"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "358CD81C19B9F44A"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "52DC2E09A599B841"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "2A2122BDE056EAC1"
+			rewards: [{
+				count: 16
+				id: "27F46F2A268B7215"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				icon: "apotheosis:boss_summoner"
+				id: "0DC0981F4C42DEBD"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A2122BDE056EAC1"]
+			id: "20EDFA5108A06A73"
+			rewards: [{
+				count: 64
+				id: "7D04ABE7C7632F36"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				icon: "apotheosis:boss_summoner"
+				id: "466BA78E5D32CB97"
+				type: "kill"
+				value: 25L
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "01F6AE99FF0FD16D"
+			rewards: [
+				{
+					count: 16
+					id: "772DB9DE65C562D9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7D71AC048C6EF10B"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "wom:hollow"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "wom:hollow_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "70818D5DF724EF75"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01F6AE99FF0FD16D"]
+			id: "2634E2CB48E67CC7"
+			rewards: [
+				{
+					count: 32
+					id: "78A89EB878030A57"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "24C49B7F075F8296"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "wom:hollow"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "wom:hollow_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "751E0AE0CAD17A4E"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "53BF5FA545EC1A2A"
+			rewards: [{
+				count: 5
+				id: "1BC81EB5051C0BCC"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2361061F9CCB9376"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53BF5FA545EC1A2A"]
+			id: "582D5D6ADC7E8563"
+			rewards: [{
+				count: 10
+				id: "067B24491E700307"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1BD993A96F8FD19E"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "76326123B56C9D6E"
+			rewards: [{
+				count: 4
+				id: "14A178E8B21EE536"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2FD3F857DC3FBA86"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "385E3DF1C926DE19"
+			rewards: [{
+				count: 4
+				id: "4E3C96230143360C"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "3581C9790C0E96AE"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77522B561C5393B5"]
+			id: "7E0267EAEADE6345"
+			rewards: [{
+				id: "6CC672A7BAB4C8D7"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1BF86A40326250D8"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E0267EAEADE6345"]
+			id: "323A43E318E02284"
+			rewards: [{
+				count: 5
+				id: "7ED4158F9C51F6A7"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "411D4445BBB8E03F"
+				type: "kill"
+				value: 75L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["385E3DF1C926DE19"]
+			id: "3FEF7A815D0794E4"
+			rewards: [{
+				count: 16
+				id: "0BA9C8014BC460CE"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "4EFD44D01411FE92"
+				type: "kill"
+				value: 250L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76326123B56C9D6E"]
+			id: "537705A01890E9C2"
+			rewards: [{
+				count: 16
+				id: "5A97A463E518553A"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "106C24721095488D"
+				type: "kill"
+				value: 250L
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	title: "Diario del Cazador de &4&l"}

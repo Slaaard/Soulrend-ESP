@@ -1,0 +1,46 @@
+{
+	id: "0BE9F5BFAACA3534"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "irons_spellbooks:fire_upgrade_orb" }
+		{ item: "irons_spellbooks:ice_upgrade_orb" }
+		{ item: "irons_spellbooks:lightning_upgrade_orb" }
+		{ item: "irons_spellbooks:holy_upgrade_orb" }
+		{ item: "irons_spellbooks:ender_upgrade_orb" }
+		{ item: "irons_spellbooks:blood_upgrade_orb" }
+		{ item: "irons_spellbooks:evocation_upgrade_orb" }
+		{ item: "irons_spellbooks:nature_upgrade_orb" }
+		{ item: "irons_spellbooks:mana_upgrade_orb" }
+		{ item: "irons_spellbooks:cooldown_upgrade_orb" }
+		{ item: "irons_spellbooks:protection_upgrade_orb" }
+		{ item: "gtbcs_geomancy_plus:geo_upgrade_orb" }
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:aqua_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "traveloptics:aqua_power"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:eldritch_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "traveloptics:eldritch_power"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:sound_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "alshanex_familiars:sound_power"
+				}
+			}
+		}
+	]
+	title: "Orbe"}

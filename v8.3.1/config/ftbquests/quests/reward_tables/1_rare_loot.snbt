@@ -1,0 +1,20 @@
+{
+	icon: "aquaculture:treasure_chest"
+	id: "7967B7A496A784F9"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 4, item: "minecraft:emerald" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ item: "minecraft:golden_apple", weight: 2.0f }
+		{ count: 2, item: "dungeons_and_combat:estus_flask", weight: 2.0f }
+		{ count: 4, item: "minecraft:amethyst_shard", weight: 2.0f }
+		{ count: 8, item: "minecraft:lapis_lazuli", weight: 2.0f }
+		{ count: 12, item: "irons_spellbooks:arcane_essence", weight: 2.0f }
+		{ item: "irons_spellbooks:mithril_scrap" }
+		{ count: 2, item: "minecraft:diamond" }
+		{ item: "minecraft:ender_pearl", weight: 1.2f }
+		{ count: 3, item: "delightful:deluxe_cheeseburger" }
+		{ item: "dungeons_and_combat:crimson_flask" }
+	]
+	title: "&9&lRaro Botín"}

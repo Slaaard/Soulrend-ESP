@@ -1,0 +1,187 @@
+{
+	id: "323411CE1517FA47"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:cast_time"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:cooldown"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:evocation"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:fire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:holy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:ice"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:nature"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:spell_resist"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "irons_spellbooks:summoning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:aqua"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:geo"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:sound"
+				}
+			}
+		}
+	]
+	title: "Gemas de Magia Agrietadas"}
